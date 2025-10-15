@@ -1,6 +1,8 @@
 # Lab 1: Information extraction
 
-Advanced Python Course, Chalmers DAT690 / DIT516 / DAT516, 2025
+Advanced Python Course  
+Chalmers DAT690 / DIT516 / DAT516  
+2025
 
 by Aarne Ranta & John J. Camilleri
 
@@ -276,13 +278,14 @@ You also need to import `sys`.
 ## Submission
 
 TODO
-
+<!--
 The submission repository will be automatically cloned when you subscribe to the [Lab 1 Github Classroom](https://classroom.github.com/a/OfI3pLUt) where you can find detailed information on how to submit - please specify your lab group number in the repository name, for example group-1.
 You will be graded on [Canvas](https://chalmers.instructure.com/courses/31748).
+-->
 
 The files that you submit must be usable in the following ways:
 
-- `python3 tramdata.py init` to produce the file `tramnetwork.json`,
-- `python3 tramdata.py` to start the query dialogue,
-- `import tramdata` from another Python file or the Python shell, without starting the dialogue or printing anything,
-- `python3 test_tramdata.py` to run your tests.
+- `python3 tramdata.py init` to produce the file `tramnetwork.json`
+- `python3 tramdata.py` to start the query dialogue
+- `import tramdata` from another Python file or the Python shell, without starting the dialogue or printing anything
+- `python3 test_tramdata.py` to run your tests

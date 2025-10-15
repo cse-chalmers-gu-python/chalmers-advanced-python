@@ -1,6 +1,8 @@
 # Lab 2: Graphs and transport networks
 
-Advanced Python Course, Chalmers DAT690 / DIT516 / DAT516, 2025
+Advanced Python Course  
+Chalmers DAT690 / DIT516 / DAT516  
+2025
 
 by Aarne Ranta & John J. Camilleri
 
@@ -342,8 +344,10 @@ It then displays the whole tram network, with the shortest path (as the number o
 ## Submission
 
 TODO
-
+<!--
 Submit the following files via the [Lab 2 GitHub Classroom](https://classroom.github.com/a/nzzzyYrY) repository:
+-->
+You should submit the following files:
 
 - `graphs.py`
 - `trams.py`

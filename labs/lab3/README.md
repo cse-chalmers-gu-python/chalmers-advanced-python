@@ -1,6 +1,8 @@
 # Lab 3: A web application for the tram network
 
-Advanced Python Course, Chalmers DAT690 / DIT516 / DAT516, 2025
+Advanced Python Course  
+Chalmers DAT690 / DIT516 / DAT516  
+2025
 
 by Aarne Ranta & John J. Camilleri
 
@@ -16,7 +18,7 @@ Your application will:
 
 Here is an example screenshot:
 
-![shortest-path](../app-shortest.png)
+![shortest-path](./app-shortest.png)
 
 In some more detail, here is what the three different screens should look like:
 
@@ -156,7 +158,7 @@ Now we will prepare our environment, install the Django library, and initialize 
 
     ```sh
     (myvenv) $ pip install django==5.2.7
-    (myvenv) $ pip install networkx 
+    (myvenv) $ pip install networkx==3.5
     ```
 
 6. Create a new Django project with:
@@ -170,33 +172,15 @@ Now we will prepare our environment, install the Django library, and initialize 
 
 At later times (every time you resume working on the project), only the `activate` step (4) is needed.
 
-<!--
-### Change default settings
-
-In the generated `mysite/settings.py`, you need to change `ALLOWED_HOSTS` to:
-
-```python
-ALLOWED_HOSTS = ['127.0.0.1']
-```
-
-In order to serve certain files directly, add this to the end of your settings file:
-
-```python
-STATICFILES_DIRS = ['./static']
-```
-
-Then make sure the `static` directory exists (creating it if needed) and copy the file `tramnetwork.json` created in Lab 1 into this directory.
--->
-
 ### Initialize database
 
-This step is needed at the first time:
+This step is needed to initialize the database:
 
 ```sh
 $ python manage.py migrate
 ```
 
-It creates a database (in the file `db.sqlite3`), which is a standard part of any Django project, even if we don't need it very much at this lab.
+It creates a database (in the file `db.sqlite3`), which is a standard part of any Django project, even if we don't use it in this lab.
 
 ### Run web server
 
@@ -212,9 +196,9 @@ Starting development server at http://127.0.0.1:8000/
 Open the URL above in a web browser to check if the installation succeeded.
 You should see a generic Django-generated page, which tells you one important thing: that your server is up and running.
 
-## Create the tram app
+## Create the `tram` Django app
 
-Now that we have a basic Django server up and running, it's time to start customising it for our task. For this we will create a Django "app" with the name `tram`:
+Now that we have a basic Django server set up, it's time to start customising it for our task. For this we will create a Django "app" with the name `tram`:
 
 ```sh
 $ python manage.py startapp tram
@@ -230,7 +214,7 @@ To recognize this file in your Django website, add the line:
 
 to the end of the `INSTALLED_APPS` list in `mysite/settings.py`.
 
-### Create a model
+### Create model
 
 Create a data model for route searches in `tram/models.py`:
 
@@ -245,7 +229,8 @@ class Route(models.Model):
         return self.dep + '-' + self.dest
 ```
 
-Then migrate it to the database:
+Each instance of our model will contain a departure and destination stop, stored as strings.
+Then migrate the model to the database:
 
 ```sh
 $ python manage.py makemigrations tram
@@ -254,16 +239,16 @@ $ python manage.py migrate tram
 
 You will see that your `db.sqlite3` file has contents now, but they are in a binary format that you cannot read.
 
-**Note:** In this lab, the application does not add data to the database, but its schema (the `Route` class) is used to structure the queries made via the route search forms.
+**Note:** In this lab, the application does not add any data to the database, but its schema (the `Route` class) is used to structure the queries made via the route search form.
 This is known as the _MVT Design Pattern_ (Model-View-Template):
 
 - a **model** (in `tram/models.py`) is a class that defines a type of data
 - a **view** (to be added to `tram/views.py`) is a function that processes a user request and returns a template
 - a **template** (to be added to `tram/templates/tram`) is an HTML file that shows the data
 
-The database could also be manipulated in the _SQL_ language, but Django generates SQL from Python, so that you don't need to learn SQL itself.
+The database could also be manipulated in the _SQL_ language, but one of the things Django does is generate SQL queries from Python code, so that you usually don't need to use SQL directly. This is known as _ORM, Object-Relational Mapping_.
 
-### Update URL search patterns
+### Update URL patterns
 
 Edit the generated `mysite/urls.py` so that it contains the following:
 
@@ -278,7 +263,8 @@ urlpatterns = [
 ```
 
 The `admin` URL is used for managing the website and requires a login. You can try and create users and passwords, but this is not needed in this lab.
-The second `path` includes the URLs given in our app.
+
+The second `path` includes the URLs given in our `tram` app.
 For this purpose, you have to create the file `tram/urls.py`:
 
 ```python
@@ -286,16 +272,15 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('', views.tram_net, name='home'),
-    path('route/', views.find_route, name='find_route'),
+    path('', views.tram_net),
+    path('route/', views.find_route),
 ]
 ```
 
-Each path has three arguments:
+Each path has two required arguments:
 
 - the path extending the hostname (seen in the URL field of the browser)
 - the "view", i.e. the function called when this URL is requested
-- the name of the template file (without the extension `.html`)
 
 ### Create views
 
@@ -313,15 +298,15 @@ def find_route(request):
     return render(request, 'tram/find_route.html', {'form': form})
 ```
 
-The former function is already all we need to create the start page.
-The latter function creates a web form, but does not yet do anything with it: we will return to this later.
+The former function is all we need to render the start page.
+The latter function creates a web form, but does not yet do anything with it; we will return to this later.
 
 Of course, we also need to define the `RouteForm` class and the HTML files.
 This is the next topic.
 
-### Create a form
+### Create form
 
-In order for `tram/views.py` to work, we need to create `tram/forms.py`:
+In order for the `find_route` view to work, we need to create a corresponding form in `tram/forms.py`:
 
 ```python
 from django import forms
@@ -333,7 +318,8 @@ class RouteForm(forms.ModelForm):
         fields = ('dep', 'dest',)
 ```
 
-The data model is used here to give a structure to the web form where route queries are made.
+This new form `RouteForm` is linked to our data model `Route`.
+We specifying which fields of the model should be present in the form, and Django will automatically create a web form for us.
 
 ### Create templates
 
@@ -345,7 +331,7 @@ $ mkdir tram/templates
 $ mkdir tram/templates/tram
 ```
 
-Copy the HTML files mentioned in `tram/views.py` from the [`files`](./files/) folder to the newly created `tram/templates/tram`, so that:
+Copy the HTML template files from the [`files`](./files/) folder to the newly created `tram/templates/tram`, so that:
 
 ```sh
 $ ls tram/templates/tram/
@@ -360,11 +346,15 @@ Also create the `images` subdirectory:
 $ mkdir tram/templates/tram/images
 ```
 
-and copy the tram network image [`gbg_tramnet.svg`](./files/gbg_tramnet.svg) into it. Note that images in this folder can be used in templates (e.g. `home.html`) but are _not_ served publicly by the web server; i.e. you _cannot_ access it via a web browser using something like `http://127.0.0.1:8000/images/gbg_tramnet.svg`.
+and copy the tram network image [`gbg_tramnet.svg`](./files/gbg_tramnet.svg) into it.
+
+Note that images in this folder can be used in templates (e.g. `home.html`) but are _not_ served publicly by the web server; i.e. you _cannot_ access it via a web browser using something like `http://127.0.0.1:8000/images/gbg_tramnet.svg`.
 
 Now [run the web server](#run-web-server) again. You will see a home screen with the gorgeous SVG image of Gothenburg tram network.
 
-If you want, you can replace this standard image with your own one: the script [`create_network_picture.py`](./files/create_network_picture.py) does this for you by calling your own `tram.py` on your own `tramnet.json` file.
+#### Customise image (optional)
+
+If you want, you can replace this standard image with your own one. The script [`create_network_picture.py`](./files/create_network_picture.py) does this for you by calling your own `tram.py` on your own `tramnet.json` file.
 You can also try to make the picture nicer by changing positioning and other parameters.
 But before doing this, make sure to implement the rest of the basic functionalities!
 
@@ -374,14 +364,14 @@ Right now, when you click at them, you should be taken to a Google search about 
 ### Render dynamic content
 
 The form `find_route.html` does not find any routes yet.
-You can submit queries, but when you press "Search", the form just becomes empty without any result being produced.
+You can submit queries, but when you press "Search", the form just becomes empty without showing any result.
 
 So now we want to add some basic functionality that actually shows the shortest path.
 The following things are needed:
 
-- a "utility" function that actually calculates the shortest path (from Lab 2)
-- an extended `find_route()` function in `tram/views.py` (to be copied from [`files/views.py`](./files/views.py))
-- a template that shows the route that is found (already copied above)
+1. a "utility" function that actually calculates the shortest path (from Lab 2)
+2. an extended `find_route()` function in `tram/views.py` (to be copied from [`files/views.py`](./files/views.py))
+3. a template that `show_route.html` shows the route that is found (already copied above)
 
 #### Add utility functions
 
@@ -403,35 +393,37 @@ Copy the following Python files from [`files`](./files/) into `tram/utils`:
 
 Now that you have created the utility files, you can replace the simplified `tram/views.py` with the one given in [`files`](./files/views.py).
 
-Now you can visit <http://127.0.0.1:8000/route/>, submit a query and get a response (although this is just using a dummr implementation for now).
+Now you can visit <http://127.0.0.1:8000/route/>, submit a query and get a response (although this is just using a dummy implementation for now).
 
-## Your TODO: continue from here
+## Task 1: Implement shortest path functionality
 
-Now it is "just" your part of the work that remains.
+It is now time to implement the core function in our app: calculating the shortest path between two stops.
+
 Most of this work is to be done in the files in `tram/utils`.
 They contain `TODO` comments that instruct you what to do.
 
 The main function in the file `tram/utils/tramviz.py`, imported in `tram/views.py`, is `show_shortest`.
 Its task is to:
 
-- find the shortest paths
-- use them to colour the network picture
-- show them in strings returned to `tram/views.py`
+- find the shortest paths (time and distance)
+- use them to colour the stops in the network picture
+- return them as strings to be shown in the view
+
+### Add colours
 
 As the example for the [search result](https://htmlpreview.github.io/?https://github.com/aarneranta/chalmers-advanced-python/blob/main/labs/lab3/examples/show_route.html) page shows, we expect three different colours to be used:
 
-- green for stops on the shortest path
-- orange for stops on quickest path
-- cyan for stops that are on both paths
+- <span style="color:green">green</span> for stops on the shortest path
+- <span style="color:orange">orange</span> for stops on quickest path
+- <span style="color:darkcyan">cyan</span> for stops that are on both paths
 
 You can also use some other colours if you prefer.
 Other stops should be left white.
-
 The default implementation copied from [`files/tramviz.py`](./files/tramviz.py) is a mock-up, which always shows the same colours and the same route.
 
 You can of course also makes the HTML files look nicer if you have time!
 
-### Add changes of lines
+### Account for line changes
 
 In Lab 2 shortest path, we ignored the effect of changing from one line to the other.
 This effect is a major factor that can make the "shortest time" and "shortest distance" differ significantly.
@@ -445,57 +437,74 @@ One way to do this with the existing algorithms is simply to build a new graph f
 - distances and transfer time between different stops are the same as in the original graph
 - a special change distance and change time is added between vertices that have the same stop but different times, e.g. 20 metres and 10 minutes respectively
 
-### Add links to actual traffic information
+## Task 2: Data validation
 
-TODO: Some intro text here
+You should now have a working application which returns the shortest routes between two stops.
+But what happens when you enter a stop name that doesn't exist (e.g. you make a typo)?
+The Django server doesn't crash, but you will see an ugly error page and the HTTP response from the server will have status code [500 Internal Server Error](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status#500_internal_server_error).
 
-The challenge is to find the URLs corresponding to each stop name.
-They are given as numerical codes, for instance, Nordstan is:
+Instead, we should gracefully handle incorrect user input by returning a more appropriate HTTP status such as [400 Bad Request](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status#400_bad_request) and showing the user a suitable message.
 
-```plain
-https://www.vasttrafik.se/reseplanering/hallplatser/9021014004945000/
+Edit the `find_route` view in your `trams/views.py` file to check for incorrect input and behave accordingly. You can use the following, but the details are up to you:
+
+```python
+from django.http import HttpResponseBadRequest
+...
+return HttpResponseBadRequest(f"Unknown stop name: {stop}")
 ```
 
-and its timetable is in:
+## Task 3: Add links to live traffic information
+
+The main home page image `gbg_tramnet.svg` is not just a static image, but an SVG file which contains hyperlinks.
+Currently, clicking on a stop name will search the Västtafik website for that stop name.
+
+Instead, we want clicking on a stop name to take you to Västtrafik's live traffic information page for that stop, for example the [page for Nordstan](https://avgangstavla.vasttrafik.se/?stopAreaGid=9021014004945000) which has URL:
 
 ```plain
 https://avgangstavla.vasttrafik.se/?stopAreaGid=9021014004945000
 ```
 
-The full list of stop identifiers can be found at
-<https://www.vasttrafik.se/reseplanering/hallplatslista/>.
+To do this, we need to:
 
-The algorithm is as follows:
+1. Create URLs for the traffic information page of each stop name, by finding the `Gid` which corresponds to each stop.
+2. Update the SVG file to replace the "search" URLs with these traffic information URLs.
 
-1. Investigate where and how Gids are given in the HTML document.
-2. Extract the Gids of all tram stops from the document.
-3. Create URLs for every stop.
-4. Save the stop-URL dictionary as a JSON file
+### Create URLs
+
+The first challenge is to create the traffic information URLs corresponding to each stop name.
+For this, we need the `Gid` of each stop.
+
+An HTML page containing a full list of stop identifiers can be found in the file [`files/hållplatslista.html`](./files/hållplatslista.html).
+This file was captured from the original URL <https://www.vasttrafik.se/reseplanering/hallplatslista/>. It may look strange if you open it in your browser, but if you look at the HTML source in your text editor you will see that all stops and their `Gid`s are in fact contained there.
+So, your task is as follows:
+
+1. Investigate where and how `Gid`s are given in the HTML document.
+2. Extract the `Gid`s of all tram stops from the document.
+3. Create traffic information URLs for every stop.
+4. Save the stop-URL dictionary as a JSON file.
 
 For step 2, you can use the [standard library for parsing HTML](https://docs.python.org/3/library/html.parser.html).
 A slightly more convenient third party library which can be used for this is [Beatiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/).
 
-After this, you need to update the SVG image by these URLs.
-The simplest way to do this is as follows:
+### Update SVG
+
+After this, you need to create a new SVG image with these new URLs.
+To do this:
 
 1. Run [`files/create_network_picture.py`](files/create_network_picture.py) making sure that `TRAM_URL_FILE` and `MY_TRAMNETWORK_JSON` point to your URL dictionary and tramnetwork file, respectively.
 2. Move the resulting file `my_gbg_tramnet.svg` to `tram/templates/tram/images/gbg_tramnet.svg`
 
-Another possibility is to process the file `gbg_tramnet.svg` directly, which you can do with [`files/change_urls.py`](files/change_urls.py).
-<!--
-You can do this by following the model of `tram/utils/color_tram_svg.py`.
--->
+Note that this only needs to be done once for the entire project (not every time a request to the web server is made).
+There is no need to copy `create_network_picture.py` from `files` to `tram/utils` or any such place.
 
-Both methods should be applied outside your project environment, directly in `files` and only once.
-Hence there is no need to copy those Python files from `files` to `tram/utils` or any such place.
-
-After doing this, make another search in your web application and click at some stop to verify that the link has been updated.
+After doing this, make another search in your web application and click at some stop to verify that the link has been updated to take you to the traffic information page for that stop.
 
 ## Submission
 
 TODO
-
+<!--
 Via [GitHub Classroom](https://classroom.github.com/a/hnF26g57) as usual.
+-->
 
 You should use `.gitignore` in order to avoid committing the virtual environment directory (`myvenv`) to the repository.
 

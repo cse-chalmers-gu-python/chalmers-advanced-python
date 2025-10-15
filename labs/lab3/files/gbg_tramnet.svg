@@ -11,7 +11,7 @@
 <!-- Östra Sjukhuset -->
 <g id="node1" class="node">
 <title>Östra Sjukhuset</title>
-<g id="a_node1"><a xlink:href="https://www.google.com/search?q=Gothenburg+%C3%96stra+Sjukhuset" xlink:title="Östra Sjukhuset">
+<g id="a_node1"><a xlink:href="https://www.vasttrafik.se/sok/?q=%C3%96stra+Sjukhuset" xlink:title="Östra Sjukhuset">
 <polygon fill="white" stroke="black" points="1287.04,-604.32 1220.04,-604.32 1220.04,-587.32 1287.04,-587.32 1287.04,-604.32"/>
 <text text-anchor="middle" x="1253.54" y="-593.92" font-family="Times,serif" font-size="8.00">Östra Sjukhuset</text>
 </a>
@@ -20,7 +20,7 @@
 <!-- Tingvallsvägen -->
 <g id="node2" class="node">
 <title>Tingvallsvägen</title>
-<g id="a_node2"><a xlink:href="https://www.google.com/search?q=Gothenburg+Tingvallsv%C3%A4gen" xlink:title="Tingvallsvägen">
+<g id="a_node2"><a xlink:href="https://www.vasttrafik.se/sok/?q=Tingvallsv%C3%A4gen" xlink:title="Tingvallsvägen">
 <polygon fill="white" stroke="black" points="1245.96,-634.19 1179.96,-634.19 1179.96,-617.19 1245.96,-617.19 1245.96,-634.19"/>
 <text text-anchor="middle" x="1212.96" y="-623.79" font-family="Times,serif" font-size="8.00">Tingvallsvägen</text>
 </a>
@@ -39,7 +39,7 @@
 <!-- Kaggeledstorget -->
 <g id="node3" class="node">
 <title>Kaggeledstorget</title>
-<g id="a_node3"><a xlink:href="https://www.google.com/search?q=Gothenburg+Kaggeledstorget" xlink:title="Kaggeledstorget">
+<g id="a_node3"><a xlink:href="https://www.vasttrafik.se/sok/?q=Kaggeledstorget" xlink:title="Kaggeledstorget">
 <polygon fill="white" stroke="black" points="1177.91,-609.16 1108.91,-609.16 1108.91,-592.16 1177.91,-592.16 1177.91,-609.16"/>
 <text text-anchor="middle" x="1143.41" y="-598.76" font-family="Times,serif" font-size="8.00">Kaggeledstorget</text>
 </a>
@@ -58,7 +58,7 @@
 <!-- Ättehögsgatan -->
 <g id="node4" class="node">
 <title>Ättehögsgatan</title>
-<g id="a_node4"><a xlink:href="https://www.google.com/search?q=Gothenburg+%C3%84tteh%C3%B6gsgatan" xlink:title="Ättehögsgatan">
+<g id="a_node4"><a xlink:href="https://www.vasttrafik.se/sok/?q=%C3%84tteh%C3%B6gsgatan" xlink:title="Ättehögsgatan">
 <polygon fill="white" stroke="black" points="1158.29,-584.16 1095.29,-584.16 1095.29,-567.16 1158.29,-567.16 1158.29,-584.16"/>
 <text text-anchor="middle" x="1126.79" y="-573.76" font-family="Times,serif" font-size="8.00">Ättehögsgatan</text>
 </a>
@@ -77,7 +77,7 @@
 <!-- Munkebäckstorget -->
 <g id="node5" class="node">
 <title>Munkebäckstorget</title>
-<g id="a_node5"><a xlink:href="https://www.google.com/search?q=Gothenburg+Munkeb%C3%A4ckstorget" xlink:title="Munkebäckstorget">
+<g id="a_node5"><a xlink:href="https://www.vasttrafik.se/sok/?q=Munkeb%C3%A4ckstorget" xlink:title="Munkebäckstorget">
 <polygon fill="white" stroke="black" points="1143.61,-559.13 1067.61,-559.13 1067.61,-542.13 1143.61,-542.13 1143.61,-559.13"/>
 <text text-anchor="middle" x="1105.61" y="-548.73" font-family="Times,serif" font-size="8.00">Munkebäckstorget</text>
 </a>
@@ -96,7 +96,7 @@
 <!-- Härlanda -->
 <g id="node6" class="node">
 <title>Härlanda</title>
-<g id="a_node6"><a xlink:href="https://www.google.com/search?q=Gothenburg+H%C3%A4rlanda" xlink:title="Härlanda">
+<g id="a_node6"><a xlink:href="https://www.vasttrafik.se/sok/?q=H%C3%A4rlanda" xlink:title="Härlanda">
 <polygon fill="white" stroke="black" points="1059.55,-560.85 1013.55,-560.85 1013.55,-543.85 1059.55,-543.85 1059.55,-560.85"/>
 <text text-anchor="middle" x="1036.55" y="-550.45" font-family="Times,serif" font-size="8.00">Härlanda</text>
 </a>
@@ -110,7 +110,7 @@
 <!-- Solrosgatan -->
 <g id="node65" class="node">
 <title>Solrosgatan</title>
-<g id="a_node65"><a xlink:href="https://www.google.com/search?q=Gothenburg+Solrosgatan" xlink:title="Solrosgatan">
+<g id="a_node65"><a xlink:href="https://www.vasttrafik.se/sok/?q=Solrosgatan" xlink:title="Solrosgatan">
 <polygon fill="white" stroke="black" points="1117.64,-533.84 1063.64,-533.84 1063.64,-516.84 1117.64,-516.84 1117.64,-533.84"/>
 <text text-anchor="middle" x="1090.64" y="-523.44" font-family="Times,serif" font-size="8.00">Solrosgatan</text>
 </a>
@@ -124,7 +124,7 @@
 <!-- Stockholmsgatan -->
 <g id="node7" class="node">
 <title>Stockholmsgatan</title>
-<g id="a_node7"><a xlink:href="https://www.google.com/search?q=Gothenburg+Stockholmsgatan" xlink:title="Stockholmsgatan">
+<g id="a_node7"><a xlink:href="https://www.vasttrafik.se/sok/?q=Stockholmsgatan" xlink:title="Stockholmsgatan">
 <polygon fill="white" stroke="black" points="1005.51,-540.47 933.51,-540.47 933.51,-523.47 1005.51,-523.47 1005.51,-540.47"/>
 <text text-anchor="middle" x="969.51" y="-530.07" font-family="Times,serif" font-size="8.00">Stockholmsgatan</text>
 </a>
@@ -148,7 +148,7 @@
 <!-- Redbergsplatsen -->
 <g id="node8" class="node">
 <title>Redbergsplatsen</title>
-<g id="a_node8"><a xlink:href="https://www.google.com/search?q=Gothenburg+Redbergsplatsen" xlink:title="Redbergsplatsen">
+<g id="a_node8"><a xlink:href="https://www.vasttrafik.se/sok/?q=Redbergsplatsen" xlink:title="Redbergsplatsen">
 <polygon fill="white" stroke="black" points="925.48,-544.86 856.48,-544.86 856.48,-527.86 925.48,-527.86 925.48,-544.86"/>
 <text text-anchor="middle" x="890.98" y="-534.46" font-family="Times,serif" font-size="8.00">Redbergsplatsen</text>
 </a>
@@ -167,7 +167,7 @@
 <!-- Olskrokstorget -->
 <g id="node9" class="node">
 <title>Olskrokstorget</title>
-<g id="a_node9"><a xlink:href="https://www.google.com/search?q=Gothenburg+Olskrokstorget" xlink:title="Olskrokstorget">
+<g id="a_node9"><a xlink:href="https://www.vasttrafik.se/sok/?q=Olskrokstorget" xlink:title="Olskrokstorget">
 <polygon fill="white" stroke="black" points="856.42,-519.86 792.42,-519.86 792.42,-502.86 856.42,-502.86 856.42,-519.86"/>
 <text text-anchor="middle" x="824.42" y="-509.46" font-family="Times,serif" font-size="8.00">Olskrokstorget</text>
 </a>
@@ -196,7 +196,7 @@
 <!-- Svingeln -->
 <g id="node10" class="node">
 <title>Svingeln</title>
-<g id="a_node10"><a xlink:href="https://www.google.com/search?q=Gothenburg+Svingeln" xlink:title="Svingeln">
+<g id="a_node10"><a xlink:href="https://www.vasttrafik.se/sok/?q=Svingeln" xlink:title="Svingeln">
 <polygon fill="white" stroke="black" points="784.38,-511.53 739.38,-511.53 739.38,-494.53 784.38,-494.53 784.38,-511.53"/>
 <text text-anchor="middle" x="761.88" y="-501.13" font-family="Times,serif" font-size="8.00">Svingeln</text>
 </a>
@@ -225,7 +225,7 @@
 <!-- Ullevi Norra -->
 <g id="node11" class="node">
 <title>Ullevi Norra</title>
-<g id="a_node11"><a xlink:href="https://www.google.com/search?q=Gothenburg+Ullevi+Norra" xlink:title="Ullevi Norra">
+<g id="a_node11"><a xlink:href="https://www.vasttrafik.se/sok/?q=Ullevi+Norra" xlink:title="Ullevi Norra">
 <polygon fill="white" stroke="black" points="877.09,-494.3 820.09,-494.3 820.09,-477.3 877.09,-477.3 877.09,-494.3"/>
 <text text-anchor="middle" x="848.59" y="-483.9" font-family="Times,serif" font-size="8.00">Ullevi Norra</text>
 </a>
@@ -254,7 +254,7 @@
 <!-- Centralstationen -->
 <g id="node12" class="node">
 <title>Centralstationen</title>
-<g id="a_node12"><a xlink:href="https://www.google.com/search?q=Gothenburg+Centralstationen" xlink:title="Centralstationen">
+<g id="a_node12"><a xlink:href="https://www.vasttrafik.se/sok/?q=Centralstationen" xlink:title="Centralstationen">
 <polygon fill="white" stroke="black" points="777.99,-486.53 708.99,-486.53 708.99,-469.53 777.99,-469.53 777.99,-486.53"/>
 <text text-anchor="middle" x="743.49" y="-476.13" font-family="Times,serif" font-size="8.00">Centralstationen</text>
 </a>
@@ -268,7 +268,7 @@
 <!-- Ullevi Södra -->
 <g id="node42" class="node">
 <title>Ullevi Södra</title>
-<g id="a_node42"><a xlink:href="https://www.google.com/search?q=Gothenburg+Ullevi+S%C3%B6dra" xlink:title="Ullevi Södra">
+<g id="a_node42"><a xlink:href="https://www.vasttrafik.se/sok/?q=Ullevi+S%C3%B6dra" xlink:title="Ullevi Södra">
 <polygon fill="white" stroke="black" points="853.38,-462.68 796.38,-462.68 796.38,-445.68 853.38,-445.68 853.38,-462.68"/>
 <text text-anchor="middle" x="824.88" y="-452.28" font-family="Times,serif" font-size="8.00">Ullevi Södra</text>
 </a>
@@ -292,7 +292,7 @@
 <!-- Brunnsparken -->
 <g id="node13" class="node">
 <title>Brunnsparken</title>
-<g id="a_node13"><a xlink:href="https://www.google.com/search?q=Gothenburg+Brunnsparken" xlink:title="Brunnsparken">
+<g id="a_node13"><a xlink:href="https://www.vasttrafik.se/sok/?q=Brunnsparken" xlink:title="Brunnsparken">
 <polygon fill="white" stroke="black" points="700.98,-488.07 639.98,-488.07 639.98,-471.07 700.98,-471.07 700.98,-488.07"/>
 <text text-anchor="middle" x="670.48" y="-477.67" font-family="Times,serif" font-size="8.00">Brunnsparken</text>
 </a>
@@ -321,7 +321,7 @@
 <!-- Gamlestads Torg -->
 <g id="node69" class="node">
 <title>Gamlestads Torg</title>
-<g id="a_node69"><a xlink:href="https://www.google.com/search?q=Gothenburg+Gamlestads+Torg" xlink:title="Gamlestads Torg">
+<g id="a_node69"><a xlink:href="https://www.vasttrafik.se/sok/?q=Gamlestads+Torg" xlink:title="Gamlestads Torg">
 <polygon fill="white" stroke="black" points="893.52,-594.96 822.52,-594.96 822.52,-577.96 893.52,-577.96 893.52,-594.96"/>
 <text text-anchor="middle" x="858.02" y="-584.56" font-family="Times,serif" font-size="8.00">Gamlestads Torg</text>
 </a>
@@ -340,7 +340,7 @@
 <!-- Lilla Bommen -->
 <g id="node81" class="node">
 <title>Lilla Bommen</title>
-<g id="a_node81"><a xlink:href="https://www.google.com/search?q=Gothenburg+Lilla+Bommen" xlink:title="Lilla Bommen">
+<g id="a_node81"><a xlink:href="https://www.vasttrafik.se/sok/?q=Lilla+Bommen" xlink:title="Lilla Bommen">
 <polygon fill="white" stroke="black" points="661.83,-533.64 598.83,-533.64 598.83,-516.64 661.83,-516.64 661.83,-533.64"/>
 <text text-anchor="middle" x="630.33" y="-523.24" font-family="Times,serif" font-size="8.00">Lilla Bommen</text>
 </a>
@@ -374,7 +374,7 @@
 <!-- Stenpiren -->
 <g id="node14" class="node">
 <title>Stenpiren</title>
-<g id="a_node14"><a xlink:href="https://www.google.com/search?q=Gothenburg+Stenpiren" xlink:title="Stenpiren">
+<g id="a_node14"><a xlink:href="https://www.vasttrafik.se/sok/?q=Stenpiren" xlink:title="Stenpiren">
 <polygon fill="white" stroke="black" points="569.04,-489.11 522.04,-489.11 522.04,-472.11 569.04,-472.11 569.04,-489.11"/>
 <text text-anchor="middle" x="545.54" y="-478.71" font-family="Times,serif" font-size="8.00">Stenpiren</text>
 </a>
@@ -393,7 +393,7 @@
 <!-- Domkyrkan -->
 <g id="node43" class="node">
 <title>Domkyrkan</title>
-<g id="a_node43"><a xlink:href="https://www.google.com/search?q=Gothenburg+Domkyrkan" xlink:title="Domkyrkan">
+<g id="a_node43"><a xlink:href="https://www.vasttrafik.se/sok/?q=Domkyrkan" xlink:title="Domkyrkan">
 <polygon fill="white" stroke="black" points="631.72,-463.74 576.72,-463.74 576.72,-446.74 631.72,-446.74 631.72,-463.74"/>
 <text text-anchor="middle" x="604.22" y="-453.34" font-family="Times,serif" font-size="8.00">Domkyrkan</text>
 </a>
@@ -407,7 +407,7 @@
 <!-- Kungsportsplatsen -->
 <g id="node64" class="node">
 <title>Kungsportsplatsen</title>
-<g id="a_node64"><a xlink:href="https://www.google.com/search?q=Gothenburg+Kungsportsplatsen" xlink:title="Kungsportsplatsen">
+<g id="a_node64"><a xlink:href="https://www.vasttrafik.se/sok/?q=Kungsportsplatsen" xlink:title="Kungsportsplatsen">
 <polygon fill="white" stroke="black" points="759.9,-461.53 683.9,-461.53 683.9,-444.53 759.9,-444.53 759.9,-461.53"/>
 <text text-anchor="middle" x="721.9" y="-451.13" font-family="Times,serif" font-size="8.00">Kungsportsplatsen</text>
 </a>
@@ -426,7 +426,7 @@
 <!-- Nordstan -->
 <g id="node111" class="node">
 <title>Nordstan</title>
-<g id="a_node111"><a xlink:href="https://www.google.com/search?q=Gothenburg+Nordstan" xlink:title="Nordstan">
+<g id="a_node111"><a xlink:href="https://www.vasttrafik.se/sok/?q=Nordstan" xlink:title="Nordstan">
 <polygon fill="white" stroke="black" points="716.72,-513.08 670.72,-513.08 670.72,-496.08 716.72,-496.08 716.72,-513.08"/>
 <text text-anchor="middle" x="693.72" y="-502.68" font-family="Times,serif" font-size="8.00">Nordstan</text>
 </a>
@@ -440,7 +440,7 @@
 <!-- Järntorget -->
 <g id="node15" class="node">
 <title>Järntorget</title>
-<g id="a_node15"><a xlink:href="https://www.google.com/search?q=Gothenburg+J%C3%A4rntorget" xlink:title="Järntorget">
+<g id="a_node15"><a xlink:href="https://www.vasttrafik.se/sok/?q=J%C3%A4rntorget" xlink:title="Järntorget">
 <polygon fill="white" stroke="black" points="557.82,-424.34 509.82,-424.34 509.82,-407.34 557.82,-407.34 557.82,-424.34"/>
 <text text-anchor="middle" x="533.82" y="-413.94" font-family="Times,serif" font-size="8.00">Järntorget</text>
 </a>
@@ -459,7 +459,7 @@
 <!-- Prinsgatan -->
 <g id="node16" class="node">
 <title>Prinsgatan</title>
-<g id="a_node16"><a xlink:href="https://www.google.com/search?q=Gothenburg+Prinsgatan" xlink:title="Prinsgatan">
+<g id="a_node16"><a xlink:href="https://www.vasttrafik.se/sok/?q=Prinsgatan" xlink:title="Prinsgatan">
 <polygon fill="white" stroke="black" points="557.83,-383.61 507.83,-383.61 507.83,-366.61 557.83,-366.61 557.83,-383.61"/>
 <text text-anchor="middle" x="532.83" y="-373.21" font-family="Times,serif" font-size="8.00">Prinsgatan</text>
 </a>
@@ -473,7 +473,7 @@
 <!-- Masthuggstorget -->
 <g id="node61" class="node">
 <title>Masthuggstorget</title>
-<g id="a_node61"><a xlink:href="https://www.google.com/search?q=Gothenburg+Masthuggstorget" xlink:title="Masthuggstorget">
+<g id="a_node61"><a xlink:href="https://www.vasttrafik.se/sok/?q=Masthuggstorget" xlink:title="Masthuggstorget">
 <polygon fill="white" stroke="black" points="501.78,-434.37 431.78,-434.37 431.78,-417.37 501.78,-417.37 501.78,-434.37"/>
 <text text-anchor="middle" x="466.78" y="-423.97" font-family="Times,serif" font-size="8.00">Masthuggstorget</text>
 </a>
@@ -487,7 +487,7 @@
 <!-- Hagakyrkan -->
 <g id="node62" class="node">
 <title>Hagakyrkan</title>
-<g id="a_node62"><a xlink:href="https://www.google.com/search?q=Gothenburg+Hagakyrkan" xlink:title="Hagakyrkan">
+<g id="a_node62"><a xlink:href="https://www.vasttrafik.se/sok/?q=Hagakyrkan" xlink:title="Hagakyrkan">
 <polygon fill="white" stroke="black" points="621.88,-407.15 565.88,-407.15 565.88,-390.15 621.88,-390.15 621.88,-407.15"/>
 <text text-anchor="middle" x="593.88" y="-396.75" font-family="Times,serif" font-size="8.00">Hagakyrkan</text>
 </a>
@@ -516,7 +516,7 @@
 <!-- Olivedalsgatan -->
 <g id="node17" class="node">
 <title>Olivedalsgatan</title>
-<g id="a_node17"><a xlink:href="https://www.google.com/search?q=Gothenburg+Olivedalsgatan" xlink:title="Olivedalsgatan">
+<g id="a_node17"><a xlink:href="https://www.vasttrafik.se/sok/?q=Olivedalsgatan" xlink:title="Olivedalsgatan">
 <polygon fill="white" stroke="black" points="606.44,-323.24 542.44,-323.24 542.44,-306.24 606.44,-306.24 606.44,-323.24"/>
 <text text-anchor="middle" x="574.44" y="-312.84" font-family="Times,serif" font-size="8.00">Olivedalsgatan</text>
 </a>
@@ -535,7 +535,7 @@
 <!-- Linnéplatsen -->
 <g id="node18" class="node">
 <title>Linnéplatsen</title>
-<g id="a_node18"><a xlink:href="https://www.google.com/search?q=Gothenburg+Linn%C3%A9platsen" xlink:title="Linnéplatsen">
+<g id="a_node18"><a xlink:href="https://www.vasttrafik.se/sok/?q=Linn%C3%A9platsen" xlink:title="Linnéplatsen">
 <polygon fill="white" stroke="black" points="597.63,-298.23 539.63,-298.23 539.63,-281.23 597.63,-281.23 597.63,-298.23"/>
 <text text-anchor="middle" x="568.63" y="-287.83" font-family="Times,serif" font-size="8.00">Linnéplatsen</text>
 </a>
@@ -559,7 +559,7 @@
 <!-- Botaniska Trädgården -->
 <g id="node19" class="node">
 <title>Botaniska Trädgården</title>
-<g id="a_node19"><a xlink:href="https://www.google.com/search?q=Gothenburg+Botaniska+Tr%C3%A4dg%C3%A5rden" xlink:title="Botaniska Trädgården">
+<g id="a_node19"><a xlink:href="https://www.vasttrafik.se/sok/?q=Botaniska+Tr%C3%A4dg%C3%A5rden" xlink:title="Botaniska Trädgården">
 <polygon fill="white" stroke="black" points="642.99,-267.47 555.99,-267.47 555.99,-250.47 642.99,-250.47 642.99,-267.47"/>
 <text text-anchor="middle" x="599.49" y="-257.07" font-family="Times,serif" font-size="8.00">Botaniska Trädgården</text>
 </a>
@@ -578,7 +578,7 @@
 <!-- Marklandsgatan -->
 <g id="node20" class="node">
 <title>Marklandsgatan</title>
-<g id="a_node20"><a xlink:href="https://www.google.com/search?q=Gothenburg+Marklandsgatan" xlink:title="Marklandsgatan">
+<g id="a_node20"><a xlink:href="https://www.vasttrafik.se/sok/?q=Marklandsgatan" xlink:title="Marklandsgatan">
 <polygon fill="white" stroke="black" points="658.25,-230 590.25,-230 590.25,-213 658.25,-213 658.25,-230"/>
 <text text-anchor="middle" x="624.25" y="-219.6" font-family="Times,serif" font-size="8.00">Marklandsgatan</text>
 </a>
@@ -607,7 +607,7 @@
 <!-- Sahlgrenska Huvudentré -->
 <g id="node110" class="node">
 <title>Sahlgrenska Huvudentré</title>
-<g id="a_node110"><a xlink:href="https://www.google.com/search?q=Gothenburg+Sahlgrenska+Huvudentr%C3%A9" xlink:title="Sahlgrenska Huvudentré">
+<g id="a_node110"><a xlink:href="https://www.vasttrafik.se/sok/?q=Sahlgrenska+Huvudentr%C3%A9" xlink:title="Sahlgrenska Huvudentré">
 <polygon fill="white" stroke="black" points="746.05,-262.36 651.05,-262.36 651.05,-245.36 746.05,-245.36 746.05,-262.36"/>
 <text text-anchor="middle" x="698.55" y="-251.96" font-family="Times,serif" font-size="8.00">Sahlgrenska Huvudentré</text>
 </a>
@@ -626,7 +626,7 @@
 <!-- Axel Dahlströms Torg -->
 <g id="node21" class="node">
 <title>Axel Dahlströms Torg</title>
-<g id="a_node21"><a xlink:href="https://www.google.com/search?q=Gothenburg+Axel+Dahlstr%C3%B6ms+Torg" xlink:title="Axel Dahlströms Torg">
+<g id="a_node21"><a xlink:href="https://www.vasttrafik.se/sok/?q=Axel+Dahlstr%C3%B6ms+Torg" xlink:title="Axel Dahlströms Torg">
 <polygon fill="white" stroke="black" points="558.27,-217.45 470.27,-217.45 470.27,-200.45 558.27,-200.45 558.27,-217.45"/>
 <text text-anchor="middle" x="514.27" y="-207.05" font-family="Times,serif" font-size="8.00">Axel Dahlströms Torg</text>
 </a>
@@ -655,7 +655,7 @@
 <!-- Bokekullsgatan -->
 <g id="node50" class="node">
 <title>Bokekullsgatan</title>
-<g id="a_node50"><a xlink:href="https://www.google.com/search?q=Gothenburg+Bokekullsgatan" xlink:title="Bokekullsgatan">
+<g id="a_node50"><a xlink:href="https://www.vasttrafik.se/sok/?q=Bokekullsgatan" xlink:title="Bokekullsgatan">
 <polygon fill="white" stroke="black" points="576.46,-242.46 510.46,-242.46 510.46,-225.46 576.46,-225.46 576.46,-242.46"/>
 <text text-anchor="middle" x="543.46" y="-232.06" font-family="Times,serif" font-size="8.00">Bokekullsgatan</text>
 </a>
@@ -669,7 +669,7 @@
 <!-- Lantmilsgatan -->
 <g id="node22" class="node">
 <title>Lantmilsgatan</title>
-<g id="a_node22"><a xlink:href="https://www.google.com/search?q=Gothenburg+Lantmilsgatan" xlink:title="Lantmilsgatan">
+<g id="a_node22"><a xlink:href="https://www.vasttrafik.se/sok/?q=Lantmilsgatan" xlink:title="Lantmilsgatan">
 <polygon fill="white" stroke="black" points="525.77,-192.45 463.77,-192.45 463.77,-175.45 525.77,-175.45 525.77,-192.45"/>
 <text text-anchor="middle" x="494.77" y="-182.05" font-family="Times,serif" font-size="8.00">Lantmilsgatan</text>
 </a>
@@ -693,7 +693,7 @@
 <!-- Nymilsgatan -->
 <g id="node23" class="node">
 <title>Nymilsgatan</title>
-<g id="a_node23"><a xlink:href="https://www.google.com/search?q=Gothenburg+Nymilsgatan" xlink:title="Nymilsgatan">
+<g id="a_node23"><a xlink:href="https://www.vasttrafik.se/sok/?q=Nymilsgatan" xlink:title="Nymilsgatan">
 <polygon fill="white" stroke="black" points="548.1,-167.44 491.1,-167.44 491.1,-150.44 548.1,-150.44 548.1,-167.44"/>
 <text text-anchor="middle" x="519.6" y="-157.04" font-family="Times,serif" font-size="8.00">Nymilsgatan</text>
 </a>
@@ -717,7 +717,7 @@
 <!-- Musikvägen -->
 <g id="node24" class="node">
 <title>Musikvägen</title>
-<g id="a_node24"><a xlink:href="https://www.google.com/search?q=Gothenburg+Musikv%C3%A4gen" xlink:title="Musikvägen">
+<g id="a_node24"><a xlink:href="https://www.vasttrafik.se/sok/?q=Musikv%C3%A4gen" xlink:title="Musikvägen">
 <polygon fill="white" stroke="black" points="517.75,-142.44 461.75,-142.44 461.75,-125.44 517.75,-125.44 517.75,-142.44"/>
 <text text-anchor="middle" x="489.75" y="-132.04" font-family="Times,serif" font-size="8.00">Musikvägen</text>
 </a>
@@ -741,7 +741,7 @@
 <!-- Positivgatan -->
 <g id="node25" class="node">
 <title>Positivgatan</title>
-<g id="a_node25"><a xlink:href="https://www.google.com/search?q=Gothenburg+Positivgatan" xlink:title="Positivgatan">
+<g id="a_node25"><a xlink:href="https://www.vasttrafik.se/sok/?q=Positivgatan" xlink:title="Positivgatan">
 <polygon fill="white" stroke="black" points="489.86,-117.42 433.86,-117.42 433.86,-100.42 489.86,-100.42 489.86,-117.42"/>
 <text text-anchor="middle" x="461.86" y="-107.02" font-family="Times,serif" font-size="8.00">Positivgatan</text>
 </a>
@@ -765,7 +765,7 @@
 <!-- Frölunda Torg Spårvagn -->
 <g id="node26" class="node">
 <title>Frölunda Torg Spårvagn</title>
-<g id="a_node26"><a xlink:href="https://www.google.com/search?q=Gothenburg+Fr%C3%B6lunda+Torg+Sp%C3%A5rvagn" xlink:title="Frölunda Torg Spårvagn">
+<g id="a_node26"><a xlink:href="https://www.vasttrafik.se/sok/?q=Fr%C3%B6lunda+Torg+Sp%C3%A5rvagn" xlink:title="Frölunda Torg Spårvagn">
 <polygon fill="white" stroke="black" points="485.51,-92.42 391.51,-92.42 391.51,-75.42 485.51,-75.42 485.51,-92.42"/>
 <text text-anchor="middle" x="438.51" y="-82.02" font-family="Times,serif" font-size="8.00">Frölunda Torg Spårvagn</text>
 </a>
@@ -789,7 +789,7 @@
 <!-- Briljantgatan -->
 <g id="node27" class="node">
 <title>Briljantgatan</title>
-<g id="a_node27"><a xlink:href="https://www.google.com/search?q=Gothenburg+Briljantgatan" xlink:title="Briljantgatan">
+<g id="a_node27"><a xlink:href="https://www.vasttrafik.se/sok/?q=Briljantgatan" xlink:title="Briljantgatan">
 <polygon fill="white" stroke="black" points="423.64,-67.41 365.64,-67.41 365.64,-50.41 423.64,-50.41 423.64,-67.41"/>
 <text text-anchor="middle" x="394.64" y="-57.01" font-family="Times,serif" font-size="8.00">Briljantgatan</text>
 </a>
@@ -808,7 +808,7 @@
 <!-- Smaragdgatan -->
 <g id="node28" class="node">
 <title>Smaragdgatan</title>
-<g id="a_node28"><a xlink:href="https://www.google.com/search?q=Gothenburg+Smaragdgatan" xlink:title="Smaragdgatan">
+<g id="a_node28"><a xlink:href="https://www.vasttrafik.se/sok/?q=Smaragdgatan" xlink:title="Smaragdgatan">
 <polygon fill="white" stroke="black" points="403.18,-42.35 341.18,-42.35 341.18,-25.35 403.18,-25.35 403.18,-42.35"/>
 <text text-anchor="middle" x="372.18" y="-31.95" font-family="Times,serif" font-size="8.00">Smaragdgatan</text>
 </a>
@@ -827,7 +827,7 @@
 <!-- Opaltorget -->
 <g id="node29" class="node">
 <title>Opaltorget</title>
-<g id="a_node29"><a xlink:href="https://www.google.com/search?q=Gothenburg+Opaltorget" xlink:title="Opaltorget">
+<g id="a_node29"><a xlink:href="https://www.vasttrafik.se/sok/?q=Opaltorget" xlink:title="Opaltorget">
 <polygon fill="white" stroke="black" points="413.69,-17.2 362.69,-17.2 362.69,-0.2 413.69,-0.2 413.69,-17.2"/>
 <text text-anchor="middle" x="388.19" y="-6.8" font-family="Times,serif" font-size="8.00">Opaltorget</text>
 </a>
@@ -846,7 +846,7 @@
 <!-- Mölndals Innerstad -->
 <g id="node30" class="node">
 <title>Mölndals Innerstad</title>
-<g id="a_node30"><a xlink:href="https://www.google.com/search?q=Gothenburg+M%C3%B6lndals+Innerstad" xlink:title="Mölndals Innerstad">
+<g id="a_node30"><a xlink:href="https://www.vasttrafik.se/sok/?q=M%C3%B6lndals+Innerstad" xlink:title="Mölndals Innerstad">
 <polygon fill="white" stroke="black" points="979.14,-110.67 901.14,-110.67 901.14,-93.67 979.14,-93.67 979.14,-110.67"/>
 <text text-anchor="middle" x="940.14" y="-100.27" font-family="Times,serif" font-size="8.00">Mölndals Innerstad</text>
 </a>
@@ -855,7 +855,7 @@
 <!-- Mölndals sjukhus -->
 <g id="node31" class="node">
 <title>Mölndals sjukhus</title>
-<g id="a_node31"><a xlink:href="https://www.google.com/search?q=Gothenburg+M%C3%B6lndals+sjukhus" xlink:title="Mölndals sjukhus">
+<g id="a_node31"><a xlink:href="https://www.vasttrafik.se/sok/?q=M%C3%B6lndals+sjukhus" xlink:title="Mölndals sjukhus">
 <polygon fill="white" stroke="black" points="952.71,-144.14 879.71,-144.14 879.71,-127.14 952.71,-127.14 952.71,-144.14"/>
 <text text-anchor="middle" x="916.21" y="-133.74" font-family="Times,serif" font-size="8.00">Mölndals sjukhus</text>
 </a>
@@ -874,7 +874,7 @@
 <!-- Lackarebäck -->
 <g id="node32" class="node">
 <title>Lackarebäck</title>
-<g id="a_node32"><a xlink:href="https://www.google.com/search?q=Gothenburg+Lackareb%C3%A4ck" xlink:title="Lackarebäck">
+<g id="a_node32"><a xlink:href="https://www.vasttrafik.se/sok/?q=Lackareb%C3%A4ck" xlink:title="Lackarebäck">
 <polygon fill="white" stroke="black" points="938.3,-171.66 881.3,-171.66 881.3,-154.66 938.3,-154.66 938.3,-171.66"/>
 <text text-anchor="middle" x="909.8" y="-161.26" font-family="Times,serif" font-size="8.00">Lackarebäck</text>
 </a>
@@ -893,7 +893,7 @@
 <!-- Krokslätts Fabriker -->
 <g id="node33" class="node">
 <title>Krokslätts Fabriker</title>
-<g id="a_node33"><a xlink:href="https://www.google.com/search?q=Gothenburg+Kroksl%C3%A4tts+Fabriker" xlink:title="Krokslätts Fabriker">
+<g id="a_node33"><a xlink:href="https://www.vasttrafik.se/sok/?q=Kroksl%C3%A4tts+Fabriker" xlink:title="Krokslätts Fabriker">
 <polygon fill="white" stroke="black" points="951.74,-199.14 873.74,-199.14 873.74,-182.14 951.74,-182.14 951.74,-199.14"/>
 <text text-anchor="middle" x="912.74" y="-188.74" font-family="Times,serif" font-size="8.00">Krokslätts Fabriker</text>
 </a>
@@ -912,7 +912,7 @@
 <!-- Krokslätts torg -->
 <g id="node34" class="node">
 <title>Krokslätts torg</title>
-<g id="a_node34"><a xlink:href="https://www.google.com/search?q=Gothenburg+Kroksl%C3%A4tts+torg" xlink:title="Krokslätts torg">
+<g id="a_node34"><a xlink:href="https://www.vasttrafik.se/sok/?q=Kroksl%C3%A4tts+torg" xlink:title="Krokslätts torg">
 <polygon fill="white" stroke="black" points="934,-224.14 870,-224.14 870,-207.14 934,-207.14 934,-224.14"/>
 <text text-anchor="middle" x="902" y="-213.74" font-family="Times,serif" font-size="8.00">Krokslätts torg</text>
 </a>
@@ -931,7 +931,7 @@
 <!-- Lana -->
 <g id="node35" class="node">
 <title>Lana</title>
-<g id="a_node35"><a xlink:href="https://www.google.com/search?q=Gothenburg+Lana" xlink:title="Lana">
+<g id="a_node35"><a xlink:href="https://www.vasttrafik.se/sok/?q=Lana" xlink:title="Lana">
 <polygon fill="white" stroke="black" points="899.29,-249.16 867.29,-249.16 867.29,-232.16 899.29,-232.16 899.29,-249.16"/>
 <text text-anchor="middle" x="883.29" y="-238.76" font-family="Times,serif" font-size="8.00">Lana</text>
 </a>
@@ -950,7 +950,7 @@
 <!-- Varbergsgatan -->
 <g id="node36" class="node">
 <title>Varbergsgatan</title>
-<g id="a_node36"><a xlink:href="https://www.google.com/search?q=Gothenburg+Varbergsgatan" xlink:title="Varbergsgatan">
+<g id="a_node36"><a xlink:href="https://www.vasttrafik.se/sok/?q=Varbergsgatan" xlink:title="Varbergsgatan">
 <polygon fill="white" stroke="black" points="909.03,-274.17 847.03,-274.17 847.03,-257.17 909.03,-257.17 909.03,-274.17"/>
 <text text-anchor="middle" x="878.03" y="-263.77" font-family="Times,serif" font-size="8.00">Varbergsgatan</text>
 </a>
@@ -969,7 +969,7 @@
 <!-- Elisedal -->
 <g id="node37" class="node">
 <title>Elisedal</title>
-<g id="a_node37"><a xlink:href="https://www.google.com/search?q=Gothenburg+Elisedal" xlink:title="Elisedal">
+<g id="a_node37"><a xlink:href="https://www.vasttrafik.se/sok/?q=Elisedal" xlink:title="Elisedal">
 <polygon fill="white" stroke="black" points="889.31,-299.18 847.31,-299.18 847.31,-282.18 889.31,-282.18 889.31,-299.18"/>
 <text text-anchor="middle" x="868.31" y="-288.78" font-family="Times,serif" font-size="8.00">Elisedal</text>
 </a>
@@ -988,7 +988,7 @@
 <!-- Almedal -->
 <g id="node38" class="node">
 <title>Almedal</title>
-<g id="a_node38"><a xlink:href="https://www.google.com/search?q=Gothenburg+Almedal" xlink:title="Almedal">
+<g id="a_node38"><a xlink:href="https://www.vasttrafik.se/sok/?q=Almedal" xlink:title="Almedal">
 <polygon fill="white" stroke="black" points="872.33,-324.19 828.33,-324.19 828.33,-307.19 872.33,-307.19 872.33,-324.19"/>
 <text text-anchor="middle" x="850.33" y="-313.79" font-family="Times,serif" font-size="8.00">Almedal</text>
 </a>
@@ -1007,7 +1007,7 @@
 <!-- Liseberg Södra -->
 <g id="node39" class="node">
 <title>Liseberg Södra</title>
-<g id="a_node39"><a xlink:href="https://www.google.com/search?q=Gothenburg+Liseberg+S%C3%B6dra" xlink:title="Liseberg Södra">
+<g id="a_node39"><a xlink:href="https://www.vasttrafik.se/sok/?q=Liseberg+S%C3%B6dra" xlink:title="Liseberg Södra">
 <polygon fill="white" stroke="black" points="919.46,-349.2 854.46,-349.2 854.46,-332.2 919.46,-332.2 919.46,-349.2"/>
 <text text-anchor="middle" x="886.96" y="-338.8" font-family="Times,serif" font-size="8.00">Liseberg Södra</text>
 </a>
@@ -1026,7 +1026,7 @@
 <!-- Korsvägen -->
 <g id="node40" class="node">
 <title>Korsvägen</title>
-<g id="a_node40"><a xlink:href="https://www.google.com/search?q=Gothenburg+Korsv%C3%A4gen" xlink:title="Korsvägen">
+<g id="a_node40"><a xlink:href="https://www.vasttrafik.se/sok/?q=Korsv%C3%A4gen" xlink:title="Korsvägen">
 <polygon fill="white" stroke="black" points="864.56,-374.2 813.56,-374.2 813.56,-357.2 864.56,-357.2 864.56,-374.2"/>
 <text text-anchor="middle" x="839.06" y="-363.8" font-family="Times,serif" font-size="8.00">Korsvägen</text>
 </a>
@@ -1045,7 +1045,7 @@
 <!-- Scandinavium -->
 <g id="node41" class="node">
 <title>Scandinavium</title>
-<g id="a_node41"><a xlink:href="https://www.google.com/search?q=Gothenburg+Scandinavium" xlink:title="Scandinavium">
+<g id="a_node41"><a xlink:href="https://www.vasttrafik.se/sok/?q=Scandinavium" xlink:title="Scandinavium">
 <polygon fill="white" stroke="black" points="874.39,-427.15 812.39,-427.15 812.39,-410.15 874.39,-410.15 874.39,-427.15"/>
 <text text-anchor="middle" x="843.39" y="-416.75" font-family="Times,serif" font-size="8.00">Scandinavium</text>
 </a>
@@ -1064,7 +1064,7 @@
 <!-- Berzeliigatan -->
 <g id="node68" class="node">
 <title>Berzeliigatan</title>
-<g id="a_node68"><a xlink:href="https://www.google.com/search?q=Gothenburg+Berzeliigatan" xlink:title="Berzeliigatan">
+<g id="a_node68"><a xlink:href="https://www.vasttrafik.se/sok/?q=Berzeliigatan" xlink:title="Berzeliigatan">
 <polygon fill="white" stroke="black" points="836.48,-399.2 777.48,-399.2 777.48,-382.2 836.48,-382.2 836.48,-399.2"/>
 <text text-anchor="middle" x="806.98" y="-388.8" font-family="Times,serif" font-size="8.00">Berzeliigatan</text>
 </a>
@@ -1083,7 +1083,7 @@
 <!-- Chalmers -->
 <g id="node107" class="node">
 <title>Chalmers</title>
-<g id="a_node107"><a xlink:href="https://www.google.com/search?q=Gothenburg+Chalmers" xlink:title="Chalmers">
+<g id="a_node107"><a xlink:href="https://www.vasttrafik.se/sok/?q=Chalmers" xlink:title="Chalmers">
 <polygon fill="white" stroke="black" points="819.28,-327.42 772.28,-327.42 772.28,-310.42 819.28,-310.42 819.28,-327.42"/>
 <text text-anchor="middle" x="795.78" y="-317.02" font-family="Times,serif" font-size="8.00">Chalmers</text>
 </a>
@@ -1152,7 +1152,7 @@
 <!-- Grönsakstorget -->
 <g id="node44" class="node">
 <title>Grönsakstorget</title>
-<g id="a_node44"><a xlink:href="https://www.google.com/search?q=Gothenburg+Gr%C3%B6nsakstorget" xlink:title="Grönsakstorget">
+<g id="a_node44"><a xlink:href="https://www.vasttrafik.se/sok/?q=Gr%C3%B6nsakstorget" xlink:title="Grönsakstorget">
 <polygon fill="white" stroke="black" points="640.24,-438.71 575.24,-438.71 575.24,-421.71 640.24,-421.71 640.24,-438.71"/>
 <text text-anchor="middle" x="607.74" y="-428.31" font-family="Times,serif" font-size="8.00">Grönsakstorget</text>
 </a>
@@ -1176,7 +1176,7 @@
 <!-- Vasaplatsen -->
 <g id="node45" class="node">
 <title>Vasaplatsen</title>
-<g id="a_node45"><a xlink:href="https://www.google.com/search?q=Gothenburg+Vasaplatsen" xlink:title="Vasaplatsen">
+<g id="a_node45"><a xlink:href="https://www.vasttrafik.se/sok/?q=Vasaplatsen" xlink:title="Vasaplatsen">
 <polygon fill="white" stroke="black" points="769.2,-411.5 715.2,-411.5 715.2,-394.5 769.2,-394.5 769.2,-411.5"/>
 <text text-anchor="middle" x="742.2" y="-401.1" font-family="Times,serif" font-size="8.00">Vasaplatsen</text>
 </a>
@@ -1190,7 +1190,7 @@
 <!-- Vasa Viktoriagatan -->
 <g id="node46" class="node">
 <title>Vasa Viktoriagatan</title>
-<g id="a_node46"><a xlink:href="https://www.google.com/search?q=Gothenburg+Vasa+Viktoriagatan" xlink:title="Vasa Viktoriagatan">
+<g id="a_node46"><a xlink:href="https://www.vasttrafik.se/sok/?q=Vasa+Viktoriagatan" xlink:title="Vasa Viktoriagatan">
 <polygon fill="white" stroke="black" points="706.91,-398.45 629.91,-398.45 629.91,-381.45 706.91,-381.45 706.91,-398.45"/>
 <text text-anchor="middle" x="668.41" y="-388.05" font-family="Times,serif" font-size="8.00">Vasa Viktoriagatan</text>
 </a>
@@ -1204,7 +1204,7 @@
 <!-- Valand -->
 <g id="node63" class="node">
 <title>Valand</title>
-<g id="a_node63"><a xlink:href="https://www.google.com/search?q=Gothenburg+Valand" xlink:title="Valand">
+<g id="a_node63"><a xlink:href="https://www.vasttrafik.se/sok/?q=Valand" xlink:title="Valand">
 <polygon fill="white" stroke="black" points="799.21,-436.51 760.21,-436.51 760.21,-419.51 799.21,-419.51 799.21,-436.51"/>
 <text text-anchor="middle" x="779.71" y="-426.11" font-family="Times,serif" font-size="8.00">Valand</text>
 </a>
@@ -1223,7 +1223,7 @@
 <!-- Kapellplatsen -->
 <g id="node117" class="node">
 <title>Kapellplatsen</title>
-<g id="a_node117"><a xlink:href="https://www.google.com/search?q=Gothenburg+Kapellplatsen" xlink:title="Kapellplatsen">
+<g id="a_node117"><a xlink:href="https://www.vasttrafik.se/sok/?q=Kapellplatsen" xlink:title="Kapellplatsen">
 <polygon fill="white" stroke="black" points="803.25,-352.49 743.25,-352.49 743.25,-335.49 803.25,-335.49 803.25,-352.49"/>
 <text text-anchor="middle" x="773.25" y="-342.09" font-family="Times,serif" font-size="8.00">Kapellplatsen</text>
 </a>
@@ -1242,7 +1242,7 @@
 <!-- Handelshögskolan -->
 <g id="node47" class="node">
 <title>Handelshögskolan</title>
-<g id="a_node47"><a xlink:href="https://www.google.com/search?q=Gothenburg+Handelsh%C3%B6gskolan" xlink:title="Handelshögskolan">
+<g id="a_node47"><a xlink:href="https://www.vasttrafik.se/sok/?q=Handelsh%C3%B6gskolan" xlink:title="Handelshögskolan">
 <polygon fill="white" stroke="black" points="688.19,-373.45 612.19,-373.45 612.19,-356.45 688.19,-356.45 688.19,-373.45"/>
 <text text-anchor="middle" x="650.19" y="-363.05" font-family="Times,serif" font-size="8.00">Handelshögskolan</text>
 </a>
@@ -1256,7 +1256,7 @@
 <!-- Brunnsgatan -->
 <g id="node48" class="node">
 <title>Brunnsgatan</title>
-<g id="a_node48"><a xlink:href="https://www.google.com/search?q=Gothenburg+Brunnsgatan" xlink:title="Brunnsgatan">
+<g id="a_node48"><a xlink:href="https://www.vasttrafik.se/sok/?q=Brunnsgatan" xlink:title="Brunnsgatan">
 <polygon fill="white" stroke="black" points="677.18,-348.44 620.18,-348.44 620.18,-331.44 677.18,-331.44 677.18,-348.44"/>
 <text text-anchor="middle" x="648.68" y="-338.04" font-family="Times,serif" font-size="8.00">Brunnsgatan</text>
 </a>
@@ -1270,7 +1270,7 @@
 <!-- Seminariegatan -->
 <g id="node49" class="node">
 <title>Seminariegatan</title>
-<g id="a_node49"><a xlink:href="https://www.google.com/search?q=Gothenburg+Seminariegatan" xlink:title="Seminariegatan">
+<g id="a_node49"><a xlink:href="https://www.vasttrafik.se/sok/?q=Seminariegatan" xlink:title="Seminariegatan">
 <polygon fill="white" stroke="black" points="682.23,-323.42 616.23,-323.42 616.23,-306.42 682.23,-306.42 682.23,-323.42"/>
 <text text-anchor="middle" x="649.23" y="-313.02" font-family="Times,serif" font-size="8.00">Seminariegatan</text>
 </a>
@@ -1289,7 +1289,7 @@
 <!-- Högsbogatan -->
 <g id="node51" class="node">
 <title>Högsbogatan</title>
-<g id="a_node51"><a xlink:href="https://www.google.com/search?q=Gothenburg+H%C3%B6gsbogatan" xlink:title="Högsbogatan">
+<g id="a_node51"><a xlink:href="https://www.vasttrafik.se/sok/?q=H%C3%B6gsbogatan" xlink:title="Högsbogatan">
 <polygon fill="white" stroke="black" points="499.14,-254.03 440.14,-254.03 440.14,-237.03 499.14,-237.03 499.14,-254.03"/>
 <text text-anchor="middle" x="469.64" y="-243.63" font-family="Times,serif" font-size="8.00">Högsbogatan</text>
 </a>
@@ -1303,7 +1303,7 @@
 <!-- Klintens Väg -->
 <g id="node52" class="node">
 <title>Klintens Väg</title>
-<g id="a_node52"><a xlink:href="https://www.google.com/search?q=Gothenburg+Klintens+V%C3%A4g" xlink:title="Klintens Väg">
+<g id="a_node52"><a xlink:href="https://www.vasttrafik.se/sok/?q=Klintens+V%C3%A4g" xlink:title="Klintens Väg">
 <polygon fill="white" stroke="black" points="485.4,-280.97 426.4,-280.97 426.4,-263.97 485.4,-263.97 485.4,-280.97"/>
 <text text-anchor="middle" x="455.9" y="-270.57" font-family="Times,serif" font-size="8.00">Klintens Väg</text>
 </a>
@@ -1317,7 +1317,7 @@
 <!-- Godhemsgatan -->
 <g id="node53" class="node">
 <title>Godhemsgatan</title>
-<g id="a_node53"><a xlink:href="https://www.google.com/search?q=Gothenburg+Godhemsgatan" xlink:title="Godhemsgatan">
+<g id="a_node53"><a xlink:href="https://www.vasttrafik.se/sok/?q=Godhemsgatan" xlink:title="Godhemsgatan">
 <polygon fill="white" stroke="black" points="528.94,-306.55 464.94,-306.55 464.94,-289.55 528.94,-289.55 528.94,-306.55"/>
 <text text-anchor="middle" x="496.94" y="-296.15" font-family="Times,serif" font-size="8.00">Godhemsgatan</text>
 </a>
@@ -1331,7 +1331,7 @@
 <!-- Mariaplan -->
 <g id="node54" class="node">
 <title>Mariaplan</title>
-<g id="a_node54"><a xlink:href="https://www.google.com/search?q=Gothenburg+Mariaplan" xlink:title="Mariaplan">
+<g id="a_node54"><a xlink:href="https://www.vasttrafik.se/sok/?q=Mariaplan" xlink:title="Mariaplan">
 <polygon fill="white" stroke="black" points="463.68,-334.48 414.68,-334.48 414.68,-317.48 463.68,-317.48 463.68,-334.48"/>
 <text text-anchor="middle" x="439.18" y="-324.08" font-family="Times,serif" font-size="8.00">Mariaplan</text>
 </a>
@@ -1345,7 +1345,7 @@
 <!-- Ekedal -->
 <g id="node131" class="node">
 <title>Ekedal</title>
-<g id="a_node131"><a xlink:href="https://www.google.com/search?q=Gothenburg+Ekedal" xlink:title="Ekedal">
+<g id="a_node131"><a xlink:href="https://www.vasttrafik.se/sok/?q=Ekedal" xlink:title="Ekedal">
 <polygon fill="white" stroke="black" points="530.24,-333.58 491.24,-333.58 491.24,-316.58 530.24,-316.58 530.24,-333.58"/>
 <text text-anchor="middle" x="510.74" y="-323.18" font-family="Times,serif" font-size="8.00">Ekedal</text>
 </a>
@@ -1369,7 +1369,7 @@
 <!-- Ostindiegatan -->
 <g id="node55" class="node">
 <title>Ostindiegatan</title>
-<g id="a_node55"><a xlink:href="https://www.google.com/search?q=Gothenburg+Ostindiegatan" xlink:title="Ostindiegatan">
+<g id="a_node55"><a xlink:href="https://www.vasttrafik.se/sok/?q=Ostindiegatan" xlink:title="Ostindiegatan">
 <polygon fill="white" stroke="black" points="395.9,-334.5 334.9,-334.5 334.9,-317.5 395.9,-317.5 395.9,-334.5"/>
 <text text-anchor="middle" x="365.4" y="-324.1" font-family="Times,serif" font-size="8.00">Ostindiegatan</text>
 </a>
@@ -1383,7 +1383,7 @@
 <!-- Vagnhallen Majorna -->
 <g id="node56" class="node">
 <title>Vagnhallen Majorna</title>
-<g id="a_node56"><a xlink:href="https://www.google.com/search?q=Gothenburg+Vagnhallen+Majorna" xlink:title="Vagnhallen Majorna">
+<g id="a_node56"><a xlink:href="https://www.vasttrafik.se/sok/?q=Vagnhallen+Majorna" xlink:title="Vagnhallen Majorna">
 <polygon fill="white" stroke="black" points="326.85,-357.48 244.85,-357.48 244.85,-340.48 326.85,-340.48 326.85,-357.48"/>
 <text text-anchor="middle" x="285.85" y="-347.08" font-family="Times,serif" font-size="8.00">Vagnhallen Majorna</text>
 </a>
@@ -1397,7 +1397,7 @@
 <!-- Sannaplan -->
 <g id="node118" class="node">
 <title>Sannaplan</title>
-<g id="a_node118"><a xlink:href="https://www.google.com/search?q=Gothenburg+Sannaplan" xlink:title="Sannaplan">
+<g id="a_node118"><a xlink:href="https://www.vasttrafik.se/sok/?q=Sannaplan" xlink:title="Sannaplan">
 <polygon fill="white" stroke="black" points="445.74,-309.48 395.74,-309.48 395.74,-292.48 445.74,-292.48 445.74,-309.48"/>
 <text text-anchor="middle" x="420.74" y="-299.08" font-family="Times,serif" font-size="8.00">Sannaplan</text>
 </a>
@@ -1416,7 +1416,7 @@
 <!-- Jaegerdorffsplatsen -->
 <g id="node57" class="node">
 <title>Jaegerdorffsplatsen</title>
-<g id="a_node57"><a xlink:href="https://www.google.com/search?q=Gothenburg+Jaegerdorffsplatsen" xlink:title="Jaegerdorffsplatsen">
+<g id="a_node57"><a xlink:href="https://www.vasttrafik.se/sok/?q=Jaegerdorffsplatsen" xlink:title="Jaegerdorffsplatsen">
 <polygon fill="white" stroke="black" points="351.52,-382.48 272.52,-382.48 272.52,-365.48 351.52,-365.48 351.52,-382.48"/>
 <text text-anchor="middle" x="312.02" y="-372.08" font-family="Times,serif" font-size="8.00">Jaegerdorffsplatsen</text>
 </a>
@@ -1435,7 +1435,7 @@
 <!-- Chapmans Torg -->
 <g id="node58" class="node">
 <title>Chapmans Torg</title>
-<g id="a_node58"><a xlink:href="https://www.google.com/search?q=Gothenburg+Chapmans+Torg" xlink:title="Chapmans Torg">
+<g id="a_node58"><a xlink:href="https://www.vasttrafik.se/sok/?q=Chapmans+Torg" xlink:title="Chapmans Torg">
 <polygon fill="white" stroke="black" points="365.67,-407.63 298.67,-407.63 298.67,-390.63 365.67,-390.63 365.67,-407.63"/>
 <text text-anchor="middle" x="332.17" y="-397.23" font-family="Times,serif" font-size="8.00">Chapmans Torg</text>
 </a>
@@ -1454,7 +1454,7 @@
 <!-- Kaptensgatan -->
 <g id="node59" class="node">
 <title>Kaptensgatan</title>
-<g id="a_node59"><a xlink:href="https://www.google.com/search?q=Gothenburg+Kaptensgatan" xlink:title="Kaptensgatan">
+<g id="a_node59"><a xlink:href="https://www.vasttrafik.se/sok/?q=Kaptensgatan" xlink:title="Kaptensgatan">
 <polygon fill="white" stroke="black" points="407.66,-434.04 347.66,-434.04 347.66,-417.04 407.66,-417.04 407.66,-434.04"/>
 <text text-anchor="middle" x="377.66" y="-423.64" font-family="Times,serif" font-size="8.00">Kaptensgatan</text>
 </a>
@@ -1473,7 +1473,7 @@
 <!-- Stigbergstorget -->
 <g id="node60" class="node">
 <title>Stigbergstorget</title>
-<g id="a_node60"><a xlink:href="https://www.google.com/search?q=Gothenburg+Stigbergstorget" xlink:title="Stigbergstorget">
+<g id="a_node60"><a xlink:href="https://www.vasttrafik.se/sok/?q=Stigbergstorget" xlink:title="Stigbergstorget">
 <polygon fill="white" stroke="black" points="465.24,-459.39 400.24,-459.39 400.24,-442.39 465.24,-442.39 465.24,-459.39"/>
 <text text-anchor="middle" x="432.74" y="-448.99" font-family="Times,serif" font-size="8.00">Stigbergstorget</text>
 </a>
@@ -1582,7 +1582,7 @@
 <!-- Sanatoriegatan -->
 <g id="node66" class="node">
 <title>Sanatoriegatan</title>
-<g id="a_node66"><a xlink:href="https://www.google.com/search?q=Gothenburg+Sanatoriegatan" xlink:title="Sanatoriegatan">
+<g id="a_node66"><a xlink:href="https://www.vasttrafik.se/sok/?q=Sanatoriegatan" xlink:title="Sanatoriegatan">
 <polygon fill="white" stroke="black" points="1044.48,-493.01 980.48,-493.01 980.48,-476.01 1044.48,-476.01 1044.48,-493.01"/>
 <text text-anchor="middle" x="1012.48" y="-482.61" font-family="Times,serif" font-size="8.00">Sanatoriegatan</text>
 </a>
@@ -1601,7 +1601,7 @@
 <!-- Virginsgatan -->
 <g id="node67" class="node">
 <title>Virginsgatan</title>
-<g id="a_node67"><a xlink:href="https://www.google.com/search?q=Gothenburg+Virginsgatan" xlink:title="Virginsgatan">
+<g id="a_node67"><a xlink:href="https://www.vasttrafik.se/sok/?q=Virginsgatan" xlink:title="Virginsgatan">
 <polygon fill="white" stroke="black" points="1039.38,-467.9 982.38,-467.9 982.38,-450.9 1039.38,-450.9 1039.38,-467.9"/>
 <text text-anchor="middle" x="1010.88" y="-457.5" font-family="Times,serif" font-size="8.00">Virginsgatan</text>
 </a>
@@ -1620,7 +1620,7 @@
 <!-- Welandergatan -->
 <g id="node74" class="node">
 <title>Welandergatan</title>
-<g id="a_node74"><a xlink:href="https://www.google.com/search?q=Gothenburg+Welandergatan" xlink:title="Welandergatan">
+<g id="a_node74"><a xlink:href="https://www.vasttrafik.se/sok/?q=Welandergatan" xlink:title="Welandergatan">
 <polygon fill="white" stroke="black" points="1224.19,-488.53 1160.19,-488.53 1160.19,-471.53 1224.19,-471.53 1224.19,-488.53"/>
 <text text-anchor="middle" x="1192.19" y="-478.13" font-family="Times,serif" font-size="8.00">Welandergatan</text>
 </a>
@@ -1654,7 +1654,7 @@
 <!-- Hjällbo -->
 <g id="node70" class="node">
 <title>Hjällbo</title>
-<g id="a_node70"><a xlink:href="https://www.google.com/search?q=Gothenburg+Hj%C3%A4llbo" xlink:title="Hjällbo">
+<g id="a_node70"><a xlink:href="https://www.vasttrafik.se/sok/?q=Hj%C3%A4llbo" xlink:title="Hjällbo">
 <polygon fill="white" stroke="black" points="964.49,-849.2 924.49,-849.2 924.49,-832.2 964.49,-832.2 964.49,-849.2"/>
 <text text-anchor="middle" x="944.49" y="-838.8" font-family="Times,serif" font-size="8.00">Hjällbo</text>
 </a>
@@ -1668,7 +1668,7 @@
 <!-- SKF -->
 <g id="node105" class="node">
 <title>SKF</title>
-<g id="a_node105"><a xlink:href="https://www.google.com/search?q=Gothenburg+SKF" xlink:title="SKF">
+<g id="a_node105"><a xlink:href="https://www.vasttrafik.se/sok/?q=SKF" xlink:title="SKF">
 <polygon fill="white" stroke="black" points="932.8,-594.89 901.8,-594.89 901.8,-577.89 932.8,-577.89 932.8,-594.89"/>
 <text text-anchor="middle" x="917.3" y="-584.49" font-family="Times,serif" font-size="8.00">SKF</text>
 </a>
@@ -1682,7 +1682,7 @@
 <!-- Ejdergatan -->
 <g id="node106" class="node">
 <title>Ejdergatan</title>
-<g id="a_node106"><a xlink:href="https://www.google.com/search?q=Gothenburg+Ejdergatan" xlink:title="Ejdergatan">
+<g id="a_node106"><a xlink:href="https://www.vasttrafik.se/sok/?q=Ejdergatan" xlink:title="Ejdergatan">
 <polygon fill="white" stroke="black" points="955.93,-569.86 904.93,-569.86 904.93,-552.86 955.93,-552.86 955.93,-569.86"/>
 <text text-anchor="middle" x="930.43" y="-559.46" font-family="Times,serif" font-size="8.00">Ejdergatan</text>
 </a>
@@ -1711,7 +1711,7 @@
 <!-- Hammarkullen -->
 <g id="node71" class="node">
 <title>Hammarkullen</title>
-<g id="a_node71"><a xlink:href="https://www.google.com/search?q=Gothenburg+Hammarkullen" xlink:title="Hammarkullen">
+<g id="a_node71"><a xlink:href="https://www.vasttrafik.se/sok/?q=Hammarkullen" xlink:title="Hammarkullen">
 <polygon fill="white" stroke="black" points="1057.42,-916.76 993.42,-916.76 993.42,-899.76 1057.42,-899.76 1057.42,-916.76"/>
 <text text-anchor="middle" x="1025.42" y="-906.36" font-family="Times,serif" font-size="8.00">Hammarkullen</text>
 </a>
@@ -1735,7 +1735,7 @@
 <!-- Storås -->
 <g id="node72" class="node">
 <title>Storås</title>
-<g id="a_node72"><a xlink:href="https://www.google.com/search?q=Gothenburg+Stor%C3%A5s" xlink:title="Storås">
+<g id="a_node72"><a xlink:href="https://www.vasttrafik.se/sok/?q=Stor%C3%A5s" xlink:title="Storås">
 <polygon fill="white" stroke="black" points="1092.29,-947.02 1056.29,-947.02 1056.29,-930.02 1092.29,-930.02 1092.29,-947.02"/>
 <text text-anchor="middle" x="1074.29" y="-936.62" font-family="Times,serif" font-size="8.00">Storås</text>
 </a>
@@ -1759,7 +1759,7 @@
 <!-- Angered Centrum -->
 <g id="node73" class="node">
 <title>Angered Centrum</title>
-<g id="a_node73"><a xlink:href="https://www.google.com/search?q=Gothenburg+Angered+Centrum" xlink:title="Angered Centrum">
+<g id="a_node73"><a xlink:href="https://www.vasttrafik.se/sok/?q=Angered+Centrum" xlink:title="Angered Centrum">
 <polygon fill="white" stroke="black" points="1126.08,-1014.29 1052.08,-1014.29 1052.08,-997.29 1126.08,-997.29 1126.08,-1014.29"/>
 <text text-anchor="middle" x="1089.08" y="-1003.89" font-family="Times,serif" font-size="8.00">Angered Centrum</text>
 </a>
@@ -1783,7 +1783,7 @@
 <!-- Töpelsgatan -->
 <g id="node75" class="node">
 <title>Töpelsgatan</title>
-<g id="a_node75"><a xlink:href="https://www.google.com/search?q=Gothenburg+T%C3%B6pelsgatan" xlink:title="Töpelsgatan">
+<g id="a_node75"><a xlink:href="https://www.vasttrafik.se/sok/?q=T%C3%B6pelsgatan" xlink:title="Töpelsgatan">
 <polygon fill="white" stroke="black" points="1216.24,-463.2 1160.24,-463.2 1160.24,-446.2 1216.24,-446.2 1216.24,-463.2"/>
 <text text-anchor="middle" x="1188.24" y="-452.8" font-family="Times,serif" font-size="8.00">Töpelsgatan</text>
 </a>
@@ -1797,7 +1797,7 @@
 <!-- Bögatan -->
 <g id="node76" class="node">
 <title>Bögatan</title>
-<g id="a_node76"><a xlink:href="https://www.google.com/search?q=Gothenburg+B%C3%B6gatan" xlink:title="Bögatan">
+<g id="a_node76"><a xlink:href="https://www.vasttrafik.se/sok/?q=B%C3%B6gatan" xlink:title="Bögatan">
 <polygon fill="white" stroke="black" points="1151.86,-439.91 1108.86,-439.91 1108.86,-422.91 1151.86,-422.91 1151.86,-439.91"/>
 <text text-anchor="middle" x="1130.36" y="-429.51" font-family="Times,serif" font-size="8.00">Bögatan</text>
 </a>
@@ -1811,7 +1811,7 @@
 <!-- Ekmanska -->
 <g id="node77" class="node">
 <title>Ekmanska</title>
-<g id="a_node77"><a xlink:href="https://www.google.com/search?q=Gothenburg+Ekmanska" xlink:title="Ekmanska">
+<g id="a_node77"><a xlink:href="https://www.vasttrafik.se/sok/?q=Ekmanska" xlink:title="Ekmanska">
 <polygon fill="white" stroke="black" points="1100.51,-418.89 1050.51,-418.89 1050.51,-401.89 1100.51,-401.89 1100.51,-418.89"/>
 <text text-anchor="middle" x="1075.51" y="-408.49" font-family="Times,serif" font-size="8.00">Ekmanska</text>
 </a>
@@ -1825,7 +1825,7 @@
 <!-- Bäckeliden -->
 <g id="node78" class="node">
 <title>Bäckeliden</title>
-<g id="a_node78"><a xlink:href="https://www.google.com/search?q=Gothenburg+B%C3%A4ckeliden" xlink:title="Bäckeliden">
+<g id="a_node78"><a xlink:href="https://www.vasttrafik.se/sok/?q=B%C3%A4ckeliden" xlink:title="Bäckeliden">
 <polygon fill="white" stroke="black" points="1042.33,-432.24 990.33,-432.24 990.33,-415.24 1042.33,-415.24 1042.33,-432.24"/>
 <text text-anchor="middle" x="1016.33" y="-421.84" font-family="Times,serif" font-size="8.00">Bäckeliden</text>
 </a>
@@ -1839,7 +1839,7 @@
 <!-- Sankt Sigfrids Plan -->
 <g id="node79" class="node">
 <title>Sankt Sigfrids Plan</title>
-<g id="a_node79"><a xlink:href="https://www.google.com/search?q=Gothenburg+Sankt+Sigfrids+Plan" xlink:title="Sankt Sigfrids Plan">
+<g id="a_node79"><a xlink:href="https://www.vasttrafik.se/sok/?q=Sankt+Sigfrids+Plan" xlink:title="Sankt Sigfrids Plan">
 <polygon fill="white" stroke="black" points="1014.7,-407.12 936.7,-407.12 936.7,-390.12 1014.7,-390.12 1014.7,-407.12"/>
 <text text-anchor="middle" x="975.7" y="-396.72" font-family="Times,serif" font-size="8.00">Sankt Sigfrids Plan</text>
 </a>
@@ -1853,7 +1853,7 @@
 <!-- Liseberg Station -->
 <g id="node80" class="node">
 <title>Liseberg Station</title>
-<g id="a_node80"><a xlink:href="https://www.google.com/search?q=Gothenburg+Liseberg+Station" xlink:title="Liseberg Station">
+<g id="a_node80"><a xlink:href="https://www.vasttrafik.se/sok/?q=Liseberg+Station" xlink:title="Liseberg Station">
 <polygon fill="white" stroke="black" points="942.76,-381.76 873.76,-381.76 873.76,-364.76 942.76,-364.76 942.76,-381.76"/>
 <text text-anchor="middle" x="908.26" y="-371.36" font-family="Times,serif" font-size="8.00">Liseberg Station</text>
 </a>
@@ -1872,7 +1872,7 @@
 <!-- Frihamnen -->
 <g id="node82" class="node">
 <title>Frihamnen</title>
-<g id="a_node82"><a xlink:href="https://www.google.com/search?q=Gothenburg+Frihamnen" xlink:title="Frihamnen">
+<g id="a_node82"><a xlink:href="https://www.vasttrafik.se/sok/?q=Frihamnen" xlink:title="Frihamnen">
 <polygon fill="white" stroke="black" points="870.51,-569.87 819.51,-569.87 819.51,-552.87 870.51,-552.87 870.51,-569.87"/>
 <text text-anchor="middle" x="845.01" y="-559.47" font-family="Times,serif" font-size="8.00">Frihamnen</text>
 </a>
@@ -1891,7 +1891,7 @@
 <!-- Hjalmar Brantingsplatsen -->
 <g id="node83" class="node">
 <title>Hjalmar Brantingsplatsen</title>
-<g id="a_node83"><a xlink:href="https://www.google.com/search?q=Gothenburg+Hjalmar+Brantingsplatsen" xlink:title="Hjalmar Brantingsplatsen">
+<g id="a_node83"><a xlink:href="https://www.vasttrafik.se/sok/?q=Hjalmar+Brantingsplatsen" xlink:title="Hjalmar Brantingsplatsen">
 <polygon fill="white" stroke="black" points="802.02,-571.48 704.02,-571.48 704.02,-554.48 802.02,-554.48 802.02,-571.48"/>
 <text text-anchor="middle" x="753.02" y="-561.08" font-family="Times,serif" font-size="8.00">Hjalmar Brantingsplatsen</text>
 </a>
@@ -1915,7 +1915,7 @@
 <!-- Vågmästareplatsen -->
 <g id="node84" class="node">
 <title>Vågmästareplatsen</title>
-<g id="a_node84"><a xlink:href="https://www.google.com/search?q=Gothenburg+V%C3%A5gm%C3%A4stareplatsen" xlink:title="Vågmästareplatsen">
+<g id="a_node84"><a xlink:href="https://www.vasttrafik.se/sok/?q=V%C3%A5gm%C3%A4stareplatsen" xlink:title="Vågmästareplatsen">
 <polygon fill="white" stroke="black" points="695,-570.27 618,-570.27 618,-553.27 695,-553.27 695,-570.27"/>
 <text text-anchor="middle" x="656.5" y="-559.87" font-family="Times,serif" font-size="8.00">Vågmästareplatsen</text>
 </a>
@@ -1939,7 +1939,7 @@
 <!-- Wieselgrensplatsen -->
 <g id="node85" class="node">
 <title>Wieselgrensplatsen</title>
-<g id="a_node85"><a xlink:href="https://www.google.com/search?q=Gothenburg+Wieselgrensplatsen" xlink:title="Wieselgrensplatsen">
+<g id="a_node85"><a xlink:href="https://www.vasttrafik.se/sok/?q=Wieselgrensplatsen" xlink:title="Wieselgrensplatsen">
 <polygon fill="white" stroke="black" points="608.2,-573.17 530.2,-573.17 530.2,-556.17 608.2,-556.17 608.2,-573.17"/>
 <text text-anchor="middle" x="569.2" y="-562.77" font-family="Times,serif" font-size="8.00">Wieselgrensplatsen</text>
 </a>
@@ -1963,7 +1963,7 @@
 <!-- Rambergsvallen -->
 <g id="node86" class="node">
 <title>Rambergsvallen</title>
-<g id="a_node86"><a xlink:href="https://www.google.com/search?q=Gothenburg+Rambergsvallen" xlink:title="Rambergsvallen">
+<g id="a_node86"><a xlink:href="https://www.vasttrafik.se/sok/?q=Rambergsvallen" xlink:title="Rambergsvallen">
 <polygon fill="white" stroke="black" points="522.63,-547.83 454.63,-547.83 454.63,-530.83 522.63,-530.83 522.63,-547.83"/>
 <text text-anchor="middle" x="488.63" y="-537.43" font-family="Times,serif" font-size="8.00">Rambergsvallen</text>
 </a>
@@ -1987,7 +1987,7 @@
 <!-- Gropegårdsgatan -->
 <g id="node87" class="node">
 <title>Gropegårdsgatan</title>
-<g id="a_node87"><a xlink:href="https://www.google.com/search?q=Gothenburg+Gropeg%C3%A5rdsgatan" xlink:title="Gropegårdsgatan">
+<g id="a_node87"><a xlink:href="https://www.vasttrafik.se/sok/?q=Gropeg%C3%A5rdsgatan" xlink:title="Gropegårdsgatan">
 <polygon fill="white" stroke="black" points="446.56,-529.87 375.56,-529.87 375.56,-512.87 446.56,-512.87 446.56,-529.87"/>
 <text text-anchor="middle" x="411.06" y="-519.47" font-family="Times,serif" font-size="8.00">Gropegårdsgatan</text>
 </a>
@@ -2011,7 +2011,7 @@
 <!-- Eketrägatan -->
 <g id="node88" class="node">
 <title>Eketrägatan</title>
-<g id="a_node88"><a xlink:href="https://www.google.com/search?q=Gothenburg+Eketr%C3%A4gatan" xlink:title="Eketrägatan">
+<g id="a_node88"><a xlink:href="https://www.vasttrafik.se/sok/?q=Eketr%C3%A4gatan" xlink:title="Eketrägatan">
 <polygon fill="white" stroke="black" points="378.9,-503.8 323.9,-503.8 323.9,-486.8 378.9,-486.8 378.9,-503.8"/>
 <text text-anchor="middle" x="351.4" y="-493.4" font-family="Times,serif" font-size="8.00">Eketrägatan</text>
 </a>
@@ -2035,7 +2035,7 @@
 <!-- Sälöfjordsgatan -->
 <g id="node89" class="node">
 <title>Sälöfjordsgatan</title>
-<g id="a_node89"><a xlink:href="https://www.google.com/search?q=Gothenburg+S%C3%A4l%C3%B6fjordsgatan" xlink:title="Sälöfjordsgatan">
+<g id="a_node89"><a xlink:href="https://www.vasttrafik.se/sok/?q=S%C3%A4l%C3%B6fjordsgatan" xlink:title="Sälöfjordsgatan">
 <polygon fill="white" stroke="black" points="326.61,-478.12 259.61,-478.12 259.61,-461.12 326.61,-461.12 326.61,-478.12"/>
 <text text-anchor="middle" x="293.11" y="-467.72" font-family="Times,serif" font-size="8.00">Sälöfjordsgatan</text>
 </a>
@@ -2059,7 +2059,7 @@
 <!-- Vårväderstorget -->
 <g id="node90" class="node">
 <title>Vårväderstorget</title>
-<g id="a_node90"><a xlink:href="https://www.google.com/search?q=Gothenburg+V%C3%A5rv%C3%A4derstorget" xlink:title="Vårväderstorget">
+<g id="a_node90"><a xlink:href="https://www.vasttrafik.se/sok/?q=V%C3%A5rv%C3%A4derstorget" xlink:title="Vårväderstorget">
 <polygon fill="white" stroke="black" points="251.55,-469.89 183.55,-469.89 183.55,-452.89 251.55,-452.89 251.55,-469.89"/>
 <text text-anchor="middle" x="217.55" y="-459.49" font-family="Times,serif" font-size="8.00">Vårväderstorget</text>
 </a>
@@ -2083,7 +2083,7 @@
 <!-- Mildvädersgatan -->
 <g id="node91" class="node">
 <title>Mildvädersgatan</title>
-<g id="a_node91"><a xlink:href="https://www.google.com/search?q=Gothenburg+Mildv%C3%A4dersgatan" xlink:title="Mildvädersgatan">
+<g id="a_node91"><a xlink:href="https://www.vasttrafik.se/sok/?q=Mildv%C3%A4dersgatan" xlink:title="Mildvädersgatan">
 <polygon fill="white" stroke="black" points="237.67,-494.94 167.67,-494.94 167.67,-477.94 237.67,-477.94 237.67,-494.94"/>
 <text text-anchor="middle" x="202.67" y="-484.54" font-family="Times,serif" font-size="8.00">Mildvädersgatan</text>
 </a>
@@ -2107,7 +2107,7 @@
 <!-- Önskevädersgatan -->
 <g id="node92" class="node">
 <title>Önskevädersgatan</title>
-<g id="a_node92"><a xlink:href="https://www.google.com/search?q=Gothenburg+%C3%96nskev%C3%A4dersgatan" xlink:title="Önskevädersgatan">
+<g id="a_node92"><a xlink:href="https://www.vasttrafik.se/sok/?q=%C3%96nskev%C3%A4dersgatan" xlink:title="Önskevädersgatan">
 <polygon fill="white" stroke="black" points="315.83,-525.45 240.83,-525.45 240.83,-508.45 315.83,-508.45 315.83,-525.45"/>
 <text text-anchor="middle" x="278.33" y="-515.05" font-family="Times,serif" font-size="8.00">Önskevädersgatan</text>
 </a>
@@ -2131,7 +2131,7 @@
 <!-- Friskväderstorget -->
 <g id="node93" class="node">
 <title>Friskväderstorget</title>
-<g id="a_node93"><a xlink:href="https://www.google.com/search?q=Gothenburg+Friskv%C3%A4derstorget" xlink:title="Friskväderstorget">
+<g id="a_node93"><a xlink:href="https://www.vasttrafik.se/sok/?q=Friskv%C3%A4derstorget" xlink:title="Friskväderstorget">
 <polygon fill="white" stroke="black" points="298.26,-550.46 226.26,-550.46 226.26,-533.46 298.26,-533.46 298.26,-550.46"/>
 <text text-anchor="middle" x="262.26" y="-540.06" font-family="Times,serif" font-size="8.00">Friskväderstorget</text>
 </a>
@@ -2155,7 +2155,7 @@
 <!-- Väderilsgatan -->
 <g id="node94" class="node">
 <title>Väderilsgatan</title>
-<g id="a_node94"><a xlink:href="https://www.google.com/search?q=Gothenburg+V%C3%A4derilsgatan" xlink:title="Väderilsgatan">
+<g id="a_node94"><a xlink:href="https://www.vasttrafik.se/sok/?q=V%C3%A4derilsgatan" xlink:title="Väderilsgatan">
 <polygon fill="white" stroke="black" points="280.19,-575.47 219.19,-575.47 219.19,-558.47 280.19,-558.47 280.19,-575.47"/>
 <text text-anchor="middle" x="249.69" y="-565.07" font-family="Times,serif" font-size="8.00">Väderilsgatan</text>
 </a>
@@ -2179,7 +2179,7 @@
 <!-- Temperaturgatan -->
 <g id="node95" class="node">
 <title>Temperaturgatan</title>
-<g id="a_node95"><a xlink:href="https://www.google.com/search?q=Gothenburg+Temperaturgatan" xlink:title="Temperaturgatan">
+<g id="a_node95"><a xlink:href="https://www.vasttrafik.se/sok/?q=Temperaturgatan" xlink:title="Temperaturgatan">
 <polygon fill="white" stroke="black" points="276.78,-611.03 206.78,-611.03 206.78,-594.03 276.78,-594.03 276.78,-611.03"/>
 <text text-anchor="middle" x="241.78" y="-600.63" font-family="Times,serif" font-size="8.00">Temperaturgatan</text>
 </a>
@@ -2198,7 +2198,7 @@
 <!-- Varmfrontsgatan -->
 <g id="node96" class="node">
 <title>Varmfrontsgatan</title>
-<g id="a_node96"><a xlink:href="https://www.google.com/search?q=Gothenburg+Varmfrontsgatan" xlink:title="Varmfrontsgatan">
+<g id="a_node96"><a xlink:href="https://www.vasttrafik.se/sok/?q=Varmfrontsgatan" xlink:title="Varmfrontsgatan">
 <polygon fill="white" stroke="black" points="282.08,-637.79 212.08,-637.79 212.08,-620.79 282.08,-620.79 282.08,-637.79"/>
 <text text-anchor="middle" x="247.08" y="-627.39" font-family="Times,serif" font-size="8.00">Varmfrontsgatan</text>
 </a>
@@ -2217,7 +2217,7 @@
 <!-- Aprilgatan -->
 <g id="node97" class="node">
 <title>Aprilgatan</title>
-<g id="a_node97"><a xlink:href="https://www.google.com/search?q=Gothenburg+Aprilgatan" xlink:title="Aprilgatan">
+<g id="a_node97"><a xlink:href="https://www.vasttrafik.se/sok/?q=Aprilgatan" xlink:title="Aprilgatan">
 <polygon fill="white" stroke="black" points="1037.98,-811.88 986.98,-811.88 986.98,-794.88 1037.98,-794.88 1037.98,-811.88"/>
 <text text-anchor="middle" x="1012.48" y="-801.48" font-family="Times,serif" font-size="8.00">Aprilgatan</text>
 </a>
@@ -2226,7 +2226,7 @@
 <!-- Allhelgonakyrkan -->
 <g id="node98" class="node">
 <title>Allhelgonakyrkan</title>
-<g id="a_node98"><a xlink:href="https://www.google.com/search?q=Gothenburg+Allhelgonakyrkan" xlink:title="Allhelgonakyrkan">
+<g id="a_node98"><a xlink:href="https://www.vasttrafik.se/sok/?q=Allhelgonakyrkan" xlink:title="Allhelgonakyrkan">
 <polygon fill="white" stroke="black" points="1031,-761.85 957,-761.85 957,-744.85 1031,-744.85 1031,-761.85"/>
 <text text-anchor="middle" x="994" y="-751.45" font-family="Times,serif" font-size="8.00">Allhelgonakyrkan</text>
 </a>
@@ -2240,7 +2240,7 @@
 <!-- Kortedala Torg -->
 <g id="node99" class="node">
 <title>Kortedala Torg</title>
-<g id="a_node99"><a xlink:href="https://www.google.com/search?q=Gothenburg+Kortedala+Torg" xlink:title="Kortedala Torg">
+<g id="a_node99"><a xlink:href="https://www.vasttrafik.se/sok/?q=Kortedala+Torg" xlink:title="Kortedala Torg">
 <polygon fill="white" stroke="black" points="1024.68,-736.84 959.68,-736.84 959.68,-719.84 1024.68,-719.84 1024.68,-736.84"/>
 <text text-anchor="middle" x="992.18" y="-726.44" font-family="Times,serif" font-size="8.00">Kortedala Torg</text>
 </a>
@@ -2259,7 +2259,7 @@
 <!-- Januarigatan -->
 <g id="node116" class="node">
 <title>Januarigatan</title>
-<g id="a_node116"><a xlink:href="https://www.google.com/search?q=Gothenburg+Januarigatan" xlink:title="Januarigatan">
+<g id="a_node116"><a xlink:href="https://www.vasttrafik.se/sok/?q=Januarigatan" xlink:title="Januarigatan">
 <polygon fill="white" stroke="black" points="1050.37,-786.86 993.37,-786.86 993.37,-769.86 1050.37,-769.86 1050.37,-786.86"/>
 <text text-anchor="middle" x="1021.87" y="-776.46" font-family="Times,serif" font-size="8.00">Januarigatan</text>
 </a>
@@ -2278,7 +2278,7 @@
 <!-- Runstavsgatan -->
 <g id="node100" class="node">
 <title>Runstavsgatan</title>
-<g id="a_node100"><a xlink:href="https://www.google.com/search?q=Gothenburg+Runstavsgatan" xlink:title="Runstavsgatan">
+<g id="a_node100"><a xlink:href="https://www.vasttrafik.se/sok/?q=Runstavsgatan" xlink:title="Runstavsgatan">
 <polygon fill="white" stroke="black" points="1013.54,-711.83 950.54,-711.83 950.54,-694.83 1013.54,-694.83 1013.54,-711.83"/>
 <text text-anchor="middle" x="982.04" y="-701.43" font-family="Times,serif" font-size="8.00">Runstavsgatan</text>
 </a>
@@ -2302,7 +2302,7 @@
 <!-- Nymånegatan -->
 <g id="node101" class="node">
 <title>Nymånegatan</title>
-<g id="a_node101"><a xlink:href="https://www.google.com/search?q=Gothenburg+Nym%C3%A5negatan" xlink:title="Nymånegatan">
+<g id="a_node101"><a xlink:href="https://www.vasttrafik.se/sok/?q=Nym%C3%A5negatan" xlink:title="Nymånegatan">
 <polygon fill="white" stroke="black" points="1017.62,-686.82 956.62,-686.82 956.62,-669.82 1017.62,-669.82 1017.62,-686.82"/>
 <text text-anchor="middle" x="987.12" y="-676.42" font-family="Times,serif" font-size="8.00">Nymånegatan</text>
 </a>
@@ -2326,7 +2326,7 @@
 <!-- Beväringsgatan -->
 <g id="node102" class="node">
 <title>Beväringsgatan</title>
-<g id="a_node102"><a xlink:href="https://www.google.com/search?q=Gothenburg+Bev%C3%A4ringsgatan" xlink:title="Beväringsgatan">
+<g id="a_node102"><a xlink:href="https://www.vasttrafik.se/sok/?q=Bev%C3%A4ringsgatan" xlink:title="Beväringsgatan">
 <polygon fill="white" stroke="black" points="1012.54,-661.81 946.54,-661.81 946.54,-644.81 1012.54,-644.81 1012.54,-661.81"/>
 <text text-anchor="middle" x="979.54" y="-651.41" font-family="Times,serif" font-size="8.00">Beväringsgatan</text>
 </a>
@@ -2350,7 +2350,7 @@
 <!-- Kviberg -->
 <g id="node103" class="node">
 <title>Kviberg</title>
-<g id="a_node103"><a xlink:href="https://www.google.com/search?q=Gothenburg+Kviberg" xlink:title="Kviberg">
+<g id="a_node103"><a xlink:href="https://www.vasttrafik.se/sok/?q=Kviberg" xlink:title="Kviberg">
 <polygon fill="white" stroke="black" points="992.64,-636.81 949.64,-636.81 949.64,-619.81 992.64,-619.81 992.64,-636.81"/>
 <text text-anchor="middle" x="971.14" y="-626.41" font-family="Times,serif" font-size="8.00">Kviberg</text>
 </a>
@@ -2374,7 +2374,7 @@
 <!-- Bellevue -->
 <g id="node104" class="node">
 <title>Bellevue</title>
-<g id="a_node104"><a xlink:href="https://www.google.com/search?q=Gothenburg+Bellevue" xlink:title="Bellevue">
+<g id="a_node104"><a xlink:href="https://www.vasttrafik.se/sok/?q=Bellevue" xlink:title="Bellevue">
 <polygon fill="white" stroke="black" points="985.82,-611.78 940.82,-611.78 940.82,-594.78 985.82,-594.78 985.82,-611.78"/>
 <text text-anchor="middle" x="963.32" y="-601.38" font-family="Times,serif" font-size="8.00">Bellevue</text>
 </a>
@@ -2438,7 +2438,7 @@
 <!-- Wavrinskys Plats -->
 <g id="node108" class="node">
 <title>Wavrinskys Plats</title>
-<g id="a_node108"><a xlink:href="https://www.google.com/search?q=Gothenburg+Wavrinskys+Plats" xlink:title="Wavrinskys Plats">
+<g id="a_node108"><a xlink:href="https://www.vasttrafik.se/sok/?q=Wavrinskys+Plats" xlink:title="Wavrinskys Plats">
 <polygon fill="white" stroke="black" points="762.37,-312.39 690.37,-312.39 690.37,-295.39 762.37,-295.39 762.37,-312.39"/>
 <text text-anchor="middle" x="726.37" y="-301.99" font-family="Times,serif" font-size="8.00">Wavrinskys Plats</text>
 </a>
@@ -2477,7 +2477,7 @@
 <!-- Medicinaregatan -->
 <g id="node109" class="node">
 <title>Medicinaregatan</title>
-<g id="a_node109"><a xlink:href="https://www.google.com/search?q=Gothenburg+Medicinaregatan" xlink:title="Medicinaregatan">
+<g id="a_node109"><a xlink:href="https://www.vasttrafik.se/sok/?q=Medicinaregatan" xlink:title="Medicinaregatan">
 <polygon fill="white" stroke="black" points="732.66,-287.39 662.66,-287.39 662.66,-270.39 732.66,-270.39 732.66,-287.39"/>
 <text text-anchor="middle" x="697.66" y="-276.99" font-family="Times,serif" font-size="8.00">Medicinaregatan</text>
 </a>
@@ -2546,7 +2546,7 @@
 <!-- Komettorget -->
 <g id="node112" class="node">
 <title>Komettorget</title>
-<g id="a_node112"><a xlink:href="https://www.google.com/search?q=Gothenburg+Komettorget" xlink:title="Komettorget">
+<g id="a_node112"><a xlink:href="https://www.vasttrafik.se/sok/?q=Komettorget" xlink:title="Komettorget">
 <polygon fill="white" stroke="black" points="1257.25,-730.41 1200.25,-730.41 1200.25,-713.41 1257.25,-713.41 1257.25,-730.41"/>
 <text text-anchor="middle" x="1228.75" y="-720.01" font-family="Times,serif" font-size="8.00">Komettorget</text>
 </a>
@@ -2555,7 +2555,7 @@
 <!-- Rymdtorget Spårvagn -->
 <g id="node113" class="node">
 <title>Rymdtorget Spårvagn</title>
-<g id="a_node113"><a xlink:href="https://www.google.com/search?q=Gothenburg+Rymdtorget+Sp%C3%A5rvagn" xlink:title="Rymdtorget Spårvagn">
+<g id="a_node113"><a xlink:href="https://www.vasttrafik.se/sok/?q=Rymdtorget+Sp%C3%A5rvagn" xlink:title="Rymdtorget Spårvagn">
 <polygon fill="white" stroke="black" points="1255.03,-756.34 1169.03,-756.34 1169.03,-739.34 1255.03,-739.34 1255.03,-756.34"/>
 <text text-anchor="middle" x="1212.03" y="-745.94" font-family="Times,serif" font-size="8.00">Rymdtorget Spårvagn</text>
 </a>
@@ -2574,7 +2574,7 @@
 <!-- Teleskopgatan -->
 <g id="node114" class="node">
 <title>Teleskopgatan</title>
-<g id="a_node114"><a xlink:href="https://www.google.com/search?q=Gothenburg+Teleskopgatan" xlink:title="Teleskopgatan">
+<g id="a_node114"><a xlink:href="https://www.vasttrafik.se/sok/?q=Teleskopgatan" xlink:title="Teleskopgatan">
 <polygon fill="white" stroke="black" points="1201.78,-781.37 1138.78,-781.37 1138.78,-764.37 1201.78,-764.37 1201.78,-781.37"/>
 <text text-anchor="middle" x="1170.28" y="-770.97" font-family="Times,serif" font-size="8.00">Teleskopgatan</text>
 </a>
@@ -2593,7 +2593,7 @@
 <!-- Galileis Gata -->
 <g id="node115" class="node">
 <title>Galileis Gata</title>
-<g id="a_node115"><a xlink:href="https://www.google.com/search?q=Gothenburg+Galileis+Gata" xlink:title="Galileis Gata">
+<g id="a_node115"><a xlink:href="https://www.vasttrafik.se/sok/?q=Galileis+Gata" xlink:title="Galileis Gata">
 <polygon fill="white" stroke="black" points="1116.53,-791.22 1058.53,-791.22 1058.53,-774.22 1116.53,-774.22 1116.53,-791.22"/>
 <text text-anchor="middle" x="1087.53" y="-780.82" font-family="Times,serif" font-size="8.00">Galileis Gata</text>
 </a>
@@ -2647,7 +2647,7 @@
 <!-- Sandarna -->
 <g id="node119" class="node">
 <title>Sandarna</title>
-<g id="a_node119"><a xlink:href="https://www.google.com/search?q=Gothenburg+Sandarna" xlink:title="Sandarna">
+<g id="a_node119"><a xlink:href="https://www.vasttrafik.se/sok/?q=Sandarna" xlink:title="Sandarna">
 <polygon fill="white" stroke="black" points="387.7,-296.15 341.7,-296.15 341.7,-279.15 387.7,-279.15 387.7,-296.15"/>
 <text text-anchor="middle" x="364.7" y="-285.75" font-family="Times,serif" font-size="8.00">Sandarna</text>
 </a>
@@ -2671,7 +2671,7 @@
 <!-- Kungssten -->
 <g id="node120" class="node">
 <title>Kungssten</title>
-<g id="a_node120"><a xlink:href="https://www.google.com/search?q=Gothenburg+Kungssten" xlink:title="Kungssten">
+<g id="a_node120"><a xlink:href="https://www.vasttrafik.se/sok/?q=Kungssten" xlink:title="Kungssten">
 <polygon fill="white" stroke="black" points="337.17,-271.14 287.17,-271.14 287.17,-254.14 337.17,-254.14 337.17,-271.14"/>
 <text text-anchor="middle" x="312.17" y="-260.74" font-family="Times,serif" font-size="8.00">Kungssten</text>
 </a>
@@ -2695,7 +2695,7 @@
 <!-- Doktor Sydows Gata -->
 <g id="node121" class="node">
 <title>Doktor Sydows Gata</title>
-<g id="a_node121"><a xlink:href="https://www.google.com/search?q=Gothenburg+Doktor+Sydows+Gata" xlink:title="Doktor Sydows Gata">
+<g id="a_node121"><a xlink:href="https://www.vasttrafik.se/sok/?q=Doktor+Sydows+Gata" xlink:title="Doktor Sydows Gata">
 <polygon fill="white" stroke="black" points="838.89,-252.81 754.89,-252.81 754.89,-235.81 838.89,-235.81 838.89,-252.81"/>
 <text text-anchor="middle" x="796.89" y="-242.41" font-family="Times,serif" font-size="8.00">Doktor Sydows Gata</text>
 </a>
@@ -2704,7 +2704,7 @@
 <!-- Doktor Fries Torg -->
 <g id="node122" class="node">
 <title>Doktor Fries Torg</title>
-<g id="a_node122"><a xlink:href="https://www.google.com/search?q=Gothenburg+Doktor+Fries+Torg" xlink:title="Doktor Fries Torg">
+<g id="a_node122"><a xlink:href="https://www.vasttrafik.se/sok/?q=Doktor+Fries+Torg" xlink:title="Doktor Fries Torg">
 <polygon fill="white" stroke="black" points="828.1,-277.89 754.1,-277.89 754.1,-260.89 828.1,-260.89 828.1,-277.89"/>
 <text text-anchor="middle" x="791.1" y="-267.49" font-family="Times,serif" font-size="8.00">Doktor Fries Torg</text>
 </a>
@@ -2723,7 +2723,7 @@
 <!-- Saltholmen -->
 <g id="node123" class="node">
 <title>Saltholmen</title>
-<g id="a_node123"><a xlink:href="https://www.google.com/search?q=Gothenburg+Saltholmen" xlink:title="Saltholmen">
+<g id="a_node123"><a xlink:href="https://www.vasttrafik.se/sok/?q=Saltholmen" xlink:title="Saltholmen">
 <polygon fill="white" stroke="black" points="53.39,-113.27 0.39,-113.27 0.39,-96.27 53.39,-96.27 53.39,-113.27"/>
 <text text-anchor="middle" x="26.89" y="-102.87" font-family="Times,serif" font-size="8.00">Saltholmen</text>
 </a>
@@ -2732,7 +2732,7 @@
 <!-- Roddföreningen -->
 <g id="node124" class="node">
 <title>Roddföreningen</title>
-<g id="a_node124"><a xlink:href="https://www.google.com/search?q=Gothenburg+Roddf%C3%B6reningen" xlink:title="Roddföreningen">
+<g id="a_node124"><a xlink:href="https://www.vasttrafik.se/sok/?q=Roddf%C3%B6reningen" xlink:title="Roddföreningen">
 <polygon fill="white" stroke="black" points="92.21,-138.28 24.21,-138.28 24.21,-121.28 92.21,-121.28 92.21,-138.28"/>
 <text text-anchor="middle" x="58.21" y="-127.88" font-family="Times,serif" font-size="8.00">Roddföreningen</text>
 </a>
@@ -2751,7 +2751,7 @@
 <!-- Långedrag -->
 <g id="node125" class="node">
 <title>Långedrag</title>
-<g id="a_node125"><a xlink:href="https://www.google.com/search?q=Gothenburg+L%C3%A5ngedrag" xlink:title="Långedrag">
+<g id="a_node125"><a xlink:href="https://www.vasttrafik.se/sok/?q=L%C3%A5ngedrag" xlink:title="Långedrag">
 <polygon fill="white" stroke="black" points="68.48,-170.99 17.48,-170.99 17.48,-153.99 68.48,-153.99 68.48,-170.99"/>
 <text text-anchor="middle" x="42.98" y="-160.59" font-family="Times,serif" font-size="8.00">Långedrag</text>
 </a>
@@ -2770,7 +2770,7 @@
 <!-- Hinsholmen -->
 <g id="node126" class="node">
 <title>Hinsholmen</title>
-<g id="a_node126"><a xlink:href="https://www.google.com/search?q=Gothenburg+Hinsholmen" xlink:title="Hinsholmen">
+<g id="a_node126"><a xlink:href="https://www.vasttrafik.se/sok/?q=Hinsholmen" xlink:title="Hinsholmen">
 <polygon fill="white" stroke="black" points="132.55,-163.29 76.55,-163.29 76.55,-146.29 132.55,-146.29 132.55,-163.29"/>
 <text text-anchor="middle" x="104.55" y="-152.89" font-family="Times,serif" font-size="8.00">Hinsholmen</text>
 </a>
@@ -2789,7 +2789,7 @@
 <!-- Käringberget -->
 <g id="node127" class="node">
 <title>Käringberget</title>
-<g id="a_node127"><a xlink:href="https://www.google.com/search?q=Gothenburg+K%C3%A4ringberget" xlink:title="Käringberget">
+<g id="a_node127"><a xlink:href="https://www.vasttrafik.se/sok/?q=K%C3%A4ringberget" xlink:title="Käringberget">
 <polygon fill="white" stroke="black" points="199.58,-171.1 140.58,-171.1 140.58,-154.1 199.58,-154.1 199.58,-171.1"/>
 <text text-anchor="middle" x="170.08" y="-160.7" font-family="Times,serif" font-size="8.00">Käringberget</text>
 </a>
@@ -2808,7 +2808,7 @@
 <!-- Tranered -->
 <g id="node128" class="node">
 <title>Tranered</title>
-<g id="a_node128"><a xlink:href="https://www.google.com/search?q=Gothenburg+Tranered" xlink:title="Tranered">
+<g id="a_node128"><a xlink:href="https://www.vasttrafik.se/sok/?q=Tranered" xlink:title="Tranered">
 <polygon fill="white" stroke="black" points="234.42,-196.11 189.42,-196.11 189.42,-179.11 234.42,-179.11 234.42,-196.11"/>
 <text text-anchor="middle" x="211.92" y="-185.71" font-family="Times,serif" font-size="8.00">Tranered</text>
 </a>
@@ -2827,7 +2827,7 @@
 <!-- Hagen -->
 <g id="node129" class="node">
 <title>Hagen</title>
-<g id="a_node129"><a xlink:href="https://www.google.com/search?q=Gothenburg+Hagen" xlink:title="Hagen">
+<g id="a_node129"><a xlink:href="https://www.vasttrafik.se/sok/?q=Hagen" xlink:title="Hagen">
 <polygon fill="white" stroke="black" points="256.56,-221.13 219.56,-221.13 219.56,-204.13 256.56,-204.13 256.56,-221.13"/>
 <text text-anchor="middle" x="238.06" y="-210.73" font-family="Times,serif" font-size="8.00">Hagen</text>
 </a>
@@ -2846,7 +2846,7 @@
 <!-- Nya Varvsallén -->
 <g id="node130" class="node">
 <title>Nya Varvsallén</title>
-<g id="a_node130"><a xlink:href="https://www.google.com/search?q=Gothenburg+Nya+Varvsall%C3%A9n" xlink:title="Nya Varvsallén">
+<g id="a_node130"><a xlink:href="https://www.vasttrafik.se/sok/?q=Nya+Varvsall%C3%A9n" xlink:title="Nya Varvsallén">
 <polygon fill="white" stroke="black" points="312.27,-246.13 247.27,-246.13 247.27,-229.13 312.27,-229.13 312.27,-246.13"/>
 <text text-anchor="middle" x="279.77" y="-235.73" font-family="Times,serif" font-size="8.00">Nya Varvsallén</text>
 </a>
@@ -2875,7 +2875,7 @@
 <!-- Majvallen -->
 <g id="node132" class="node">
 <title>Majvallen</title>
-<g id="a_node132"><a xlink:href="https://www.google.com/search?q=Gothenburg+Majvallen" xlink:title="Majvallen">
+<g id="a_node132"><a xlink:href="https://www.vasttrafik.se/sok/?q=Majvallen" xlink:title="Majvallen">
 <polygon fill="white" stroke="black" points="558.86,-358.6 509.86,-358.6 509.86,-341.6 558.86,-341.6 558.86,-358.6"/>
 <text text-anchor="middle" x="534.36" y="-348.2" font-family="Times,serif" font-size="8.00">Majvallen</text>
 </a>
@@ -2889,7 +2889,7 @@
 <!-- Fjällgatan -->
 <g id="node133" class="node">
 <title>Fjällgatan</title>
-<g id="a_node133"><a xlink:href="https://www.google.com/search?q=Gothenburg+Fj%C3%A4llgatan" xlink:title="Fjällgatan">
+<g id="a_node133"><a xlink:href="https://www.vasttrafik.se/sok/?q=Fj%C3%A4llgatan" xlink:title="Fjällgatan">
 <polygon fill="white" stroke="black" points="499.81,-387.27 451.81,-387.27 451.81,-370.27 499.81,-370.27 499.81,-387.27"/>
 <text text-anchor="middle" x="475.81" y="-376.87" font-family="Times,serif" font-size="8.00">Fjällgatan</text>
 </a>

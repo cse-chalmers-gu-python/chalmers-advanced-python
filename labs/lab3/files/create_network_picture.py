@@ -1,8 +1,10 @@
-# baseline tram visualization for Lab 3
-# creates by default an SVG image usable on the home page
-# this image can then be coloured by using tramviz.py, which operates directly on the SVG file
-# You only need to run this file once, to change the URLs of vertices
-# rename the resulting file to gbg_tramnet.svg when you have your final version
+"""
+Baseline tram visualization for Lab 3
+
+Creates an SVG image usable on the home page.
+This image is then coloured by tramviz.py depending on the route.
+You only need to run this file once, to change the URLs of the vertices.
+"""
 
 from trams import readTramNetwork
 import graphviz
@@ -10,7 +12,7 @@ import json
 
 MY_GBG_SVG = 'my_gbg_tramnet.svg'  # the output SVG file
 MY_TRAMNETWORK_JSON = '../../lab1/tramnetwork.json'  # JSON file from lab1
-TRAM_URL_FILE = 'tramstop_google_url.json'  # given in lab3/files, replace with your own stop id file
+TRAM_URL_FILE = 'tramstop_url.json'  # given in lab3/files, replace with your own stop URL file
 
 # assign colors to lines, indexed by line number; not quite accurate
 gbg_linecolors = {
@@ -77,13 +79,13 @@ if __name__ == '__main__':
 
 """
 # this is how the url json file was created
-    import urllib.parse
-    dict = {}
-    google_url = 'https://www.google.com/search'
-    for stop in network.all_stops():
-        attrs = urllib.parse.urlencode({'q': 'Gothenburg ' + stop})
-        dict[stop] = google_url + '?' + attrs
-    with open(TRAM_URL_FILE, 'w') as file:
-        json.dump(dict, file, indent=2, ensure_ascii=False)
+import urllib.parse
+dict = {}
+url = 'https://www.vasttrafik.se/sok/'
+for stop in network.all_stops():
+    attrs = urllib.parse.urlencode({'q': stop})
+    dict[stop] = url + '?' + attrs
+with open(TRAM_URL_FILE, 'w') as file:
+    json.dump(dict, file, indent=2, ensure_ascii=False)
 """
 
