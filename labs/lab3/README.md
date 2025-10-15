@@ -69,6 +69,7 @@ The files are obtained as follows:
 
 ```plain
 lab3
+├── .gitignore 🟠
 ├── db.sqlite3
 ├── manage.py
 ├── mysite
@@ -81,7 +82,7 @@ lab3
 │   └── ...
 ├── static
 │   ├── tramnetwork.json ⚪️
-│   └── tram-url.json 🔵/⚪️
+│   └── tram-url.json 🔵,⚪️
 └── tram
     ├── __init__.py
     ├── admin.py
@@ -95,8 +96,9 @@ lab3
     │      ├── find_route.html 🔵
     │      ├── home.html 🔵
     │      ├── images
-    │      │   ├── gbg_tramnet.svg 🔵/⚪️
-    │      │   └── shortest_path.svg ⚪️
+    │      │   ├── gbg_tramnet.svg 🔵,⚪️
+    │      │   └── generated
+    │      │       └── ... ⚪️
     │      └── show_route.html 🔵
     ├── tests.py
     ├── urls.py 🟠
@@ -352,6 +354,21 @@ Note that images in this folder can be used in templates (e.g. `home.html`) but 
 
 Now [run the web server](#run-web-server) again. You will see a home screen with the gorgeous SVG image of Gothenburg tram network.
 
+#### Dynamic images
+
+Our application will dynamically generate a new image for each route that is requested.
+Create a subdirectory for these dynamically generated images:
+
+```sh
+$ mkdir tram/templates/tram/images/generated
+```
+
+To avoid adding any of these generated images to the repository, tell Git to ignore this folder by creating a `.gitignore` file in the top-level folder and add this line to it:
+
+```plain
+tram/templates/tram/images/generated/
+```
+
 #### Customise image (optional)
 
 If you want, you can replace this standard image with your own one. The script [`create_network_picture.py`](./files/create_network_picture.py) does this for you by calling your own `tram.py` on your own `tramnet.json` file.
@@ -406,8 +423,9 @@ The main function in the file `tram/utils/tramviz.py`, imported in `tram/views.p
 Its task is to:
 
 - find the shortest paths (time and distance)
-- use them to colour the stops in the network picture
-- return them as strings to be shown in the view
+- use them to colour the stops in the network picture, dynamically generating a new image
+- return the shortest paths as strings to be shown in the view
+- return the file path to the dynamically generated image
 
 ### Add colours
 

@@ -1,22 +1,15 @@
-# path visualization with direct colouring of SVG file: DON'T CHANGE
-
-import os
-from django.conf import settings
-
-GBG_TRAMNET_SVG = os.path.join(settings.BASE_DIR,
-                        'tram/templates/tram/images/gbg_tramnet.svg')
-
-SHORTEST_PATH_SVG = os.path.join(settings.BASE_DIR,
-                        'tram/templates/tram/images/shortest_path.svg')
-
-# to color SVG directly; specialized to SVG produced from graphviz
+"""
+Path visualization with direct colouring of SVG file.
+Colours SVG directly, specialized to SVG produced by graphviz.
+"""
 
 import xml.etree.ElementTree as et
 
 def color_svg_network(
-        infile=GBG_TRAMNET_SVG,
-        outfile=SHORTEST_PATH_SVG,
-        colormap=lambda v: 'white'):
+        infile,
+        outfile,
+        colormap=lambda v: 'white'
+    ):
     tree = et.parse(infile)
     root = tree.getroot()
     ns = '{http://www.w3.org/2000/svg}'
@@ -35,7 +28,7 @@ def color_svg_network(
         for k, v in elem.items():
             if k[:lxns] == xns:
                 elem.set(k[lxns:], v)
-#                del elem[k]
+                # del elem[k]
 
     tree.write(outfile)
 

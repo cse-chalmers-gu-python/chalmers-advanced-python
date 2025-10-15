@@ -6,15 +6,14 @@
 </head>
 
 <body>
-
-<a href="/">Home</a> |
-<a href="/route">Search</a> 
+<a href="/">Home</a> | <a href="/route">Search</a>
 
 <h1>Find Route</h1>
 
-<form method="POST" class="post-form">{% csrf_token %}
-        {{ form.as_p }}
-        <button type="submit">Search</button>
+<form method="POST" class="post-form">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Search</button>
 </form>
 
 </body>
