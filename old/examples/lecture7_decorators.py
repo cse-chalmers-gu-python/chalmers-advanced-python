@@ -11,7 +11,7 @@ def do_twice(f):
 def hello():
     print("hello")
 
-hello()
+# hello()
 
 
 def also_print(f):
@@ -25,7 +25,7 @@ def also_print(f):
 def average(xs):
     return sum(xs)/len(xs)
 
-average(range(10))
+# average(range(10))
 
 import random
 
@@ -40,5 +40,5 @@ def call_with_random(n, k):
 def prsq(n):
     print(n**2)
 
-prsq
+prsq()
 
