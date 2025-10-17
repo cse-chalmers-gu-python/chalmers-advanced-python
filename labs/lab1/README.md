@@ -242,7 +242,7 @@ Also the regular expression library `re` could be used, but is probably more com
 
 For the purpose of testing, and more generally to cleanly separate input and output from processing, the `dialogue()` function should be divided into two separate functions:
 
-- `answer_query(tramdict, query)`, which takes the query string and returns the answer as a value (list or integer or float, or `False` if the query cannot be interpreted);
+- `answer_query(tramdict, query)`, which takes the query string and returns the answer as a value (list or integer or float). You should decide how to handle queries that cannot be interpreted.
 
 - `dialogue(tramfile)` itself, which reads the file into a dictionary, loops by asking for input, and for each input prints the value returned by `answer_query(tramdict, query)`, except for input `quit` (terminating the loop) and for uninterpreted input (asking the user to try again).
 
