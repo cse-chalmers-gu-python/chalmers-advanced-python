@@ -1,4 +1,4 @@
-# Lab 3: A web application for the tram network
+# Lab 3: A web application for tram networks
 
 Advanced Python Course  
 Chalmers DAT690 / DIT516 / DAT516  
@@ -27,7 +27,7 @@ In some more detail, here is what the three different screens should look like:
 - [search result](https://htmlpreview.github.io/?https://github.com/aarneranta/chalmers-advanced-python/blob/main/labs/lab3/examples/show_route.html)
 
 Unlike the official app, ours will not have access to the actual timetables, but just to the distances and times as defined in Labs 1 and 2.
-This is of course a severe simplification — but, on the other hand,
+This is of course a severe simplification, but on the other hand,
 our app will be usable for any transport system that can be
 represented by the class `TramNetwork`.
 Clicking on the created map will give access to actual traffic information from Västtrafik.
@@ -519,13 +519,18 @@ After doing this, make another search in your web application and click at some 
 
 ## Submission
 
-TODO
-<!--
-Via [GitHub Classroom](https://classroom.github.com/a/hnF26g57) as usual.
--->
+Submit all the files that are needed to run your application by committing them to your repository,
+but take care to **avoid committing automatically generated files**, in particular:
 
-You should use `.gitignore` in order to avoid committing the virtual environment directory (`myvenv`) to the repository.
+1. the dynamic images in `tram/templates/tram/images/generated/`
+2. your local Python virtual environment `myvenv/`
+3. cache folders such as `__pycache__/` which can be automatically created by your IDE
 
-Before inspecting your code, we will organize peer reviewing sessions, where each group tests and reviews some other group's lab.
+You should use a `.gitignore` file to avoid committing such paths to the repository.
+The `.gitignore` file itself _should_ be committed to the repository.
+
+### Peer review
+
+Before inspecting your code, we will organize peer reviewing sessions, where each group tests and reviews another group's work.
 The review report that you write will be added as a part of your submission.
 [More details about peer reviewing](./peer-review.md).

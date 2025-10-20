@@ -209,8 +209,6 @@ visualize(graph, view='view', name='mygraph', nodecolors=None)
 
 For this we will use the [`graphviz` library](https://graphviz.readthedocs.io/en/stable/api.html).
 The description in the lecture notes is simple but sufficient for this function, except for how to use `nodecolors`, which you should look up in the library documentation.
-<!-- Many examples can be found in the lecture notes, sections 5.1 and 5.2, with a description of an algorithm in section 5.7.-->
-<!--The slides for lecture 10 also give an example.-->
 
 The `view` parameter can be used with the following values:
 
@@ -241,7 +239,6 @@ if __name__ == '__main__':
 
 You will need to implement some test for your graphs module in the file `test_graphs.py`.
 We recommend the use of the [`hypothesis` library](https://hypothesis.readthedocs.io/en/latest/), but this is a recommendation rather than a requirement.
-<!--  in the way specified in the lecture notes, Section 5.9 -->
 
 Here are some things to test:
 
@@ -320,7 +317,6 @@ You can try to generate data for them from the stop and line lists by using `hyp
 
 Another thing to test is the connectedness of the tram network.
 This could be done simply by just depth-first or breadth-first search.
-<!-- as explained in lecture notes Section 5.5. -->
 
 The following demo is also a good test for yourself: if you see that it works flawlessly, you can be fairly sure that all parts of your code work as they should.
 
@@ -343,10 +339,6 @@ It then displays the whole tram network, with the shortest path (as the number o
 
 ## Submission
 
-TODO
-<!--
-Submit the following files via the [Lab 2 GitHub Classroom](https://classroom.github.com/a/nzzzyYrY) repository:
--->
 You should submit the following files:
 
 - `graphs.py`

@@ -1,85 +1,85 @@
-TODO update
+# Peer-review guidelines for Lab 3
 
-# Peer-Review Guidelines
+## Overview
 
-## General description
-
-For Lab 3, each group of students (hereinafter the submitting group) is expected to submit their solution to another group (hereinafter the reviewing group), which will have to assess whether the submission passes or fails.
-Each submitting group will submit to a reviewing group **selected by the teaching team** in order to reduce conflicts of interest.
-The selections are published directly after the 17 December deadline, when we know which groups have submitted their Lab 3.
-The review process is not blind.
-
-The groups are paired and will review each other, as such, *submitting* or *reviewing* should be seen as a role that each group will have to endorse.
+For Lab 3, each group of students (hereinafter the _submitting group_) is expected to submit their solution to another group (hereinafter the _reviewing group_), which will have to assess whether the submission passes or fails.
+The reviewing groups will be **selected by the teaching team** in order to reduce conflicts of interest.
+The selections will be published directly after the first deadline for Lab 3.
+The review process is not blind, i.e. the identities of the submitting and reviewing groups are known to each other.
 
 ## Assessment
 
-Each reviewing group have to assess whether the submitted solution is acceptable or not according to the following criteria:
+Each reviewing group have to assess whether the submitted solution is acceptable or not as follows:
 
-- the web application runs
-- it displays the complete map of tram lines
-- it is possible to query the shortest path between any two points
-- the web application account for changes
-- it is possible to access actual traffic information by clicking on any stop
-
-These five points will be assessed during a live presentation (physical or online) conducted by the submitting group on their own machines (we do not expect you to run someone else's code).
+1. The submitting group should demonstrate their application running on their own machines during a live presentation (physical or online) to the reviewing group.
+  (the reviewing group is not expected to run the code of the submitting group).
+  From this presentation, the reviewing group can evaluate the **core functionality** of the application (see [Section 1](#section-1-core-functionality) below).
+2. The reviewing group must also be given access to the submitting group's repository in order to see their code. From this they can evaluate the **code quality** of the project (see [Section 2](#section-2-code-quality) below)
 
 ## Report
 
-The reviewing group must write a short report motivating their decision according the criteria mentioned above.
-The report must been submitted as an issue opened on the other group's repository.
-In order to open such an issue, you must first invite the other team as collaborators, as explained [here](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository).
+The reviewing group must write a short report giving their assessment and motivating their decision according to the given criteria.
 
-You must mention in this issue the name of which must include the LabGroup number of the reviewing group (number1) and of the group that is reviewed (number2) as `group_<number1>_reviewing_group_<number2>`.
+The report must been submitted as an **issue** opened on the submitting group's repository.
+The name of the issue must clearly state the group number of the reviewing group.
 
-This is the template for the report/issue:
+The template for the report/issue is found below.
+Note that all Sections are **mandatory** in the report.
 
-### Section 1: Core assignment
+---
 
-- Q1: Does the application run? (yes/no)
-- Q2: Does the application display the complete map of tram lines? (yes/no)
-- Q3: Is it possible to query shortest path between any two points? (yes/no)
-- Q4: Does the application deal with changes correctly? (yes/no)
-- Q5: Does the application show current traffic information?  (yes/no)
+### Section 1: Core functionality
+
+1. Does the application run? (yes/no)
+2. Does the application display the complete map of tram lines? (yes/no)
+3. Is it possible to query shortest path between any two points? (yes/no)
+4. Does the application deal with changes correctly? (yes/no)
+5. Does the application show current traffic information? (yes/no)
 
 ### Section 2: Code quality
 
-It must at least include whether:
+Make comments on the overall code quality of the submission, including whether:
 
-- code from lab 2 has been properly reused (i.e., in an efficient way without [boilerplate code](https://en.wikipedia.org/wiki/Boilerplate_code))
-- dijkstra has been implemented and used as intended: there is just
+1. code from lab 2 has been properly reused (i.e. in an efficient way without [boilerplate code](https://en.wikipedia.org/wiki/Boilerplate_code))
+2. the `dijkstra()` function has been implemented and used as intended: there is just
   one definition of the function itself, and different distances are
   obtained by just changing the cost function
 
+You may add any other comments about code quality you wish,
+for example suggestions for code optimization and good practices of Object Oriented Programming.
+
+<!--
+JOHN: They have to run the code in order to produce screenshots!
 ### Section 3: Screenshots
 
 Insert two screenshots:
 
 - screenshot 1 must present the web application displaying a shortest path between two stops (similar to the one presented in the assignement [here](https://htmlpreview.github.io/?https://github.com/aarneranta/chalmers-advanced-python/blob/main/labs/lab3/examples/show_route.html) but with **different tram stops** than in the example)
 - screenshot 2 must present the code of the function `show_shortest()` (the main function required in the core part of the assignment, see [here](https://github.com/aarneranta/chalmers-advanced-python/blob/main/labs/lab3/lab3.md#your-todo-continue-from-here)).
+-->
 
-Note that all Sections are **mandatory** in the report.
-Section 2 is more open than the other sections, you can write general comments on the optimization of the code and good practices of Object Oriented Programming.
+---
 
 ## Deadlines
 
 ### Code
 
-The deadline for the submission of your code is **Dec 17** firm, but you can submit beforehand.
+The deadline for the submission of your code is the end of study week 6, but you can submit beforehand.
 
 ### Report, demonstration, and self-registration
 
-Demonstrations for reviewers are carried out on 18, 19 or 20 December. You can use any of the lab times and rooms scheduled in TimeEdit, as well as GD-salen on the lecture time 18 December. You can also agree on peer reviewing on Zoom or other video meeting platform.
+Demonstrations for reviewers are carried out in study week 7.
+You can use any of the regular lab times and rooms scheduled for this course.
+You can also agree to do your peer review remotely.
 
 After the reviews, the reports are to be submitted on GitHub classroom, in the same repository as the lab3 solution itself. **You must submit both reports: the one you wrote about the other group, and the one they wrote about you**. This is of course redundant, but it will make the TAs' work much easier, because they only have to look at one repository to see both reports.
 
-## Other considerations - resubmission
+### Resubmission
 
-A TA is ultimately responsible for the validation of the submission, and also has the responsibility to support the reviewing group in their endeavor (typically for edge cases).
-Note that a solution will have to be resubmitted if it doesn't pass the peer-review process (as prescribed in Section 1 of the report), a submitting group can apply for resubmission **once**.
-The same reviewing group is assigned for the resubmission, as for the TA.
+A TA is ultimately responsible for the evalidation of the submission, and also has the responsibility to support the reviewing group in their endeavor (typically for edge cases).
+Note that a solution will have to be resubmitted if it doesn't pass the peer-review process. A submitting group can apply for resubmission **once**.
+The same reviewing group and TA are assigned for the resubmission.
 A group reviewing a resubmission can simply add an addendum to their initial report.
 The resubmission report must be written **within 1 day (24 hours)** after resubmission (as the structure should already be familiar to the reviewers).
 
-We invite you to self-manage your resubmission on your private time, which includes a new demonstration.
-
-**The deadline for resubmitting the report/issue of lab 3 is Jan 9.**
+We invite you to self-manage your resubmission on your private time, including a new demonstration.
