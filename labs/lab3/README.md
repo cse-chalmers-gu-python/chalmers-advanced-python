@@ -134,6 +134,7 @@ Now we will prepare our environment, install the Django library, and initialize 
     ```
 
     This will create the directory `myvenv` with lots of things in it, but you don't need to concern yourselves with its contents.
+
 4. Activate the virtual environment:
     - on Linux/Mac:
 
@@ -156,6 +157,7 @@ Now we will prepare our environment, install the Django library, and initialize 
       Which of these two commands will work depends on what shell you are using. If unsure, try both.
   
     You should now see the string `(myvenv)` prefixed to your command line prompt.
+
 5. Install the necessary Python libraries into the virtual environment:
 
     ```sh
