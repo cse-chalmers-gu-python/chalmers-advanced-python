@@ -38,7 +38,7 @@ Using AI to write complete code for you is completely prohibited. This is equiva
 
 ## Self-disclosure
 
-At the end of the course, you must submit an [AI self-disclosure](/courses/36887/assignments/116389) in which you explain the extent to which you did (or did not use) AI tools during this course. This is to be completely individually.
+At the end of the course, you must submit an [AI self-disclosure](https://chalmers.instructure.com/courses/36887/assignments/116389) in which you explain the extent to which you did (or did not use) AI tools during this course. This is to be completely individually.
 
 ## References
 
