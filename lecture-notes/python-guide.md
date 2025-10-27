@@ -759,38 +759,45 @@ But `+` requires explicit conversions and spaces:
 
 * The **index** notation `[]` returns characters in given positions, starting from 0.
 A negative index counts backwards from the last character, -1.
-```
+
+    ```python
     >>> 'hello'[0]
     'h'
-    
+
     >>> 'hello'[4]
     'o'
-    
+
     >>> 'hello'[-1]
     'o'
-```
+    ```
+
 Notice that there is no special type of characters: a character is simply a one-character string.
 
 * The **slice** notation generalizes from the index notation to substrings.
 
+    ```python
     >>> 'hello'[1:4]
     'ell'
+    ```
 
-Notice that the first index is included, the second one is not: slices is like a semi-open intervals in mathematics, in this case `[1,4[`.
+  Notice that the first index is included, the second one is not: slices is like a semi-open intervals in mathematics, in this case `[1,4[`.
 
 * The start and end indices in slices are optional:
-```
+
+    ```python
     >>> 'hello'[:2]
     'he'
-    
+
     >>> 'hello'[2:]
     'llo'
-```
+    ```
+
 * Adding a third argument indicates a **step**
-```
+
+    ```python
     >>> '0123456789'[0:9:2]
     '02468'
-```
+    ```
 
 **Quiz**: you can create the reverse of a string by using negative indices and steps.
 How?
@@ -813,6 +820,7 @@ Points of interest:
       [3, 4, 5]
 
 * One can assign values to indices, as lists are **mutable**
+
       >>> digits[4] = 'four'
       >>> digits
       [0, 1, 2, 3, 'four', 5, 6, 7, 8, 9]
@@ -820,6 +828,7 @@ Points of interest:
 Notice here also that a list can contain elements of different types.
 
 * You can also assign lists to slices - even lists of a different size:
+
       >>> digits[3:5] = ['III','IV']
       >>> digits
       [0, 1, 2, 'III', 'IV', 5, 6, 7, 8, 9]
@@ -1147,12 +1156,14 @@ There are a couple of special things about booleans:
 * Many types can be cast into booleans: `0`, `''`, `[]`, `{}` all count as `False` when used in conditions.
 
 * Boolean `or` can return values in these other types:
-```
-      >>> {} or 0 or 'this'
-      'this'
-      >>> {} or 0
-      0
-```
+
+    ```python
+    >>> {} or 0 or 'this'
+    'this'
+    >>> {} or 0
+    0
+    ```
+
 Finally, let us tell you a secret that is not covered by the tutorial: Python has a **conditional expressions**, which have a slightly surprising syntax:
 
       >>> x = 10
@@ -1300,17 +1311,22 @@ This string can be produced in many ways:
       'the population of ' + country + ' is ' + str(population)
 
 * with an **f-string** (string prefixed with `f`):
-```
-     f'the population of {country} is {population}'
-```
+
+    ```python
+    f'the population of {country} is {population}'
+    ```
+
 * with the `format()` method:
-```
-     'the population of {} is {}'.format(country, population)
-```
+
+    ```python
+    'the population of {} is {}'.format(country, population)
+    ```
+
 * with the `%` operator ("printf-style", inspired by the C language):
-```
+
+    ```python
     'the population of %(c)s is %(p)d' % {'c': country, 'p': population}
-```
+    ```
 
 The printf-style `%` operator is considered deprecated, but it is common in older Python code, so one has to be able to read it.
 It has a wide range of options about argument types and rounding.
@@ -1490,9 +1506,11 @@ These statements define their own namespace, outside which the names must be qua
 These names are called **attributes**.
 
 New **instances** of the class are created by using the class name as a function:
+
+```python
+<classname>()
 ```
-  <classname>()
-```
+
 The instances can introduce their own attributes: there is no requirement that all instances of a class have the same attributes.
 This makes classes *extremely flexible* in Python.
 
@@ -1735,11 +1753,12 @@ Having countrynames as dictionary keys makes it fast to look up information abou
       >>> cdict['Sweden']['population']
       10379295
 
-
 One can also make other **database queries** in a natural way, by using comprehensions:
+
+```python
+[c for c in cdict if cdict[c]['currency'] == 'euro']
 ```
-  [c for c in cdict if cdict[c]['currency'] == 'euro']
-```
+
 returns the list of Euro countries.
 Finally, one can perform **aggregations** such as maximum, minimum, and average:
 
