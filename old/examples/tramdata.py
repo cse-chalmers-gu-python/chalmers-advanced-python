@@ -1,1 +1,0 @@
-../../advanced-python/labs/lab1/tramdata.py
