@@ -1609,7 +1609,7 @@ The most thorough and widely usable documents are
 * the Python Standard Library, https://docs.python.org/3/library/index.html#library-index
 
 
-# 4. Storing and retrieving information 
+## 4. Storing and retrieving information 
 
 This chapter (with its pointers and your own practice) makes you ready to start with Lab 1.
 
@@ -1867,7 +1867,7 @@ https://docs.python.org/3/library/os.html
 Trees are also a special case of **graphs**, which will have a central role in Labs 2 and 3.
 
 
-# 5. Graphs and graph algorithms 
+## 5. Graphs and graph algorithms 
 
 This chapter corresponds to Lecture 4.
 We will cover most of the material that will be needed for the first
@@ -2208,7 +2208,7 @@ https://snap.stanford.edu/data/ego-Facebook.html
 
 
 
-# 6. Object-oriented design 
+## 6. Object-oriented design 
 
 This chapter corresponds to lectures 5 (second part) and 6.
 
@@ -2865,7 +2865,7 @@ Changing the assertion and testing again should not show any counterexamples:
 The `hypothesis` library provides many more ways to define, combine, and restrict strategies, but you can get started with these simple ones to generate random graphs.
 
 
-# 8. Visualization 
+## 8. Visualization 
 
 **Visualization** means representing information as a visible picture.
 A classic example is geographical maps, which show information about places on the Earth (or elsewhere in the universe).
@@ -2994,7 +2994,7 @@ https://docs.python.org/3/library/tkinter.html
 We will not cover this kind of GUIs now.
 But we will in the next chapter, and in Lab 3, look at simple GUIs in web pages.
 
-# 9. Web programming 
+## 9. Web programming 
 
 This chapter corresponds to Lectures 8 and 9.
 
@@ -3239,7 +3239,7 @@ which we will follow during Lecture 9.
 
 We will also work out the beginnings of Lab 3, if time permits - or postpone this to Lecture 10.
 
-## 10 The rest of Python
+## 10. The rest of Python
 
 Constructs that we have not yet seen but that will be needed to understand arbitrary Python code.
 
