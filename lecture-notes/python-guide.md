@@ -171,7 +171,7 @@ In addition, the Lab has some Computer Science aspects:
 The title page of this document shows a screen dump of the final web application.
 
 The standard Lab was in earlier course instances extended with a couple of related tasks, which use graphs for other things than route finding.
-They can be found in the "old-labs" directory of the same GitHub repository, in case you want to try your hand with them:
+They can be found in the "old-labs" directory of the course repository, in case you want to try your hand with them:
 
 * map colouring: making sure that neighbouring countries have different colours,
 * machine learning: finding clusters (tightly connected parts) in a network.
