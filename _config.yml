@@ -1,6 +1,4 @@
 # GitHub Pages config
-include:
-  - lecture-notes
-  - labs
-  - README.md
-  - ai-policy.md
+exclude:
+  - old
+  - old-exams
