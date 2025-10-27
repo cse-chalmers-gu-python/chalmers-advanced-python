@@ -152,10 +152,8 @@ But if you take your hobby seriously, it will give you more satisfaction if you 
 
 Much of the course is centred around the **Lab**, a programming assignment whose goal is to build a "full-stack" web application.
 In the final demonstration of the application, the user can search for a route in the Gothenburg tram network and get it drawn on a map - in the way familiar from the numerous travel planning applications on the web. 
-The Lab is described in detail in
-
-https://github.com/aarneranta/chalmers-advanced-python/tree/main/labs
-
+The Lab is described in detail in three parts
+([Lab 1](../labs/lab1/), [Lab 2](../labs/lab2/), and [Lab 3](../labs/lab3/))
 so let us here just explain the purpose of the lab in the context of the course.
 
 The Lab is primarily an exercise in practical Software Engineering and serves the following learning outcomes:
@@ -2345,81 +2343,74 @@ For many Python programmers, defining dunder methods is seldom a relevant task.
 The only exception is `__init__()`, which defines how new instances of a class are built.
 But dunder methods definitely belong to the toolbox of advanced programmers, and knowing about them gives a deeper understanding of how Python works.
 
-Again with the official reference, Section 3.3, as our main source, Figure~\ref{dunder} lists some examples of dunder methods and what their effects could be for graphs.
-\begin{figure}
-\begin{center}
-\scriptsize
-\begin{verbatim}
-  __init__(), initialization:
-    >>> G = Graph([(1, 2), (1, 3), (2, 4)])
+Again with the official reference, Section 3.3, as our main source, the code below lists some examples of dunder methods and what their effects could be for graphs.
 
-  __repr__(), exact representation string:
-    >>> print(G.__repr__())
-    Graph({1: [2, 3], 2: [1, 4], 3: [1], 4: [2]})
-    
-  __str__(), nice-to-read string:
-    >>> print(G)
-    {1: [2, 3], 2: [1, 4], 3: [1], 4: [2]}
+```python
+# __init__(), initialization:
+>>> G = Graph([(1, 2), (1, 3), (2, 4)])
 
-  __eq__(H), equality:
-    >>> H = Graph([(3, 1), (4, 2), (1, 2)])
-    >>> print(G == H)
-    True
-    
-  __len__(), length:
-    >>> print(len(G))
-    4
-    
-  __getitem__(), get item by key:
-    >>> print(G[1])
-    [2, 3]
-    
-  __setitem__(), set value of key:
-    >>> G[1] = [4, 5]
-    >>> print(G)
-    {2: [4], 3: [], 4: [2, 1], 1: [4, 5], 5: [1]}
-    
-  __iter__(), iterate over elements:
-    >>> for v in G: print(G[v])
-    [4]
-    []
-    [2, 1]
-    [4, 5]
-    [1]
-    
-  __add__(H), addition:
-    >>> print(G + H)
-    {2: [4, 1], 4: [2, 1], 1: [4, 5, 3, 2], 5: [1], 3: [1]}
+# __repr__(), exact representation string:
+>>> print(G.__repr__())
+Graph({1: [2, 3], 2: [1, 4], 3: [1], 4: [2]})
 
-  __neg__(), unary negation:
-    >>> G = Graph([(1, 2), (1, 3), (2, 4)], directed=True)
-    >>> print((-G).edges())
-    [(2, 1), (3, 1), (4, 2)]
-    >>> print(-G == G)
-    False
-\end{verbatim}
-\normalsize
-\label{dunder}
-\caption{
+# __str__(), nice-to-read string:
+>>> print(G)
+{1: [2, 3], 2: [1, 4], 3: [1], 4: [2]}
+
+# __eq__(H), equality:
+>>> H = Graph([(3, 1), (4, 2), (1, 2)])
+>>> print(G == H)
+True
+
+# __len__(), length:
+>>> print(len(G))
+4
+
+# __getitem__(), get item by key:
+>>> print(G[1])
+[2, 3]
+
+# __setitem__(), set value of key:
+>>> G[1] = [4, 5]
+>>> print(G)
+{2: [4], 3: [], 4: [2, 1], 1: [4, 5], 5: [1]}
+
+# __iter__(), iterate over elements:
+>>> for v in G: print(G[v])
+[4]
+[]
+[2, 1]
+[4, 5]
+[1]
+
+# __add__(H), addition:
+>>> print(G + H)
+{2: [4, 1], 4: [2, 1], 1: [4, 5, 3, 2], 5: [1], 3: [1]}
+
+# __neg__(), unary negation:
+>>> G = Graph([(1, 2), (1, 3), (2, 4)], directed=True)
+>>> print((-G).edges())
+[(2, 1), (3, 1), (4, 2)]
+>>> print(-G == G)
+False
+```
+
 Some examples of special "dunder" methods as defined for graphs.
-}
-\end{center}
-\end{figure}
+
 The definitions of these methods is not always obvious.
 If there is no natural choice, it is usually better not to define them.
 Let us consider just one example: unary negation:
-\begin{samepage}
 
-        def __neg__(self):
-            if self.is_directed():
-                H = Graph(directed=True)
-                for (a, b) in self.edges():
-                    H.add_edge(b, a)
-                return H
-            else:
-                raise TypeError('bad operand for unary .: undirected graph')
-
-\end{samepage}
+```python
+def __neg__(self):
+    if self.is_directed():
+        H = Graph(directed=True)
+        for (a, b) in self.edges():
+            H.add_edge(b, a)
+        return H
+    else:
+        raise TypeError('bad operand for unary .: undirected graph')
+```
 
 The idea is that only directed graphs can be negated, by reversing all the edges.
 For undirected graphs, a `TypeError` is raised, similar to what you get when for instance trying to negate a string or a list.
@@ -2432,16 +2423,15 @@ Since this is not provided by standard Python, we would actually rather not defi
 
 Python's class definitions have an extremely liberal format: they can consist of any block of statements.
 However, there is a standard format that we want to encourage, which comes close to the more disciplined way of defining classes in languages like Java and C++.
-The format is shown in Figure~\ref{class}.
-\begin{figure}
-\begin{center}
-\begin{verbatim}
-  class C(B):
-      """
-      doc string explaining what the class is about
-      """
-  
-      def __init__(self, ...):
+The format is shown below:
+
+```python
+class C(B):
+    """
+    doc string explaining what the class is about
+    """
+
+    def __init__(self, ...):
         """
         doc string explaining what the arguments mean
         and what happens when an instance is created
@@ -2454,29 +2444,21 @@ The format is shown in Figure~\ref{class}.
         self._x = ...
         self._y = ...
 
-      # public getter and setter methods, possibly with doc strings
-      def get_x(self)
-      def set_x(self, v)
+    # public getter and setter methods, possibly with doc strings
+    def get_x(self)
+    def set_x(self, v)
 
-      # dunder methods, if any
-      def __eq__(self, other)
+    # dunder methods, if any
+    def __eq__(self, other)
 
-      # other public methods
-\end{verbatim}
-\label{class}
-\caption{
+    # other public methods
+    ...
+```
+
 The components of a disciplined definition of a class.
-}
-\end{center}
-\end{figure}
-A concrete example is given in Figure~\ref{graph-class}, which is a part of the file `trees.py` contained as an example in the course GitHub,
+A concrete example is given below:
 
-https://github.com/aarneranta/chalmers-advanced-python/blob/main/examples/trees.py
-
-\begin{figure}
-\begin{center}
-\scriptsize
-\begin{verbatim}
+```python
 class Graph:
     """
     A class of undirected graphs.
@@ -2514,16 +2496,11 @@ class Graph:
     def __getitem__(self, v):
         "Gives the neighbours of vertex v."
         return self._adjlist[v]
-\end{verbatim}
-\normalsize
-\label{graph-class}
-\caption{
-A minimal class for graphs, showing examples of "private" variables (\texttt{\_adjlist}),
-invariant enforcement (\texttt{add\_edge()}),
-and "dunder" methods (\texttt{\_\_init\_\_(), \_\_str\_\_(), \_\_getitem\_\_()}).
-}
-\end{center}
-\end{figure}
+```
+
+A minimal class for graphs, showing examples of "private" variables (`_adjlist`),
+invariant enforcement (`add_edge()`),
+and "dunder" methods (`__init__()`, `__str__()`, `__getitem__()`).
 
 ### 6.3. Abstraction 
 
