@@ -1827,8 +1827,8 @@ For this purpose, one can convert this list into a dictionary of dictionaries:
 
 Notice that we have now converted numerical values from strings to integers.
 Producing this format is also left as an exercise.
-The lastresulting dictionary is perhaps the most natural form for a database of countries.
-Having countrynames as dictionary keys makes it fast to look up information about each country.
+The last resulting dictionary is perhaps the most natural form for a database of countries.
+Having country names as dictionary keys makes it fast to look up information about each country.
 
 ```python
 >>> cdict['Sweden']['population']
