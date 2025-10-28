@@ -294,9 +294,9 @@ main()
 
 If your background is in C or Haskell rather than Java, this will probably be the most natural way to write the Hello World program.
 
-The Hello World examples illustrate four different levels in which programs are structured in both Java and Python, and also in many other languages:
+The Hello World examples illustrate the different levels in which programs are structured in both Java and Python, and also in many other languages:
 
-* modules (typically, files),
+* modules (typically files),
 * classes,
 * functions (or "methods"),
 * statements,
