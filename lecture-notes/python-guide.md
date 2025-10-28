@@ -406,58 +406,59 @@ We show the syntax of Python in the BNF notation (Backus-Naur form).
 While the grammar covers slightly less than the full grammar, its shortness is mainly due to its higher level of abstraction.
 In particular, it does not indicate **precedence levels**, which regulate the evaluation order and the use of parentheses.
 
-```plain
+```xml
 <stm> ::= <decorator>* class <name> (<name>,*)?: <block>
-        |   <decorator>* def <name> (<arg>,*): <block>
-        |   import <name> <asname>?
-        |   from <name> import <imports>
-        |   <exp>,* = <exp>,*
-        |   <exp> <assignop> <exp>
-        |   for <name> in <exp>: <block>
-        |   <exp>
-        |   return <exp>,*
-        |   yield <exp>,*
-        |   if <exp>: <block> <elses>?
-        |   while <exp>: <block>
-        |   pass
-        |   break
-        |   continue
-        |   try: <block> <except>* <elses> <finally>?
-        |   assert <exp> ,<exp>?
-        |   raise <name>
-        |   with <exp> as <name>: <block>
+        | <decorator>* def <name> (<arg>,*): <block>
+        | import <name> <asname>?
+        | from <name> import <imports>
+        | <exp>,* = <exp>,*
+        | <exp> <assignop> <exp>
+        | for <name> in <exp>: <block>
+        | <exp>
+        | return <exp>,*
+        | yield <exp>,*
+        | if <exp>: <block> <elses>?
+        | while <exp>: <block>
+        | pass
+        | break
+        | continue
+        | try: <block> <except>* <elses> <finally>?
+        | assert <exp> ,<exp>?
+        | raise <name>
+        | with <exp> as <name>: <block>
 <decorator> ::= @ <exp>
 <asname>    ::= as <name> 
-imports     ::= * | <name>,*
+<imports>   ::= * | <name>,*
 <elses>     ::= <elif>* else: <block>
 <elif>      ::= elif exp: <block> 
 <except>    ::= except <name>: <block>
 <finally>   ::= finally: <block>
 <block>     ::= <stm> <stm>*
 <exp> ::= <exp> <op> <exp>
-        |   <name>.?<name>(<arg>,*)
-        |   <literal>
-        |   <name>
-        |   ( <exp>,* )
-        |   [ <exp>,* ]
-        |   { <exp>,* }
-        |   <exp>[exp]
-        |   <exp>[<slice>,*]
-        |   lambda <name>*: <exp>
-        |   { <keyvalue>,* }
-        |   ( <exp> for <name> in <exp> <cond>? )
-        |   [ <exp> for <name> in <exp> <cond>? ]
-        |   { <exp> for <name> in <exp> <cond>? }
-        |   - <exp>
-        |   not <exp>
+        | <name>.?<name>(<arg>,*)
+        | <literal>
+        | <name>
+        | ( <exp>,* )
+        | [ <exp>,* ]
+        | { <exp>,* }
+        | <exp>[exp]
+        | <exp>[<slice>,*]
+        | lambda <name>*: <exp>
+        | { <keyvalue>,* }
+        | ( <exp> for <name> in <exp> <cond>? )
+        | [ <exp> for <name> in <exp> <cond>? ]
+        | { <exp> for <name> in <exp> <cond>? }
+        | - <exp>
+        | not <exp>
 <keyvalue> ::= <exp>: <exp>
-<arg>      ::= <name> 
-            |   <name> = <exp>
-        |   *<name>
-        |   **<name>
+<arg> ::= <name> 
+        | <name> = <exp>
+        | *<name>
+        | **<name>
 <cond> ::= if <exp>
-<op>   ::= + | - | * | ** | / | // | % | @
-        |   == | > | >= | < | <= | != | in | not in | and | or
+<op>  ::= + | - | * | ** | / | // | % | @
+        | == | > | >= | < | <= | !=
+        | in | not in | and | or
 <assignop> ::= += | -= | *=
 <slice> ::= <exp>? :<exp>? <step>?
 <step>  ::= :<exp>?
@@ -466,10 +467,7 @@ imports     ::= * | <name>,*
 Here are the **reserved words**, each of which also appears in the above grammar:
 
 ```plain
-and as assert break class continue def del 
-elif else except False finally for from 
-global import if in is lambda None not or 
-pass raise return True try while with yield 
+and as assert break class continue def del elif else except False finally for from global import if in is lambda None not or pass raise return True try while with yield
 ```
 
 The **literals** are infinite classes of "words", the most important of which are
