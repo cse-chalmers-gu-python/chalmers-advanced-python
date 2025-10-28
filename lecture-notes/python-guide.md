@@ -470,66 +470,66 @@ Here are the **reserved words**, each of which also appears in the above grammar
 and as assert break class continue def del elif else except False finally for from global import if in is lambda None not or pass raise return True try while with yield
 ```
 
-The **literals** are infinite classes of "words", the most important of which are
+The **literals** are infinite classes of "words", the most important of which are:
 
 * **strings**:
-'single quotes', "double quotes", """many lines between groups of three quotes""",
+enclosed in single quotes `'...'`, double quotes `"..."`, or multiple lines between groups of three quotes `"""..."""`,
 
-* **integers**: any number of digits 1234567890,
+* **integers**: any number of digits `1234567890`,
 
-* **floats**: digits with decimal point and possibly with exponent indicating powers of ten 3.14, .005, 2.9979e8, 6.626e-34`,
+* **floats**: digits with decimal point and possibly with exponent indicating powers of ten `3.14`, `.005`, `2.9979e8`, `6.626e-34`,
 
-**Comments** are lines starting with #.
+**Comments** are lines starting with `#`.
 A comment can also terminate a non-comment line, but it is recommended to use entire lines.
-Multi-line comments can be given as string literals in triple quotes """, which is also a common way to "comment out" longer pieces of code.
+Multi-line comments can be given as string literals in triple quotes `"""`, which is also a common way to "comment out" longer pieces of code.
 
 To conclude the explanation of words, the following **built-in functions** will appear throughout the course:
 
-* abs(x), absolute value of a number,
-* bool(x), conversion from various types to booleans,
-* chr(n), conversion from numeric code to character,
-* dict(c?), creation of or conversion to a dictionary,
-* dir(m), listing of contents in a module,
-* eval(s), evaluation of a string as an expression,
-* exec(s), execution of a string as a statement,
-* float(x), conversion to a float,
-* help(f), documentation of a function, class, or module,
-* input(p=''), receiving input from prompt p,
-* init(x), conversion to integer,
-* len(c), length of a collection,
-* list(x?), creation of or conversion to list,
-* max(c), maximum of a collection,
-* min(c), minimum of a collection,
-* next(g),  receive the next object from a generator,
-* open(f), open a file,
-* ord(c), numeric code of a character,
-* print(x*), print a sequence of objects,
-* range(m=0, n), range of integers from m to n-1,
-* reversed(s), reverse of a sequence,
-* round(d, p=0), round a float to p decimals,
-* set(c?), creation of or conversion to a set,
-* sorted(s), sorted sequence,
-* str(x), conversion to a string,
-* sum(c), sum of a collection,
-* super(), superclass of a class,
-* tuple(c?), create or convert to a tuple,
-* type(x), type of an object.
+* `abs(x)` absolute value of a number,
+* `bool(x)` conversion from various types to booleans,
+* `chr(n)` conversion from numeric code to character,
+* `dict(c?)` creation of or conversion to a dictionary,
+* `dir(m)` listing of contents in a module,
+* `eval(s)` evaluation of a string as an expression,
+* `exec(s)` execution of a string as a statement,
+* `float(x)` conversion to a float,
+* `help(f)` documentation of a function, class, or module,
+* `input(p='')` receiving input from prompt `p`,
+* `init(x)` conversion to integer,
+* `len(c)` length of a collection,
+* `list(x?)` creation of or conversion to list,
+* `max(c)` maximum of a collection,
+* `min(c)` minimum of a collection,
+* `next(g)` receive the next object from a generator,
+* `open(f)` open a file,
+* `ord(c)` numeric code of a character,
+* `print(x*)` print a sequence of objects,
+* `range(m=0, n)`, range of integers from `m` to `n-1`,
+* `reversed(s)` reverse of a sequence,
+* `round(d, p=0)`, round a float to `p` decimals,
+* `set(c?)` creation of or conversion to a set,
+* `sorted(s)` sorting a sequence,
+* `str(x)` conversion to a string,
+* `sum(c)` sum of a collection,
+* `super()` superclass of a class,
+* `tuple(c?)` create or convert to a tuple,
+* `type(x)` type of an object.
 
 The tutorial will cover many of these in more detail.
-A full list, with full details, can be found in:
+A full list, with full details, can be found at:
 
 <https://docs.python.org/3/library/functions.html>
 
 In addition to the built-in functions, there are several **methods for built-in classes** that are used all the time.
 Here are some:
 
-* strings: split(), join(), format(), index(),
-* lists: append(), sort(), reverse(), pop(),
-* dictionaries: get(), keys(), values(), items(),
-* sets: add(), remove().
+* strings: `split()`, `join()`, `format()`, `index()`,
+* lists: `append()`, `sort()`, `reverse()`, `pop()`,
+* dictionaries: `get()`, `keys()`, `values()`, `items()`,
+* sets: `add()`, `remove()`.
 
 The **on-line help** in the Python shell is always available for more information.
-For instance, the command
+For instance, the command:
 
 ```python
 help(str)
