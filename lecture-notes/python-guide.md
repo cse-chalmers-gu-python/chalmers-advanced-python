@@ -1,6 +1,7 @@
 # Lecture Notes for the Continuation Course in Python
 
-Aarne Ranta
+Aarne Ranta  
+John J. Camilleri
 
 ![Graph of tram network as produced by lab](app-shortest.png)
 
@@ -406,7 +407,7 @@ We show the syntax of Python in the BNF notation (Backus-Naur form).
 While the grammar covers slightly less than the full grammar, its shortness is mainly due to its higher level of abstraction.
 In particular, it does not indicate **precedence levels**, which regulate the evaluation order and the use of parentheses.
 
-```xml
+```ebnf
 <stm> ::= <decorator>* class <name> (<name>,*)?: <block>
         | <decorator>* def <name> (<arg>,*): <block>
         | import <name> <asname>?
@@ -3279,3 +3280,377 @@ Another reason is the very nice and gentle tutorial: <https://tutorial.djangogir
 Constructs that we have not yet seen but that will be needed to understand arbitrary Python code.
 
 TODO
+
+## A. Appendix: Git version control system
+
+* When we save a file on our computer, the previous version of it is overwritten and basically lost forever.
+This means we only ever have the most recent version of it.
+
+* What happens when we are a team of developers who all want to work on the same codebase? Sending files around quickly becomes tedious.
+
+Git is a tool which address both of these issues. By storing our code inside a **repository**, we get:
+
+* **Versioning**: maintaining a history of file changes which we access at any time
+* **Collaboration**: allowing multiple developers to work on the same code and combine their individual changes
+
+Basic use of Git requires understanding of the following concepts, which we will explain in the subsequent sections:
+
+* diffs
+* staging
+* committing
+* pushing/pulling, remotes
+* merging and conflicts
+
+### A.1. Setting up
+
+First a repository must be created somewhere.
+This could be done on our computer, but in the case of this course, repositories for each lab will be created for us on GitLab.
+Can can then **clone** the repository locally onto our computer via its URL with something like:
+
+```sh
+$ git clone git@git.chalmers.se:cajohn/dummy.git
+```
+
+This copies the repository (with all its history) into a local folder, by default with same name as repository, e.g. `dummy`
+
+### A.2. Making local changes
+
+Now the files in the repository are on our machine, we can view and edit them as usual using for example VS Code.
+Let's say our repository contains a single file `hello.py` with the following contents:
+
+```py
+def hello(name):
+    ... # TODO
+```
+
+We then open the file, add a reasonable implementation for our function, and save it, so that now our updated file looks like this:
+
+```py
+def hello(name):
+    print(f"Hello {name}!")
+
+hello("Dolly")
+```
+
+### A.3. Diffs
+
+When we save a file, that local file is overwritten as usual.
+At this point, our version of `hello.py` (the one in our **working tree**) has diverged from the version that is in the repository.
+We can view a comparison of what has changed (known as a **diff**) with the command `git diff` which gives the output:
+
+```diff
+diff --git a/hello.py b/hello.py
+index d289827..a348ee6 100644
+--- a/hello.py
++++ b/hello.py
+@@ -1,2 +1,4 @@
+ def hello(name):
+-    ... # TODO
++    print(f"Hello {name}!")
++
++hello("Dolly")
+```
+
+This view shows what has changed in our local version of the file, compared to the version in the repository.
+The diff tells us that one line was removed and three new ones added.
+
+To get a summary of which files have changed, use:
+
+```plain
+$ git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+    modified:   hello.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+```
+
+To save these changes in our repository (not the same thing as saving a file), we need to **commit** them.
+
+### A.4. Staging
+
+What exactly should we commit? This is something we have to tell Git explicitly, known as **staging**.
+Tell Git to stage all the changes in a specific file with:
+
+```plain
+$ git add hello.py
+```
+
+We can also stage all changes across all changed files with `git add .` but this is often too blunt and easily leads to adding things into our repo which we don't want.
+
+Now if we check the status again, we see that our changes are **staged** (but not yet committed):
+
+```plain
+git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+    modified:   hello.py
+```
+
+### A.5. Committing
+
+Now we can finally **commit** our staged changes by creating a commit as follows:
+
+```plain
+$ git commit -m "Implement hello function"
+[main eab9fc4] Implement hello function
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+```
+
+Note that all commits must include a message (that's what the `-m` flag specficies).
+We should always give our commits meaningful but short messages!
+A good tip is to always start with a verb, e.g. "add", "fix", "update", etc.
+
+Note our new commit has been given a unique identifier `eab9fc468247040f9352736d20762aa00a4eb769` called a **SHA** (from "Secure Hash Algorithm"). SHAs are always 40 characters long, but you will often see them abbreviated to the first 7-8 characters for convenience, as `eab9fc4` above.
+
+Now we have committed the code to our repository, so there is no longer any diff (`git diff` gives empty output) and our repository status has also updated accordingly:
+
+```plain
+$ git status
+On branch main
+nothing to commit, working tree clean
+```
+
+We can see a history of all commits, including the one we just created, with `git log`:
+
+```plain
+commit eab9fc468247040f9352736d20762aa00a4eb769 (HEAD -> main)
+Author: John J. Camilleri <john.j.camilleri@chalmers.se>
+Date:   Wed Oct 29 11:21:40 2025 +0100
+
+    Implement hello function
+
+commit a5a311ccd78c285f9292c8c0c037659e37d376c3
+Author: John J. Camilleri <john.j.camilleri@chalmers.se>
+Date:   Wed Oct 29 10:58:27 2025 +0100
+
+    Add hello template
+```
+
+### A.6. Pushing
+
+Note that even after committing our code, this new commit only exists locally (in the copy of the repository on our computer). That commit will not automatically appear in any other copies of the repository (**remotes**), such as on GitLab.
+
+In order to sync our local repository with a remote one, we need to **push** our commits to it.
+In the simplest case, it goes like this:
+
+```plain
+$ git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (9/9), 803 bytes | 803.00 KiB/s, done.
+Total 9 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: MAX: 1500000, CURRENT: 116
+To git.chalmers.se:cajohn/dummy.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+```
+
+### A.7. Pulling
+
+Similarly, if changes have been made to the remote version of our repository, e.g. by our partner pushing to it, those changes do not automatically appear on our machine.
+In order to sync, we will need to **pull** from that remote into our local copy.
+If there are no remote changes to be pulled, we will simply see:
+
+```plain
+$ git pull
+Already up to date.
+```
+
+If however there are some changes to be synced, we might see something like the following:
+
+```plain
+$ git pull
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 330 bytes | 165.00 KiB/s, done.
+From git.chalmers.se:cajohn/dummy
+   eab9fc4..6dce3ed  main       -> origin/main
+Updating eab9fc4..6dce3ed
+Fast-forward
+ README.md | 3 +++
+ 1 file changed, 3 insertions(+)
+ create mode 100644 README.md
+```
+
+In this case we see that a new file `README.md` has been added to our repository.
+After pulling, we can now access that file locally.
+
+### A.8. Diverging changes
+
+As you should have already noticed, the different copies of the repository (on our computer, on our partner's computer, and on GitLab) are *not* automatically kept in sync. Changes can happen in these different copies at the same time, and there is no master copy of the repository which always has the most up-to-date version of things. This is what it means to be **distributed**.
+
+It is only when syncing (pushing/pulling) with another copy of the repository (a remote) that we will become aware of potential changes that have happened elsewhere.
+Despite being fully distributed, in practice we almost always sync our repositories with the same server (in our case GitLab) and never between "peers", i.e. direcly with our partner's computer. But this is just a convention, not a limitation of Git.
+
+When syncing changes with a remote copy of the repository, there are different scenarios which might arise.
+Firstly if the remote has changes which we don't have, we must first pull those changes to our copy before we can push.
+
+1. If we *haven't* made any commits since the last pull:
+    1. If we haven't made any changes to our working copy, the incoming commits from the remote are pulled and applied immediately in a **fast-forward**.
+    2. If we have made changes to our working copy, but they don't overlap with the incoming commits, then they also be applied in a fast-forward. Our local changes to working copy will remain untouched.
+    3. If we have made changes to the working copy, and they do overalp with the incoming commits, the pull will fail. In this case we can commit our changes or temporiliy **stash** them before trying to pull again.
+2. If we *have* made commits which aren't yet pushed, our changes will need to **merged** together with the incoming ones, in order to unify the diverging versions.
+    1. Git will try to automatically merge our code, which will succeed if the changes don't overlap. It will usually ask us to specify a commit message for this new **merge commit**, but we can accept the default.
+    2. If the changes overlap and an automatic merge is not possible, we will warned that we have **conflicts** that need to be resolved manually (see the next section about this).
+
+As you can see, it can get a bit involved, and in reality things can get even more complicated than this.
+But it's most important to understand the basics at this point.
+
+### A.9. Merge conflicts
+
+Consider that our `hello.py` file currently looks like this:
+
+```python
+def hello(name):
+    print(f"Hello {name}!")
+
+hello("Dolly")
+```
+
+Let's say I change the name to `"Jerry"`:
+
+```python
+def hello(name):
+    print(f"Hello {name}!")
+
+hello("Jerry")
+```
+
+and then commit these changes:
+
+```plain
+$ git add hello.py
+$ git commit -m "Change name to Jerry"
+[main 6c24e36] Change name to Jerry
+ 1 file changed, 1 insertions(+), 1 deletion(-)
+```
+
+Now I want to push my changes to the remote:
+
+```plain
+$ git push
+To git.chalmers.se:cajohn/dummy.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'git.chalmers.se:cajohn/dummy.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+```
+
+But the push fails because there are new commits which I haven't pulled yet.
+This probably happened becuase my partner also made some changes and has already pushed them to the remote.
+So we need to pull these changes first before we can push:
+
+```plain
+$ git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 324 bytes | 108.00 KiB/s, done.
+From git.chalmers.se:cajohn/dummy
+   6dce3ed..246add2  main       -> origin/main
+Auto-merging hello.py
+CONFLICT (content): Merge conflict in hello.py
+Automatic merge failed; fix conflicts and then commit the result.
+```
+
+However this also fails. Git is unable to automatically merge our changes together because they affect the same part of the file (as described in 2.2 above). We now have a merge conflict in `hello.py` which we need to resolve manually.
+
+```plain
+$ git status
+On branch main
+Your branch and 'origin/main' have diverged,
+and have 1 and 1 different commits each, respectively.
+  (use "git pull" if you want to integrate the remote branch with yours)
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+    both modified:   hello.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+```
+
+The working copy of `hello.py` now looks like this:
+
+```python
+def hello(name):
+    print(f"Hello {name}!")
+
+<<<<<<< HEAD
+hello("Jerry")
+=======
+hello("Elaine")
+>>>>>>> 246add2b0b269de9f5405bdd8a048fdde0fce2d6
+```
+
+Now we must edit the file manually, removing the conflict markers and deciding how to resolve this conflict, maybe like so:
+
+```python
+def hello(name):
+    print(f"Hello {name}!")
+
+hello("Jerry and Elaine")
+```
+
+Now all that remains is to:
+
+1. Mark the conflict as resolved:
+
+    ```plain
+    $ git add hello.py
+    ```
+
+2. Complete the merge commit:
+
+    ```plain
+    $ git commit
+    [main 3564ff7] Merge branch 'main' of git.chalmers.se:cajohn/dummy
+    ```
+
+3. Push the new commit (the merge commit) to our remote:
+
+    ```plain
+    $ git push
+    Enumerating objects: 10, done.
+    Counting objects: 100% (10/10), done.
+    Delta compression using up to 12 threads
+    Compressing objects: 100% (6/6), done.
+    Writing objects: 100% (6/6), 672 bytes | 672.00 KiB/s, done.
+    Total 6 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+    remote: MAX: 1500000, CURRENT: 220
+    To git.chalmers.se:cajohn/dummy.git
+    246add2..3564ff7  main -> main
+    ```
+
+This was a relatively simple case, and in practice resolving merge conflicts can be a lot more involved.
+But, it is an inevitable result of having a distributed system like Git, and something you need to be aware of.
+
+### A.10 Advanced Git use
+
+We have covered the basics needed for working collaboratively with Git.
+As you might imagine, there are many more features of Git which can be used, which are mentioned briefly below:
+
+1. **Branches** allow us to have multiple versions of our code inside the same repository and switch easily between them, and are often used to give developers their own isolated space to work on some feature without having their commits conflict with everyone else's.
+2. **Tags** are a way of labelling commits in a repository. In this course, they will be used for indicating submissions.
+3. **Pull requests** are not a feature of Git itself, bur rather of the GitLab platform (on GitHub they are called "merge requests"). They add extra functionality around merging branches together, such as the ability to have discussions on the diff itself. In this course, pull requetts are used as part of the submission and grading process.
+
+As always, the best place to learn more is to consult the official documentation:
+
+* Official book: <https://git-scm.com/book/en/v2>
+* Detailed reference: <https://git-scm.com/docs>
+* Cheat sheet: <https://git-scm.com/cheat-sheet>
