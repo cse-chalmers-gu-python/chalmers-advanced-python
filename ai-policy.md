@@ -24,7 +24,7 @@ Using AI as a tutor to explain specific questions is considered permissible if i
 
 Using AI to look up things in the documentation of a language/library/framework is considered problematic. A particular reason for this is that API details frequently change between versions and AI tools often do not have adequate context to answer accurately. Moreover, being able to understand and use programming documentation is a learning outcome of this course, and therefore something which you need to learn to do yourself.
 
-> Example: "How do I change my server timezone in Django?"
+> Example: "Is count a keyword argument in Python's str.replace() method?"
 
 Using AI to help in debugging is also considered problematic. Fixing bugs in your program requires a deep understanding of what your code does, which usually comes from careful analysis and iterative testing. AIs cannot perform any kind of reasoning, they can only repeat patterns they have seen before. While it is possible that your bug is common enough for an AI to recognise it, you will likely learn nothing by fixing your bugs in this way.
 
