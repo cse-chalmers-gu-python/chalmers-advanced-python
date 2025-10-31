@@ -1924,9 +1924,7 @@ The following table defines a mapping between JSON and Python objects.
 | false          | False       |
 | null           | None        |
 
-This table is a part of the full documentation in:
-
-<https://docs.python.org/3/library/json.html>
+This table is a part of the full documentation at: <https://docs.python.org/3/library/json.html>
 
 #### 4.3.1. Hierarchic data: trees
 
@@ -1944,14 +1942,15 @@ Our simple JSON encoding represents
 Then the `exercises` subdirectory is represented as
 
 ```json
-{"chalmers-advanced-python": {
-    "exercises": {
-        "ex01": {
-            "ex01-dat515.pdf": null,
-            "solutions.py": null
-        },
-        "README.md": null
-    }
+{
+    "chalmers-advanced-python": {
+        "exercises": {
+            "ex01": {
+                "ex01-dat515.pdf": null,
+                "solutions.py": null
+            },
+            "README.md": null
+        }
     }
 }
 ```
