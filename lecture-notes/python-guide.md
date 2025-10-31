@@ -1770,7 +1770,7 @@ A complete such file can be found in [countries.tsv](../exercises/ex02/countries
 Files of these forms can correspondingly be read into Python by using the `split()` method: for CSV,
 
 ```python
-with FILE.csv as file:
+with open('FILE.csv') as file:
     data = []
     for line in file:
         data.append(line.split(','))
