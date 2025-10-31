@@ -207,7 +207,7 @@ The function you must implement is:
 visualize(graph, view='view', name='mygraph', nodecolors=None)
 ```
 
-For this we will use the [`graphviz` library](https://graphviz.readthedocs.io/en/stable/api.html).
+For this we will use the [`graphviz`](https://graphviz.readthedocs.io/en/stable/api.html) library.
 The description in the lecture notes is simple but sufficient for this function, except for how to use `nodecolors`, which you should look up in the library documentation.
 
 The `view` parameter can be used with the following values:
