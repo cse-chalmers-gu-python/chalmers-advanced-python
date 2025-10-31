@@ -1783,6 +1783,7 @@ provides functions for dealing with such situations, with freely chosen delimite
 Here is how to read a TSV file:
 
 ```python
+import csv
 with open('FILE.tsv') as file:
     rows = csv.reader(file, delimiter='\t')
     data = [row for row in rows]
