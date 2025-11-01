@@ -1177,7 +1177,47 @@ Normally, the first variant, the **object-oriented** notation is recommended for
 
 #### Comprehensions
 
-**List comprehensions** are introduced in the official tutorial 5.1.3, and provide a powerful, highly Pythonic way to create lists from given ones.
+**List comprehensions** are introduced in the official tutorial 5.1.3, and provide a powerful, highly Pythonic way to create lists from given ones via the operations of *mapping* and *filtering*.
+
+**Mapping** is the transformation of every item in a list in a certain way, for example squaring a list of numbers. This can be done using a simple for loop:
+
+```python
+numbers = [1,2,3,4,5]
+squares = []
+for n in numbers:
+    squares.append(n**2)
+```
+
+Using a list comprehension this can be expressed as:
+
+```python
+>>> [ n**2 for n in numbers ]
+[1, 4, 9, 16, 25]
+```
+
+**Filtering** is selecting a subset of items from a list based on some predicate, for example filtering out the even numbers:
+
+```python
+evens = []
+for n in numbers:
+    if n % 2 == 0:
+        evens.append(n)
+```
+
+Using a list comprehension this can be expressed as:
+
+```python
+>>> [ n for n in numbers if n % 2 == 0 ]
+[2, 4]
+```
+
+Furthermore, list comprehensions allow us to map and filter together, for example building a list of squares of even numbers:
+
+```python
+>>> [ n**2 for n in numbers if n $ 2 == 0 ]
+[4, 16]
+```
+
 What gives even more power is that comprehensions work for other collection types as well, and even for mixtures of them.
 Thus we have **dictionary comprehensions**,
 
