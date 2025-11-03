@@ -3683,13 +3683,15 @@ But, it is an inevitable result of having a distributed system like Git, and som
 ### A.10 Advanced Git use
 
 We have covered the basics needed for working collaboratively with Git.
-As you might imagine, there are many more features of Git which can be used, which are mentioned briefly below:
+As you might imagine, there are many more features and uses which we haven't covered.
+Some of the most common ones are mentioned briefly below:
 
 1. **Branches** allow us to have multiple versions of our code inside the same repository and switch easily between them, and are often used to give developers their own isolated space to work on some feature without having their commits conflict with everyone else's.
-2. **Tags** are a way of labelling commits in a repository. In this course, they will be used for indicating submissions.
-3. **Pull requests** are not a feature of Git itself, bur rather of the GitLab platform (on GitHub they are called "merge requests"). They add extra functionality around merging branches together, such as the ability to have discussions on the diff itself. In this course, pull requetts are used as part of the submission and grading process.
+2. **Tags** provide a way of uniquely labelling commits in a repository. In this course, they will be used for indicating submissions.
+3. **Merge requests** are not a feature of Git itself, bur rather of the GitLab platform (on GitHub they are called "pull requests"). They add extra functionality around merging branches together, such as the ability to have discussions on the diff itself. In this course, merge requetts are used as part of the submission and grading process.
+4. **Forks** are conceptually similar to branches, in that they allow you to work on a diverging copy of a codebase. However like merge requests, they are not a feature of Git itself but of platforms like GitLab and GitHub, and exist mainly to allow developers to contribute to projects without needing to be given explicit access to the original repository.
 
-As always, the best place to learn more is to consult the official documentation:
+As always, the best way to learn more is to consult the official documentation:
 
 * Official book: <https://git-scm.com/book/en/v2>
 * Detailed reference: <https://git-scm.com/docs>
