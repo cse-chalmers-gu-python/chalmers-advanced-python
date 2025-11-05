@@ -86,7 +86,7 @@ To interact with the provided git repository, you have several options:
   - `git add -u` and `git commit` to [add and commit](https://git.chalmers.se/help/topics/git/commit.md) your own changes,
   - `git push` to [push](https://git.chalmers.se/help/topics/git/commit.md#send-changes-to-gitlab) to GitLab.
 
-  For a summary of useful commands, see the [git cheatsheet](https://about.gitlab.com/images/press/git-cheat-sheet.pdf).
+  For a summary of useful commands, see the [git cheatsheet](https://git-scm.com/cheat-sheet).
 
 - If you use an IDE such as VSCode, IntelliJ, or Eclipse, it comes with built-in git integration.
   For example, in VSCode, if you open a window in your lab folder it should recognise automatically that the folder is a git repository.
