@@ -31,7 +31,7 @@ What is needed for this is, in addition to the peripheral devices, a programmer 
 The goal of this course is to help you to become that programmer.
 
 Really to become an advanced programmer, you will also need to learn some other things.
-This includes courses that are more specific than just programming: they will cover topics such as datastructures and algorithms, machine learning, and software engineering.
+This includes courses that are more specific than just programming: they will cover topics such as data structures and algorithms, machine learning, and software engineering.
 Even more importantly, you will have to develop your skills by programming in practice.
 Another name for the "universal programmer" is **full-stack developer**.
 This means a programmer that masters all levels of a practical application.
@@ -109,7 +109,7 @@ Typical features of programs in this category are:
 * the structure of the code is simple and linear - in Python, this means that it consists of top-level statements and global variables, avoiding functions and classes,
 * the program is a single file that can be thousands of lines long,
 * variable names are short and unsystematic,
-* input and output is perfomed freely in different places of the code,
+* input and output is performed freely in different places of the code,
 * as there are no return statements, the only way to combine the code with other programs is to pipe its output to them as a string,
 * the code uses freely whatever libraries seem to do the job,
 * libraries are often imported in the middle of the file rather than in the beginning,
@@ -149,7 +149,7 @@ But if you take your hobby seriously, it will give you more satisfaction if you 
 
 ### 1.3. The Lab
 
-Much of the course is centred around the **Lab**, a programming assignment whose goal is to build a "full-stack" web application.
+Much of the course is centered around the **Lab**, a programming assignment whose goal is to build a "full-stack" web application.
 In the final demonstration of the application, the user can search for a route in the Gothenburg tram network and get it drawn on a map - in the way familiar from the numerous travel planning applications on the web.
 The Lab is described in detail in three parts
 ([Lab 1](../labs/lab1/), [Lab 2](../labs/lab2/), and [Lab 3](../labs/lab3/))
@@ -221,7 +221,7 @@ Now, when learning Python on top of Java (or any other programming language on t
 Most of this will be fairly obvious and follow a handful of general rules, while some things have no counterparts in Java.
 At the same time, some things available in Java are not available in Python, and for those things you will have to learn to express them in a different way.
 
-Within a week or so - Python syntax is a lot easier than English - you will be able to understand the syntactic stucture of everything that is written in Python.
+Within a week or so - Python syntax is a lot easier than English - you will be able to understand the syntactic structure of everything that is written in Python.
 There may be things you will never use in your own code, and will probably have a bias for Java-like expression - just like Swedish native speakers, even when fluent in English, can be biased to Swedish-like constructs.
 
 In this course, we will actually try to help you become more *Pythonic*, since this will give you some satisfaction as well as credibility among *Pythonistas*.
@@ -303,7 +303,7 @@ The Hello World examples illustrate the different levels in which programs are s
 * statements,
 * expressions.
 
-In Java, these levels are stricty nested: expressions reside inside statements, statements inside functions, functions inside classes, and classes are the top-level structure of modules.
+In Java, these levels are strictly nested: expressions reside inside statements, statements inside functions, functions inside classes, and classes are the top-level structure of modules.
 In Python, the same strict hierarchy *can* be followed, but this is not compulsory.
 It is common that a top-level module is a mixture of classes, functions, and statements.
 An extreme case is a module consisting only of statements: this is the dominating style in what we called "occasional programming" and has given Python the label "scripting language".
@@ -380,7 +380,7 @@ An expression - such as a variable or a function call - can have different types
 It can then happen that no possible type is found, which leads to a **run-time type error**.
 
 A **statically typed language** such as Java can find type errors at **compile time** and prevent the execution of the program.
-This is not provided by Python: it can in fact happen that a program is run 1000 times without failurs, but after that a type error is encountered when the execution, for the first time, enters a rarely used branch of some conditional.
+This is not provided by Python: it can in fact happen that a program is run 1000 times without failures, but after that a type error is encountered when the execution, for the first time, enters a rarely used branch of some conditional.
 Thus it is difficult ever to be sure that your Python program is failure-free.
 
 What is more, the lack of static checking does not only concern types, but also function and variable names.
@@ -663,7 +663,7 @@ This is handy if you open the file in the purpose of testing its functions in di
 The effect of both ways of importing a module is that the statements in it are executed in the order in which they appear.
 This can be disturbing, if you are for instance opening a module in order to test the functions in it one by one.
 You can avoid most of the disturbance by not including `print()` statements on the top level but only inside functions - which is a good practice anyway.
-A more general way to restrict the stataments to use from command lines is to run them under the condition
+A more general way to restrict the statements to use from command lines is to run them under the condition
 
 ```python
 if __name__ == '__main__':
@@ -677,7 +677,7 @@ if __name__ == '__main__':
 Here are some points of interest, potentially surprising:
 
 * Integers have arbitrary size, whereas floats have limited precision.
-Therefor, int to float conversion can be lossy:
+Therefore, int to float conversion can be lossy:
 
 ```python
 >>> int(float(12345678901234567890))
@@ -1369,7 +1369,7 @@ The built-in function `dir()` shows the names currently in scope
 * `dir(m)` lists names in module `m`,
 * `dir()` lists the names you have defined in the current session.
 
-So it is a good way quicly to look up names.
+So it is a good way quickly to look up names.
 As we have seen, `help()` can then give more information about a name, especially if it has been given a document string.
 
 #### 3.6.4. The rest of Tutorial 6
@@ -1508,7 +1508,7 @@ with open('countries.tsv', 'r') as infile:
         print(f'{country:<24} {population:>12}')
 ```
 
-Functions `split()` and `strip()` are standard methods of strings; if you don't know them already, consult their standard documentaion:
+Functions `split()` and `strip()` are standard methods of strings; if you don't know them already, consult their standard documentation:
 
 ```python
 >>> help(str.split)
@@ -1606,7 +1606,7 @@ In an order opposite to the list in Tutorial 9.2, we have
 * names in function inside that function
 * and so on, because functions can be nested
 
-The notions of **global** and **nonlocal** variable are a bit tricky, in particular since the status can be modified by keywords.
+The notions of **global** and **non-local** variable are a bit tricky, in particular since the status can be modified by keywords.
 The code example in 9.2.1 is worth studying: the effect "After global assignment" can be surprising.
 
 #### 3.9.2. Class definitions
@@ -1950,7 +1950,7 @@ with open('full-countries.json', 'r') as file:
 ### 4.3. The JSON format
 
 JSON is more expressive than tabular data.
-It was designed to store data structures of the JavaScript language, but it also has a close correspondance with Python structures.
+It was designed to store data structures of the JavaScript language, but it also has a close correspondence with Python structures.
 The following table defines a mapping between JSON and Python objects.
 
 | JSON           | Python      |
@@ -2041,7 +2041,7 @@ Notice that the shortest path from 2 to 7 is now different, since the direct lin
 Also notice that we have 2 edges connecting 1 and 2, to mark that both directions are possible.
 
 The shortest path solution can also vary because of **weights** associated with edges, also known as **costs**.
-Imagine, for instance, that the direct way from 3 to 7 is with a superfast special train that costs 4 times as much as a usual ticket.
+Imagine, for instance, that the direct way from 3 to 7 is with a super fast special train that costs 4 times as much as a usual ticket.
 If we use price as **cost function**, the shortest path algorithm now gives us the **cheapest path**.
 In the following picture, we have marked the prices as weights of edges.
 Since the price is used as cost function, the shortest path from 3 to 7 is different from the the first graph where, technically, the cost function is a constant function.
@@ -2050,8 +2050,8 @@ Since the price is used as cost function, the shortest path from 3 to 7 is diffe
 
 ### 5.2. Graphs for transport networks
 
-In Labs 2 and 3, we are will work with undirected graphs, because it is a feature of Gothenburg tram lines that they can always be travelled in both directions.
-However, since this is not a universal feature of transport networks, our datatypes and algorithms should also be ready for directed graphs.
+In Labs 2 and 3, we are will work with undirected graphs, because it is a feature of Gothenburg tram lines that they can always be traveled in both directions.
+However, since this is not a universal feature of transport networks, our data types and algorithms should also be ready for directed graphs.
 If properly designed, this generality comes with very little overhead in the code - and such design is, indeed, one of the wider learning outcomes of this course.
 
 Weights and cost functions will, however, play an important role for us.
@@ -2175,7 +2175,7 @@ Now it is time to set this all in practice and look at the implementation detail
 
 ### 5.4. Implementing graphs in Python
 
-This section is closely related to Lab 2 spefication.
+This section is closely related to Lab 2 specification.
 We will define a class, to be named `Graph`, to store graphs.
 The class will have an internal storage of vertices and edges, using internal (hidden) instance variables.
 As the case is in Python, we cannot really make these variables "private", but we can give them names that start with underscores, which is a Python convention to mark this intention.
@@ -2187,7 +2187,7 @@ Here it is enough to show the shape of the expected class definition:
 ```python
 class Graph:
     def __init__(self, adjs=None, values = None, directed=False):
-        "can initialize with an ajacency dict and a value dict"
+        "can initialize with an adjacency dict and a value dict"
         self._adjdict = adjs or {}
         self._valdict = values or {}
         self._isdirected = directed
@@ -2290,7 +2290,7 @@ Here are examples from the Swedish Royal Family:
 * CarlGustaf-father-Victoria
 * Silvia-mother-Victoria
 
-Such triples can obviously be used for building graphs, where subjects and objects are vertices and predicates are labelled edges.
+Such triples can obviously be used for building graphs, where subjects and objects are vertices and predicates are labeled edges.
 
 ![Swedish royal family](royal-family.png)
 
@@ -2306,7 +2306,7 @@ Another example from WikiData is built on the relation "country X is a neighbour
 
 This graph can be used as input for a **graph colouring algorithm**, which enables always selecting different coulours for countries that are neighbours.
 The famous [**four-colour theorem**](https://en.wikipedia.org/wiki/Four_color_theorem).
-states that **planary graphs** - of which two-dimensional maps are an example - it are always possible to colour by just four different colours.
+states that **planar graphs** - of which two-dimensional maps are an example - it are always possible to colour by just four different colours.
 An example is a map of Europe coloured by using the algorithm:
 
 ![coloured map of europe](europe.png)
@@ -2322,7 +2322,7 @@ Interesting questions about such graphs are
 * how many connections persons have,
 * what **clusters** there are, i.e. subgraphs of closely related vertices.
 
-An anomymized example can be found at
+An anonymized example can be found at
 <https://snap.stanford.edu/data/ego-Facebook.html>
 
 ## 6. Object-oriented design
@@ -2622,7 +2622,7 @@ it could even be delegated to some other class whose internals are in turn unkno
 When our program is developed further, we can silently change the internal representation without causing any harm to the users.
 For example, we could switch to an ultra-efficient matrix representation from the `numpy` library if our graphs grow beyond the limits that we had first imagined.
 Such changes often happen when new, improved versions of software libraries are released.
-Data abstraction guarantees that they do not break the code written by users of the libraries: on the contrary, their code can be imprpoved for free thanks to improvements in libraries.
+Data abstraction guarantees that they do not break the code written by users of the libraries: on the contrary, their code can be improved for free thanks to improvements in libraries.
 
 #### 6.3.2. Invariants
 
@@ -2681,7 +2681,7 @@ The function or method for looking up transition times should then be aware of t
 
 But we have also seen a counterexample to DRY: storing each graph edge (*a,b*) in the adjacency list of both *a* and *b*.
 The reason behind this decision is that we want to look up all neighbour of any vertex efficiently.
-If the edge were only stored for *a*, we would in the worst case need to go through the whole adjaceny list to find the neighbours of *b*.
+If the edge were only stored for *a*, we would in the worst case need to go through the whole adjacency list to find the neighbours of *b*.
 This intentional introduction of redundancy violates the DRY principle and comes with a real risk of inconsistency.
 
 However, the risk of inconsistency is mitigated by data abstraction: the user of the class, when adding an edge to the graph, only needs to write `add_edge(a, b)`, and the internal dictinary is updated in both direction.
@@ -2792,7 +2792,7 @@ class ValueTree(ValueGraph, Tree)
 
 the result would have been different - and not what we wanted.
 We could of course even then restore intended `add_edge()` method by overriding the one in `ValueGraph`, but this would not be maximal reuse of code.
-Intuitively, `ValueTree` has "more in common" with `Tree` than with `ValueGraph`, which explains the order we chouse.
+Intuitively, `ValueTree` has "more in common" with `Tree` than with `ValueGraph`, which explains the order we chose.
 But this is not always clear, and some object-oriented languages - in particular, Java - have chosen not to permit multiple inheritance at all.
 
 ### 6.7. UML, Unified Modelling Language
@@ -2861,7 +2861,7 @@ Falsifying example: test_ints_are_commutative(
 )
 ```
 
-The function name indicates that we wanted to test commutativity, but the code indicates that it is the communtativity of subtraction - which obviously should fail!
+The function name indicates that we wanted to test commutativity, but the code indicates that it is the commutativity of subtraction - which obviously should fail!
 Hypothesis has found the simplest possible counterexample.
 Trying out the same with `+` instead of `-`, no counterexamples are found.
 
@@ -3025,7 +3025,7 @@ Its basic building blocks were listed in Section 5.7 above:
 
 We will browse through the documentation and do live coding to find out how to do things like:
 
-* generate different graph layouts (based on differen algorithms for positioning vertices),
+* generate different graph layouts (based on different algorithms for positioning vertices),
 * set positions manually (as opposed to automatic layout),
 * add colours and text,
 * save the image in different formats.
@@ -3097,11 +3097,11 @@ It is usually divided into two types:
 
 **Full stack** development means writing programs that cover both the server and client side.
 
-In a complete web application, subtasks can often be distributed between server and client sides in different ways.
+In a complete web application, sub-tasks can often be distributed between server and client sides in different ways.
 Traditionally, the server side takes care of heavy computations as well as functionalities that involve data that is not meant to be seen in its entirety.
 For example, databases are typically operated on the server side, for both of these reasons.
 
-Server side programs can be written in practically any programming language, including Python, whereas the client side has a restricted number of specifial-purpose languages, which need to be supported by the web browser:
+Server side programs can be written in practically any programming language, including Python, whereas the client side has a restricted number of special-purpose languages, which need to be supported by the web browser:
 
 * HTML, HyperText Markup Language, is used for the content on a web page.
 * XML, eXtensible Markup Language, is a generalization of HTML also capable to store structured data. (HTML is not strictly compliant with XML, but its later variant XHTML is. However, XHTML has not gained the popularity expected after the populatity of XML itself.)
@@ -3134,7 +3134,7 @@ def intag(tag, elem, attrs=''):
 
 #### 9.1.1. URL links and queries
 
-Let us look at the follwoing task: add clickable links to a visualized graph.
+Let us look at the following task: add clickable links to a visualized graph.
 The link should make a query to Google showing information about the tram stop.
 An example link is:
 
@@ -3440,7 +3440,7 @@ $ git commit -m "Implement hello function"
  1 file changed, 3 insertions(+), 1 deletion(-)
 ```
 
-Note that all commits must include a message (that's what the `-m` flag specficies).
+Note that all commits must include a message (that's what the `-m` flag specifies).
 We should always give our commits meaningful but short messages!
 A good tip is to always start with a verb, e.g. "add", "fix", "update", etc.
 
@@ -3528,7 +3528,7 @@ After pulling, we can now access that file locally.
 As you should have already noticed, the different copies of the repository (on our computer, on our partner's computer, and on GitLab) are *not* automatically kept in sync. Changes can happen in these different copies at the same time, and there is no master copy of the repository which always has the most up-to-date version of things. This is what it means to be **distributed**.
 
 It is only when syncing (pushing/pulling) with another copy of the repository (a remote) that we will become aware of potential changes that have happened elsewhere.
-Despite being fully distributed, in practice we almost always sync our repositories with the same server (in our case GitLab) and never between "peers", i.e. direcly with our partner's computer. But this is just a convention, not a limitation of Git.
+Despite being fully distributed, in practice we almost always sync our repositories with the same server (in our case GitLab) and never between "peers", i.e. directly with our partner's computer. But this is just a convention, not a limitation of Git.
 
 When syncing changes with a remote copy of the repository, there are different scenarios which might arise.
 Firstly if the remote has changes which we don't have, we must first pull those changes to our copy before we can push.
@@ -3536,7 +3536,7 @@ Firstly if the remote has changes which we don't have, we must first pull those 
 1. If we *haven't* made any commits since the last pull:
     1. If we haven't made any changes to our working copy, the incoming commits from the remote are pulled and applied immediately in a **fast-forward**.
     2. If we have made changes to our working copy, but they don't overlap with the incoming commits, then they also be applied in a fast-forward. Our local changes to working copy will remain untouched.
-    3. If we have made changes to the working copy, and they do overalp with the incoming commits, the pull will fail. In this case we can commit our changes or temporiliy **stash** them before trying to pull again.
+    3. If we have made changes to the working copy, and they do overall with the incoming commits, the pull will fail. In this case we can commit our changes or temporarily **stash** them before trying to pull again.
 2. If we *have* made commits which aren't yet pushed, our changes will need to **merged** together with the incoming ones, in order to unify the diverging versions.
     1. Git will try to automatically merge our code, which will succeed if the changes don't overlap. It will usually ask us to specify a commit message for this new **merge commit**, but we can accept the default.
     2. If the changes overlap and an automatic merge is not possible, we will warned that we have **conflicts** that need to be resolved manually (see the next section about this).
@@ -3588,7 +3588,7 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 ```
 
 But the push fails because there are new commits which I haven't pulled yet.
-This probably happened becuase my partner also made some changes and has already pushed them to the remote.
+This probably happened because my partner also made some changes and has already pushed them to the remote.
 So we need to pull these changes first before we can push:
 
 ```plain
@@ -3687,8 +3687,8 @@ As you might imagine, there are many more features and uses which we haven't cov
 Some of the most common ones are mentioned briefly below:
 
 1. **Branches** allow us to have multiple versions of our code inside the same repository and switch easily between them, and are often used to give developers their own isolated space to work on some feature without having their commits conflict with everyone else's.
-2. **Tags** provide a way of uniquely labelling commits in a repository. In this course, they will be used for indicating submissions.
-3. **Merge requests** are not a feature of Git itself, bur rather of the GitLab platform (on GitHub they are called "pull requests"). They add extra functionality around merging branches together, such as the ability to have discussions on the diff itself. In this course, merge requetts are used as part of the submission and grading process.
+2. **Tags** provide a way of uniquely labeling commits in a repository. In this course, they will be used for indicating submissions.
+3. **Merge requests** are not a feature of Git itself, bur rather of the GitLab platform (on GitHub they are called "pull requests"). They add extra functionality around merging branches together, such as the ability to have discussions on the diff itself. In this course, merge requests are used as part of the submission and grading process.
 4. **Forks** are conceptually similar to branches, in that they allow you to work on a diverging copy of a codebase. However like merge requests, they are not a feature of Git itself but of platforms like GitLab and GitHub, and exist mainly to allow developers to contribute to projects without needing to be given explicit access to the original repository.
 
 As always, the best way to learn more is to consult the official documentation:

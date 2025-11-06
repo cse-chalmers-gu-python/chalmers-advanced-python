@@ -70,7 +70,7 @@ If you have any problems, ask a teaching assistant during lab supervision or onl
 
 [Git](https://en.wikipedia.org/wiki/Git) is the industry standard for version control and collaborative software development.
 It will pay off to [become familiar](https://git.chalmers.se/help/tutorials/learn_git.md) with it!
-The student union also has a [good introduction to Git](https://data101.dtek.se/beginner/git/intro.html).
+The student union also has a [good introduction to Git](https://data101.dtek.se/beginner/git/index.html).
 
 Check if you have it installed by running `git --version`; if it does not print an error, you have already it.
 Otherwise, there are instructions for how to [install it on your computer](https://git-scm.com/downloads/).
