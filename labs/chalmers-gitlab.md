@@ -51,7 +51,7 @@ First you have to "clone" the lab repository to your computer – you only have 
 Here is how to do it using a terminal:
 
 1. Go to the lab repository in your browswer.
-    In the top there is a menu, click on *Code*:
+    In the top there is a menu, click on _Code_:
 
     ![chalmers-gitlab-clone-ssh.png](img/chalmers-gitlab-clone-ssh.png)
 
@@ -122,7 +122,7 @@ We will only grade the latest submission.
 The tag must live in the Chalmers GitLab repository, not just your local git clone.
 If you create the tag locally and then push, make sure to **push tags** (in the terminal, this is `git push --tags`).
 
-You can check your submission by clicking on ***Code → Tags*** in the Project menu on the left.
+You can check your submission by clicking on **Code → Tags** in the Project menu on the left.
 The submission tag(s) should be highlighted as <span style="background-color: #ddd; padding: 0 7px 2px; border-radius: 10px">protected</span>:
 
 ![show-tags.png](img/show-tags.png)
