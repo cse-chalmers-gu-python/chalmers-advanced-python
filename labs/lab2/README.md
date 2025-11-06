@@ -207,8 +207,10 @@ The function you must implement is:
 visualize(graph, view='view', name='mygraph', nodecolors=None)
 ```
 
-For this we will use the [`graphviz`](https://graphviz.readthedocs.io/en/stable/api.html) library.
-The description in the lecture notes is simple but sufficient for this function, except for how to use `nodecolors`, which you should look up in the library documentation.
+For this we will use the Graphviz library.
+Note that apart from installing the Python package [`graphviz`](https://pypi.org/project/graphviz/), you will also need to install the [Graphviz](`https://www.graphviz.org/download/`) program on your computer and make sure it is in your system's PATH.
+
+The description in the lecture notes is simple but sufficient for this function, except for how to use `nodecolors`, which you should look up in the [Graphviz library documentation](https://graphviz.readthedocs.io/en/stable/api.html).
 
 The `view` parameter can be used with the following values:
 

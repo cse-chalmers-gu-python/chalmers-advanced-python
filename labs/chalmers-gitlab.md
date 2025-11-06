@@ -5,7 +5,10 @@ _This document is based on one from the [Data structures and algorithms course](
 ## Getting started
 
 [Chalmers GitLab](https://git.chalmers.se/dashboard/projects) (git.chalmers.se) is a service to host Git projects within Chalmers.
-To sign in, use **Chalmers Login** (ignore the username/password fields):
+To sign in, click **Chalmers Entra Login** (ignore the username/password fields) and then login with your CID.
+GU students must also use a CID to login.
+If you don't have one, follow the instructions at
+[Guides for New Students](https://chalmers.topdesk.net/solutions/public-knowledge-base/item/KB%200313/en/).
 
 ![chalmers-gitlab-sign-in.png](img/chalmers-gitlab-sign-in.png)
 
@@ -51,7 +54,7 @@ First you have to "clone" the lab repository to your computer – you only have 
 Here is how to do it using a terminal:
 
 1. Go to the lab repository in your browswer.
-    In the top there is a menu, click on *Code*:
+    In the top there is a menu, click on _Code_:
 
     ![chalmers-gitlab-clone-ssh.png](img/chalmers-gitlab-clone-ssh.png)
 
@@ -86,7 +89,7 @@ To interact with the provided git repository, you have several options:
   - `git add -u` and `git commit` to [add and commit](https://git.chalmers.se/help/topics/git/commit.md) your own changes,
   - `git push` to [push](https://git.chalmers.se/help/topics/git/commit.md#send-changes-to-gitlab) to GitLab.
 
-  For a summary of useful commands, see the [git cheatsheet](https://about.gitlab.com/images/press/git-cheat-sheet.pdf).
+  For a summary of useful commands, see the [git cheatsheet](https://git-scm.com/cheat-sheet).
 
 - If you use an IDE such as VSCode, IntelliJ, or Eclipse, it comes with built-in git integration.
   For example, in VSCode, if you open a window in your lab folder it should recognise automatically that the folder is a git repository.
@@ -122,7 +125,7 @@ We will only grade the latest submission.
 The tag must live in the Chalmers GitLab repository, not just your local git clone.
 If you create the tag locally and then push, make sure to **push tags** (in the terminal, this is `git push --tags`).
 
-You can check your submission by clicking on ***Code → Tags*** in the Project menu on the left.
+You can check your submission by clicking on **Code → Tags** in the Project menu on the left.
 The submission tag(s) should be highlighted as <span style="background-color: #ddd; padding: 0 7px 2px; border-radius: 10px">protected</span>:
 
 ![show-tags.png](img/show-tags.png)

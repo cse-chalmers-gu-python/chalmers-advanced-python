@@ -1,0 +1,8291 @@
+[
+  {
+    "name": "Charles K. Kao",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2009,
+    "birth": 1933,
+    "death": "2018-09-23T00:00:00Z",
+    "country": "People's Republic of China"
+  },
+  {
+    "name": "Johannes Diderik van der Waals",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1910,
+    "birth": 1837,
+    "death": "1923-03-08T00:00:00Z",
+    "country": "Netherlands"
+  },
+  {
+    "name": "William Lawrence Bragg",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1915,
+    "birth": 1890,
+    "death": "1971-07-01T00:00:00Z",
+    "country": "Australia"
+  },
+  {
+    "name": "Clinton Davisson",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1937,
+    "birth": 1881,
+    "death": "1958-02-01T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Gabriel Lippmann",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1908,
+    "birth": 1845,
+    "death": "1921-07-13T00:00:00Z",
+    "country": "Luxembourg"
+  },
+  {
+    "name": "Lev Landau",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1962,
+    "birth": 1908,
+    "death": "1968-04-01T00:00:00Z",
+    "country": "Azerbaijan"
+  },
+  {
+    "name": "William Henry Bragg",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1915,
+    "birth": 1862,
+    "death": "1942-03-12T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "George Paget Thomson",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1937,
+    "birth": 1892,
+    "death": "1975-09-10T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Jean Perrin",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1926,
+    "birth": 1870,
+    "death": "1942-04-17T00:00:00Z",
+    "country": "France"
+  },
+  {
+    "name": "Subrahmanyan Chandrasekhar",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1983,
+    "birth": 1910,
+    "death": "1995-08-21T00:00:00Z",
+    "country": "Pakistan"
+  },
+  {
+    "name": "Fran\u00e7ois Englert",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2013,
+    "birth": 1932,
+    "death": "",
+    "country": "Belgium"
+  },
+  {
+    "name": "Georges Charpak",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1992,
+    "birth": 1924,
+    "death": "2010-09-29T00:00:00Z",
+    "country": "Ukraine"
+  },
+  {
+    "name": "Edward Victor Appleton",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1947,
+    "birth": 1892,
+    "death": "1965-04-21T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "John Robert Schrieffer",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1972,
+    "birth": 1931,
+    "death": "2019-07-27T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Jack Steinberger",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1988,
+    "birth": 1921,
+    "death": "2020-12-12T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Albert Fert",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2007,
+    "birth": 1938,
+    "death": "",
+    "country": "France"
+  },
+  {
+    "name": "Igor Tamm",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1958,
+    "birth": 1895,
+    "death": "1971-04-12T00:00:00Z",
+    "country": "Russia"
+  },
+  {
+    "name": "Masatoshi Koshiba",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2002,
+    "birth": 1926,
+    "death": "2020-11-12T00:00:00Z",
+    "country": "Japan"
+  },
+  {
+    "name": "Hideki Yukawa",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1949,
+    "birth": 1907,
+    "death": "1981-09-08T00:00:00Z",
+    "country": "Japan"
+  },
+  {
+    "name": "Louis N\u00e9el",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1970,
+    "birth": 1904,
+    "death": "2000-11-17T00:00:00Z",
+    "country": "France"
+  },
+  {
+    "name": "Dennis Gabor",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1971,
+    "birth": 1900,
+    "death": "1979-02-08T00:00:00Z",
+    "country": "Hungary"
+  },
+  {
+    "name": "Eugene Wigner",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1963,
+    "birth": 1902,
+    "death": "1995-01-01T00:00:00Z",
+    "country": "Hungary"
+  },
+  {
+    "name": "Hans Bethe",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1967,
+    "birth": 1906,
+    "death": "2005-03-06T00:00:00Z",
+    "country": "France"
+  },
+  {
+    "name": "Russell Alan Hulse",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1993,
+    "birth": 1950,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Gustaf Dal\u00e9n",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1912,
+    "birth": 1869,
+    "death": "1937-12-09T00:00:00Z",
+    "country": "Sweden"
+  },
+  {
+    "name": "Charles Glover Barkla",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1917,
+    "birth": 1877,
+    "death": "1944-10-23T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Charles Thomson Rees Wilson",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1927,
+    "birth": 1869,
+    "death": "1959-11-15T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "William Shockley",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1956,
+    "birth": 1910,
+    "death": "1989-08-12T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Isidor Isaac Rabi",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1944,
+    "birth": 1898,
+    "death": "1988-01-11T00:00:00Z",
+    "country": "Poland"
+  },
+  {
+    "name": "Owen Willans Richardson",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1928,
+    "birth": 1879,
+    "death": "1959-02-15T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Carl David Anderson",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1936,
+    "birth": 1905,
+    "death": "1991-01-11T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Ernest Lawrence",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1939,
+    "birth": 1901,
+    "death": "1958-08-27T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Manne Siegbahn",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1924,
+    "birth": 1886,
+    "death": "1978-09-24T00:00:00Z",
+    "country": "Sweden"
+  },
+  {
+    "name": "Robert Wilson",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1978,
+    "birth": 1936,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Percy Williams Bridgman",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1946,
+    "birth": 1882,
+    "death": "1961-08-20T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Steven Chu",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1997,
+    "birth": 1948,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Murray Gell-Mann",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1969,
+    "birth": 1929,
+    "death": "2019-05-24T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Pyotr Kapitsa",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1978,
+    "birth": 1894,
+    "death": "1984-04-08T00:00:00Z",
+    "country": "Russia"
+  },
+  {
+    "name": "Arno Allan Penzias",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1978,
+    "birth": 1933,
+    "death": "2024-01-22T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Emilio G. Segr\u00e8",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1959,
+    "birth": 1905,
+    "death": "1989-04-22T00:00:00Z",
+    "country": "Italy"
+  },
+  {
+    "name": "Raymond Davis Jr.",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2002,
+    "birth": 1914,
+    "death": "2006-05-31T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "C. F. Powell",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1950,
+    "birth": 1903,
+    "death": "1969-08-09T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Luis Walter Alvarez",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1968,
+    "birth": 1911,
+    "death": "1988-09-01T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Steven Weinberg",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1979,
+    "birth": 1933,
+    "death": "2021-07-23T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "George F. Smoot",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2006,
+    "birth": 1945,
+    "death": "2025-09-18T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Leo Esaki",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1973,
+    "birth": 1925,
+    "death": "",
+    "country": "Japan"
+  },
+  {
+    "name": "Brian David Josephson",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1973,
+    "birth": 1940,
+    "death": "",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Chen-ning Yang",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1957,
+    "birth": 1922,
+    "death": "2025-10-18T00:00:00Z",
+    "country": "People's Republic of China"
+  },
+  {
+    "name": "Jack Kilby",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2000,
+    "birth": 1923,
+    "death": "2005-06-20T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Edward Mills Purcell",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1952,
+    "birth": 1912,
+    "death": "1997-03-07T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Zhores Alferov",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2000,
+    "birth": 1930,
+    "death": "2019-03-01T00:00:00Z",
+    "country": "Belarus"
+  },
+  {
+    "name": "Ernest Walton",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1951,
+    "birth": 1903,
+    "death": "1995-06-25T00:00:00Z",
+    "country": "Ireland"
+  },
+  {
+    "name": "Owen Chamberlain",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1959,
+    "birth": 1920,
+    "death": "2006-02-28T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Tsung-Dao Lee",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1957,
+    "birth": 1926,
+    "death": "2024-08-04T00:00:00Z",
+    "country": "People's Republic of China"
+  },
+  {
+    "name": "Patrick Blackett",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1948,
+    "birth": 1897,
+    "death": "1974-07-13T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Shin'ichir\u014d Tomonaga",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1965,
+    "birth": 1906,
+    "death": "1979-07-08T00:00:00Z",
+    "country": "Japan"
+  },
+  {
+    "name": "Charles Hard Townes",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1964,
+    "birth": 1915,
+    "death": "2015-01-27T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Polykarp Kusch",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1955,
+    "birth": 1911,
+    "death": "1993-03-20T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Walter Houser Brattain",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1956,
+    "birth": 1902,
+    "death": "1987-10-13T00:00:00Z",
+    "country": "People's Republic of China"
+  },
+  {
+    "name": "Gerard 't Hooft",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1999,
+    "birth": 1946,
+    "death": "",
+    "country": "Netherlands"
+  },
+  {
+    "name": "Julian Schwinger",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1965,
+    "birth": 1918,
+    "death": "1994-07-16T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Riccardo Giacconi",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2002,
+    "birth": 1931,
+    "death": "2018-12-09T00:00:00Z",
+    "country": "Italy"
+  },
+  {
+    "name": "Willis Lamb",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1955,
+    "birth": 1913,
+    "death": "2008-05-15T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Carlo Rubbia",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1984,
+    "birth": 1934,
+    "death": "",
+    "country": "Italy"
+  },
+  {
+    "name": "Pierre-Gilles de Gennes",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1991,
+    "birth": 1932,
+    "death": "2007-05-18T00:00:00Z",
+    "country": "France"
+  },
+  {
+    "name": "Jerome Isaac Friedman",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1990,
+    "birth": 1930,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Yoichiro Nambu",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2008,
+    "birth": 1921,
+    "death": "2015-07-05T00:00:00Z",
+    "country": "Japan"
+  },
+  {
+    "name": "Alexei Abrikosov",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2003,
+    "birth": 1928,
+    "death": "2017-03-29T00:00:00Z",
+    "country": "Russia"
+  },
+  {
+    "name": "Frits Zernike",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1953,
+    "birth": 1888,
+    "death": "1966-03-10T00:00:00Z",
+    "country": "Netherlands"
+  },
+  {
+    "name": "Nevill Francis Mott",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1977,
+    "birth": 1905,
+    "death": "1996-08-08T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Melvin Schwartz",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1988,
+    "birth": 1932,
+    "death": "2006-08-28T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Nicolaas Bloembergen",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1981,
+    "birth": 1920,
+    "death": "2017-09-05T00:00:00Z",
+    "country": "Netherlands"
+  },
+  {
+    "name": "Antony Hewish",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1974,
+    "birth": 1924,
+    "death": "2021-09-13T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Robert B. Laughlin",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1998,
+    "birth": 1950,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Henry Way Kendall",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1990,
+    "birth": 1926,
+    "death": "1999-02-15T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Arthur Leonard Schawlow",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1981,
+    "birth": 1921,
+    "death": "1999-04-28T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Claude Cohen-Tannoudji",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1997,
+    "birth": 1933,
+    "death": "",
+    "country": "Algeria"
+  },
+  {
+    "name": "James Rainwater",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1975,
+    "birth": 1917,
+    "death": "1986-05-31T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "William Daniel Phillips",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1997,
+    "birth": 1948,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Martin Ryle",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1974,
+    "birth": 1918,
+    "death": "1984-10-14T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Philip W. Anderson",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1977,
+    "birth": 1923,
+    "death": "2020-03-29T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Frederick Reines",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1995,
+    "birth": 1918,
+    "death": "1998-08-26T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Burton Richter",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1976,
+    "birth": 1931,
+    "death": "2018-07-18T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Peter Higgs",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2013,
+    "birth": 1929,
+    "death": "2024-04-08T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Joseph Hooton Taylor",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1993,
+    "birth": 1941,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Ivar Gi\u00e6ver",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1973,
+    "birth": 1929,
+    "death": "2025-06-20T00:00:00Z",
+    "country": "Norway"
+  },
+  {
+    "name": "Bertram Brockhouse",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1994,
+    "birth": 1918,
+    "death": "2003-10-13T00:00:00Z",
+    "country": "Canada"
+  },
+  {
+    "name": "Leon M. Lederman",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1988,
+    "birth": 1922,
+    "death": "2018-10-03T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Ilya Frank",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1958,
+    "birth": 1908,
+    "death": "1990-06-22T00:00:00Z",
+    "country": "Russia"
+  },
+  {
+    "name": "Robert Coleman Richardson",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1996,
+    "birth": 1937,
+    "death": "2013-02-19T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Kai Siegbahn",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1981,
+    "birth": 1918,
+    "death": "2007-07-20T00:00:00Z",
+    "country": "Sweden"
+  },
+  {
+    "name": "Samuel C. C. Ting",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1976,
+    "birth": 1936,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Anthony James Leggett",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2003,
+    "birth": 1938,
+    "death": "",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "James Cronin",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1980,
+    "birth": 1931,
+    "death": "2016-08-25T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Kenneth G. Wilson",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1982,
+    "birth": 1936,
+    "death": "2013-06-15T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "John Hasbrouck Van Vleck",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1977,
+    "birth": 1899,
+    "death": "1980-10-27T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "John Clauser",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2022,
+    "birth": 1942,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Isamu Akasaki",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2014,
+    "birth": 1929,
+    "death": "2021-04-01T00:00:00Z",
+    "country": "Japan"
+  },
+  {
+    "name": "Michael Kosterlitz",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2016,
+    "birth": 1943,
+    "death": "",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Barry C. Barish",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2017,
+    "birth": 1936,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Kofi Annan",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 2001,
+    "birth": 1938,
+    "death": "2018-08-18T00:00:00Z",
+    "country": "Ghana"
+  },
+  {
+    "name": "Dag Hammarskj\u00f6ld",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1961,
+    "birth": 1905,
+    "death": "1961-09-18T00:00:00Z",
+    "country": "Sweden"
+  },
+  {
+    "name": "Willy Brandt",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1971,
+    "birth": 1913,
+    "death": "1992-10-08T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Willy Brandt",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1971,
+    "birth": 1913,
+    "death": "1992-10-08T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Jos\u00e9 Ramos-Horta",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1996,
+    "birth": 1949,
+    "death": "",
+    "country": "Timor-Leste"
+  },
+  {
+    "name": "Ernesto Teodoro Moneta",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1907,
+    "birth": 1833,
+    "death": "1918-01-30T00:00:00Z",
+    "country": "Italy"
+  },
+  {
+    "name": "Henry Dunant",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1901,
+    "birth": 1828,
+    "death": "1910-10-30T00:00:00Z",
+    "country": "Switzerland"
+  },
+  {
+    "name": "Robert Cecil",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1937,
+    "birth": 1864,
+    "death": "1958-11-24T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Tenzin Gyatso",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1989,
+    "birth": 1935,
+    "death": "",
+    "country": "People's Republic of China"
+  },
+  {
+    "name": "Elie Wiesel",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1986,
+    "birth": 1928,
+    "death": "2016-07-02T00:00:00Z",
+    "country": "Romania"
+  },
+  {
+    "name": "Bertha von Suttner",
+    "gender": "female",
+    "prize": "Nobel Peace Prize",
+    "year": 1905,
+    "birth": 1843,
+    "death": "1914-06-21T00:00:00Z",
+    "country": "Czech Republic"
+  },
+  {
+    "name": "Al Gore",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 2007,
+    "birth": 1948,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Jimmy Carter",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 2002,
+    "birth": 1924,
+    "death": "2024-12-29T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Martti Ahtisaari",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 2008,
+    "birth": 1937,
+    "death": "2023-10-16T00:00:00Z",
+    "country": "Russia"
+  },
+  {
+    "name": "Mikhail Gorbachev",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1990,
+    "birth": 1931,
+    "death": "2022-08-30T00:00:00Z",
+    "country": "Russia"
+  },
+  {
+    "name": "Mother Teresa",
+    "gender": "female",
+    "prize": "Nobel Peace Prize",
+    "year": 1979,
+    "birth": 1910,
+    "death": "1997-09-05T00:00:00Z",
+    "country": "North Macedonia"
+  },
+  {
+    "name": "Malala Yousafzai",
+    "gender": "female",
+    "prize": "Nobel Peace Prize",
+    "year": 2014,
+    "birth": 1997,
+    "death": "",
+    "country": "Pakistan"
+  },
+  {
+    "name": "Theodore Roosevelt",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1906,
+    "birth": 1858,
+    "death": "1919-01-06T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Yizhak Rabin",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1994,
+    "birth": 1922,
+    "death": "1995-11-04T00:00:00Z",
+    "country": "Israel"
+  },
+  {
+    "name": "Yizhak Rabin",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1994,
+    "birth": 1922,
+    "death": "1995-11-04T00:00:00Z",
+    "country": "State of Palestine"
+  },
+  {
+    "name": "Yasser Arafat",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1994,
+    "birth": 1929,
+    "death": "2004-11-11T00:00:00Z",
+    "country": "Egypt"
+  },
+  {
+    "name": "Woodrow Wilson",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1919,
+    "birth": 1856,
+    "death": "1924-02-03T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Gustav Stresemann",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1926,
+    "birth": 1878,
+    "death": "1929-10-03T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Tawakkol Karman",
+    "gender": "female",
+    "prize": "Nobel Peace Prize",
+    "year": 2011,
+    "birth": 1979,
+    "death": "",
+    "country": "Yemen"
+  },
+  {
+    "name": "Leymah Roberta Gbowee",
+    "gender": "female",
+    "prize": "Nobel Peace Prize",
+    "year": 2011,
+    "birth": 1972,
+    "death": "",
+    "country": "Liberia"
+  },
+  {
+    "name": "Ales Bialiatski",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 2022,
+    "birth": 1962,
+    "death": "",
+    "country": "Russia"
+  },
+  {
+    "name": "\u00c9lie Ducommun",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1902,
+    "birth": 1833,
+    "death": "1906-12-07T00:00:00Z",
+    "country": "Switzerland"
+  },
+  {
+    "name": "Lester B. Pearson",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1957,
+    "birth": 1897,
+    "death": "1972-12-27T00:00:00Z",
+    "country": "Canada"
+  },
+  {
+    "name": "Menachem Begin",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1978,
+    "birth": 1913,
+    "death": "1992-03-09T00:00:00Z",
+    "country": "Belarus"
+  },
+  {
+    "name": "Shirin Ebadi",
+    "gender": "female",
+    "prize": "Nobel Peace Prize",
+    "year": 2003,
+    "birth": 1947,
+    "death": "",
+    "country": "Iran"
+  },
+  {
+    "name": "Mohamed ElBaradei",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 2005,
+    "birth": 1942,
+    "death": "",
+    "country": "Egypt"
+  },
+  {
+    "name": "George Marshall",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1953,
+    "birth": 1880,
+    "death": "1959-10-16T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "F. W. de Klerk",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1993,
+    "birth": 1936,
+    "death": "2021-11-11T00:00:00Z",
+    "country": "South Africa"
+  },
+  {
+    "name": "Alva Myrdal",
+    "gender": "female",
+    "prize": "Nobel Peace Prize",
+    "year": 1982,
+    "birth": 1902,
+    "death": "1986-02-01T00:00:00Z",
+    "country": "Sweden"
+  },
+  {
+    "name": "Norman Borlaug",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1970,
+    "birth": 1914,
+    "death": "2009-09-12T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "L\u00e9on Jouhaux",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1951,
+    "birth": 1879,
+    "death": "1954-04-28T00:00:00Z",
+    "country": "France"
+  },
+  {
+    "name": "Mairead Maguire",
+    "gender": "female",
+    "prize": "Nobel Peace Prize",
+    "year": 1976,
+    "birth": 1944,
+    "death": "",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Betty Williams",
+    "gender": "female",
+    "prize": "Nobel Peace Prize",
+    "year": 1976,
+    "birth": 1943,
+    "death": "2020-03-17T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Dominique Pire",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1958,
+    "birth": 1910,
+    "death": "1969-01-30T00:00:00Z",
+    "country": "Belgium"
+  },
+  {
+    "name": "Nathan S\u00f6derblom",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1930,
+    "birth": 1866,
+    "death": "1931-07-12T00:00:00Z",
+    "country": "Sweden"
+  },
+  {
+    "name": "John Mott",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1946,
+    "birth": 1865,
+    "death": "1955-01-31T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Charles Albert Gobat",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1902,
+    "birth": 1843,
+    "death": "1914-03-16T00:00:00Z",
+    "country": "Switzerland"
+  },
+  {
+    "name": "Eisaku Sat\u014d",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1974,
+    "birth": 1901,
+    "death": "1975-06-03T00:00:00Z",
+    "country": "Japan"
+  },
+  {
+    "name": "Aristide Briand",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1926,
+    "birth": 1862,
+    "death": "1932-03-07T00:00:00Z",
+    "country": "France"
+  },
+  {
+    "name": "Fr\u00e9d\u00e9ric Passy",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1901,
+    "birth": 1822,
+    "death": "1912-06-12T00:00:00Z",
+    "country": "France"
+  },
+  {
+    "name": "Jane Addams",
+    "gender": "female",
+    "prize": "Nobel Peace Prize",
+    "year": 1931,
+    "birth": 1860,
+    "death": "1935-05-22T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Charles G. Dawes",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1925,
+    "birth": 1865,
+    "death": "1951-04-23T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Rigoberta Mench\u00fa",
+    "gender": "female",
+    "prize": "Nobel Peace Prize",
+    "year": 1992,
+    "birth": 1959,
+    "death": "",
+    "country": "Guatemala"
+  },
+  {
+    "name": "Austen Chamberlain",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1925,
+    "birth": 1863,
+    "death": "1937-03-16T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Randal Cremer",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1903,
+    "birth": 1828,
+    "death": "1908-07-22T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Henri La Fontaine",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1913,
+    "birth": 1854,
+    "death": "1943-05-14T00:00:00Z",
+    "country": "Belgium"
+  },
+  {
+    "name": "Fredrik Bajer",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1908,
+    "birth": 1837,
+    "death": "1922-01-22T00:00:00Z",
+    "country": "Denmark"
+  },
+  {
+    "name": "David Trimble",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1998,
+    "birth": 1944,
+    "death": "2022-07-25T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Klas Pontus Arnoldson",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1908,
+    "birth": 1844,
+    "death": "1916-02-20T00:00:00Z",
+    "country": "Sweden"
+  },
+  {
+    "name": "Frank B. Kellogg",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1929,
+    "birth": 1856,
+    "death": "1937-12-21T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "John Hume",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1998,
+    "birth": 1937,
+    "death": "2020-08-03T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Carlos Saavedra Lamas",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1936,
+    "birth": 1878,
+    "death": "1959-05-05T00:00:00Z",
+    "country": "Argentina"
+  },
+  {
+    "name": "Auguste Beernaert",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1909,
+    "birth": 1829,
+    "death": "1912-10-06T00:00:00Z",
+    "country": "Belgium"
+  },
+  {
+    "name": "Cordell Hull",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1945,
+    "birth": 1871,
+    "death": "1955-07-23T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Alfonso Garc\u00eda Robles",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1982,
+    "birth": 1911,
+    "death": "1991-09-02T00:00:00Z",
+    "country": "Mexico"
+  },
+  {
+    "name": "Christian Lous Lange",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1921,
+    "birth": 1869,
+    "death": "1938-12-11T00:00:00Z",
+    "country": "Norway"
+  },
+  {
+    "name": "Adolfo P\u00e9rez Esquivel",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1980,
+    "birth": 1931,
+    "death": "",
+    "country": "Argentina"
+  },
+  {
+    "name": "Arthur Henderson",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1934,
+    "birth": 1863,
+    "death": "1935-10-20T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Jody Williams",
+    "gender": "female",
+    "prize": "Nobel Peace Prize",
+    "year": 1997,
+    "birth": 1950,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Philip Noel-Baker, Baron Noel-Baker",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1959,
+    "birth": 1889,
+    "death": "1982-10-08T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Albert John Mvumbi Luthuli",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1960,
+    "birth": 1898,
+    "death": "1967-07-21T00:00:00Z",
+    "country": "Zimbabwe"
+  },
+  {
+    "name": "Ralph Bunche",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1950,
+    "birth": 1904,
+    "death": "1971-12-09T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Emily Greene Balch",
+    "gender": "female",
+    "prize": "Nobel Peace Prize",
+    "year": 1946,
+    "birth": 1867,
+    "death": "1961-01-09T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Tobias Asser",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1911,
+    "birth": 1838,
+    "death": "1913-06-29T00:00:00Z",
+    "country": "Netherlands"
+  },
+  {
+    "name": "Tobias Asser",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1911,
+    "birth": 1838,
+    "death": "1913-07-29T00:00:00Z",
+    "country": "Netherlands"
+  },
+  {
+    "name": "L\u00e9on Bourgeois",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1920,
+    "birth": 1851,
+    "death": "1925-09-29T00:00:00Z",
+    "country": "France"
+  },
+  {
+    "name": "Joseph Rotblat",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1995,
+    "birth": 1908,
+    "death": "2005-08-31T00:00:00Z",
+    "country": "Poland"
+  },
+  {
+    "name": "Elihu Root",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1912,
+    "birth": 1845,
+    "death": "1937-02-07T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Q230814",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1907,
+    "birth": 1843,
+    "death": "1918-02-08T00:00:00Z",
+    "country": "France"
+  },
+  {
+    "name": "Ren\u00e9 Cassin",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1968,
+    "birth": 1887,
+    "death": "1976-02-20T00:00:00Z",
+    "country": "France"
+  },
+  {
+    "name": "Le Duc Tho",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1973,
+    "birth": 1911,
+    "death": "1990-10-13T00:00:00Z",
+    "country": "Vietnam"
+  },
+  {
+    "name": "Carlos Filipe Ximenes Belo",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1996,
+    "birth": 1948,
+    "death": "",
+    "country": "Timor-Leste"
+  },
+  {
+    "name": "Paul-Henri-Benjamin d'Estournelles de Constant",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1909,
+    "birth": 1852,
+    "death": "1924-05-15T00:00:00Z",
+    "country": "France"
+  },
+  {
+    "name": "Se\u00e1n MacBride",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1974,
+    "birth": 1904,
+    "death": "1988-01-15T00:00:00Z",
+    "country": "France"
+  },
+  {
+    "name": "Nicholas Murray Butler",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1931,
+    "birth": 1862,
+    "death": "1947-12-07T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Norman Angell",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1933,
+    "birth": 1872,
+    "death": "1967-10-07T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Ferdinand Buisson",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1927,
+    "birth": 1841,
+    "death": "1932-02-16T00:00:00Z",
+    "country": "France"
+  },
+  {
+    "name": "John Boyd Orr",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1949,
+    "birth": 1880,
+    "death": "1971-06-25T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Denis Mukwege",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 2018,
+    "birth": 1955,
+    "death": "",
+    "country": "Democratic Republic of the Congo"
+  },
+  {
+    "name": "Dmitri Muratov",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 2021,
+    "birth": 1961,
+    "death": "",
+    "country": "Russia"
+  },
+  {
+    "name": "Dmitri Muratov",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 2021,
+    "birth": 1961,
+    "death": "",
+    "country": "Russia"
+  },
+  {
+    "name": "Nadia Murad Basee",
+    "gender": "female",
+    "prize": "Nobel Peace Prize",
+    "year": 2018,
+    "birth": 1993,
+    "death": "",
+    "country": "Iraq"
+  },
+  {
+    "name": "Barack Obama",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 2009,
+    "birth": 1961,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Bob Dylan",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 2016,
+    "birth": 1941,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Q444",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1983,
+    "birth": 1943,
+    "death": "",
+    "country": "Poland"
+  },
+  {
+    "name": "Andrei Sakharov",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1975,
+    "birth": 1921,
+    "death": "1989-12-14T00:00:00Z",
+    "country": "Russia"
+  },
+  {
+    "name": "Luigi Pirandello",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1934,
+    "birth": 1867,
+    "death": "1936-12-10T00:00:00Z",
+    "country": "Italy"
+  },
+  {
+    "name": "Nelson Mandela",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1993,
+    "birth": 1918,
+    "death": "2013-12-05T00:00:00Z",
+    "country": "South Africa"
+  },
+  {
+    "name": "Martin Luther King Jr.",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1964,
+    "birth": 1929,
+    "death": "1968-04-04T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Gao Xingjian",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 2000,
+    "birth": 1940,
+    "death": "",
+    "country": "People's Republic of China"
+  },
+  {
+    "name": "George Bernard Shaw",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1925,
+    "birth": 1856,
+    "death": "1950-11-02T00:00:00Z",
+    "country": "Ireland"
+  },
+  {
+    "name": "Ernest Hemingway",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1954,
+    "birth": 1899,
+    "death": "1961-07-02T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Theodor Mommsen",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1902,
+    "birth": 1817,
+    "death": "1903-11-01T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Hermann Hesse",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1946,
+    "birth": 1877,
+    "death": "1962-08-09T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Bertrand Russell",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1950,
+    "birth": 1872,
+    "death": "1970-02-02T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Pablo Neruda",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1971,
+    "birth": 1904,
+    "death": "1973-09-23T00:00:00Z",
+    "country": "Chile"
+  },
+  {
+    "name": "Aleksandr Solzhenitsyn",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1970,
+    "birth": 1918,
+    "death": "2008-08-03T00:00:00Z",
+    "country": "Russia"
+  },
+  {
+    "name": "Albert Camus",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1957,
+    "birth": 1913,
+    "death": "1960-01-04T00:00:00Z",
+    "country": "Algeria"
+  },
+  {
+    "name": "Rudyard Kipling",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1907,
+    "birth": 1865,
+    "death": "1936-01-18T00:00:00Z",
+    "country": "India"
+  },
+  {
+    "name": "Aung San Suu Kyi",
+    "gender": "female",
+    "prize": "Nobel Peace Prize",
+    "year": 1991,
+    "birth": 1945,
+    "death": "",
+    "country": "Myanmar"
+  },
+  {
+    "name": "Thomas Mann",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1929,
+    "birth": 1875,
+    "death": "1955-08-12T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Jos\u00e9 Saramago",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1998,
+    "birth": 1922,
+    "death": "2010-06-18T00:00:00Z",
+    "country": "Portugal"
+  },
+  {
+    "name": "Samuel Beckett",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1969,
+    "birth": 1906,
+    "death": "1989-12-22T00:00:00Z",
+    "country": "Ireland"
+  },
+  {
+    "name": "T. S. Eliot",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1948,
+    "birth": 1888,
+    "death": "1965-01-04T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Herta M\u00fcller",
+    "gender": "female",
+    "prize": "Nobel Prize in Literature",
+    "year": 2009,
+    "birth": 1953,
+    "death": "",
+    "country": "Romania"
+  },
+  {
+    "name": "Herta M\u00fcller",
+    "gender": "female",
+    "prize": "Nobel Prize in Literature",
+    "year": 2009,
+    "birth": 1953,
+    "death": "",
+    "country": "Romanian People's Republic"
+  },
+  {
+    "name": "William Faulkner",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1949,
+    "birth": 1897,
+    "death": "1962-07-06T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "John Steinbeck",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1962,
+    "birth": 1902,
+    "death": "1968-12-20T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Liu Xiaobo",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 2010,
+    "birth": 1955,
+    "death": "2017-07-13T00:00:00Z",
+    "country": "People's Republic of China"
+  },
+  {
+    "name": "Anwar Sadat",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1978,
+    "birth": 1918,
+    "death": "1981-10-06T00:00:00Z",
+    "country": "Egypt"
+  },
+  {
+    "name": "Desmond Tutu",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1984,
+    "birth": 1931,
+    "death": "2021-12-26T00:00:00Z",
+    "country": "South Africa"
+  },
+  {
+    "name": "Ellen Johnson Sirleaf",
+    "gender": "female",
+    "prize": "Nobel Peace Prize",
+    "year": 2011,
+    "birth": 1938,
+    "death": "",
+    "country": "Liberia"
+  },
+  {
+    "name": "Muhammad Yunus",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 2006,
+    "birth": 1940,
+    "death": "",
+    "country": "Bangladesh"
+  },
+  {
+    "name": "Kim Dae-jung",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 2000,
+    "birth": 1924,
+    "death": "2009-08-18T00:00:00Z",
+    "country": "South Korea"
+  },
+  {
+    "name": "Wangari Muta Maathai",
+    "gender": "female",
+    "prize": "Nobel Peace Prize",
+    "year": 2004,
+    "birth": 1940,
+    "death": "2011-09-25T00:00:00Z",
+    "country": "Kenya"
+  },
+  {
+    "name": "Linus Pauling",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1962,
+    "birth": 1901,
+    "death": "1994-08-18T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Albert Schweitzer",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1952,
+    "birth": 1875,
+    "death": "1965-09-04T00:00:00Z",
+    "country": "France"
+  },
+  {
+    "name": "\u00d3scar Arias S\u00e1nchez",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1987,
+    "birth": 1941,
+    "death": "",
+    "country": "Costa Rica"
+  },
+  {
+    "name": "\u00d3scar Arias S\u00e1nchez",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1987,
+    "birth": 1941,
+    "death": "",
+    "country": "Costa Rica"
+  },
+  {
+    "name": "Hjalmar Branting",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1921,
+    "birth": 1860,
+    "death": "1925-02-24T00:00:00Z",
+    "country": "Sweden"
+  },
+  {
+    "name": "Juan Manuel Santos",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 2016,
+    "birth": 1951,
+    "death": "",
+    "country": "Colombia"
+  },
+  {
+    "name": "Shimon Peres",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1994,
+    "birth": 1923,
+    "death": "2016-09-28T00:00:00Z",
+    "country": "Belarus"
+  },
+  {
+    "name": "Henry Kissinger",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1973,
+    "birth": 1923,
+    "death": "2023-11-29T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Fridtjof Nansen",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1922,
+    "birth": 1861,
+    "death": "1930-05-13T00:00:00Z",
+    "country": "Norway"
+  },
+  {
+    "name": "Carl von Ossietzky",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1935,
+    "birth": 1889,
+    "death": "1938-05-04T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Ludwig Quidde",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1927,
+    "birth": 1858,
+    "death": "1941-03-05T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Ludwig Quidde",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1927,
+    "birth": 1858,
+    "death": "1941-03-05T00:00:00Z",
+    "country": "Bremen Soviet Republic"
+  },
+  {
+    "name": "Alfred Hermann Fried",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 1911,
+    "birth": 1864,
+    "death": "1921-05-05T00:00:00Z",
+    "country": "Austria"
+  },
+  {
+    "name": "Jaroslav Seifert",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1984,
+    "birth": 1901,
+    "death": "1986-01-10T00:00:00Z",
+    "country": "Czech Republic"
+  },
+  {
+    "name": "W\u0142adys\u0142aw Reymont",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1924,
+    "birth": 1867,
+    "death": "1925-12-05T00:00:00Z",
+    "country": "Poland"
+  },
+  {
+    "name": "Sinclair Lewis",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1930,
+    "birth": 1885,
+    "death": "1951-01-10T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Jos\u00e9 Echegaray",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1904,
+    "birth": 1832,
+    "death": "1916-09-14T00:00:00Z",
+    "country": "Spain"
+  },
+  {
+    "name": "Roger Martin du Gard",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1937,
+    "birth": 1881,
+    "death": "1958-08-22T00:00:00Z",
+    "country": "France"
+  },
+  {
+    "name": "Verner von Heidenstam",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1916,
+    "birth": 1859,
+    "death": "1940-05-20T00:00:00Z",
+    "country": "Sweden"
+  },
+  {
+    "name": "Patrick White",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1973,
+    "birth": 1912,
+    "death": "1990-09-29T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Patrick White",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1973,
+    "birth": 1912,
+    "death": "1990-09-30T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Juan Ram\u00f3n Jim\u00e9nez",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1956,
+    "birth": 1880,
+    "death": "1958-05-29T00:00:00Z",
+    "country": "Spain"
+  },
+  {
+    "name": "Eyvind Johnson",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1974,
+    "birth": 1900,
+    "death": "1976-08-25T00:00:00Z",
+    "country": "Sweden"
+  },
+  {
+    "name": "Karl Adolph Gjellerup",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1917,
+    "birth": 1857,
+    "death": "1919-10-11T00:00:00Z",
+    "country": "Denmark"
+  },
+  {
+    "name": "Claude Simon",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1985,
+    "birth": 1913,
+    "death": "2005-07-06T00:00:00Z",
+    "country": "Madagascar"
+  },
+  {
+    "name": "Camilo Jos\u00e9 Cela",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1989,
+    "birth": 1916,
+    "death": "2002-01-17T00:00:00Z",
+    "country": "Spain"
+  },
+  {
+    "name": "Q132684",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1960,
+    "birth": 1887,
+    "death": "1975-09-20T00:00:00Z",
+    "country": "France"
+  },
+  {
+    "name": "Harry Martinson",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1974,
+    "birth": 1904,
+    "death": "1978-02-11T00:00:00Z",
+    "country": "Sweden"
+  },
+  {
+    "name": "Derek Walcott",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1992,
+    "birth": 1930,
+    "death": "2017-03-17T00:00:00Z",
+    "country": "Saint Lucia"
+  },
+  {
+    "name": "Frans Eemil Sillanp\u00e4\u00e4",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1939,
+    "birth": 1888,
+    "death": "1964-06-03T00:00:00Z",
+    "country": "Finland"
+  },
+  {
+    "name": "Shmuel Yosef Agnon",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1966,
+    "birth": 1887,
+    "death": "1970-02-17T00:00:00Z",
+    "country": "Ukraine"
+  },
+  {
+    "name": "Erik Axel Karlfeldt",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1931,
+    "birth": 1864,
+    "death": "1931-04-08T00:00:00Z",
+    "country": "Sweden"
+  },
+  {
+    "name": "Vicente Aleixandre",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1977,
+    "birth": 1898,
+    "death": "1984-12-14T00:00:00Z",
+    "country": "Spain"
+  },
+  {
+    "name": "Johannes V. Jensen",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1944,
+    "birth": 1873,
+    "death": "1950-11-25T00:00:00Z",
+    "country": "Denmark"
+  },
+  {
+    "name": "Odysseas Elytis",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1979,
+    "birth": 1911,
+    "death": "1996-03-18T00:00:00Z",
+    "country": "Greece"
+  },
+  {
+    "name": "Giorgos Seferis",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1963,
+    "birth": 1900,
+    "death": "1971-09-20T00:00:00Z",
+    "country": "Turkey"
+  },
+  {
+    "name": "Patrick Modiano",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 2014,
+    "birth": 1945,
+    "death": "",
+    "country": "France"
+  },
+  {
+    "name": "Henrik Pontoppidan",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1917,
+    "birth": 1857,
+    "death": "1943-08-21T00:00:00Z",
+    "country": "Denmark"
+  },
+  {
+    "name": "Carl Spitteler",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1919,
+    "birth": 1845,
+    "death": "1924-12-29T00:00:00Z",
+    "country": "Switzerland"
+  },
+  {
+    "name": "Alice Munro",
+    "gender": "female",
+    "prize": "Nobel Prize in Literature",
+    "year": 2013,
+    "birth": 1931,
+    "death": "2024-05-13T00:00:00Z",
+    "country": "Canada"
+  },
+  {
+    "name": "Orhan Pamuk",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 2006,
+    "birth": 1952,
+    "death": "",
+    "country": "Turkey"
+  },
+  {
+    "name": "Olga Tokarczuk",
+    "gender": "female",
+    "prize": "Nobel Prize in Literature",
+    "year": 2018,
+    "birth": 1962,
+    "death": "",
+    "country": "Poland"
+  },
+  {
+    "name": "Kazuo Ishiguro",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 2017,
+    "birth": 1954,
+    "death": "",
+    "country": "Japan"
+  },
+  {
+    "name": "Svetlana Alexievich",
+    "gender": "female",
+    "prize": "Nobel Prize in Literature",
+    "year": 2015,
+    "birth": 1948,
+    "death": "",
+    "country": "Ukraine"
+  },
+  {
+    "name": "Abdulrazak Gurnah",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 2021,
+    "birth": 1948,
+    "death": "",
+    "country": "Tanzania"
+  },
+  {
+    "name": "Mar\u00eda Corina Machado",
+    "gender": "female",
+    "prize": "Nobel Peace Prize",
+    "year": 2025,
+    "birth": 1967,
+    "death": "",
+    "country": "Venezuela"
+  },
+  {
+    "name": "Annie Ernaux",
+    "gender": "female",
+    "prize": "Nobel Prize in Literature",
+    "year": 2022,
+    "birth": 1940,
+    "death": "",
+    "country": "France"
+  },
+  {
+    "name": "Louise Gl\u00fcck",
+    "gender": "female",
+    "prize": "Nobel Prize in Literature",
+    "year": 2020,
+    "birth": 1943,
+    "death": "2023-10-13T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Kailash Satyarthi",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 2014,
+    "birth": 1954,
+    "death": "",
+    "country": "India"
+  },
+  {
+    "name": "Narges Mohammadi",
+    "gender": "female",
+    "prize": "Nobel Peace Prize",
+    "year": 2023,
+    "birth": 1972,
+    "death": "",
+    "country": "Iran"
+  },
+  {
+    "name": "Maria Ressa",
+    "gender": "female",
+    "prize": "Nobel Peace Prize",
+    "year": 2021,
+    "birth": 1963,
+    "death": "",
+    "country": "Philippines"
+  },
+  {
+    "name": "Abiy Ahmed",
+    "gender": "male",
+    "prize": "Nobel Peace Prize",
+    "year": 2019,
+    "birth": 1976,
+    "death": "",
+    "country": "Ethiopia"
+  },
+  {
+    "name": "Albert Einstein",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1921,
+    "birth": 1879,
+    "death": "1955-04-18T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "John Bardeen",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1956,
+    "birth": 1908,
+    "death": "1991-01-30T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "John Bardeen",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1972,
+    "birth": 1908,
+    "death": "1991-01-30T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Niels Bohr",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1922,
+    "birth": 1885,
+    "death": "1962-11-18T00:00:00Z",
+    "country": "Denmark"
+  },
+  {
+    "name": "Marie Curie",
+    "gender": "female",
+    "prize": "Nobel Prize in Physics",
+    "year": 1903,
+    "birth": 1867,
+    "death": "1934-07-04T00:00:00Z",
+    "country": "Poland"
+  },
+  {
+    "name": "Enrico Fermi",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1938,
+    "birth": 1901,
+    "death": "1954-11-28T00:00:00Z",
+    "country": "Italy"
+  },
+  {
+    "name": "Max Planck",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1918,
+    "birth": 1858,
+    "death": "1947-10-04T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Erwin Schr\u00f6dinger",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1933,
+    "birth": 1887,
+    "death": "1961-01-04T00:00:00Z",
+    "country": "Austria"
+  },
+  {
+    "name": "Abdus Salam",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1979,
+    "birth": 1926,
+    "death": "1996-11-21T00:00:00Z",
+    "country": "Pakistan"
+  },
+  {
+    "name": "Wilhelm R\u00f6ntgen",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1901,
+    "birth": 1845,
+    "death": "1923-02-10T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Guglielmo Marconi",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1909,
+    "birth": 1874,
+    "death": "1937-07-20T00:00:00Z",
+    "country": "Italy"
+  },
+  {
+    "name": "Pierre Curie",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1903,
+    "birth": 1859,
+    "death": "1906-04-19T00:00:00Z",
+    "country": "France"
+  },
+  {
+    "name": "Richard Feynman",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1965,
+    "birth": 1918,
+    "death": "1988-02-15T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "David Gross",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2004,
+    "birth": 1941,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Werner Heisenberg",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1932,
+    "birth": 1901,
+    "death": "1976-02-01T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Henri Becquerel",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1903,
+    "birth": 1852,
+    "death": "1908-08-25T00:00:00Z",
+    "country": "France"
+  },
+  {
+    "name": "Hendrik Lorentz",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1902,
+    "birth": 1853,
+    "death": "1928-02-04T00:00:00Z",
+    "country": "Netherlands"
+  },
+  {
+    "name": "Rudolf M\u00f6ssbauer",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1961,
+    "birth": 1929,
+    "death": "2011-09-14T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "William Alfred Fowler",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1983,
+    "birth": 1911,
+    "death": "1995-03-14T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "J. J. Thomson",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1906,
+    "birth": 1856,
+    "death": "1940-08-30T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Paul Dirac",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1933,
+    "birth": 1902,
+    "death": "1984-10-20T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Hannes Alfv\u00e9n",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1970,
+    "birth": 1908,
+    "death": "1995-04-02T00:00:00Z",
+    "country": "Sweden"
+  },
+  {
+    "name": "Philipp Lenard",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1905,
+    "birth": 1862,
+    "death": "1947-05-20T00:00:00Z",
+    "country": "Slovakia"
+  },
+  {
+    "name": "James Franck",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1925,
+    "birth": 1882,
+    "death": "1964-05-21T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Max von Laue",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1914,
+    "birth": 1879,
+    "death": "1960-04-24T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Wilhelm Wien",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1911,
+    "birth": 1864,
+    "death": "1928-08-30T00:00:00Z",
+    "country": "Russia"
+  },
+  {
+    "name": "Gustav Ludwig Hertz",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1925,
+    "birth": 1887,
+    "death": "1975-10-30T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Otto Stern",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1943,
+    "birth": 1888,
+    "death": "1969-08-17T00:00:00Z",
+    "country": "Poland"
+  },
+  {
+    "name": "Ferdinand Braun",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1909,
+    "birth": 1850,
+    "death": "1918-04-20T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Johannes Stark",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1919,
+    "birth": 1874,
+    "death": "1957-06-21T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Maria Goeppert Mayer",
+    "gender": "female",
+    "prize": "Nobel Prize in Physics",
+    "year": 1963,
+    "birth": 1906,
+    "death": "1972-02-20T00:00:00Z",
+    "country": "Poland"
+  },
+  {
+    "name": "Peter Gr\u00fcnberg",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2007,
+    "birth": 1939,
+    "death": "2018-04-07T00:00:00Z",
+    "country": "Czech Republic"
+  },
+  {
+    "name": "Wolfgang Paul",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1989,
+    "birth": 1913,
+    "death": "1993-12-07T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Max Born",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1954,
+    "birth": 1882,
+    "death": "1970-01-05T00:00:00Z",
+    "country": "Poland"
+  },
+  {
+    "name": "Chandrasekhara Venkata Raman",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1930,
+    "birth": 1888,
+    "death": "1970-11-21T00:00:00Z",
+    "country": "India"
+  },
+  {
+    "name": "David J. Wineland",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2012,
+    "birth": 1944,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Heike Kamerlingh Onnes",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1913,
+    "birth": 1853,
+    "death": "1926-02-21T00:00:00Z",
+    "country": "Netherlands"
+  },
+  {
+    "name": "John Cockcroft",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1951,
+    "birth": 1897,
+    "death": "1967-09-18T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Roy J. Glauber",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2005,
+    "birth": 1925,
+    "death": "2018-12-26T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Reinhard Genzel",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2020,
+    "birth": 1952,
+    "death": "",
+    "country": "Germany"
+  },
+  {
+    "name": "Wolfgang Pauli",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1945,
+    "birth": 1900,
+    "death": "1958-12-15T00:00:00Z",
+    "country": "Austria"
+  },
+  {
+    "name": "Hans Georg Dehmelt",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1989,
+    "birth": 1922,
+    "death": "2017-03-07T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Theodor W. H\u00e4nsch",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2005,
+    "birth": 1941,
+    "death": "",
+    "country": "Germany"
+  },
+  {
+    "name": "Horst Ludwig St\u00f6rmer",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1998,
+    "birth": 1949,
+    "death": "",
+    "country": "Germany"
+  },
+  {
+    "name": "Herbert Kroemer",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2000,
+    "birth": 1928,
+    "death": "2024-03-08T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Ernst Ruska",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1986,
+    "birth": 1906,
+    "death": "1988-05-27T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Alfred Kastler",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1966,
+    "birth": 1902,
+    "death": "1984-01-07T00:00:00Z",
+    "country": "France"
+  },
+  {
+    "name": "Klaus von Klitzing",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1985,
+    "birth": 1943,
+    "death": "",
+    "country": "Poland"
+  },
+  {
+    "name": "Willard Boyle",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2009,
+    "birth": 1924,
+    "death": "2011-05-07T00:00:00Z",
+    "country": "Canada"
+  },
+  {
+    "name": "George E. Smith",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2009,
+    "birth": 1930,
+    "death": "2025-05-28T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Wolfgang Ketterle",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2001,
+    "birth": 1957,
+    "death": "",
+    "country": "Germany"
+  },
+  {
+    "name": "Walther Bothe",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1954,
+    "birth": 1891,
+    "death": "1957-02-08T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Georg Bednorz",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1987,
+    "birth": 1950,
+    "death": "",
+    "country": "Germany"
+  },
+  {
+    "name": "Gerd Binnig",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1986,
+    "birth": 1947,
+    "death": "",
+    "country": "Germany"
+  },
+  {
+    "name": "J. Hans D. Jensen",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1963,
+    "birth": 1907,
+    "death": "1973-02-11T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Pavel Cherenkov",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1958,
+    "birth": 1904,
+    "death": "1990-01-06T00:00:00Z",
+    "country": "Russia"
+  },
+  {
+    "name": "Victor Francis Hess",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1936,
+    "birth": 1883,
+    "death": "1964-12-17T00:00:00Z",
+    "country": "Austria"
+  },
+  {
+    "name": "Anton Zeilinger",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2022,
+    "birth": 1945,
+    "death": "",
+    "country": "Austria"
+  },
+  {
+    "name": "Pieter Zeeman",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1902,
+    "birth": 1865,
+    "death": "1943-10-09T00:00:00Z",
+    "country": "Netherlands"
+  },
+  {
+    "name": "James Chadwick",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1935,
+    "birth": 1891,
+    "death": "1974-07-24T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Donald Arthur Glaser",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1960,
+    "birth": 1926,
+    "death": "2013-02-28T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Leon Cooper",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1972,
+    "birth": 1930,
+    "death": "2024-10-23T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "John Strutt, 3rd Baron Rayleigh",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1904,
+    "birth": 1842,
+    "death": "1919-06-30T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Louis de Broglie",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1929,
+    "birth": 1892,
+    "death": "1987-03-19T00:00:00Z",
+    "country": "France"
+  },
+  {
+    "name": "Alexander Prokhorov",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1964,
+    "birth": 1916,
+    "death": "2002-01-08T00:00:00Z",
+    "country": "Australia"
+  },
+  {
+    "name": "Nikolay Basov",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1964,
+    "birth": 1922,
+    "death": "2001-07-01T00:00:00Z",
+    "country": "Russia"
+  },
+  {
+    "name": "Ferenc Krausz",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2023,
+    "birth": 1962,
+    "death": "",
+    "country": "Hungary"
+  },
+  {
+    "name": "Geoffrey Hinton",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2024,
+    "birth": 1947,
+    "death": "",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Roger Penrose",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2020,
+    "birth": 1931,
+    "death": "",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Brian Schmidt",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2011,
+    "birth": 1967,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Richard E. Taylor",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1990,
+    "birth": 1929,
+    "death": "2018-02-22T00:00:00Z",
+    "country": "Canada"
+  },
+  {
+    "name": "Clifford Shull",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1994,
+    "birth": 1915,
+    "death": "2001-03-31T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "David Lee",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1996,
+    "birth": 1931,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Daniel C. Tsui",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1998,
+    "birth": 1939,
+    "death": "",
+    "country": "People's Republic of China"
+  },
+  {
+    "name": "Martinus J. G. Veltman",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1999,
+    "birth": 1931,
+    "death": "2021-01-04T00:00:00Z",
+    "country": "Netherlands"
+  },
+  {
+    "name": "Makoto Kobayashi",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2008,
+    "birth": 1944,
+    "death": "",
+    "country": "Japan"
+  },
+  {
+    "name": "Toshihide Maskawa",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2008,
+    "birth": 1940,
+    "death": "2021-07-23T00:00:00Z",
+    "country": "Japan"
+  },
+  {
+    "name": "Eric Allin Cornell",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2001,
+    "birth": 1961,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Carl Wieman",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2001,
+    "birth": 1951,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "John L. Hall",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2005,
+    "birth": 1934,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Douglas Osheroff",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1996,
+    "birth": 1945,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Val Logsdon Fitch",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1980,
+    "birth": 1923,
+    "death": "2015-02-04T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Val Logsdon Fitch",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1980,
+    "birth": 1923,
+    "death": "2015-02-05T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Kip S. Thorne",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2017,
+    "birth": 1940,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Alain Aspect",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2022,
+    "birth": 1947,
+    "death": "",
+    "country": "France"
+  },
+  {
+    "name": "John Hopfield",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2024,
+    "birth": 1933,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Andrea M. Ghez",
+    "gender": "female",
+    "prize": "Nobel Prize in Physics",
+    "year": 2020,
+    "birth": 1965,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "G\u00e9rard Mourou",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2018,
+    "birth": 1944,
+    "death": "",
+    "country": "France"
+  },
+  {
+    "name": "Anne L'Huillier",
+    "gender": "female",
+    "prize": "Nobel Prize in Physics",
+    "year": 2023,
+    "birth": 1958,
+    "death": "",
+    "country": "France"
+  },
+  {
+    "name": "Arthur Ashkin",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2018,
+    "birth": 1922,
+    "death": "2020-09-21T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Arthur B. McDonald",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2015,
+    "birth": 1943,
+    "death": "",
+    "country": "Canada"
+  },
+  {
+    "name": "David J. Thouless",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2016,
+    "birth": 1934,
+    "death": "2019-04-06T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Jim Peebles",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2019,
+    "birth": 1935,
+    "death": "",
+    "country": "Canada"
+  },
+  {
+    "name": "Shuji Nakamura",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2014,
+    "birth": 1954,
+    "death": "",
+    "country": "Japan"
+  },
+  {
+    "name": "Rainer Weiss",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2017,
+    "birth": 1932,
+    "death": "2025-08-25T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Syukuro Manabe",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2021,
+    "birth": 1931,
+    "death": "",
+    "country": "Japan"
+  },
+  {
+    "name": "Michel Devoret",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2025,
+    "birth": 1953,
+    "death": "",
+    "country": "France"
+  },
+  {
+    "name": "Donna Strickland",
+    "gender": "female",
+    "prize": "Nobel Prize in Physics",
+    "year": 2018,
+    "birth": 1959,
+    "death": "",
+    "country": "Canada"
+  },
+  {
+    "name": "Pierre Agostini",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2023,
+    "birth": 1941,
+    "death": "",
+    "country": "Tunisia"
+  },
+  {
+    "name": "Dario Fo",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1997,
+    "birth": 1926,
+    "death": "2016-10-13T00:00:00Z",
+    "country": "Italy"
+  },
+  {
+    "name": "Dario Fo",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1997,
+    "birth": 1926,
+    "death": "2016-10-13T00:00:00Z",
+    "country": "Italy"
+  },
+  {
+    "name": "Joseph Brodsky",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1987,
+    "birth": 1940,
+    "death": "1996-01-28T00:00:00Z",
+    "country": "Russia"
+  },
+  {
+    "name": "Gabriel Garc\u00eda M\u00e1rquez",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1982,
+    "birth": 1927,
+    "death": "2014-04-17T00:00:00Z",
+    "country": "Colombia"
+  },
+  {
+    "name": "G\u00fcnter Grass",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1999,
+    "birth": 1927,
+    "death": "2015-04-13T00:00:00Z",
+    "country": "Poland"
+  },
+  {
+    "name": "G\u00fcnter Grass",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1999,
+    "birth": 1927,
+    "death": "2015-04-13T00:00:00Z",
+    "country": "Free City of Danzig"
+  },
+  {
+    "name": "Naguib Mahfouz",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1988,
+    "birth": 1911,
+    "death": "2006-08-30T00:00:00Z",
+    "country": "Egypt"
+  },
+  {
+    "name": "Rabindranath Tagore",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1913,
+    "birth": 1861,
+    "death": "1941-08-07T00:00:00Z",
+    "country": "India"
+  },
+  {
+    "name": "Grazia Deledda",
+    "gender": "female",
+    "prize": "Nobel Prize in Literature",
+    "year": 1926,
+    "birth": 1871,
+    "death": "1936-08-15T00:00:00Z",
+    "country": "Italy"
+  },
+  {
+    "name": "Winston Churchill",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1953,
+    "birth": 1874,
+    "death": "1965-01-24T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Mo Yan",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 2012,
+    "birth": 1955,
+    "death": "",
+    "country": "People's Republic of China"
+  },
+  {
+    "name": "Jean-Paul Sartre",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1964,
+    "birth": 1905,
+    "death": "1980-04-15T00:00:00Z",
+    "country": "France"
+  },
+  {
+    "name": "Mario Vargas Llosa",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 2010,
+    "birth": 1936,
+    "death": "2025-04-13T00:00:00Z",
+    "country": "Peru"
+  },
+  {
+    "name": "William Butler Yeats",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1923,
+    "birth": 1865,
+    "death": "1939-01-28T00:00:00Z",
+    "country": "Ireland"
+  },
+  {
+    "name": "William Butler Yeats",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1923,
+    "birth": 1865,
+    "death": "1939-01-28T00:00:00Z",
+    "country": "Ireland"
+  },
+  {
+    "name": "Knut Hamsun",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1920,
+    "birth": 1859,
+    "death": "1952-02-19T00:00:00Z",
+    "country": "Norway"
+  },
+  {
+    "name": "Knut Hamsun",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1920,
+    "birth": 1859,
+    "death": "1952-02-19T00:00:00Z",
+    "country": "Norway"
+  },
+  {
+    "name": "Doris Lessing",
+    "gender": "female",
+    "prize": "Nobel Prize in Literature",
+    "year": 2007,
+    "birth": 1919,
+    "death": "2013-11-17T00:00:00Z",
+    "country": "Iran"
+  },
+  {
+    "name": "Harold Pinter",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 2005,
+    "birth": 1930,
+    "death": "2008-12-24T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Boris Pasternak",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1958,
+    "birth": 1890,
+    "death": "1960-05-30T00:00:00Z",
+    "country": "Russia"
+  },
+  {
+    "name": "Wole Soyinka",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1986,
+    "birth": 1934,
+    "death": "",
+    "country": "Nigeria"
+  },
+  {
+    "name": "Henryk Sienkiewicz",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1905,
+    "birth": 1846,
+    "death": "1916-11-15T00:00:00Z",
+    "country": "Poland"
+  },
+  {
+    "name": "Jean-Marie Gustave Le Cl\u00e9zio",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 2008,
+    "birth": 1940,
+    "death": "",
+    "country": "France"
+  },
+  {
+    "name": "Tomas Transtr\u00f6mer",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 2011,
+    "birth": 1931,
+    "death": "2015-03-26T00:00:00Z",
+    "country": "Sweden"
+  },
+  {
+    "name": "Henri Bergson",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1927,
+    "birth": 1859,
+    "death": "1941-01-04T00:00:00Z",
+    "country": "France"
+  },
+  {
+    "name": "Sully Prudhomme",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1901,
+    "birth": 1839,
+    "death": "1907-09-07T00:00:00Z",
+    "country": "France"
+  },
+  {
+    "name": "Mikhail Sholokhov",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1965,
+    "birth": 1905,
+    "death": "1984-02-21T00:00:00Z",
+    "country": "Russia"
+  },
+  {
+    "name": "Anatole France",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1921,
+    "birth": 1844,
+    "death": "1924-10-12T00:00:00Z",
+    "country": "France"
+  },
+  {
+    "name": "Wis\u0142awa Szymborska",
+    "gender": "female",
+    "prize": "Nobel Prize in Literature",
+    "year": 1996,
+    "birth": 1923,
+    "death": "2012-02-01T00:00:00Z",
+    "country": "Poland"
+  },
+  {
+    "name": "Fr\u00e9d\u00e9ric Mistral",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1904,
+    "birth": 1830,
+    "death": "1914-03-25T00:00:00Z",
+    "country": "France"
+  },
+  {
+    "name": "Heinrich B\u00f6ll",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1972,
+    "birth": 1917,
+    "death": "1985-07-16T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "J. M. Coetzee",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 2003,
+    "birth": 1940,
+    "death": "",
+    "country": "South Africa"
+  },
+  {
+    "name": "Giosu\u00e8 Carducci",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1906,
+    "birth": 1835,
+    "death": "1907-02-16T00:00:00Z",
+    "country": "Italy"
+  },
+  {
+    "name": "Gerhart Hauptmann",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1912,
+    "birth": 1862,
+    "death": "1946-06-06T00:00:00Z",
+    "country": "Poland"
+  },
+  {
+    "name": "Yasunari Kawabata",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1968,
+    "birth": 1899,
+    "death": "1972-04-16T00:00:00Z",
+    "country": "Japan"
+  },
+  {
+    "name": "Peter Handke",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 2019,
+    "birth": 1942,
+    "death": "",
+    "country": "Austria"
+  },
+  {
+    "name": "William Golding",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1983,
+    "birth": 1911,
+    "death": "1993-06-19T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Selma Lagerl\u00f6f",
+    "gender": "female",
+    "prize": "Nobel Prize in Literature",
+    "year": 1909,
+    "birth": 1858,
+    "death": "1940-03-16T00:00:00Z",
+    "country": "Sweden"
+  },
+  {
+    "name": "V. S. Naipaul",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 2001,
+    "birth": 1932,
+    "death": "2018-08-11T00:00:00Z",
+    "country": "Trinidad and Tobago"
+  },
+  {
+    "name": "Czes\u0142aw Mi\u0142osz",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1980,
+    "birth": 1911,
+    "death": "2004-08-14T00:00:00Z",
+    "country": "Lithuania"
+  },
+  {
+    "name": "Czes\u0142aw Mi\u0142osz",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1980,
+    "birth": 1911,
+    "death": "2004-08-14T00:00:00Z",
+    "country": "Lithuania"
+  },
+  {
+    "name": "Bj\u00f8rnstjerne Bj\u00f8rnson",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1903,
+    "birth": 1832,
+    "death": "1910-04-26T00:00:00Z",
+    "country": "Norway"
+  },
+  {
+    "name": "Ivan Bunin",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1933,
+    "birth": 1870,
+    "death": "1953-11-08T00:00:00Z",
+    "country": "Russia"
+  },
+  {
+    "name": "Octavio Paz",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1990,
+    "birth": 1914,
+    "death": "1998-04-19T00:00:00Z",
+    "country": "Mexico"
+  },
+  {
+    "name": "Romain Rolland",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1915,
+    "birth": 1866,
+    "death": "1944-12-30T00:00:00Z",
+    "country": "France"
+  },
+  {
+    "name": "Elfriede Jelinek",
+    "gender": "female",
+    "prize": "Nobel Prize in Literature",
+    "year": 2004,
+    "birth": 1946,
+    "death": "",
+    "country": "Austria"
+  },
+  {
+    "name": "Andr\u00e9 Gide",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1947,
+    "birth": 1869,
+    "death": "1951-02-19T00:00:00Z",
+    "country": "France"
+  },
+  {
+    "name": "Ivo Andri\u0107",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1961,
+    "birth": 1892,
+    "death": "1975-03-13T00:00:00Z",
+    "country": "Bosnia and Herzegovina"
+  },
+  {
+    "name": "Nadine Gordimer",
+    "gender": "female",
+    "prize": "Nobel Prize in Literature",
+    "year": 1991,
+    "birth": 1923,
+    "death": "2014-07-13T00:00:00Z",
+    "country": "South Africa"
+  },
+  {
+    "name": "Rudolf Christoph Eucken",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1908,
+    "birth": 1846,
+    "death": "1926-09-15T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Imre Kert\u00e9sz",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 2002,
+    "birth": 1929,
+    "death": "2016-03-31T00:00:00Z",
+    "country": "Hungary"
+  },
+  {
+    "name": "Q49747",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1911,
+    "birth": 1862,
+    "death": "1949-05-06T00:00:00Z",
+    "country": "Belgium"
+  },
+  {
+    "name": "Nelly Sachs",
+    "gender": "female",
+    "prize": "Nobel Prize in Literature",
+    "year": 1966,
+    "birth": 1891,
+    "death": "1970-05-12T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Toni Morrison",
+    "gender": "female",
+    "prize": "Nobel Prize in Literature",
+    "year": 1993,
+    "birth": 1931,
+    "death": "2019-08-05T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Miguel \u00c1ngel Asturias",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1967,
+    "birth": 1899,
+    "death": "1974-06-09T00:00:00Z",
+    "country": "Guatemala"
+  },
+  {
+    "name": "Isaac Bashevis Singer",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1978,
+    "birth": 1904,
+    "death": "1991-07-24T00:00:00Z",
+    "country": "Poland"
+  },
+  {
+    "name": "Isaac Bashevis Singer",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1978,
+    "birth": 1904,
+    "death": "1991-07-24T00:00:00Z",
+    "country": "Poland"
+  },
+  {
+    "name": "Paul Heyse",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1910,
+    "birth": 1830,
+    "death": "1914-04-02T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Elias Canetti",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1981,
+    "birth": 1905,
+    "death": "1994-08-14T00:00:00Z",
+    "country": "Bulgaria"
+  },
+  {
+    "name": "Kenzabur\u014d \u014ce",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1994,
+    "birth": 1935,
+    "death": "2023-03-03T00:00:00Z",
+    "country": "Japan"
+  },
+  {
+    "name": "Halld\u00f3r Laxness",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1955,
+    "birth": 1902,
+    "death": "1998-02-08T00:00:00Z",
+    "country": "Iceland"
+  },
+  {
+    "name": "Gabriela Mistral",
+    "gender": "female",
+    "prize": "Nobel Prize in Literature",
+    "year": 1945,
+    "birth": 1889,
+    "death": "1957-01-10T00:00:00Z",
+    "country": "Chile"
+  },
+  {
+    "name": "Sigrid Undset",
+    "gender": "female",
+    "prize": "Nobel Prize in Literature",
+    "year": 1928,
+    "birth": 1882,
+    "death": "1949-06-10T00:00:00Z",
+    "country": "Denmark"
+  },
+  {
+    "name": "Pearl S. Buck",
+    "gender": "female",
+    "prize": "Nobel Prize in Literature",
+    "year": 1938,
+    "birth": 1892,
+    "death": "1973-03-06T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Fran\u00e7ois Mauriac",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1952,
+    "birth": 1885,
+    "death": "1970-09-01T00:00:00Z",
+    "country": "France"
+  },
+  {
+    "name": "John Galsworthy",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1932,
+    "birth": 1867,
+    "death": "1933-01-31T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Salvatore Quasimodo",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1959,
+    "birth": 1901,
+    "death": "1968-06-14T00:00:00Z",
+    "country": "Italy"
+  },
+  {
+    "name": "Saul Bellow",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1976,
+    "birth": 1915,
+    "death": "2005-04-05T00:00:00Z",
+    "country": "Canada"
+  },
+  {
+    "name": "Saul Bellow",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1976,
+    "birth": 1915,
+    "death": "2005-04-05T00:00:00Z",
+    "country": "Canada"
+  },
+  {
+    "name": "Eugenio Montale",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1975,
+    "birth": 1896,
+    "death": "1981-09-12T00:00:00Z",
+    "country": "Italy"
+  },
+  {
+    "name": "Jacinto Benavente",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1922,
+    "birth": 1866,
+    "death": "1954-07-14T00:00:00Z",
+    "country": "Spain"
+  },
+  {
+    "name": "P\u00e4r Lagerkvist",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1951,
+    "birth": 1891,
+    "death": "1974-07-11T00:00:00Z",
+    "country": "Sweden"
+  },
+  {
+    "name": "Eugene O'Neill",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1936,
+    "birth": 1888,
+    "death": "1953-11-27T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Seamus Heaney",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 1995,
+    "birth": 1939,
+    "death": "2013-08-30T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Aage Bohr",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1975,
+    "birth": 1922,
+    "death": "2009-09-08T00:00:00Z",
+    "country": "Denmark"
+  },
+  {
+    "name": "Andre Geim",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2010,
+    "birth": 1958,
+    "death": "",
+    "country": "Russia"
+  },
+  {
+    "name": "John C. Mather",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2006,
+    "birth": 1946,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Vitaly Ginzburg",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2003,
+    "birth": 1916,
+    "death": "2009-11-08T00:00:00Z",
+    "country": "Russia"
+  },
+  {
+    "name": "Simon van der Meer",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1984,
+    "birth": 1925,
+    "death": "2011-03-04T00:00:00Z",
+    "country": "Netherlands"
+  },
+  {
+    "name": "Adam Riess",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2011,
+    "birth": 1969,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Konstantin Novoselov",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2010,
+    "birth": 1974,
+    "death": "",
+    "country": "Russia"
+  },
+  {
+    "name": "Saul Perlmutter",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2011,
+    "birth": 1959,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Hugh David Politzer",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2004,
+    "birth": 1949,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Martin Lewis Perl",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1995,
+    "birth": 1927,
+    "death": "2014-09-30T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Norman Foster Ramsey",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1989,
+    "birth": 1915,
+    "death": "2011-11-04T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Sheldon Glashow",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1979,
+    "birth": 1932,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Ben Roy Mottelson",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1975,
+    "birth": 1926,
+    "death": "2022-05-13T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Frank Wilczek",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2004,
+    "birth": 1951,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Klaus Hasselmann",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2021,
+    "birth": 1931,
+    "death": "",
+    "country": "Germany"
+  },
+  {
+    "name": "Serge Haroche",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2012,
+    "birth": 1944,
+    "death": "",
+    "country": "Morocco"
+  },
+  {
+    "name": "Karl Alexander M\u00fcller",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1987,
+    "birth": 1927,
+    "death": "2023-01-09T00:00:00Z",
+    "country": "Switzerland"
+  },
+  {
+    "name": "Felix Bloch",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1952,
+    "birth": 1905,
+    "death": "1983-09-10T00:00:00Z",
+    "country": "Switzerland"
+  },
+  {
+    "name": "Charles \u00c9douard Guillaume",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1920,
+    "birth": 1861,
+    "death": "1938-06-13T00:00:00Z",
+    "country": "Switzerland"
+  },
+  {
+    "name": "Heinrich Rohrer",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1986,
+    "birth": 1933,
+    "death": "2013-05-16T00:00:00Z",
+    "country": "Switzerland"
+  },
+  {
+    "name": "Michel Mayor",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2019,
+    "birth": 1942,
+    "death": "",
+    "country": "Switzerland"
+  },
+  {
+    "name": "Didier Queloz",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2019,
+    "birth": 1966,
+    "death": "",
+    "country": "Switzerland"
+  },
+  {
+    "name": "Albert A. Michelson",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1907,
+    "birth": 1852,
+    "death": "1931-05-09T00:00:00Z",
+    "country": "Poland"
+  },
+  {
+    "name": "Arthur Holly Compton",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1927,
+    "birth": 1892,
+    "death": "1962-03-15T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Robert Hofstadter",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1961,
+    "birth": 1915,
+    "death": "1990-11-17T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Robert A. Millikan",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 1923,
+    "birth": 1868,
+    "death": "1953-12-19T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Wilhelm Ostwald",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1909,
+    "birth": 1853,
+    "death": "1932-04-04T00:00:00Z",
+    "country": "Latvia"
+  },
+  {
+    "name": "Edwin McMillan",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1951,
+    "birth": 1907,
+    "death": "1991-09-07T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Mario Molina",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1995,
+    "birth": 1943,
+    "death": "2020-10-07T00:00:00Z",
+    "country": "Mexico"
+  },
+  {
+    "name": "Peter Agre",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2003,
+    "birth": 1949,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Sidney Altman",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1989,
+    "birth": 1939,
+    "death": "2022-04-05T00:00:00Z",
+    "country": "Canada"
+  },
+  {
+    "name": "Christian B. Anfinsen",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1972,
+    "birth": 1916,
+    "death": "1995-05-14T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Francis William Aston",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1922,
+    "birth": 1877,
+    "death": "1945-11-20T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Paul Berg",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1980,
+    "birth": 1926,
+    "death": "2023-02-15T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Paul D. Boyer",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1997,
+    "birth": 1918,
+    "death": "2018-06-02T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Herbert C. Brown",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1979,
+    "birth": 1912,
+    "death": "2004-12-19T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Derek Barton",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1969,
+    "birth": 1918,
+    "death": "1998-03-16T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Henri Moissan",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1906,
+    "birth": 1852,
+    "death": "1907-02-20T00:00:00Z",
+    "country": "France"
+  },
+  {
+    "name": "Jacobus Henricus van 't Hoff",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1901,
+    "birth": 1852,
+    "death": "1911-03-01T00:00:00Z",
+    "country": "Netherlands"
+  },
+  {
+    "name": "Frederick Soddy",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1921,
+    "birth": 1877,
+    "death": "1956-09-22T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Peter Debye",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1936,
+    "birth": 1884,
+    "death": "1966-11-02T00:00:00Z",
+    "country": "Netherlands"
+  },
+  {
+    "name": "Paul Sabatier",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1912,
+    "birth": 1854,
+    "death": "1941-08-14T00:00:00Z",
+    "country": "France"
+  },
+  {
+    "name": "Victor Grignard",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1912,
+    "birth": 1871,
+    "death": "1935-12-13T00:00:00Z",
+    "country": "France"
+  },
+  {
+    "name": "Benjamin List",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2021,
+    "birth": 1968,
+    "death": "",
+    "country": "Germany"
+  },
+  {
+    "name": "Ei-ichi Negishi",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2010,
+    "birth": 1935,
+    "death": "2021-06-06T00:00:00Z",
+    "country": "Manchukuo"
+  },
+  {
+    "name": "Wendell Meredith Stanley",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1946,
+    "birth": 1904,
+    "death": "1971-06-15T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Akira Suzuki",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2010,
+    "birth": 1930,
+    "death": "",
+    "country": "Japan"
+  },
+  {
+    "name": "John Howard Northrop",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1946,
+    "birth": 1891,
+    "death": "1987-05-27T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Richard F. Heck",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2010,
+    "birth": 1931,
+    "death": "2015-10-09T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Ahmed Zewail",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1999,
+    "birth": 1946,
+    "death": "2016-08-02T00:00:00Z",
+    "country": "Egypt"
+  },
+  {
+    "name": "Martin Chalfie",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2008,
+    "birth": 1947,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Jerome Karle",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1985,
+    "birth": 1918,
+    "death": "2013-06-06T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "John Fenn",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2002,
+    "birth": 1917,
+    "death": "2010-12-10T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Richard Smalley",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1996,
+    "birth": 1943,
+    "death": "2005-10-28T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Alan J. Heeger",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2000,
+    "birth": 1936,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "James B. Sumner",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1946,
+    "birth": 1887,
+    "death": "1955-08-12T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "George Porter",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1967,
+    "birth": 1920,
+    "death": "2002-08-31T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Lars Onsager",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1968,
+    "birth": 1903,
+    "death": "1976-10-05T00:00:00Z",
+    "country": "Norway"
+  },
+  {
+    "name": "Herbert A. Hauptman",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1985,
+    "birth": 1917,
+    "death": "2011-10-23T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Jean-Marie Lehn",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1987,
+    "birth": 1939,
+    "death": "",
+    "country": "France"
+  },
+  {
+    "name": "Thomas A. Steitz",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2009,
+    "birth": 1940,
+    "death": "2018-10-09T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "William Giauque",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1949,
+    "birth": 1895,
+    "death": "1982-03-28T00:00:00Z",
+    "country": "Canada"
+  },
+  {
+    "name": "Hideki Shirakawa",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2000,
+    "birth": 1936,
+    "death": "",
+    "country": "Japan"
+  },
+  {
+    "name": "Karl Barry Sharpless",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2001,
+    "birth": 1941,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Karl Barry Sharpless",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2022,
+    "birth": 1941,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Robert Curl",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1996,
+    "birth": 1933,
+    "death": "2022-07-03T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "William Lipscomb",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1976,
+    "birth": 1919,
+    "death": "2011-04-14T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Alan MacDiarmid",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2000,
+    "birth": 1927,
+    "death": "2007-02-07T00:00:00Z",
+    "country": "New Zealand"
+  },
+  {
+    "name": "William Standish Knowles",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2001,
+    "birth": 1917,
+    "death": "2012-06-13T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Stanford Moore",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1972,
+    "birth": 1913,
+    "death": "1982-08-23T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Kurt W\u00fcthrich",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2002,
+    "birth": 1938,
+    "death": "",
+    "country": "Switzerland"
+  },
+  {
+    "name": "Koichi Tanaka",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2002,
+    "birth": 1959,
+    "death": "",
+    "country": "Japan"
+  },
+  {
+    "name": "F. Sherwood Rowland",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1995,
+    "birth": 1927,
+    "death": "2012-03-10T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Richard Ernst",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1991,
+    "birth": 1933,
+    "death": "2021-06-04T00:00:00Z",
+    "country": "Switzerland"
+  },
+  {
+    "name": "Leopold Ru\u017ei\u010dka",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1939,
+    "birth": 1887,
+    "death": "1976-09-26T00:00:00Z",
+    "country": "Croatia"
+  },
+  {
+    "name": "Alfred Werner",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1913,
+    "birth": 1866,
+    "death": "1919-11-15T00:00:00Z",
+    "country": "France"
+  },
+  {
+    "name": "Paul Josef Crutzen",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1995,
+    "birth": 1933,
+    "death": "2021-01-28T00:00:00Z",
+    "country": "Netherlands"
+  },
+  {
+    "name": "Donald J. Cram",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1987,
+    "birth": 1919,
+    "death": "2001-06-17T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "John Cornforth",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1975,
+    "birth": 1917,
+    "death": "2013-12-08T00:00:00Z",
+    "country": "Australia"
+  },
+  {
+    "name": "Elias James Corey",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1990,
+    "birth": 1928,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Thomas Cech",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1989,
+    "birth": 1947,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Fr\u00e9d\u00e9ric Joliot-Curie",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1935,
+    "birth": 1900,
+    "death": "1958-08-14T00:00:00Z",
+    "country": "France"
+  },
+  {
+    "name": "Frederick Sanger",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1958,
+    "birth": 1918,
+    "death": "2013-11-19T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Frederick Sanger",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1980,
+    "birth": 1918,
+    "death": "2013-11-19T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "William Howard Stein",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1972,
+    "birth": 1911,
+    "death": "1980-02-02T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Ry\u014dji Noyori",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2001,
+    "birth": 1938,
+    "death": "",
+    "country": "Japan"
+  },
+  {
+    "name": "Odd Hassel",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1969,
+    "birth": 1897,
+    "death": "1981-05-11T00:00:00Z",
+    "country": "Norway"
+  },
+  {
+    "name": "Kary Mullis",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1993,
+    "birth": 1944,
+    "death": "2019-08-07T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Artturi Ilmari Virtanen",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1945,
+    "birth": 1895,
+    "death": "1973-11-11T00:00:00Z",
+    "country": "Finland"
+  },
+  {
+    "name": "Alexander R. Todd, Baron Todd",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1957,
+    "birth": 1907,
+    "death": "1997-01-10T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Harry Kroto",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1996,
+    "birth": 1939,
+    "death": "2016-04-30T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Jaroslav Heyrovsk\u00fd",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1959,
+    "birth": 1890,
+    "death": "1967-03-27T00:00:00Z",
+    "country": "Czech Republic"
+  },
+  {
+    "name": "Roger D. Kornberg",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2006,
+    "birth": 1947,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Paul Flory",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1974,
+    "birth": 1910,
+    "death": "1985-09-08T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Harold Urey",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1934,
+    "birth": 1893,
+    "death": "1981-01-05T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Ilya Prigogine",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1977,
+    "birth": 1917,
+    "death": "2003-05-28T00:00:00Z",
+    "country": "Russia"
+  },
+  {
+    "name": "Irving Langmuir",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1932,
+    "birth": 1881,
+    "death": "1957-08-16T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Theodor Svedberg",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1926,
+    "birth": 1884,
+    "death": "1971-02-25T00:00:00Z",
+    "country": "Sweden"
+  },
+  {
+    "name": "Theodore William Richards",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1914,
+    "birth": 1868,
+    "death": "1928-04-02T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Arthur Harden",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1929,
+    "birth": 1865,
+    "death": "1940-06-17T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Willard Libby",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1960,
+    "birth": 1908,
+    "death": "1980-09-08T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Aaron Klug",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1982,
+    "birth": 1926,
+    "death": "2018-11-20T00:00:00Z",
+    "country": "Lithuania"
+  },
+  {
+    "name": "George Andrew Olah",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1994,
+    "birth": 1927,
+    "death": "2017-03-08T00:00:00Z",
+    "country": "Hungary"
+  },
+  {
+    "name": "Louis E. Brus",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2023,
+    "birth": 1943,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Roger Y. Tsien",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2008,
+    "birth": 1952,
+    "death": "2016-08-24T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Robert H. Grubbs",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2005,
+    "birth": 1942,
+    "death": "2021-12-19T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Yves Chauvin",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2005,
+    "birth": 1930,
+    "death": "2015-01-27T00:00:00Z",
+    "country": "Belgium"
+  },
+  {
+    "name": "Richard R. Schrock",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2005,
+    "birth": 1945,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Norman Haworth",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1937,
+    "birth": 1883,
+    "death": "1950-03-19T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Osamu Shimomura",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2008,
+    "birth": 1928,
+    "death": "2018-10-19T00:00:00Z",
+    "country": "Japan"
+  },
+  {
+    "name": "Peter D. Mitchell",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1978,
+    "birth": 1920,
+    "death": "1992-04-10T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Roderick MacKinnon",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2003,
+    "birth": 1956,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Walter Gilbert",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1980,
+    "birth": 1932,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Kenichi Fukui",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1981,
+    "birth": 1918,
+    "death": "1998-01-09T00:00:00Z",
+    "country": "Japan"
+  },
+  {
+    "name": "Robert Bruce Merrifield",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1984,
+    "birth": 1921,
+    "death": "2006-05-14T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "John Clarke",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2025,
+    "birth": 1942,
+    "death": "",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Eric Betzig",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2014,
+    "birth": 1960,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "William E. Moerner",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2014,
+    "birth": 1953,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Greg Winter",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2018,
+    "birth": 1951,
+    "death": "",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Alexey Ekimov",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2023,
+    "birth": 1945,
+    "death": "",
+    "country": "Russia"
+  },
+  {
+    "name": "Richard Henderson",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2017,
+    "birth": 1945,
+    "death": "",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Jens Christian Skou",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1997,
+    "birth": 1918,
+    "death": "2018-05-28T00:00:00Z",
+    "country": "Denmark"
+  },
+  {
+    "name": "Tomas Lindahl",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2015,
+    "birth": 1938,
+    "death": "",
+    "country": "Sweden"
+  },
+  {
+    "name": "Aziz Sancar",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2015,
+    "birth": 1946,
+    "death": "",
+    "country": "Turkey"
+  },
+  {
+    "name": "Moungi Bawendi",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2023,
+    "birth": 1961,
+    "death": "",
+    "country": "France"
+  },
+  {
+    "name": "Emmanuelle Charpentier",
+    "gender": "female",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2020,
+    "birth": 1968,
+    "death": "",
+    "country": "France"
+  },
+  {
+    "name": "Adolf Butenandt",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1939,
+    "birth": 1903,
+    "death": "1995-01-18T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Marie Curie",
+    "gender": "female",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1911,
+    "birth": 1867,
+    "death": "1934-07-04T00:00:00Z",
+    "country": "Poland"
+  },
+  {
+    "name": "Ada Yonath",
+    "gender": "female",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2009,
+    "birth": 1939,
+    "death": "",
+    "country": "Israel"
+  },
+  {
+    "name": "Ada Yonath",
+    "gender": "female",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2009,
+    "birth": 1939,
+    "death": "",
+    "country": "State of Palestine"
+  },
+  {
+    "name": "Carolyn Bertozzi",
+    "gender": "female",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2022,
+    "birth": 1966,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Dorothy Hodgkin",
+    "gender": "female",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1964,
+    "birth": 1910,
+    "death": "1994-07-29T00:00:00Z",
+    "country": "Egypt"
+  },
+  {
+    "name": "Ir\u00e8ne Joliot-Curie",
+    "gender": "female",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1936,
+    "birth": 1897,
+    "death": "1956-03-17T00:00:00Z",
+    "country": "France"
+  },
+  {
+    "name": "Vincent du Vigneaud",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1955,
+    "birth": 1901,
+    "death": "1978-12-11T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Eduard Buchner",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1907,
+    "birth": 1860,
+    "death": "1917-08-13T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Dan Shechtman",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2011,
+    "birth": 1941,
+    "death": "",
+    "country": "Israel"
+  },
+  {
+    "name": "Ernst Otto Fischer",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1973,
+    "birth": 1918,
+    "death": "2007-07-23T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Hermann Staudinger",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1953,
+    "birth": 1881,
+    "death": "1965-09-08T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Glenn T. Seaborg",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1951,
+    "birth": 1912,
+    "death": "1999-02-25T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Archer John Porter Martin",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1952,
+    "birth": 1910,
+    "death": "2002-07-28T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Richard Laurence Millington Synge",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1952,
+    "birth": 1914,
+    "death": "1994-08-18T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Linus Pauling",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1954,
+    "birth": 1901,
+    "death": "1994-08-18T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Cyril Norman Hinshelwood",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1956,
+    "birth": 1897,
+    "death": "1967-10-09T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Nikolay Semyonov",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1956,
+    "birth": 1896,
+    "death": "1986-09-25T00:00:00Z",
+    "country": "Russia"
+  },
+  {
+    "name": "Melvin Calvin",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1961,
+    "birth": 1911,
+    "death": "1997-01-08T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Jennifer Doudna",
+    "gender": "female",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2020,
+    "birth": 1964,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Otto Hahn",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1944,
+    "birth": 1879,
+    "death": "1968-07-28T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Fritz Haber",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1918,
+    "birth": 1868,
+    "death": "1934-01-29T00:00:00Z",
+    "country": "Poland"
+  },
+  {
+    "name": "Adolf von Baeyer",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1905,
+    "birth": 1835,
+    "death": "1917-08-20T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Walther Nernst",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1920,
+    "birth": 1864,
+    "death": "1941-11-18T00:00:00Z",
+    "country": "Poland"
+  },
+  {
+    "name": "Otto Wallach",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1910,
+    "birth": 1847,
+    "death": "1931-02-26T00:00:00Z",
+    "country": "Prussia"
+  },
+  {
+    "name": "Venkatraman Ramakrishnan",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2009,
+    "birth": 1952,
+    "death": "",
+    "country": "India"
+  },
+  {
+    "name": "Gerhard Ertl",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2007,
+    "birth": 1936,
+    "death": "",
+    "country": "Germany"
+  },
+  {
+    "name": "Emil Fischer",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1902,
+    "birth": 1852,
+    "death": "1919-07-15T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Paul Karrer",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1937,
+    "birth": 1889,
+    "death": "1971-06-18T00:00:00Z",
+    "country": "Russia"
+  },
+  {
+    "name": "Kurt Alder",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1950,
+    "birth": 1902,
+    "death": "1958-06-20T00:00:00Z",
+    "country": "Poland"
+  },
+  {
+    "name": "Manfred Eigen",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1967,
+    "birth": 1927,
+    "death": "2019-02-06T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Gerhard Herzberg",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1971,
+    "birth": 1904,
+    "death": "1999-03-03T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Hans Fischer",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1930,
+    "birth": 1881,
+    "death": "1945-03-31T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Carl Bosch",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1931,
+    "birth": 1874,
+    "death": "1940-04-26T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Heinrich Wieland",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1927,
+    "birth": 1877,
+    "death": "1957-08-05T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Johann Deisenhofer",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1988,
+    "birth": 1943,
+    "death": "",
+    "country": "Germany"
+  },
+  {
+    "name": "Hans von Euler-Chelpin",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1929,
+    "birth": 1873,
+    "death": "1964-11-06T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Friedrich Bergius",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1931,
+    "birth": 1884,
+    "death": "1949-03-30T00:00:00Z",
+    "country": "Poland"
+  },
+  {
+    "name": "Otto Diels",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1950,
+    "birth": 1876,
+    "death": "1954-03-07T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Robert Huber",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1988,
+    "birth": 1937,
+    "death": "",
+    "country": "Germany"
+  },
+  {
+    "name": "Karl Ziegler",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1963,
+    "birth": 1898,
+    "death": "1973-08-12T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "George de Hevesy",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1943,
+    "birth": 1885,
+    "death": "1966-07-05T00:00:00Z",
+    "country": "Hungary"
+  },
+  {
+    "name": "Richard Willst\u00e4tter",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1915,
+    "birth": 1872,
+    "death": "1942-08-03T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Hartmut Michel",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1988,
+    "birth": 1948,
+    "death": "",
+    "country": "Germany"
+  },
+  {
+    "name": "Hartmut Michel",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1988,
+    "birth": 1948,
+    "death": "",
+    "country": "Holy Roman Empire"
+  },
+  {
+    "name": "Hartmut Michel",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1988,
+    "birth": 1948,
+    "death": "",
+    "country": "Kingdom of W\u00fcrttemberg"
+  },
+  {
+    "name": "Adolf Windaus",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1928,
+    "birth": 1876,
+    "death": "1959-06-09T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Georg Wittig",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1979,
+    "birth": 1897,
+    "death": "1987-08-26T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Max Perutz",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1962,
+    "birth": 1914,
+    "death": "2002-02-06T00:00:00Z",
+    "country": "Austria"
+  },
+  {
+    "name": "Richard Adolf Zsigmondy",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1925,
+    "birth": 1865,
+    "death": "1929-09-23T00:00:00Z",
+    "country": "Austria"
+  },
+  {
+    "name": "Fritz Pregl",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1923,
+    "birth": 1869,
+    "death": "1930-12-13T00:00:00Z",
+    "country": "Slovenia"
+  },
+  {
+    "name": "Richard Kuhn",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1938,
+    "birth": 1900,
+    "death": "1967-07-31T00:00:00Z",
+    "country": "Austria"
+  },
+  {
+    "name": "Walter Kohn",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1998,
+    "birth": 1923,
+    "death": "2016-04-19T00:00:00Z",
+    "country": "Austria"
+  },
+  {
+    "name": "Brian Kobilka",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2012,
+    "birth": 1955,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Robert Lefkowitz",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2012,
+    "birth": 1943,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Svante August Arrhenius",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1903,
+    "birth": 1859,
+    "death": "1927-10-02T00:00:00Z",
+    "country": "Sweden"
+  },
+  {
+    "name": "Vladimir Prelog",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1975,
+    "birth": 1906,
+    "death": "1998-01-07T00:00:00Z",
+    "country": "Bosnia and Herzegovina"
+  },
+  {
+    "name": "Stefan Hell",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2014,
+    "birth": 1962,
+    "death": "",
+    "country": "Romania"
+  },
+  {
+    "name": "Irwin Rose",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2004,
+    "birth": 1926,
+    "death": "2015-06-02T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Michael Smith",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1993,
+    "birth": 1932,
+    "death": "2000-10-04T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "John Kendrew",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1962,
+    "birth": 1917,
+    "death": "1997-08-23T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Avram Hershko",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2004,
+    "birth": 1937,
+    "death": "",
+    "country": "Hungary"
+  },
+  {
+    "name": "Robert Burns Woodward",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1965,
+    "birth": 1917,
+    "death": "1979-07-08T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Arne Tiselius",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1948,
+    "birth": 1902,
+    "death": "1971-10-29T00:00:00Z",
+    "country": "Sweden"
+  },
+  {
+    "name": "Aaron Ciechanover",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2004,
+    "birth": 1947,
+    "death": "",
+    "country": "Israel"
+  },
+  {
+    "name": "Robert S. Mulliken",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1966,
+    "birth": 1896,
+    "death": "1986-10-31T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "John Pople",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1998,
+    "birth": 1925,
+    "death": "2004-03-15T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Luis Federico Leloir",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1970,
+    "birth": 1906,
+    "death": "1987-12-02T00:00:00Z",
+    "country": "France"
+  },
+  {
+    "name": "Giulio Natta",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1963,
+    "birth": 1903,
+    "death": "1979-05-02T00:00:00Z",
+    "country": "Italy"
+  },
+  {
+    "name": "John E. Walker",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1997,
+    "birth": 1941,
+    "death": "",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Ronald George Wreyford Norrish",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1967,
+    "birth": 1897,
+    "death": "1978-06-07T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Henry Taube",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1983,
+    "birth": 1915,
+    "death": "2005-11-16T00:00:00Z",
+    "country": "Canada"
+  },
+  {
+    "name": "John Polanyi",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1986,
+    "birth": 1929,
+    "death": "",
+    "country": "Germany"
+  },
+  {
+    "name": "Rudolph A. Marcus",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1992,
+    "birth": 1923,
+    "death": "",
+    "country": "Canada"
+  },
+  {
+    "name": "Dudley R. Herschbach",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1986,
+    "birth": 1932,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Charles J. Pedersen",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1987,
+    "birth": 1904,
+    "death": "1989-10-26T00:00:00Z",
+    "country": "South Korea"
+  },
+  {
+    "name": "Roald Hoffmann",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1981,
+    "birth": 1937,
+    "death": "",
+    "country": "Ukraine"
+  },
+  {
+    "name": "Geoffrey Wilkinson",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1973,
+    "birth": 1921,
+    "death": "1996-09-26T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "M. Stanley Whittingham",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2019,
+    "birth": 1941,
+    "death": "",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Fraser Stoddart",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2016,
+    "birth": 1942,
+    "death": "2024-12-30T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Omar M. Yaghi",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2025,
+    "birth": 1965,
+    "death": "",
+    "country": "Jordan"
+  },
+  {
+    "name": "Martin Karplus",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2013,
+    "birth": 1930,
+    "death": "2024-12-28T00:00:00Z",
+    "country": "Austria"
+  },
+  {
+    "name": "John B. Goodenough",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2019,
+    "birth": 1922,
+    "death": "2023-06-25T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "William Ramsay",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1904,
+    "birth": 1852,
+    "death": "1916-07-23T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Demis Hassabis",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2024,
+    "birth": 1976,
+    "death": "",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Jean-Pierre Sauvage",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2016,
+    "birth": 1944,
+    "death": "",
+    "country": "France"
+  },
+  {
+    "name": "Ben Feringa",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2016,
+    "birth": 1951,
+    "death": "",
+    "country": "Netherlands"
+  },
+  {
+    "name": "David Baker",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2024,
+    "birth": 1962,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Frances Arnold",
+    "gender": "female",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2018,
+    "birth": 1956,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Akira Yoshino",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2019,
+    "birth": 1948,
+    "death": "",
+    "country": "Japan"
+  },
+  {
+    "name": "Arieh Warshel",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2013,
+    "birth": 1940,
+    "death": "",
+    "country": "Israel"
+  },
+  {
+    "name": "David MacMillan",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2021,
+    "birth": 1968,
+    "death": "",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Michael Levitt",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2013,
+    "birth": 1947,
+    "death": "",
+    "country": "South Africa"
+  },
+  {
+    "name": "Morten P. Meldal",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2022,
+    "birth": 1954,
+    "death": "",
+    "country": "Denmark"
+  },
+  {
+    "name": "Paul L. Modrich",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2015,
+    "birth": 1946,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Richard Robson",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2025,
+    "birth": 1937,
+    "death": "",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Joachim Frank",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2017,
+    "birth": 1940,
+    "death": "",
+    "country": "Germany"
+  },
+  {
+    "name": "Jacques Dubochet",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2017,
+    "birth": 1942,
+    "death": "",
+    "country": "Switzerland"
+  },
+  {
+    "name": "George Smith",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2018,
+    "birth": 1941,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "John Michael Jumper",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2024,
+    "birth": 1985,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Ronald Ross",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1902,
+    "birth": 1857,
+    "death": "1932-09-16T00:00:00Z",
+    "country": "India"
+  },
+  {
+    "name": "Luc Montagnier",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2008,
+    "birth": 1932,
+    "death": "2022-02-08T00:00:00Z",
+    "country": "France"
+  },
+  {
+    "name": "Fran\u00e7oise Barr\u00e9-Sinoussi.",
+    "gender": "female",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2008,
+    "birth": 1947,
+    "death": "",
+    "country": "France"
+  },
+  {
+    "name": "Bruce Beutler",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2011,
+    "birth": 1957,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Jack Szostak",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2009,
+    "birth": 1952,
+    "death": "",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Andrew Huxley",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1963,
+    "birth": 1917,
+    "death": "2012-05-30T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Robert Edwards",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2010,
+    "birth": 1925,
+    "death": "2013-04-10T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Ralph Steinman",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2011,
+    "birth": 1943,
+    "death": "2011-09-30T00:00:00Z",
+    "country": "Canada"
+  },
+  {
+    "name": "Jules Hoffmann",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2011,
+    "birth": 1941,
+    "death": "",
+    "country": "Luxembourg"
+  },
+  {
+    "name": "Baruch Samuel Blumberg",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1976,
+    "birth": 1925,
+    "death": "2011-04-05T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Paul Lauterbur",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2003,
+    "birth": 1929,
+    "death": "2007-03-27T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Rosalyn Sussman Yalow",
+    "gender": "female",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1977,
+    "birth": 1921,
+    "death": "2011-05-30T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Har Gobind Khorana",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1968,
+    "birth": 1922,
+    "death": "2011-11-09T00:00:00Z",
+    "country": "Pakistan"
+  },
+  {
+    "name": "Christiaan Eijkman",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1929,
+    "birth": 1858,
+    "death": "1930-11-05T00:00:00Z",
+    "country": "Netherlands"
+  },
+  {
+    "name": "Daniel Carleton Gajdusek",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1976,
+    "birth": 1923,
+    "death": "2008-12-12T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Susumu Tonegawa",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1987,
+    "birth": 1939,
+    "death": "",
+    "country": "Japan"
+  },
+  {
+    "name": "Robert F. Furchgott",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1998,
+    "birth": 1916,
+    "death": "2009-05-19T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Robert W. Holley",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1968,
+    "birth": 1922,
+    "death": "1993-02-11T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Hamilton Smith",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1978,
+    "birth": 1931,
+    "death": "2025-10-25T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Renato Dulbecco",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1975,
+    "birth": 1914,
+    "death": "2012-02-19T00:00:00Z",
+    "country": "Italy"
+  },
+  {
+    "name": "Edmond H. Fischer",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1992,
+    "birth": 1920,
+    "death": "2021-08-27T00:00:00Z",
+    "country": "China"
+  },
+  {
+    "name": "Edwin G. Krebs",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1992,
+    "birth": 1918,
+    "death": "2009-12-21T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Marshall Warren Nirenberg",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1968,
+    "birth": 1927,
+    "death": "2010-01-15T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Edward Calvin Kendall",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1950,
+    "birth": 1886,
+    "death": "1972-05-04T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Julius Axelrod",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1970,
+    "birth": 1912,
+    "death": "2004-12-29T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "James Black",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1988,
+    "birth": 1924,
+    "death": "2010-03-21T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Daniel Bovet",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1957,
+    "birth": 1907,
+    "death": "1992-04-08T00:00:00Z",
+    "country": "Switzerland"
+  },
+  {
+    "name": "Walter Rudolf Hess",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1949,
+    "birth": 1881,
+    "death": "1973-08-12T00:00:00Z",
+    "country": "Switzerland"
+  },
+  {
+    "name": "Paul Hermann M\u00fcller",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1948,
+    "birth": 1899,
+    "death": "1965-10-12T00:00:00Z",
+    "country": "Switzerland"
+  },
+  {
+    "name": "Emil Theodor Kocher",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1909,
+    "birth": 1841,
+    "death": "1917-07-27T00:00:00Z",
+    "country": "Switzerland"
+  },
+  {
+    "name": "Tadeusz Reichstein",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1950,
+    "birth": 1897,
+    "death": "1996-08-01T00:00:00Z",
+    "country": "Poland"
+  },
+  {
+    "name": "Werner Arber",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1978,
+    "birth": 1929,
+    "death": "",
+    "country": "Switzerland"
+  },
+  {
+    "name": "Rolf M. Zinkernagel",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1996,
+    "birth": 1944,
+    "death": "",
+    "country": "Switzerland"
+  },
+  {
+    "name": "Francis Crick",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1962,
+    "birth": 1916,
+    "death": "2004-07-28T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Howard Florey",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1945,
+    "birth": 1898,
+    "death": "1968-02-21T00:00:00Z",
+    "country": "Australia"
+  },
+  {
+    "name": "Andrew Schally",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1977,
+    "birth": 1926,
+    "death": "2024-10-17T00:00:00Z",
+    "country": "Lithuania"
+  },
+  {
+    "name": "Santiago Ram\u00f3n y Cajal",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1906,
+    "birth": 1852,
+    "death": "1934-10-17T00:00:00Z",
+    "country": "Spain"
+  },
+  {
+    "name": "Camillo Golgi",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1906,
+    "birth": 1843,
+    "death": "1926-01-21T00:00:00Z",
+    "country": "Italy"
+  },
+  {
+    "name": "August Krogh",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1920,
+    "birth": 1874,
+    "death": "1949-09-13T00:00:00Z",
+    "country": "Denmark"
+  },
+  {
+    "name": "Jean Dausset",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1980,
+    "birth": 1916,
+    "death": "2009-06-06T00:00:00Z",
+    "country": "France"
+  },
+  {
+    "name": "Niko Tinbergen",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1973,
+    "birth": 1907,
+    "death": "1988-12-21T00:00:00Z",
+    "country": "Netherlands"
+  },
+  {
+    "name": "Charles Brenton Huggins",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1966,
+    "birth": 1901,
+    "death": "1997-01-12T00:00:00Z",
+    "country": "Canada"
+  },
+  {
+    "name": "Archibald Hill",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1922,
+    "birth": 1886,
+    "death": "1977-06-03T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Stanley B. Prusiner",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1997,
+    "birth": 1942,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "C\u00e9sar Milstein",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1984,
+    "birth": 1927,
+    "death": "2002-03-24T00:00:00Z",
+    "country": "Argentina"
+  },
+  {
+    "name": "Eric Kandel",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2000,
+    "birth": 1929,
+    "death": "",
+    "country": "Austria"
+  },
+  {
+    "name": "Hugo Theorell",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1955,
+    "birth": 1903,
+    "death": "1982-08-15T00:00:00Z",
+    "country": "Sweden"
+  },
+  {
+    "name": "Corneille Heymans",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1938,
+    "birth": 1892,
+    "death": "1968-07-18T00:00:00Z",
+    "country": "Belgium"
+  },
+  {
+    "name": "Svante P\u00e4\u00e4bo",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2022,
+    "birth": 1955,
+    "death": "",
+    "country": "Sweden"
+  },
+  {
+    "name": "\u00c9lie Metchnikoff",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1908,
+    "birth": 1845,
+    "death": "1916-07-15T00:00:00Z",
+    "country": "Ukraine"
+  },
+  {
+    "name": "Thomas Hunt Morgan",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1933,
+    "birth": 1866,
+    "death": "1945-12-04T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Frederick Banting",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1923,
+    "birth": 1891,
+    "death": "1941-02-21T00:00:00Z",
+    "country": "Canada"
+  },
+  {
+    "name": "Albert Szent-Gy\u00f6rgyi",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1937,
+    "birth": 1893,
+    "death": "1986-10-22T00:00:00Z",
+    "country": "Hungary"
+  },
+  {
+    "name": "Niels Ryberg Finsen",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1903,
+    "birth": 1860,
+    "death": "1904-09-24T00:00:00Z",
+    "country": "Faroe Islands"
+  },
+  {
+    "name": "Maurice Wilkins",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1962,
+    "birth": 1916,
+    "death": "2004-10-05T00:00:00Z",
+    "country": "New Zealand"
+  },
+  {
+    "name": "Rita Levi-Montalcini",
+    "gender": "female",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1986,
+    "birth": 1909,
+    "death": "2012-12-30T00:00:00Z",
+    "country": "Italy"
+  },
+  {
+    "name": "Alexis Carrel",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1912,
+    "birth": 1873,
+    "death": "1944-11-05T00:00:00Z",
+    "country": "France"
+  },
+  {
+    "name": "Charles Louis Alphonse Laveran",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1907,
+    "birth": 1845,
+    "death": "1922-05-18T00:00:00Z",
+    "country": "France"
+  },
+  {
+    "name": "Willem Einthoven",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1924,
+    "birth": 1860,
+    "death": "1927-09-29T00:00:00Z",
+    "country": "Indonesia"
+  },
+  {
+    "name": "Henrik Dam",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1943,
+    "birth": 1895,
+    "death": "1976-04-17T00:00:00Z",
+    "country": "Denmark"
+  },
+  {
+    "name": "Joseph Murray",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1990,
+    "birth": 1919,
+    "death": "2012-11-26T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Allvar Gullstrand",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1911,
+    "birth": 1862,
+    "death": "1930-07-28T00:00:00Z",
+    "country": "Sweden"
+  },
+  {
+    "name": "Frank Macfarlane Burnet",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1960,
+    "birth": 1899,
+    "death": "1985-08-31T00:00:00Z",
+    "country": "Australia"
+  },
+  {
+    "name": "Alan Lloyd Hodgkin",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1963,
+    "birth": 1914,
+    "death": "1998-12-20T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Barbara McClintock",
+    "gender": "female",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1983,
+    "birth": 1902,
+    "death": "1992-01-01T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Barbara McClintock",
+    "gender": "female",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1983,
+    "birth": 1902,
+    "death": "1992-01-01T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Barbara McClintock",
+    "gender": "female",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1983,
+    "birth": 1902,
+    "death": "1992-09-02T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Barbara McClintock",
+    "gender": "female",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1983,
+    "birth": 1902,
+    "death": "1992-09-02T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Linda B. Buck",
+    "gender": "female",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2004,
+    "birth": 1947,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Barry Marshall",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2005,
+    "birth": 1951,
+    "death": "",
+    "country": "Australia"
+  },
+  {
+    "name": "Andrew Fire",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2006,
+    "birth": 1959,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Gerty Cori",
+    "gender": "female",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1947,
+    "birth": 1896,
+    "death": "1957-10-26T00:00:00Z",
+    "country": "Czech Republic"
+  },
+  {
+    "name": "Salvador Luria",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1969,
+    "birth": 1912,
+    "death": "1991-02-06T00:00:00Z",
+    "country": "Italy"
+  },
+  {
+    "name": "Craig Mello",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2006,
+    "birth": 1960,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Martin Evans",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2007,
+    "birth": 1941,
+    "death": "",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Robin Warren",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2005,
+    "birth": 1937,
+    "death": "2024-07-23T00:00:00Z",
+    "country": "Australia"
+  },
+  {
+    "name": "Jules Bordet",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1919,
+    "birth": 1870,
+    "death": "1961-04-06T00:00:00Z",
+    "country": "Belgium"
+  },
+  {
+    "name": "Richard Axel",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2004,
+    "birth": 1946,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Charles Scott Sherrington",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1932,
+    "birth": 1857,
+    "death": "1952-03-04T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Peter Medawar",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1960,
+    "birth": 1915,
+    "death": "1987-10-02T00:00:00Z",
+    "country": "Brazil"
+  },
+  {
+    "name": "Charles Richet",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1913,
+    "birth": 1850,
+    "death": "1935-12-04T00:00:00Z",
+    "country": "France"
+  },
+  {
+    "name": "Mario Capecchi",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2007,
+    "birth": 1937,
+    "death": "",
+    "country": "Italy"
+  },
+  {
+    "name": "Oliver Smithies",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2007,
+    "birth": 1925,
+    "death": "2017-01-10T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Johannes Fibiger",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1926,
+    "birth": 1867,
+    "death": "1928-01-30T00:00:00Z",
+    "country": "Denmark"
+  },
+  {
+    "name": "Ragnar Granit",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1967,
+    "birth": 1900,
+    "death": "1991-03-12T00:00:00Z",
+    "country": "Finland"
+  },
+  {
+    "name": "Fran\u00e7ois Jacob",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1965,
+    "birth": 1920,
+    "death": "2013-04-20T00:00:00Z",
+    "country": "France"
+  },
+  {
+    "name": "Joshua Lederberg",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1958,
+    "birth": 1925,
+    "death": "2008-02-02T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Paul Nurse",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2001,
+    "birth": 1949,
+    "death": "",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "George Emil Palade",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1974,
+    "birth": 1912,
+    "death": "2008-10-07T00:00:00Z",
+    "country": "Romania"
+  },
+  {
+    "name": "Andr\u00e9 Lwoff",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1965,
+    "birth": 1902,
+    "death": "1994-09-30T00:00:00Z",
+    "country": "France"
+  },
+  {
+    "name": "Allan McLeod Cormack",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1979,
+    "birth": 1924,
+    "death": "1998-05-07T00:00:00Z",
+    "country": "South Africa"
+  },
+  {
+    "name": "David Julius",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2021,
+    "birth": 1955,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Michael Rosbash",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2017,
+    "birth": 1944,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Gregg L. Semenza",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2019,
+    "birth": 1956,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "William G. Kaelin",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2019,
+    "birth": 1957,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Jeffrey C. Hall",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2017,
+    "birth": 1945,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "John O'Keefe",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2014,
+    "birth": 1939,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Michael Houghton",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2020,
+    "birth": 1949,
+    "death": "",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Michael W. Young",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2017,
+    "birth": 1949,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Peter J. Ratcliffe",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2019,
+    "birth": 1954,
+    "death": "",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Duncan Haldane",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2016,
+    "birth": 1951,
+    "death": "",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Giorgio Parisi",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2021,
+    "birth": 1948,
+    "death": "",
+    "country": "Italy"
+  },
+  {
+    "name": "Han Kang",
+    "gender": "female",
+    "prize": "Nobel Prize in Literature",
+    "year": 2024,
+    "birth": 1970,
+    "death": "",
+    "country": "South Korea"
+  },
+  {
+    "name": "Hiroshi Amano",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2014,
+    "birth": 1960,
+    "death": "",
+    "country": "Japan"
+  },
+  {
+    "name": "Takaaki Kajita",
+    "gender": "male",
+    "prize": "Nobel Prize in Physics",
+    "year": 2015,
+    "birth": 1959,
+    "death": "",
+    "country": "Japan"
+  },
+  {
+    "name": "Jon Fosse",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 2023,
+    "birth": 1959,
+    "death": "",
+    "country": "Norway"
+  },
+  {
+    "name": "L\u00e1szl\u00f3 Krasznahorkai",
+    "gender": "male",
+    "prize": "Nobel Prize in Literature",
+    "year": 2025,
+    "birth": 1954,
+    "death": "",
+    "country": "Hungary"
+  },
+  {
+    "name": "William C. Campbell",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2015,
+    "birth": 1930,
+    "death": "",
+    "country": "Ireland"
+  },
+  {
+    "name": "Ardem Patapoutian",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2021,
+    "birth": 1967,
+    "death": "",
+    "country": "Lebanon"
+  },
+  {
+    "name": "Edvard Moser",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2014,
+    "birth": 1962,
+    "death": "",
+    "country": "Norway"
+  },
+  {
+    "name": "Harvey J. Alter",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2020,
+    "birth": 1935,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Charles M. Rice",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2020,
+    "birth": 1952,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Ernest Rutherford",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1908,
+    "birth": 1871,
+    "death": "1937-10-19T00:00:00Z",
+    "country": "New Zealand"
+  },
+  {
+    "name": "Robert Robinson",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1947,
+    "birth": 1886,
+    "death": "1975-02-08T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Yuan T. Lee",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 1986,
+    "birth": 1936,
+    "death": "",
+    "country": "Taiwan under Japanese rule"
+  },
+  {
+    "name": "Earl Wilbur Sutherland, Jr.",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1971,
+    "birth": 1915,
+    "death": "1974-03-09T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Henry Hallett Dale",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1936,
+    "birth": 1875,
+    "death": "1968-07-23T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Harald zur Hausen",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2008,
+    "birth": 1936,
+    "death": "2023-05-29T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Emil von Behring",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1901,
+    "birth": 1854,
+    "death": "1917-03-31T00:00:00Z",
+    "country": "Poland"
+  },
+  {
+    "name": "Otto Heinrich Warburg",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1931,
+    "birth": 1883,
+    "death": "1970-08-01T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Max Delbr\u00fcck",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1969,
+    "birth": 1906,
+    "death": "1981-03-09T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Bert Sakmann",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1991,
+    "birth": 1942,
+    "death": "",
+    "country": "Germany"
+  },
+  {
+    "name": "Fritz Albert Lipmann",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1953,
+    "birth": 1899,
+    "death": "1986-07-24T00:00:00Z",
+    "country": "Prussia"
+  },
+  {
+    "name": "Erwin Neher",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1991,
+    "birth": 1944,
+    "death": "",
+    "country": "Germany"
+  },
+  {
+    "name": "Werner Forssmann",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1956,
+    "birth": 1904,
+    "death": "1979-06-01T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Georges J. F. K\u00f6hler",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1984,
+    "birth": 1946,
+    "death": "1995-03-01T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Otto Loewi",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1936,
+    "birth": 1873,
+    "death": "1961-12-25T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Christiane N\u00fcsslein-Volhard",
+    "gender": "female",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1995,
+    "birth": 1942,
+    "death": "",
+    "country": "Germany"
+  },
+  {
+    "name": "Robert B\u00e1r\u00e1ny",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1914,
+    "birth": 1876,
+    "death": "1936-04-08T00:00:00Z",
+    "country": "Austria"
+  },
+  {
+    "name": "Julius Wagner-Jauregg",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1927,
+    "birth": 1857,
+    "death": "1940-09-27T00:00:00Z",
+    "country": "Austria"
+  },
+  {
+    "name": "Konrad Lorenz",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1973,
+    "birth": 1903,
+    "death": "1989-02-27T00:00:00Z",
+    "country": "Austria"
+  },
+  {
+    "name": "Carl Ferdinand Cori",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1947,
+    "birth": 1896,
+    "death": "1984-10-20T00:00:00Z",
+    "country": "Czech Republic"
+  },
+  {
+    "name": "William P. Murphy",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1934,
+    "birth": 1892,
+    "death": "1987-10-09T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Shinya Yamanaka",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2012,
+    "birth": 1962,
+    "death": "",
+    "country": "Japan"
+  },
+  {
+    "name": "John Gurdon",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2012,
+    "birth": 1933,
+    "death": "2025-10-07T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "James D. Watson",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1962,
+    "birth": 1928,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Hermann Joseph Muller",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1946,
+    "birth": 1890,
+    "death": "1967-04-05T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Karl Landsteiner",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1930,
+    "birth": 1868,
+    "death": "1943-06-26T00:00:00Z",
+    "country": "Austria"
+  },
+  {
+    "name": "Thomas C. S\u00fcdhof",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2013,
+    "birth": 1955,
+    "death": "",
+    "country": "Germany"
+  },
+  {
+    "name": "Randy Schekman",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2013,
+    "birth": 1948,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Victor Ambros",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2024,
+    "birth": 1953,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "James P. Allison",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2018,
+    "birth": 1948,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "May-Britt Moser",
+    "gender": "female",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2014,
+    "birth": 1963,
+    "death": "",
+    "country": "Norway"
+  },
+  {
+    "name": "Yoshinori Ohsumi",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2016,
+    "birth": 1945,
+    "death": "",
+    "country": "Japan"
+  },
+  {
+    "name": "Shimon Sakaguchi",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2025,
+    "birth": 1951,
+    "death": "",
+    "country": "Japan"
+  },
+  {
+    "name": "Fred Ramsdell",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2025,
+    "birth": 1960,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Katalin Karik\u00f3",
+    "gender": "female",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2023,
+    "birth": 1955,
+    "death": "",
+    "country": "Hungary"
+  },
+  {
+    "name": "Drew Weissman",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2023,
+    "birth": 1959,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Susumu Kitagawa",
+    "gender": "male",
+    "prize": "Nobel Prize in Chemistry",
+    "year": 2025,
+    "birth": 1951,
+    "death": "",
+    "country": "Japan"
+  },
+  {
+    "name": "Satoshi \u014cmura",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2015,
+    "birth": 1935,
+    "death": "",
+    "country": "Japan"
+  },
+  {
+    "name": "Bernard Katz",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1970,
+    "birth": 1911,
+    "death": "2003-04-20T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Elizabeth Blackburn",
+    "gender": "female",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2009,
+    "birth": 1948,
+    "death": "",
+    "country": "Australia"
+  },
+  {
+    "name": "Carol Greider",
+    "gender": "female",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2009,
+    "birth": 1961,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Konrad Emil Bloch",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1964,
+    "birth": 1912,
+    "death": "2000-10-15T00:00:00Z",
+    "country": "Poland"
+  },
+  {
+    "name": "Gertrude B. Elion",
+    "gender": "female",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1988,
+    "birth": 1918,
+    "death": "1999-02-21T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Alexander Fleming",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1945,
+    "birth": 1881,
+    "death": "1955-03-11T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Robert Koch",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1905,
+    "birth": 1843,
+    "death": "1910-05-27T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Ivan Pavlov",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1904,
+    "birth": 1849,
+    "death": "1936-02-27T00:00:00Z",
+    "country": "Russia"
+  },
+  {
+    "name": "Feodor Felix Konrad Lynen",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1964,
+    "birth": 1911,
+    "death": "1979-08-06T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Max Theiler",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1951,
+    "birth": 1899,
+    "death": "1972-08-11T00:00:00Z",
+    "country": "South Africa"
+  },
+  {
+    "name": "Paul Ehrlich",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1908,
+    "birth": 1854,
+    "death": "1915-08-20T00:00:00Z",
+    "country": "Poland"
+  },
+  {
+    "name": "Albrecht Kossel",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1910,
+    "birth": 1853,
+    "death": "1927-07-05T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Otto Fritz Meyerhof",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1922,
+    "birth": 1884,
+    "death": "1951-10-06T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Hans Krebs",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1953,
+    "birth": 1900,
+    "death": "1981-11-22T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Gerhard Domagk",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1939,
+    "birth": 1895,
+    "death": "1964-04-24T00:00:00Z",
+    "country": "Poland"
+  },
+  {
+    "name": "Hans Spemann",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1935,
+    "birth": 1869,
+    "death": "1941-09-12T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Ernst Chain",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1945,
+    "birth": 1906,
+    "death": "1979-08-12T00:00:00Z",
+    "country": "Germany"
+  },
+  {
+    "name": "Martin Rodbell",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1994,
+    "birth": 1925,
+    "death": "1998-12-07T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Karl von Frisch",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1973,
+    "birth": 1886,
+    "death": "1982-06-12T00:00:00Z",
+    "country": "Austria"
+  },
+  {
+    "name": "G\u00fcnter Blobel",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1999,
+    "birth": 1936,
+    "death": "2018-02-18T00:00:00Z",
+    "country": "Poland"
+  },
+  {
+    "name": "Edward Adelbert Doisy",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1943,
+    "birth": 1893,
+    "death": "1986-10-23T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Edgar Douglas Adrian",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1932,
+    "birth": 1889,
+    "death": "1977-08-04T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Jacques Monod",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1965,
+    "birth": 1910,
+    "death": "1976-05-31T00:00:00Z",
+    "country": "France"
+  },
+  {
+    "name": "John James Rickard Macleod",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1923,
+    "birth": 1876,
+    "death": "1935-03-16T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Stanley Cohen",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1986,
+    "birth": 1922,
+    "death": "2020-02-05T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Roger Sperry",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1981,
+    "birth": 1913,
+    "death": "1994-04-17T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Selman Abraham Waksman",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1952,
+    "birth": 1888,
+    "death": "1973-08-16T00:00:00Z",
+    "country": "Ukraine"
+  },
+  {
+    "name": "Albert Claude",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1974,
+    "birth": 1898,
+    "death": "1983-05-22T00:00:00Z",
+    "country": "Belgium"
+  },
+  {
+    "name": "Albert Claude",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1974,
+    "birth": 1898,
+    "death": "1983-05-22T00:00:00Z",
+    "country": "Belgium"
+  },
+  {
+    "name": "Albert Claude",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1974,
+    "birth": 1899,
+    "death": "1983-05-22T00:00:00Z",
+    "country": "Belgium"
+  },
+  {
+    "name": "Albert Claude",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1974,
+    "birth": 1899,
+    "death": "1983-05-22T00:00:00Z",
+    "country": "Belgium"
+  },
+  {
+    "name": "Severo Ochoa",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1959,
+    "birth": 1905,
+    "death": "1993-11-01T00:00:00Z",
+    "country": "Spain"
+  },
+  {
+    "name": "Charles Nicolle",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1928,
+    "birth": 1866,
+    "death": "1936-02-28T00:00:00Z",
+    "country": "France"
+  },
+  {
+    "name": "Frederick Hopkins",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1929,
+    "birth": 1861,
+    "death": "1947-05-16T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Sydney Brenner",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2002,
+    "birth": 1927,
+    "death": "2019-04-05T00:00:00Z",
+    "country": "South Africa"
+  },
+  {
+    "name": "Christian de Duve",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1974,
+    "birth": 1917,
+    "death": "2013-05-04T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Baruj Benacerraf",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1980,
+    "birth": 1920,
+    "death": "2011-08-02T00:00:00Z",
+    "country": "Venezuela"
+  },
+  {
+    "name": "David Baltimore",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1975,
+    "birth": 1938,
+    "death": "2025-09-06T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Philip Showalter Hench",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1950,
+    "birth": 1896,
+    "death": "1965-03-30T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Ulf von Euler",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1970,
+    "birth": 1905,
+    "death": "1983-03-09T00:00:00Z",
+    "country": "Sweden"
+  },
+  {
+    "name": "Bernardo Houssay",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1947,
+    "birth": 1887,
+    "death": "1971-09-21T00:00:00Z",
+    "country": "Argentina"
+  },
+  {
+    "name": "Edward Tatum",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1958,
+    "birth": 1909,
+    "death": "1975-11-05T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Georg von B\u00e9k\u00e9sy",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1961,
+    "birth": 1899,
+    "death": "1972-06-13T00:00:00Z",
+    "country": "Hungary"
+  },
+  {
+    "name": "George Beadle",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1958,
+    "birth": 1903,
+    "death": "1989-06-09T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Roger Guillemin",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1977,
+    "birth": 1924,
+    "death": "2024-02-21T00:00:00Z",
+    "country": "France"
+  },
+  {
+    "name": "Joseph Erlanger",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1944,
+    "birth": 1874,
+    "death": "1965-12-05T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Howard Temin",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1975,
+    "birth": 1934,
+    "death": "1994-02-09T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Peter Mansfield",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2003,
+    "birth": 1933,
+    "death": "2017-02-08T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "George Minot",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1934,
+    "birth": 1885,
+    "death": "1950-02-25T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Torsten Nils Wiesel",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1981,
+    "birth": 1924,
+    "death": "",
+    "country": "Sweden"
+  },
+  {
+    "name": "Joseph L. Goldstein",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1985,
+    "birth": 1940,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "John Sulston",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2002,
+    "birth": 1942,
+    "death": "2018-03-06T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "John Sulston",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2002,
+    "birth": 1942,
+    "death": "2018-03-06T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Alfred Hershey",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1969,
+    "birth": 1908,
+    "death": "1997-05-22T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Andr\u00e9 Fr\u00e9d\u00e9ric Cournand",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1956,
+    "birth": 1895,
+    "death": "1988-02-19T00:00:00Z",
+    "country": "France"
+  },
+  {
+    "name": "Gerald Edelman",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1972,
+    "birth": 1929,
+    "death": "2014-05-17T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Herbert Spencer Gasser",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1944,
+    "birth": 1888,
+    "death": "1963-05-11T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Ant\u00f3nio Egas Moniz",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1949,
+    "birth": 1874,
+    "death": "1955-12-13T00:00:00Z",
+    "country": "Portugal"
+  },
+  {
+    "name": "John Eccles",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1963,
+    "birth": 1903,
+    "death": "1997-05-02T00:00:00Z",
+    "country": "Australia"
+  },
+  {
+    "name": "George Whipple",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1934,
+    "birth": 1878,
+    "death": "1976-02-01T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Godfrey Hounsfield",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1979,
+    "birth": 1919,
+    "death": "2004-08-12T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Edward B. Lewis",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1995,
+    "birth": 1918,
+    "death": "2004-07-21T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "David H. Hubel",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1981,
+    "birth": 1926,
+    "death": "2013-09-22T00:00:00Z",
+    "country": "Canada"
+  },
+  {
+    "name": "H. Robert Horvitz",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2002,
+    "birth": 1947,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "George Davis Snell",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1980,
+    "birth": 1903,
+    "death": "1996-06-06T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Arthur Kornberg",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1959,
+    "birth": 1918,
+    "death": "2007-10-26T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Michael Stuart Brown",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1985,
+    "birth": 1941,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Harold E. Varmus",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1989,
+    "birth": 1939,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Sune Bergstr\u00f6m",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1982,
+    "birth": 1916,
+    "death": "2004-08-15T00:00:00Z",
+    "country": "Sweden"
+  },
+  {
+    "name": "Rodney Robert Porter",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1972,
+    "birth": 1917,
+    "death": "1985-09-06T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Daniel Nathans",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1978,
+    "birth": 1928,
+    "death": "1999-11-16T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "George Wald",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1967,
+    "birth": 1906,
+    "death": "1997-04-12T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Bengt I. Samuelsson",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1982,
+    "birth": 1934,
+    "death": "2024-07-05T00:00:00Z",
+    "country": "Sweden"
+  },
+  {
+    "name": "Lee Hartwell",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2001,
+    "birth": 1939,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Ferid Murad",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1998,
+    "birth": 1936,
+    "death": "2023-09-04T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Alfred G. Gilman",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1994,
+    "birth": 1941,
+    "death": "2015-12-23T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Arvid Carlsson",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2000,
+    "birth": 1923,
+    "death": "2018-06-29T00:00:00Z",
+    "country": "Sweden"
+  },
+  {
+    "name": "Francis Peyton Rous",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1966,
+    "birth": 1879,
+    "death": "1970-02-16T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Eric F. Wieschaus",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1995,
+    "birth": 1947,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Peter C. Doherty",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1996,
+    "birth": 1940,
+    "death": "",
+    "country": "Australia"
+  },
+  {
+    "name": "Richard Roberts",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1993,
+    "birth": 1943,
+    "death": "",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Louis Ignarro",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1998,
+    "birth": 1941,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Niels Kaj Jerne",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1984,
+    "birth": 1911,
+    "death": "1994-10-07T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Haldan Keffer Hartline",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1967,
+    "birth": 1903,
+    "death": "1983-03-17T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Frederick Chapman Robbins",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1954,
+    "birth": 1916,
+    "death": "2003-08-04T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "John Vane",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1982,
+    "birth": 1927,
+    "death": "2004-11-19T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "John Vane",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1982,
+    "birth": 1927,
+    "death": "2004-11-19T00:00:00Z",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Tim Hunt",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2001,
+    "birth": 1943,
+    "death": "",
+    "country": "United Kingdom"
+  },
+  {
+    "name": "Paul Greengard",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2000,
+    "birth": 1925,
+    "death": "2019-04-13T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Thomas Huckle Weller",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1954,
+    "birth": 1915,
+    "death": "2008-08-23T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "E. Donnall Thomas",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1990,
+    "birth": 1920,
+    "death": "2012-10-20T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "George H. Hitchings",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1988,
+    "birth": 1905,
+    "death": "1998-02-27T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "J. Michael Bishop",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1989,
+    "birth": 1936,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "John Franklin Enders",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1954,
+    "birth": 1897,
+    "death": "1985-09-08T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Dickinson W. Richards",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1956,
+    "birth": 1895,
+    "death": "1973-02-23T00:00:00Z",
+    "country": "United States"
+  },
+  {
+    "name": "Phillip Sharp",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 1993,
+    "birth": 1944,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "James Rothman",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2013,
+    "birth": 1950,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Tu Youyou",
+    "gender": "female",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2015,
+    "birth": 1930,
+    "death": "",
+    "country": "People's Republic of China"
+  },
+  {
+    "name": "Gary Ruvkun",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2024,
+    "birth": 1952,
+    "death": "",
+    "country": "United States"
+  },
+  {
+    "name": "Tasuku Honjo",
+    "gender": "male",
+    "prize": "Nobel Prize in Physiology or Medicine",
+    "year": 2018,
+    "birth": 1942,
+    "death": "",
+    "country": "Japan"
+  }
+]
