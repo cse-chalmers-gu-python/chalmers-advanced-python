@@ -5,7 +5,10 @@ _This document is based on one from the [Data structures and algorithms course](
 ## Getting started
 
 [Chalmers GitLab](https://git.chalmers.se/dashboard/projects) (git.chalmers.se) is a service to host Git projects within Chalmers.
-To sign in, use **Chalmers Login** (ignore the username/password fields):
+To sign in, click **Chalmers Entra Login** (ignore the username/password fields) and then login with your CID.
+GU students must also use a CID to login.
+If you don't have one, follow the instructions at
+[Guides for New Students](https://chalmers.topdesk.net/solutions/public-knowledge-base/item/KB%200313/en/).
 
 ![chalmers-gitlab-sign-in.png](img/chalmers-gitlab-sign-in.png)
 
