@@ -1,4 +1,5 @@
 # Lecture Notes for the Continuation Course in Python
+{:.no_toc}
 
 Aarne Ranta  
 John J. Camilleri
@@ -6,6 +7,7 @@ John J. Camilleri
 ![Graph of tram network as produced by lab](app-shortest.png)
 
 ## Preface
+{:.no_toc}
 
 This guide is written for the students of the continuation course in Python at Chalmers University of Technology and University of Gothenburg.
 The original name of the course was "Advanced Programming in Python", starting in 2021.
@@ -17,6 +19,7 @@ On the advanced level of programming, you should be able to read the original do
 This guide will help you to get started, by giving pointers to material that we found relevant and which you *at least* should read while studying this course.
 
 ## Table of contents
+{:.no_toc}
 
 * TOC
 {:toc}
