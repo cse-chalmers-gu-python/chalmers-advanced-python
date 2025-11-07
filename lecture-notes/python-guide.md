@@ -16,6 +16,9 @@ It is *not* a complete description of the course material: we found it unnecessa
 On the advanced level of programming, you should be able to read the original documentation, which you can find on the internet, and which may be difficult or even confusing.
 This guide will help you to get started, by giving pointers to material that we found relevant and which you *at least* should read while studying this course.
 
+* TOC
+{:toc}
+
 ## 1. Introduction
 
 ### 1.1. The aims of this guide and the course
