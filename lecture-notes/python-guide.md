@@ -3097,50 +3097,126 @@ But we will in the next chapter, and in Lab 3, look at simple GUIs in web pages.
 
 ## 9. Web programming
 
-**Web programming** means writing programs that can be used via web browsers.
-It is usually divided into two types:
+The web is based on a client-server model: your computer (a **client**) sends a **request** to another computer (a **server**) which does some processing and sends back a **response** which the client then does something with.
+We typically think of a client as being a web browser which renders something visual for the user, however clients can also be purely data-based, such as a script which crawls a website to build a seach index.
 
-* **server side**, programs that run on a web server, with effects visible in the browser, requiring connection to the server;
-* **client side**, programs that run on the browser itself, without connection to a serve.
+Web programming is usually divided into:
 
-**Full stack** development means writing programs that cover both the server and client side.
+* **server-side**: programs that run on a web server, continuously waiting for requests, processing them, and sending back responses to clients.
+* **client-side**: programs that send discrete requests to servers and process their responses, typically inside of a web browser.
+
+Most web applications have both client-side and server-side components, and the term **full-stack** is used to cover development of both of these sides together.
+
+![Client-server](./client-server-web-application.png)
+
+_Overview of the request-response round-trip made from client to server and back again in a typical web application.
+Original source (with descriptions of each step): [Anatomy of a dynamic request (MDN)](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Client-Server_overview#anatomy_of_a_dynamic_request)_
 
 In a complete web application, sub-tasks can often be distributed between server and client sides in different ways.
 Traditionally, the server side takes care of heavy computations as well as functionalities that involve data that is not meant to be seen in its entirety.
 For example, databases are typically operated on the server side, for both of these reasons.
 
-Server side programs can be written in practically any programming language, including Python, whereas the client side has a restricted number of special-purpose languages, which need to be supported by the web browser:
+Server-side programs can be written in practically any programming language, including Python, and their architecture can be arbitrarily complex.
+On the other hand, client-side programs are typically run in web browsers which support a very restricted number of special-purpose languages:
 
-* HTML, HyperText Markup Language, is used for the content on a web page.
-* XML, eXtensible Markup Language, is a generalization of HTML also capable to store structured data. (HTML is not strictly compliant with XML, but its later variant XHTML is. However, XHTML has not gained the popularity expected after the populatity of XML itself.)
-* SVG, Scalable Vector Graphics, is another instance of XML, used for images on web pages. (Also other image formats, such as PNG and JPG, can be used, but they are not scalable.)
-* CSS, Cascading Style Sheets, is used for specifying the concrete layout and look of web pages on top of the content specified in HTML.
-* JavaScript, also known as ECMAScript (and having nothing to do with Java), is a general-purpose (Turing complete) programming language for any kinds of client side programs.
+* **JavaScript**, also known as ECMAScript (and having nothing to do with Java), is a general-purpose (Turing-complete) programming language for all kinds of client-side programs.
+* **HTML**, HyperText Markup Language, is used for the content and structure on a web page.
+* **XML**, eXtensible Markup Language, is a generalization of HTML also capable of storing structured data. (HTML is not strictly compliant with XML, but its later variant XHTML is. However, XHTML has not gained the popularity expected after the populatity of XML itself.)
+* **SVG**, Scalable Vector Graphics, is another instance of XML, used for vector-based images on web pages. Other image types like PNG and JPG are _formats_, but not languages in the same way as SVG is.
+* **CSS**, Cascading Style Sheets, is used for specifying the concrete layout and look of web pages on top of the content specified in HTML.
 
-In Lecture 8, we will take a look at the client side, focusing on the XML-based formats.
-We will also cover another kind of web-related programming: extracting information from web pages and servers.
-For this task, we will use Python to analyse and modify XML-based documents.
+You can find excellent tutorials and references for all web technologies at the Mozilla Developer Network (MDN): <https://developer.mozilla.org/en-US/docs/Web>
 
-In Lecture 9 (from Section 8.4), we will show how to use Python programs on the server side and put everything together to a full stack application.
+### 9.1. HTML
 
-### 9.1. HTML and CSS
+### 9.1.1. HTML syntax
 
-* A popular HTML tutorial: <https://www.w3schools.com/html/>
-* A popular CSS tutorial: <https://www.w3schools.com/css/>
+Our goal is not to write HTML itself directly, but rather to analyse and generate HTML in Python.
+But first we need to understand its basic structure.
 
-Our goal is not to write HTML or CSS, but rather to analyse and generate the code in Python.
-But we first want to make it sure that we understand the syntax of these notations (in particular HTML), we will take a quick look at these tutorials.
+HTML is a "markup" language, meaning that it is essentially plain text with parts of it marked with **tags**. The `b` tag for instance means boldface, used as follows:
 
-We will also address the task of generating HTML from data.
+```html
+You must <b>check your code</b> before submitting it.
+```
+
+Note that there are start tags `<b>` and end tags `</b>` which must match, to delimit elements.
+It is sometimes possible to leave out end tags, but this is not a good practice.
+Attributes in start tags specify the element further.
+A typical example is `<a>` (anchor), for links:
+
+```html
+To learn more about HTML, see <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN's tutorials</a> which are very good.
+```
+
+More generally, the syntax of HTML can be expressed as follows (with only some of the recognised tag names included):
+
+```plain
+⟨element⟩   ::= ⟨starttag⟩ ⟨element⟩* ⟨endtag⟩
+⟨starttag⟩  ::= <⟨tag⟩ ⟨attr⟩*>  
+⟨endtag⟩    ::= </⟨tag⟩>
+⟨attribute⟩ ::= ⟨key⟩=⟨value⟩
+⟨tag⟩       ::= html | head | body | title | ...
+                     | h1 | h2 | ...
+                     | a | b | p  ...
+                     | ul | li | ...
+                     | table | th | tr | td ...
+```
+
+#### 9.1.2. Generating HTML
+
+Consider now how to generate HTML programmatically.
 The idea is to use Python functions that at the same time force the result to be well-formatted.
 A simple example of such a function is:
 
 ```python
 def intag(tag, elem, attrs=''):
-    return '<'+tag+' '+ attrs+'>' + elem + '</'+tag+'>'
+    return f'<{tag} {attrs}>{elem}</{tag}>'
 ```
 
-#### 9.1.1. URL links and queries
+By using `intag` to wrap some text in a tag, we will ensure that the opening and closing tag of an element always match.
+This is basically the only thing it does, but in reality there are many other things to check if we want to ensure well-formed HTML:
+
+* tag names must be valid (e.g. `<xyz>` is not a valid HTML tag)
+* certain tags must have certain attributes (e.g. `<a>` must always have a `href` attribute)
+* certain characters need escaping (e.g. text containing `<` or attributes containing `=`)
+
+Because of all these considerations, we typically would use a library which has been built for such a task and whose developers have hopefully thought of and tested all these edge cases. Some examples are [htpy](https://htpy.dev/) and [Yattag](https://www.yattag.org/).
+
+#### 9.1.3. Analysing HTML
+
+TODO rest of chapter
+
+A bit more challenging task is to create a link to the updated timetable information from Västtrafiken.
+The challenge is to find the URLs corresponding to each stop name.
+They are given as numerical codes, for instance, Nordstan is
+
+<https://www.vasttrafik.se/reseplanering/hallplatser/9021014004945000/>
+
+and its timetable is in
+
+<https://avgangstavla.vasttrafik.se/?source=vasttrafikse-stopareadetailspage&stopAreaGid=9021014004945000>
+
+The full list of stop identifiers can be found in
+
+<https://www.vasttrafik.se/reseplanering/hallplatslista/>
+
+The algorithm is as follows:
+
+1. Investigate where and how Gids are given in the HTML document.
+1. Extract the Gids of all tram stops from the document.
+1. Create URLs for every stop.
+1. Include the URLs in the generated map.
+
+The standard library for parsing HTML is
+
+<https://docs.python.org/3/library/html.parser.html>
+
+A slightly more convenient third party library can also be used:
+
+<https://www.crummy.com/software/BeautifulSoup/bs4/doc/>
+
+### 9.2. URL links and queries
 
 Let us look at the following task: add clickable links to a visualized graph.
 The link should make a query to Google showing information about the tram stop.
@@ -3210,40 +3286,11 @@ dot.node(stop, URL=stop_url(stop), ...)
 Another library for URL queries is `requests` (<https://docs.python-requests.org>)
 which in particular makes it easier actually to make queries and extract answers from them.
 
-#### 9.1.2. Analysing HTML: a case study
+### 9.3. XML and SVG
 
-A bit more challenging task is to create a link to the updated timetable information from Västtrafiken.
-The challenge is to find the URLs corresponding to each stop name.
-They are given as numerical codes, for instance, Nordstan is
+#### 9.3.1. XML
 
-<https://www.vasttrafik.se/reseplanering/hallplatser/9021014004945000/>
-
-and its timetable is in
-
-<https://avgangstavla.vasttrafik.se/?source=vasttrafikse-stopareadetailspage&stopAreaGid=9021014004945000>
-
-The full list of stop identifiers can be found in
-
-<https://www.vasttrafik.se/reseplanering/hallplatslista/>
-
-The algorithm is as follows:
-
-1. Investigate where and how Gids are given in the HTML document.
-1. Extract the Gids of all tram stops from the document.
-1. Create URLs for every stop.
-1. Include the URLs in the generated map.
-
-The standard library for parsing HTML is
-
-<https://docs.python.org/3/library/html.parser.html>
-
-A slightly more convenient third party library can also be used:
-
-<https://www.crummy.com/software/BeautifulSoup/bs4/doc/>
-
-### 9.2. XML and SVG
-
-#### 9.2.1. Example: Modifying and SVG file
+#### 9.3.2. Example: Modifying an SVG file
 
 Task: show shortest paths on the manually written Gothenburg tram map.
 
@@ -3293,8 +3340,7 @@ et.ElementTree(tree).write(OUT_FILE)
 
 ### 9.3. JavaScript
 
-* A popular JavaScript tutorial: <https://www.w3schools.com/js/>
-* A useful comparison between JavaScript and Python: <https://www.freecodecamp.org/news/python-vs-javascript-what-are-the-key-differences-between-the-two-popular-programming-languages/>
+A useful comparison between JavaScript and Python: <https://www.freecodecamp.org/news/python-vs-javascript-what-are-the-key-differences-between-the-two-popular-programming-languages/>
 
 ### 9.4. Server libraries and frameworks
 
@@ -3304,7 +3350,6 @@ A basic web server can be written with the library
 
 which comes with the warning: _not recommended for production. It only implements basic security checks._
 But we will show a simple application, running safely on **localhost**.
-The application can later be found in the `examples` directory.
 
 Most modern web development is done with **frameworks**, which bundle libraries, conventions, and some "magic".
 The major ones for Python are Flask and Django:
