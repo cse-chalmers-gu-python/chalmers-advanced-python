@@ -3266,9 +3266,9 @@ This task is also taken care of by the `urllib.parse` library:
 
 ```python
 >>> base_url = 'https://www.example.com/cat'
->>> attrs = urllib.parse.urlencode({'foo': 'ser strängen køn$t/ig?'})
+>>> attrs = urllib.parse.urlencode({'foo': 'ser &trängen køn$t/g ut?'})
 >>> base_url + '?' + attrs
-'https://www.example.com/cat?foo=ser+str%C3%A4ngen+k%C3%B8n%24t%2Fig%3F'
+'https://www.example.com/cat?foo=ser+%26tr%C3%A4ngen+k%C3%B8n%24t%2Fg+ut%3F'
 ```
 
 Another library for this is [`requests`](https://docs.python-requests.org)
