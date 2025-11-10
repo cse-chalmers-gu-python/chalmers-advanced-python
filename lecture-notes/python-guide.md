@@ -1222,7 +1222,7 @@ Using a list comprehension this can be expressed as:
 Furthermore, list comprehensions allow us to map and filter together, for example building a list of squares of even numbers:
 
 ```python
->>> [ n**2 for n in numbers if n $ 2 == 0 ]
+>>> [ n**2 for n in numbers if n % 2 == 0 ]
 [4, 16]
 ```
 
