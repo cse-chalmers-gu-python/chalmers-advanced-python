@@ -3327,7 +3327,58 @@ Another reason is the very nice and gentle tutorial: <https://tutorial.djangogir
 
 Constructs that we have not yet seen but that will be needed to understand arbitrary Python code.
 
+### 10.1. Assignment expression `:=`
+
+The "Walrus" operator `x := e` assigns the value of `e` to `x` **and returns it**, which gives us a convenient way of rewriting this common pattern:
+
+```python
+value = function()
+if value > 0:
+    print(f"Value is: {value}")
+```
+
+into this:
+
+```python
+if value := function() > 0:
+    print(f"Value is: {value}")
+```
+
+### 10.2. The `match` statement
+
 TODO
+
+### 10.3. Generators: `yield` and `next`
+
+TODO
+
+### 10.4. Binary numbers and bitwise operators: `&  |  ^  ~  >>  <<`
+
+TODO
+
+### 10.5. Type annotations
+
+TODO
+
+```python
+x: int
+```
+
+### 10.6. Exceptions
+
+TODO
+
+### 10.7. Regular expressions
+
+TODO
+
+The `re` module: <https://docs.python.org/3/library/re.html>
+
+### 10.8. Asynchronous I/O
+
+TODO
+
+The `asyncio` module: <https://docs.python.org/3/library/asyncio.html>
 
 ## A. Appendix: Git version control system
 
