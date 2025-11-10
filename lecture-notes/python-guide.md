@@ -3170,11 +3170,11 @@ The idea is to use Python functions that at the same time force the result to be
 A simple example of such a function is:
 
 ```python
-def intag(tag, elem, attrs=''):
+def in_tag(tag, elem, attrs=''):
     return f'<{tag} {attrs}>{elem}</{tag}>'
 ```
 
-By using `intag` to wrap some text in a tag, we will ensure that the opening and closing tag of an element always match.
+By using `in_tag` to wrap some text in a tag, we will ensure that the opening and closing tag of an element always match.
 This is basically the only thing it does, but in reality there are many other things to check if we want to ensure well-formed HTML:
 
 * tag names must be valid (e.g. `<xyz>` is not a valid HTML tag)
@@ -3185,48 +3185,50 @@ Because of all these considerations, we typically would use a library which has 
 
 #### 9.1.3. Analysing HTML
 
-TODO rest of chapter
+We've seen how to generate HTML, but how about analysing it? For example, how can we find all links in a given web page?
+An HTML page is just a plain text file, or even just single long string of characters.
+So we could use some usual string processing to try and find all links:
 
-A bit more challenging task is to create a link to the updated timetable information from Västtrafiken.
-The challenge is to find the URLs corresponding to each stop name.
-They are given as numerical codes, for instance, Nordstan is
+```python
+def find_links(html):
+    links = []
+    pos = 0
+    while True:
+        # Find the next <a href="
+        href_pos = html.find('<a href="', pos)
+        if href_pos == -1: break
+        start_quote = href_pos + len('<a href="')
 
-<https://www.vasttrafik.se/reseplanering/hallplatser/9021014004945000/>
+        # Find the next "
+        end_quote = html.find('"', start_quote)
+        if end_quote == -1: break
 
-and its timetable is in
-
-<https://avgangstavla.vasttrafik.se/?source=vasttrafikse-stopareadetailspage&stopAreaGid=9021014004945000>
-
-The full list of stop identifiers can be found in
-
-<https://www.vasttrafik.se/reseplanering/hallplatslista/>
-
-The algorithm is as follows:
-
-1. Investigate where and how Gids are given in the HTML document.
-1. Extract the Gids of all tram stops from the document.
-1. Create URLs for every stop.
-1. Include the URLs in the generated map.
-
-The standard library for parsing HTML is
-
-<https://docs.python.org/3/library/html.parser.html>
-
-A slightly more convenient third party library can also be used:
-
-<https://www.crummy.com/software/BeautifulSoup/bs4/doc/>
-
-### 9.2. URL links and queries
-
-Let us look at the following task: add clickable links to a visualized graph.
-The link should make a query to Google showing information about the tram stop.
-An example link is:
-
-```plain
-https://www.google.com/search?q=Prinsgatan+Gothenburg
+        # Extract link and add
+        links.append(html[start_quote:end_quote])
+        pos = end_quote + 1
+    return links
 ```
 
-It is a **URL** (**Uniform Resource Locator**), often called a "web address".
+You can run this on a few simple examples and convince yourself that it works.
+Then you can try a few more examples and realise that there are many cases of valid HTML that this function won't handle, for example:
+
+* using single quotes (e.g. `<a href='www.example.com'>`)
+* additional attributes (e.g. `<a title="link" href="www.example.com">`)
+* unusual spacing (e.g. `<a\n\thref="www.example.com">`)
+
+As usual, instead of trying to think of and handle all these cases outselves, in many situations it makes more sense to use an existing library which is designed for exactly this task.
+Popular examples include the Python standard library [`html.parser`](https://docs.python.org/3/library/html.parser.html) and [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/).
+
+### 9.2. URLs
+
+You surely already know what a URL is!
+**URL** stands for **Uniform Resource Locator** and are often just called a "web addresses".
+An example URL is:
+
+```plain
+https://www.example.com/cat/?foo=bar+hex
+```
+
 It has its own syntax, consisting of several parts.
 This is a simplified grammar rule, leaving out some parts:
 
@@ -3234,59 +3236,47 @@ This is a simplified grammar rule, leaving out some parts:
 <url> ::= <scheme> :// <hostname> / <path> (? <query>)? 
 ```
 
-where no spaces are allowed between the parts.
+where **no spaces are allowed** between the parts.
 A more complete description can be found here: <https://en.wikipedia.org/wiki/URL>
 
-The standard Python library (<https://docs.python.org/3/library/urllib.parse.html>)
-has functions for analysing URLs:
+As you've guessed by now, instead of trying to parse URLs form scratch we can used the standard Python library [`urllib.parse`](https://docs.python.org/3/library/urllib.parse.html) for analysing URLs:
 
 ```python
->>> url = 'https://www.google.com/search?q=Prinsgatan+Gothenburg'
->>> urllib.parse.urlparse(url)
+>>> import urllib.parse
+>>> urllib.parse.urlparse('https://www.example.com/cat/?foo=bar+hex')
 ParseResult(
     scheme='https',
-    netloc='www.google.com',
-    path='/search',
+    netloc='www.example.com',
+    path='/cat/',
     params='',
-    query='q=Prinsgatan+Gothenburg',
+    query='foo=bar+hex',
     fragment=''
 )
 ```
 
-A query has furthermore the structure
+The **query** part of the URL has furthermore its own structure:
 
 ```plain
 <query> ::= <attr> (& <attr>)*
 <attr>  ::= <key> = <value>
 ```
 
-Since the values of attributes may contain spaces, they must be rewritten, just like many special characters.
-This task is also taken care of by the `urllib.parse` library.
-Thus we can write a function:
+Since the values of attributes may contain spaces, they must be rewritten in an encoding, just like many special characters.
+This task is also taken care of by the `urllib.parse` library:
 
 ```python
-def stop_url(stop):
-    google_url = 'https://www.google.com/search'
-    attrs = urllib.parse.urlencode({'q': 'Gothenburg ' + stop})
-    return google_url + '?' + attrs
+>>> base_url = 'https://www.example.com/cat'
+>>> attrs = urllib.parse.urlencode({'foo': 'ser strängen køn$t/ig?'})
+>>> base_url + '?' + attrs
+'https://www.example.com/cat?foo=ser+str%C3%A4ngen+k%C3%B8n%24t%2Fig%3F'
 ```
 
-Applied to "Mölndals sjukhus" (more tricky than Prinsgatan), this gives us:
-
-```plain
-https://www.google.com/search?q=Gothenburg+M%C3%B6lndals+sjukhus
-```
-
-URLs can be used in Graphviz as attributes of nodes:
-
-```python
-dot.node(stop, URL=stop_url(stop), ...)
-```
-
-Another library for URL queries is `requests` (<https://docs.python-requests.org>)
-which in particular makes it easier actually to make queries and extract answers from them.
+Another library for this is [`requests`](https://docs.python-requests.org)
+which in particular makes it easier actually to make queries and extract answers from them, in addition to many other tasks related to web requests.
 
 ### 9.3. XML and SVG
+
+TODO rest of chapter
 
 #### 9.3.1. XML
 
