@@ -14,9 +14,9 @@ The original name of the course was "Advanced Programming in Python", starting i
 As of 2024, the course name is "Continuation Course in Programming in Python", which reflects better its character as an intermediate rather than an advanced course.
 
 The purpose of this guide is to give a unified view of the course and help your learning by showing the big picture and pointing you to further reading.
-It is *not* a complete description of the course material: we found it unnecessary, and even harmful, to repeat and digest all the material that you are expected to read.
+It is _not_ a complete description of the course material: we found it unnecessary, and even harmful, to repeat and digest all the material that you are expected to read.
 On the advanced level of programming, you should be able to read the original documentation, which you can find on the internet, and which may be difficult or even confusing.
-This guide will help you to get started, by giving pointers to material that we found relevant and which you *at least* should read while studying this course.
+This guide will help you to get started, by giving pointers to material that we found relevant and which you _at least_ should read while studying this course.
 
 ## Table of contents
 {:.no_toc}
@@ -29,7 +29,7 @@ This guide will help you to get started, by giving pointers to material that we 
 ### 1.1. The aims of this guide and the course
 
 This course is a second course in programming, after an introduction course.
-After learning the basics of programming, the ambition here is to reach a level of *completeness*:
+After learning the basics of programming, the ambition here is to reach a level of _completeness_:
 
 * **Complete knowledge of Python**: you will know all constructs of the Python language, not only the ones covered by introduction courses.
 * **Universal programming potential**: you will get the confidence that you can solve any programming task, as just a matter of having enough time to study the problem and work on it.
@@ -202,9 +202,9 @@ Actually, if you are young (say, under 40), it is unlikely that Python will be t
 Likewise, for most of us over 40 at least, Python is not our first programming language, but it can be, for instance, Java or Haskell or C or Pascal.
 
 When learning your second or third programming language, you certainly do not need to learn everything that absolute beginners are taught their first programming language.
-You only need, so to say, learn the *differences* between the new language and your earlier ones.
+You only need, so to say, learn the _differences_ between the new language and your earlier ones.
 
-The situation resembles learning a *second language* when you already know your native language - for instance, learning English when you already know Swedish.
+The situation resembles learning a _second language_ when you already know your native language - for instance, learning English when you already know Swedish.
 It has probably taken you at least seven years to learn to speak, read, and write Swedish fluently.
 You have had to learn not only what words mean which things, but also the very idea that words can stand for things, and that written signs can represent sounds.
 While learning this, your brain and motoric skills have developed to use a language.
@@ -219,8 +219,8 @@ What you need to learn is
 * vocabulary: what words are used for what things.
 
 In many cases, learning the syntax of a new language is a task that can be completed in a couple of weeks, since it will not be very different from your earlier languages.
-You will learn, for instance, that negation in English is formed in a different way from Swedish, by using auxiliary verbs (*I don't know* instead of *I know not*).
-It might take longer to use *actively* all parts of the syntax, but you will at least understand the structure of what you read, even if you need to look up words in a dictionary.
+You will learn, for instance, that negation in English is formed in a different way from Swedish, by using auxiliary verbs (_I don't know_ instead of _I know not_).
+It might take longer to use _actively_ all parts of the syntax, but you will at least understand the structure of what you read, even if you need to look up words in a dictionary.
 
 The vocabulary, in contrast to syntax, involves life-long learning.
 Even native speakers may occasionally need to look up a word in a dictionary.
@@ -232,7 +232,7 @@ At the same time, some things available in Java are not available in Python, and
 Within a week or so - Python syntax is a lot easier than English - you will be able to understand the syntactic structure of everything that is written in Python.
 There may be things you will never use in your own code, and will probably have a bias for Java-like expression - just like Swedish native speakers, even when fluent in English, can be biased to Swedish-like constructs.
 
-In this course, we will actually try to help you become more *Pythonic*, since this will give you some satisfaction as well as credibility among *Pythonistas*.
+In this course, we will actually try to help you become more _Pythonic_, since this will give you some satisfaction as well as credibility among _Pythonistas_.
 But I must confess that, since my own "native" programming language is not Python, I cannot guarantee always to be Pythonic myself.
 
 What about the vocabulary of Python?
@@ -312,7 +312,7 @@ The Hello World examples illustrate the different levels in which programs are s
 * expressions.
 
 In Java, these levels are strictly nested: expressions reside inside statements, statements inside functions, functions inside classes, and classes are the top-level structure of modules.
-In Python, the same strict hierarchy *can* be followed, but this is not compulsory.
+In Python, the same strict hierarchy _can_ be followed, but this is not compulsory.
 It is common that a top-level module is a mixture of classes, functions, and statements.
 An extreme case is a module consisting only of statements: this is the dominating style in what we called "occasional programming" and has given Python the label "scripting language".
 
@@ -330,7 +330,7 @@ while i < 10:
     i += 1
 ```
 
-This, of course, is *not* good use of the freedom you get in Python.
+This, of course, is _not_ good use of the freedom you get in Python.
 It is overly complicated to write, as well as overly expensive to run (because extra code is generated under the hood every time a class or a function is defined).
 But we will later see situations where functions inside functions, or even classes inside functions, are a good way to write programs.
 
@@ -976,7 +976,7 @@ for d in ds:
     d += 1
 ```
 
-But this will *not* change the list `ds`.
+But this will _not_ change the list `ds`.
 What it does is just to give new values to the variable `d`.
 The proper way to increment each element in the list is to assign to each element of it:
 
@@ -1185,7 +1185,7 @@ Normally, the first variant, the **object-oriented** notation is recommended for
 
 #### Comprehensions
 
-**List comprehensions** are introduced in the official tutorial 5.1.3, and provide a powerful, highly Pythonic way to create lists from given ones via the operations of *mapping* and *filtering*.
+**List comprehensions** are introduced in the official tutorial 5.1.3, and provide a powerful, highly Pythonic way to create lists from given ones via the operations of _mapping_ and _filtering_.
 
 **Mapping** is the transformation of every item in a list in a certain way, for example squaring a list of numbers. This can be done using a simple for loop:
 
@@ -1636,7 +1636,7 @@ New **instances** of the class are created by using the class name as a function
 ```
 
 The instances can introduce their own attributes: there is no requirement that all instances of a class have the same attributes.
-This makes classes *extremely flexible* in Python.
+This makes classes _extremely flexible_ in Python.
 
 However, there is a more restricted way to use classes, which is closer to the usual ideas of object-oriented design.
 Here is an example from two-dimensional graphics, with a typical structure and some terminology:
@@ -1894,22 +1894,22 @@ One can also make other **database queries** in a natural way, by using comprehe
 returns the list of Euro countries.
 Finally, one can perform **aggregations** such as maximum, minimum, and average:
 
-* *Which country has the largest population in Africa?*
+* _Which country has the largest population in Africa?_
 
     ```python
     max([c for c in cdict if cdict[c]['continent']=='Africa'],
         key=lambda c: cdict[c]['population'])
     ```
 
-* *What is the average area of countries in Europe?* (This query and the following ones are left as exercises.)
+* _What is the average area of countries in Europe?_ (This query and the following ones are left as exercises.)
 
-* *How many countries are there in South America?*
+* _How many countries are there in South America?_
 
 Here are more complex ones:
 
-* *Which continent has the smallest total population?*
+* _Which continent has the smallest total population?_
 
-* *List all continents and their total populations in the descending order of population.*
+* _List all continents and their total populations in the descending order of population._
 
 They require what in the database world is called **grouping**: we group the data along a new key, which is 'continent' in this case.
 This can be done by building an auxiliary dictionary with just continents and their populations.
@@ -2340,10 +2340,10 @@ This chapter corresponds to lectures 5 (second part) and 6.
 Python supports object-oriented program design by enabling the definition of classes as well as **class hierarchies** using **inheritance**, which can be **multiple** like in C++ but unlike Java.
 Classes also support **polymorphism** by **method overriding**, but one should at the same time point out that Python is intrinsically more polymorphic than many other languages because of dynamic typing.
 
-Python does *not* support all aspects of object-oriented programming: in particular, **information hiding** is not forced by the language but depends totally on the programmer's discipline in following certain conventions.
-Neither does Python *force* object-oriented programming like Java does, but permits a mixture of functions and classes like C++.
+Python does _not_ support all aspects of object-oriented programming: in particular, **information hiding** is not forced by the language but depends totally on the programmer's discipline in following certain conventions.
+Neither does Python _force_ object-oriented programming like Java does, but permits a mixture of functions and classes like C++.
 
-However, and very importantly, Python *is* inherently object-oriented due to its **data model**, which is entirely based on objects.
+However, and very importantly, Python _is_ inherently object-oriented due to its **data model**, which is entirely based on objects.
 Even basic types such as `int` are actually types of objects in this data model.
 This gives Python a special flavour that is rarely seen in elementary programming but exploited heavily in more advanced Python.
 
@@ -2635,7 +2635,7 @@ Data abstraction guarantees that they do not break the code written by users of 
 #### 6.3.2. Invariants
 
 Another reason for data abstraction is that it can enforce **invariants**, properties that the data should satisfy at all times.
-In the undirected graph, the invariant is that, whenever a *a* is a neighbour of *b*, then also *b* is a neighbour of *a*.
+In the undirected graph, the invariant is that, whenever a _a_ is a neighbour of _b_, then also _b_ is a neighbour of _a_.
 If the internal representation is adjacency lists represented by dictionaries, we have
 
 **invariant**: if `a in _adjlist[b]` then `b in _adjlist[a]`
@@ -2687,9 +2687,9 @@ An example is, when in Lab 1 and also in Lab 2, we store the transition time fro
 In this way, we can save space but also guarantee the invariant that the time from A to B is always the same as from B to A.
 The function or method for looking up transition times should then be aware of this rule and not fail when A is not covered by `timedict[B]`.
 
-But we have also seen a counterexample to DRY: storing each graph edge (*a,b*) in the adjacency list of both *a* and *b*.
+But we have also seen a counterexample to DRY: storing each graph edge (_a,b_) in the adjacency list of both _a_ and _b_.
 The reason behind this decision is that we want to look up all neighbour of any vertex efficiently.
-If the edge were only stored for *a*, we would in the worst case need to go through the whole adjacency list to find the neighbours of *b*.
+If the edge were only stored for _a_, we would in the worst case need to go through the whole adjacency list to find the neighbours of _b_.
 This intentional introduction of redundancy violates the DRY principle and comes with a real risk of inconsistency.
 
 However, the risk of inconsistency is mitigated by data abstraction: the user of the class, when adding an edge to the graph, only needs to write `add_edge(a, b)`, and the internal dictinary is updated in both direction.
@@ -2826,7 +2826,7 @@ $ dot -Tpng trees.dot > trees.png
 The latter command uses GraphViz to generate the actual visualization.
 
 This way of using UML, after the implementation, serves the purpose of **documentation**.
-A more widely recommended use is *before* the implementation, for the **design** of classes.
+A more widely recommended use is _before_ the implementation, for the **design** of classes.
 However, a strictly linear first-design-then-implement workflow is not always the most productive way to program.
 It can be more natural to jump back and forth between code and a higher-level design view.
 In this use, UML can be a good tool, since it shows at a glance if there is something strange in the implementation, which can then be corrected and a new UML generated.
@@ -3302,7 +3302,7 @@ A basic web server can be written with the library
 
 <https://docs.python.org/3/library/http.server.html>
 
-which comes with the warning: *not recommended for production. It only implements basic security checks.*
+which comes with the warning: _not recommended for production. It only implements basic security checks._
 But we will show a simple application, running safely on **localhost**.
 The application can later be found in the `examples` directory.
 
@@ -3584,7 +3584,7 @@ After pulling, we can now access that file locally.
 
 ### A.8. Diverging changes
 
-As you should have already noticed, the different copies of the repository (on our computer, on our partner's computer, and on GitLab) are *not* automatically kept in sync. Changes can happen in these different copies at the same time, and there is no master copy of the repository which always has the most up-to-date version of things. This is what it means to be **distributed**.
+As you should have already noticed, the different copies of the repository (on our computer, on our partner's computer, and on GitLab) are _not_ automatically kept in sync. Changes can happen in these different copies at the same time, and there is no master copy of the repository which always has the most up-to-date version of things. This is what it means to be **distributed**.
 
 It is only when syncing (pushing/pulling) with another copy of the repository (a remote) that we will become aware of potential changes that have happened elsewhere.
 Despite being fully distributed, in practice we almost always sync our repositories with the same server (in our case GitLab) and never between "peers", i.e. directly with our partner's computer. But this is just a convention, not a limitation of Git.
@@ -3592,11 +3592,11 @@ Despite being fully distributed, in practice we almost always sync our repositor
 When syncing changes with a remote copy of the repository, there are different scenarios which might arise.
 Firstly if the remote has changes which we don't have, we must first pull those changes to our copy before we can push.
 
-1. If we *haven't* made any commits since the last pull:
+1. If we _haven't_ made any commits since the last pull:
     1. If we haven't made any changes to our working copy, the incoming commits from the remote are pulled and applied immediately in a **fast-forward**.
     2. If we have made changes to our working copy, but they don't overlap with the incoming commits, then they also be applied in a fast-forward. Our local changes to working copy will remain untouched.
     3. If we have made changes to the working copy, and they do overall with the incoming commits, the pull will fail. In this case we can commit our changes or temporarily **stash** them before trying to pull again.
-2. If we *have* made commits which aren't yet pushed, our changes will need to **merged** together with the incoming ones, in order to unify the diverging versions.
+2. If we _have_ made commits which aren't yet pushed, our changes will need to **merged** together with the incoming ones, in order to unify the diverging versions.
     1. Git will try to automatically merge our code, which will succeed if the changes don't overlap. It will usually ask us to specify a commit message for this new **merge commit**, but we can accept the default.
     2. If the changes overlap and an automatic merge is not possible, we will warned that we have **conflicts** that need to be resolved manually (see the next section about this).
 
