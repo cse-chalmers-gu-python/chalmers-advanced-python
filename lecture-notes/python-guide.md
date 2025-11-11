@@ -558,10 +558,6 @@ It covers practically everything in the Python language, and does it in a way th
 Hence it is recommended reading from the beginning to the end.
 However, it is not a tutorial for beginner programmers, but assumes - just like we are doing here - that you already know the basic concepts from some other context.
 
-During the first two lectures, we will go through some parts of the tutorial and demonstrate them with live coding and quizzes.
-But we will not cover everything in the lectures, and we recommend that you read both this chapter and the tutorial itself.
-So once again: the sections below are just pointers to further reading and practice.
-
 ### 3.1. Tutorial 1: Whetting your appetite
 
 There is one point we want to raise: the chapter says that "Python also offers much more error checking than C".
@@ -1747,7 +1743,7 @@ for the library we will use for the visualization of graphs.
 
 ### 3.11. Tutorial 12: Virtual Environments
 
-This topic will be discussed in Lecture 9 on development frameworks.
+TODO
 
 ### 3.12. Tutorial 13: What Now?
 
@@ -2016,9 +2012,7 @@ Trees are also a special case of **graphs**, which will have a central role in L
 
 ## 5. Graphs and graph algorithms
 
-This chapter corresponds to Lecture 4.
-We will cover most of the material that will be needed for the first
-part of Lab 2.
+We will cover most of the material that will be needed for the first part of Lab 2.
 We will illustrate the presentation with the tram network graph built in Lab 1, but also with other graphs - mostly smaller, but also some that are much larger.
 
 ### 5.1. What is a graph
@@ -2234,7 +2228,6 @@ class WeightedGraph(Graph):
 ```
 
 All of this will be your job in Lab 2 to implement.
-During the lecture, we will do some live coding that uses my own implementation to show examples of how the methods are used.
 
 Since this is a subclass of `Graph`, we will postpone the discussion on its initialization until we introduce inheritance.
 
@@ -2334,8 +2327,6 @@ An anonymized example can be found at
 <https://snap.stanford.edu/data/ego-Facebook.html>
 
 ## 6. Object-oriented design
-
-This chapter corresponds to lectures 5 (second part) and 6.
 
 Python supports object-oriented program design by enabling the definition of classes as well as **class hierarchies** using **inheritance**, which can be **multiple** like in C++ but unlike Java.
 Classes also support **polymorphism** by **method overriding**, but one should at the same time point out that Python is intrinsically more polymorphic than many other languages because of dynamic typing.
@@ -2989,7 +2980,6 @@ A map can be more or less "realistic", but it always involves an **abstraction**
 
 For instance, a transport network map typically shows only the stations and their names, as well as the connections between them, and may even distort the scale so that the locations on the map may or may not correspond to geographical locations.
 Hence such maps may have more common with graphs than ordinary maps.
-Since much of Lab 3 is about visualizing transport networks, the lecture will have a focus on how to visualize maps and graphs.
 
 In addition to networks, graphs have another traditional meaning in mathematics: visualizations of functions.
 We will also look at tools created for this purpose.
@@ -3077,7 +3067,7 @@ If you zoom the picture enough, you will eventually see the individual pixels, w
 But even vector graphics of course needs to be mapped into pixels when actually shown on a physical screen.
 
 In addition to scalability, SVG has the advantage of being a high-level format, which can easily be read and edited.
-This format is, in fact, an instance of **XML** (**eXtensible Markup Language**), which is also the basis of **HTML**, the "web page language", which will be covered in Lecture 8.
+This format is, in fact, an instance of **XML** (**eXtensible Markup Language**), which is also the basis of **HTML**, the "web page language".
 XML is a commonly used format for data exchange, although it has in recent years been partly replaced by JSON.
 
 To introduce SVG, we will follow the tutorial in: <https://www.w3schools.com/graphics/svg_intro.asp>
@@ -3127,9 +3117,112 @@ On the other hand, client-side programs are typically run in web browsers which 
 
 You can find excellent tutorials and references for all web technologies at the Mozilla Developer Network (MDN): <https://developer.mozilla.org/en-US/docs/Web>
 
-### 9.1. HTML
+### 9.1. HTTP
 
-### 9.1.1. HTML syntax
+The **Hypertext Transfer Protocol (HTTP)** is the basic communication protocol of the web,
+designed to enable communications between clients and servers via requests and responses.
+A "protocol" just means an agreed-upon format. All HTTP messages are ultimately just plain-text strings, but they follow a particular format.
+
+The examples below give a general idea, for more see: <https://developer.mozilla.org/en-US/docs/Web/HTTP>
+
+#### Request
+
+When a client sends a request to a server to `http://example.com/cat` , it might look something like this:
+
+```http
+GET /cat HTTP/1.1
+Host: example.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) ...
+Accept: */*
+```
+
+Made up of:
+
+* a **method**: `GET` (other methods include `POST`, `PATCH`, `DELETE`, etc.)
+* a **target**: `/cat` (path to resource on server)
+* a protocol **version**: `1.1`
+* **headers**: key-value pairs adding additional information to the request
+
+#### Response
+
+Similarly, a response has this format:
+
+```http
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Date: Fri, 21 Jun 2024 14:18:33 GMT
+Last-Modified: Thu, 17 Oct 2019 07:18:26 GMT
+Content-Length: 1234
+
+<html>
+<b>hello!</b>
+</html>
+```
+
+Made up of:
+
+* a protocol **version**: `1.1`
+* a **status code** and **message**: `200 OK` (others include `404 Not Found` and `500 Internal Server Error`)
+* **headers**: key-value pairs adding additional information to the response
+* a blank line
+* a **body**, which contains the actual payload of the response (in this example, some HTML code)
+
+### 9.2. URLs
+
+You surely already know what a URL is!
+**URL** stands for **Uniform Resource Locator** and are often just called a "web addresses":
+
+```plain
+https://www.example.com/cat/?foo=bar+hex
+```
+
+You have likely already noticed that URLs have a very particular structure consisting of several parts.
+URLs have their own syntax, expressable by these simplified grammar rules:
+
+```plain
+<url>   ::= <scheme> :// <hostname> / <path> (? <query>)? 
+<query> ::= <attr> (& <attr>)*
+<attr>  ::= <key> = <value>
+```
+
+Note that **no spaces are allowed** between the components (unlike most programming languages).
+A more complete description of URL structure can be found at: <https://en.wikipedia.org/wiki/URL>
+
+When working with standard formats such as URLs in your own code, it is typical to rely on an existing library rather than writing your own functions to process and/or generate these formats.
+In the case of Python, we can use the standard library [`urllib.parse`](https://docs.python.org/3/library/urllib.parse.html) for analysing URLs:
+
+```python
+>>> import urllib.parse
+>>> urllib.parse.urlparse('https://www.example.com/cat/?foo=bar+hex')
+ParseResult(
+    scheme='https',
+    netloc='www.example.com',
+    path='/cat/',
+    params='',
+    query='foo=bar+hex',
+    fragment=''
+)
+```
+
+Thus we can easily pick out the parts of the URL we are interested in, without having to write our own string processing code.
+The library can similarly help with generating URLs for us.
+What happens when the query part needs to contain special characters such as space, `?` or `ä`?
+Such characters must be rewritten using an encoding in order to avoid breaking the URL structure.
+This task is also taken care of by the `urllib.parse` library:
+
+```python
+>>> base_url = 'https://www.example.com/cat'
+>>> attrs = urllib.parse.urlencode({'foo': 'ser &trängen køn$t/g ut?'})
+>>> base_url + '?' + attrs
+'https://www.example.com/cat?foo=ser+%26tr%C3%A4ngen+k%C3%B8n%24t%2Fg+ut%3F'
+```
+
+Another library one can use for this is [`requests`](https://docs.python-requests.org)
+which makes it particularly easy to make queries and extract answers from them (in addition to many other tasks related to web requests in general).
+
+### 9.3. HTML
+
+#### 9.3.1. HTML syntax
 
 Our goal is not to write HTML itself directly, but rather to analyse and generate HTML in Python.
 But first we need to understand its basic structure.
@@ -3163,7 +3256,7 @@ More generally, the syntax of HTML can be expressed as follows (with only some o
                      | table | th | tr | td ...
 ```
 
-#### 9.1.2. Generating HTML
+#### 9.3.2. Generating HTML
 
 Consider now how to generate HTML programmatically.
 The idea is to use Python functions that at the same time force the result to be well-formatted.
@@ -3183,7 +3276,7 @@ This is basically the only thing it does, but in reality there are many other th
 
 Because of all these considerations, we typically would use a library which has been built for such a task and whose developers have hopefully thought of and tested all these edge cases. Some examples are [htpy](https://htpy.dev/) and [Yattag](https://www.yattag.org/).
 
-#### 9.1.3. Analysing HTML
+#### 9.3.3. Analysing HTML
 
 We've seen how to generate HTML, but how about analysing it? For example, how can we find all links in a given web page?
 An HTML page is just a plain text file, or even just single long string of characters.
@@ -3219,78 +3312,85 @@ Then you can try a few more examples and realise that there are many cases of va
 As usual, instead of trying to think of and handle all these cases outselves, in many situations it makes more sense to use an existing library which is designed for exactly this task.
 Popular examples include the Python standard library [`html.parser`](https://docs.python.org/3/library/html.parser.html) and [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/).
 
-### 9.2. URLs
+### 9.4. XML and SVG
 
-You surely already know what a URL is!
-**URL** stands for **Uniform Resource Locator** and are often just called a "web addresses".
-An example URL is:
+#### 9.4.1. XML
 
-```plain
-https://www.example.com/cat/?foo=bar+hex
+If you're familiar with HTML, then understanding XML is fairly logical.
+The main difference is that HTML is a language specifically designed for pages, and thus defines things such as a set of valid tags (`<p>`, `<table>`, etc) along with rules about their use (`<a>` must always have a `href` attribute, `<ul>` is not allowed inside of `<p>`, etc.)
+
+The **Extensible Markup Language (XML)** is a generalisation of this, defining the structure based on tags with attributes, but enforcing little else.
+This makes it usable as a generic language for data modelling.
+We have mainly been using JSON as a data interchange format, which is the most popular format these days, but previously it was XML which was the main such format on the web.
+The rise of JSON in popularity correllates mainly with the rise of JavaScript itself as a language.
+
+For example, this JSON data:
+
+```json
+{
+    "stops": {
+        "Olskrokstorget": {
+            "lat": 57.7146209,
+            "lon": 11.9987871
+        },
+        "Svingeln": {
+            "lat": 57.713358,
+            "lon": 11.9917409
+        }
+    }
+}
 ```
 
-It has its own syntax, consisting of several parts.
-This is a simplified grammar rule, leaving out some parts:
+could equally well be encoded in XML as:
 
-```plain
-<url> ::= <scheme> :// <hostname> / <path> (? <query>)? 
+```xml
+<stops>
+  <stop>
+    <name>Olskrokstorget</name>
+    <lat>57.7146209</lat>
+    <lon>11.9987871</lon>
+  </stop>
+  <stop>
+    <name>Svingeln</name>
+    <lat>57.713358</lat>
+    <lon>11.9917409</lon>
+  </stop>
+</stops>
 ```
 
-where **no spaces are allowed** between the parts.
-A more complete description can be found here: <https://en.wikipedia.org/wiki/URL>
+#### 9.4.2. SVG
 
-As you've guessed by now, instead of trying to parse URLs form scratch we can used the standard Python library [`urllib.parse`](https://docs.python.org/3/library/urllib.parse.html) for analysing URLs:
+**Scalable Vector Graphics (SVG)** is an XML-based markup language for describing two-dimensional based vector graphics.
+So, an SVG file like this:
 
-```python
->>> import urllib.parse
->>> urllib.parse.urlparse('https://www.example.com/cat/?foo=bar+hex')
-ParseResult(
-    scheme='https',
-    netloc='www.example.com',
-    path='/cat/',
-    params='',
-    query='foo=bar+hex',
-    fragment=''
-)
+```svg
+<svg width="190" height="160" xmlns="http://www.w3.org/2000/svg">
+  <path
+    d="M 10 80 C 40 10, 65 10, 95 80 S 150 150, 180 80"
+    stroke="green"
+    stroke-width="5"
+    fill="transparent" />
+</svg>
 ```
 
-The **query** part of the URL has furthermore its own structure:
+Would be rendered as:
 
-```plain
-<query> ::= <attr> (& <attr>)*
-<attr>  ::= <key> = <value>
-```
+![Curve rendered from SVG](./curve.svg)
 
-Since the values of attributes may contain spaces, they must be rewritten in an encoding, just like many special characters.
-This task is also taken care of by the `urllib.parse` library:
+As usual, a thorough tutorial and reference of SVG can be found at: <https://developer.mozilla.org/en-US/docs/Web/SVG>
 
-```python
->>> base_url = 'https://www.example.com/cat'
->>> attrs = urllib.parse.urlencode({'foo': 'ser &trängen køn$t/g ut?'})
->>> base_url + '?' + attrs
-'https://www.example.com/cat?foo=ser+%26tr%C3%A4ngen+k%C3%B8n%24t%2Fg+ut%3F'
-```
+#### 9.4.3. Example: Modifying an SVG file
 
-Another library for this is [`requests`](https://docs.python-requests.org)
-which in particular makes it easier actually to make queries and extract answers from them, in addition to many other tasks related to web requests.
+Let's consider a concrete task: show shortest paths on the manually written Gothenburg tram map.
 
-### 9.3. XML and SVG
+![Gothenburg tram network (SVG)](./Göteborgs_spårvägsnät.svg)
 
-TODO rest of chapter
+_Gothenburg tram network SVG. Original source: <https://commons.wikimedia.org/w/index.php?curid=92652381>_.
 
-#### 9.3.1. XML
+Since SVG is a kind of XML, we can use an XML parser library to process it.
+In this case the standard library [`xml.etree.ElementTree`](https://docs.python.org/3/library/xml.etree.elementtree.html).
 
-#### 9.3.2. Example: Modifying an SVG file
-
-Task: show shortest paths on the manually written Gothenburg tram map.
-
-<https://commons.wikimedia.org/w/index.php?curid=92652381>
-
-Method: use the library
-
-<https://docs.python.org/3/library/xml.etree.elementtree.html>
-
-Inspection of the SVG file shows that tramstop names are in this kind of elements:
+Inspection of the SVG file shows that tramstop names are this kind of element:
 
 ```svg
 <tspan
@@ -3298,9 +3398,7 @@ Inspection of the SVG file shows that tramstop names are in this kind of element
     x="253.33316"
     y="-23.96228"
     style="font-size:4.23333311px;stroke-width:0.26458332"
-    id="tspan980-4-3-2-1-7-2-4-6-9">
-Chalmers
-</tspan>
+    id="tspan980-4-3-2-1-7-2-4-6-9">Chalmers</tspan>
 ```
 
 Baseline algorithm:
@@ -3313,10 +3411,12 @@ Code:
 
 ```python
 def color_xml_tree(tree, path):
+    # check current node
     if tree.text in path:
-        tree.attrib['style'] = "font-size:8.23333311px;stroke-width:0.26458332"
+        tree.attrib['style'] = "font-size:8px;fill:magenta"
+    # recurse into children
     for child in tree:
-        color_xml_tree(child, tomark)
+        color_xml_tree(child, path)
 ```
 
 To read and write the tree:
@@ -3324,15 +3424,27 @@ To read and write the tree:
 ```python
 with open(MAP_FILE) as file:
     tree = et.fromstring(file.read())
-color_xml_tree(tree, path)
+color_xml_tree(tree, ["Chalmers", "Korsvägen", "Scandinavium"])
 et.ElementTree(tree).write(OUT_FILE)
 ```
 
-### 9.3. JavaScript
+### 9.5. JavaScript
 
-A useful comparison between JavaScript and Python: <https://www.freecodecamp.org/news/python-vs-javascript-what-are-the-key-differences-between-the-two-popular-programming-languages/>
+We will not say much about JavaScript here.
+It shares some similarities with Python in that it is an interpreted, imperative general-purpose programming language.
+You can see a comparison between JavaScript and Python at: <https://www.freecodecamp.org/news/python-vs-javascript-what-are-the-key-differences-between-the-two-popular-programming-languages/>
 
-### 9.4. Server libraries and frameworks
+For historical reasons, **JavaScript** is the only scripting language that web browsers run, meaning that if you want to write code which runs on the client's machine then you need to write it in (or at least _transpile_ it to) JavaScript.
+Recently there is also **WebAssembly**, a low-level type of code similar to assembly which also runs in modern web browsers.
+
+But the main point is that **web clients cannot run Python** and thus we will not be looking at writing an client-side code as part of this course.
+
+### 9.5. Server libraries and frameworks
+
+What is a **web server**?
+It is essentially a program which runs forever, listening for HTTP requests and sending responses back to clients.
+
+TODO
 
 A basic web server can be written with the library
 
