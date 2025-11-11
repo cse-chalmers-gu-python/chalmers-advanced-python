@@ -3401,13 +3401,13 @@ Inspection of the SVG file shows that tramstop names are this kind of element:
     id="tspan980-4-3-2-1-7-2-4-6-9">Chalmers</tspan>
 ```
 
-Baseline algorithm:
+Using tree recursion, our baseline algorithm can be:
 
 1. Get the list of stops in the desired shortest path.
 1. Traverse the XML element tree recursively:
     * if the `text` element in the tree is in the list of stops, change the value of the `style` attribute to a larger font.
 
-Code:
+Implemented as follows:
 
 ```python
 def color_xml_tree(tree, path):
@@ -3417,11 +3417,9 @@ def color_xml_tree(tree, path):
     # recurse into children
     for child in tree:
         color_xml_tree(child, path)
-```
 
-To read and write the tree:
-
-```python
+MAP_FILE="Göteborgs_spårvägsnät.svg"
+OUT_FILE="out.svg"
 with open(MAP_FILE) as file:
     tree = et.fromstring(file.read())
 color_xml_tree(tree, ["Chalmers", "Korsvägen", "Scandinavium"])
