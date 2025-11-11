@@ -3439,17 +3439,50 @@ But the main point is that **web clients cannot run Python** and thus we will no
 
 ### 9.5. Server libraries and frameworks
 
+#### 9.5.1. Basic web servers
+
 What is a **web server**?
 It is essentially a program which runs forever, listening for HTTP requests and sending responses back to clients.
 
-TODO
+A basic web server can be written with the standard library [`http.server`](https://docs.python.org/3/library/http.server.html) and might look something like this:
 
-A basic web server can be written with the library
+```python
+from http.server import BaseHTTPRequestHandler, HTTPServer
 
-<https://docs.python.org/3/library/http.server.html>
+class HelloHandler(BaseHTTPRequestHandler):
+    def do_GET(self):
+        self.send_response(200)
+        self.send_header('Content-type', 'text/plain')
+        self.end_headers()
+        self.wfile.write(b"Hello, World")
 
-which comes with the warning: _not recommended for production. It only implements basic security checks._
-But we will show a simple application, running safely on **localhost**.
+if __name__ == "__main__":
+    server_address = ("", 8000)
+    httpd = HTTPServer(server_address, HelloHandler)
+    httpd.serve_forever()
+```
+
+Run this code (note that it doesn't terminate: it's a server!) then visit <http://localhost:8000> in your browser, and you will see a "Hello, World!" message. Riveting stuff.
+
+But what exactly is happening here? You are now running both a **server** and a **client** on the same computer! This is normal when developing web applications, that you run the server locally for testing purposes. But they are completely separate processes which only communicate via HTTP.
+This means that the client has no access to the code or any of the files which form part of the server program. Indeed, the client has no way of even knowing that the server is running in Python at all.
+
+You could implement an entire web application using `http.server`, but since it is a very low-level library it would be rather tedious to do so.
+Furthermore, the library documentation itself warns that:
+
+> http.server is not recommended for production. It only implements basic security checks.
+
+So in the next section we will look at using a big industrial-strength web framework.
+
+#### 9.5.2. Web frameworks
+
+> Frameworks are powerful tools. We’d be lost without them. But there’s a cost to using them.
+>
+> Using a framework requires a significant commitment. By accepting the framework into your code, you surrender your control over the details that the framework manages. Of course this seems like a good thing; and it usually is. However, there’s a trap waiting around the corner; and it’s hard to see it coming. Before you know it you find yourself engaged in all manner of unnatural acts, inheriting from its base classes, relinquishing more and more of the flow of control, bowing ever deeper to the framework’s conventions, quirks, and idiosyncrasies.
+>
+> And yet despite the huge commitment you’ve made to the framework, the framework has made no reciprocal commitment to you at all. That framework is free to evolve in any direction that pleases its author. When it does, you realize that that you are simply going to have to follow along like a faithful puppy.
+
+_Robert C. Martin (Uncle Bob), <https://blog.cleancoder.com/uncle-bob/2014/05/11/FrameworkBound.html>_
 
 Most modern web development is done with **frameworks**, which bundle libraries, conventions, and some "magic".
 The major ones for Python are Flask and Django:
@@ -3467,6 +3500,8 @@ in <https://www.imaginarycloud.com/blog/flask-vs-django/>.
 We have, after long considerations and an initial version in Flask, chosen Django.
 One reason is that it is closer to a "full stack" framework, which you are likely to use in working life as Python web programmer.
 Another reason is the very nice and gentle tutorial: <https://tutorial.djangogirls.org/en/>
+
+TODO
 
 ## 10. The rest of Python
 
