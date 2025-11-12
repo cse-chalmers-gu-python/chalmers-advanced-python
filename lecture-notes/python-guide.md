@@ -2985,7 +2985,6 @@ In addition to networks, graphs have another traditional meaning in mathematics:
 We will also look at tools created for this purpose.
 
 Moreover, if time permits, we will take a look at tools for "ordinary" maps, which show countries and their borders.
-Such tools will be needed in the optional extra lab on graph colouring.
 
 ### 8.1. The visualization task
 
@@ -3075,7 +3074,6 @@ To introduce SVG, we will follow the tutorial in: <https://www.w3schools.com/gra
 When actually programming SVG in Python, we will use the XML library: <https://docs.python.org/3/library/xml.etree.elementtree.html>
 
 which can both analyse and write SVG - in much the same way as we have manipulated JSON.
-However, we will not go deeper into XML during the course but just consider this task in the extra lab about graph colouring.
 
 ### 8.3. Visualization vs. GUI
 
