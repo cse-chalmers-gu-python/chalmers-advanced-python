@@ -3141,6 +3141,17 @@ Made up of:
 * a protocol **version**: `1.1`
 * **headers**: key-value pairs adding additional information to the request
 
+There are many HTTP methods available as part of the protocol, but the most important ones are:
+
+* `GET`
+  * retrieve a specific resource from the server
+  * optional arguments are sent in URL query
+  * should not modify data on the server
+* `POST`
+  * send data to the server, creating or updating a resource
+  * arguments are sent in body of request
+  * can modify data on the server
+
 #### Response
 
 Similarly, a response has this format:
@@ -3440,7 +3451,7 @@ But the main point is that **web clients cannot run Python** and thus we will no
 #### 9.5.1. Basic web servers
 
 What is a **web server**?
-It is essentially a program which runs forever, listening for HTTP requests and sending responses back to clients.
+It is essentially a program which runs forever, listening for HTTP requests from clients and sending responses back to them.
 
 A basic web server can be written with the standard library [`http.server`](https://docs.python.org/3/library/http.server.html) and might look something like this:
 
@@ -3460,10 +3471,20 @@ if __name__ == "__main__":
     httpd.serve_forever()
 ```
 
-Run this code (note that it doesn't terminate: it's a server!) then visit <http://localhost:8000> in your browser, and you will see a "Hello, World!" message. Riveting stuff.
+Run this code (note that it doesn't terminate: it's a server!) then visit <http://localhost:8000> in your browser, and you will see a "Hello, World!" message.
+The HTTP response sent back to the client looks like this:
 
-But what exactly is happening here? You are now running both a **server** and a **client** on the same computer! This is normal when developing web applications, that you run the server locally for testing purposes. But they are completely separate processes which only communicate via HTTP.
-This means that the client has no access to the code or any of the files which form part of the server program. Indeed, the client has no way of even knowing that the server is running in Python at all.
+```http
+HTTP/1.0 200 OK
+Server: BaseHTTP/0.6 Python/3.13.5
+Date: Thu, 13 Nov 2025 08:18:55 GMT
+Content-type: text/plain
+
+Hello, World
+```
+
+What exactly is happening here? You are now running both a **server** and a **client** on the same computer! This is normal when developing web applications, that you run the server locally for testing purposes. But they are completely separate processes which communicate only via HTTP.
+This means that the client has no access to the code or any of the files which form part of the server program.
 
 You could implement an entire web application using `http.server`, but since it is a very low-level library it would be rather tedious to do so.
 Furthermore, the library documentation itself warns that:
@@ -3472,7 +3493,112 @@ Furthermore, the library documentation itself warns that:
 
 So in the next section we will look at using a big industrial-strength web framework.
 
-#### 9.5.2. Web frameworks
+#### 9.5.2. Web frameworks: Django
+
+Most modern web development is done with **frameworks**, which bundle libraries, conventions, and some "magic" which in general make it quicker to develop a web application compared to doing it from scratch.
+
+There are countless frameworks out there, and their popularity changes over time.One of the most popular web frameworks for Python is [Django](https://www.djangoproject.com/), which we will use in this course and which you are very likely to come across in industry too.
+
+Trying to understand all the things that a big framework does is often daunting, and you have to learn how to filter through the marketing speech:
+
+> Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of web development, so you can focus on writing your app without needing to reinvent the wheel.
+
+The things we are interested in are:
+
+* **HTTP server**: listens to HTTP requests and can send responses which are valid HTTP. We also want it to be able to handle concurrent requests from multiple clients efficiently.
+* **URL routing**: we want to handle different URLs in different ways, considering HTTP method, path, and queries.
+* **Serving static files**: some files such as images just need to be sent directly to client without any processing.
+* **Dynamic HTML templating**: HTML pages need to be dynamically generated with content specific for that request before sending to client.
+* **Form handling**: we want to automatically generate HTML forms and handle data submitted by them.
+* **Persistence to database**: we want to store and retrieve data from a database in a concenient way.
+
+In order to use a framework, things must be done in the way the framework dictates. This means files need particular names in specific folders, functions need to have certain signatures, special base classes need to be inherited, etc.
+
+##### Models, views and templates
+
+Many sources (although not Django itself, strangely) describe Django as following the **Model-View-Template (MVT)** design pattern.
+The idea is that there is a clear separation of concerns between different "layers" in the code:
+
+* **Model** (data layer): defines the structure of applications data and interacts with the database.
+
+* **View** (logic layer): handles the business logic, processing requests, managing data flow, and preparing data for display.
+
+* **Template** (presentation layer): combines static content with dynamic data using template to render content that is sent in responses.
+
+In Django terms, we see that that these layers are reflected in the file structure. Consider a simple app which stores information about music bands and allows us to search for bands by name.
+
+The model defines what our data objects look like:
+
+```python
+# app/models.py
+from django.db import models
+
+class Band(models.Model):
+    name = models.CharField(max_length=200)
+    founded = models.DateField()
+```
+
+The view handles requests, using input from the query to find the matching bands and combining this data with a template:
+
+```python
+# app/views.py
+from .models import Band
+from django.shortcuts import render
+
+def band_search(request):
+    query = request.GET.get('q')
+    matching_bands = Band.objects.filter(name__contains=query)
+    return render(request, 'bands.html', {bands: matching_bands})
+```
+
+The view is connected to a URL path using a URL pattern:
+
+```python
+# app/urls.py
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('bands/search/', views.band_search),
+]
+```
+
+And our HTML template looks like this:
+
+```html
+<!-- app/templates/bands.html -->
+<h2>Search results:</h2>
+<ol>
+    {% for band in bands %}
+    <li>{{ band.name }} (started in {{ band.founded }})</li>
+    {% endfor %}
+<ol>
+```
+
+All these parts work togther, so that when we send a `GET` request `/bands/search/?q=Black` we get something like the following rendered HTML as a response (assuming this data already exists in our data store):
+
+```html
+<h2>Search results:</h2>
+<ol>
+    <li>The Black Crowes (started in 1984)</li>
+    <li>The Black Keys (started in 2001)</li>
+    <li>Black Sabbath (started in 1968)</li>
+</ol>
+```
+
+##### Form handling
+
+TODO
+
+##### Models and ORM
+
+TODO
+
+##### A final word on frameworks
+
+There are many things in Django which we haven't seen, such as user authentication, caching, admin, internationalisation etc. which are outside the scope of this course.
+
+But we conclude with a quote on the potential downsides of choosing to use a big framwork such as Django:
 
 > Frameworks are powerful tools. We’d be lost without them. But there’s a cost to using them.
 >
@@ -3481,25 +3607,6 @@ So in the next section we will look at using a big industrial-strength web frame
 > And yet despite the huge commitment you’ve made to the framework, the framework has made no reciprocal commitment to you at all. That framework is free to evolve in any direction that pleases its author. When it does, you realize that that you are simply going to have to follow along like a faithful puppy.
 
 _Robert C. Martin (Uncle Bob), <https://blog.cleancoder.com/uncle-bob/2014/05/11/FrameworkBound.html>_
-
-Most modern web development is done with **frameworks**, which bundle libraries, conventions, and some "magic".
-The major ones for Python are Flask and Django:
-
-<https://flask.palletsprojects.com/en/2.0.x/>
-
-<https://www.djangoproject.com/>
-
-If searching "flask vs. django", you can find many opinions, nicely summarized
-
-> PIRATES USE FLASK, THE NAVY USES DJANGO
-
-in <https://www.imaginarycloud.com/blog/flask-vs-django/>.
-
-We have, after long considerations and an initial version in Flask, chosen Django.
-One reason is that it is closer to a "full stack" framework, which you are likely to use in working life as Python web programmer.
-Another reason is the very nice and gentle tutorial: <https://tutorial.djangogirls.org/en/>
-
-TODO
 
 ## 10. The rest of Python
 
