@@ -3524,7 +3524,37 @@ if value := function() > 0:
 
 ### 10.2. The `match` statement
 
-TODO
+Commonly known also as "switch" in other languages, the `match` statement is used for **pattern matching** and allows us to rewrite chains of if/elif statements with a lot of useful features.
+
+So the following `if` statement:
+
+```python
+if status == 400:
+    print("Bad request")
+elif status == 404:
+    print("Not found")
+elif status == 418:
+    print("I'm a teapot")
+else:
+    print("Unknown status")
+```
+
+can be rewritten into this `match` statement:
+
+```python
+match status:
+    case 400:
+        print("Bad request")
+    case 404:
+        print("Not found")
+    case 418:
+        print("I'm a teapot")
+    case _:
+        print("Unknown status")
+```
+
+The improvement here may not be that great, it is mainly that we have avoided rewriting `status ==` in each case.
+But there are many more advanced things which you can do with pattern matching, see [PEP 636](https://peps.python.org/pep-0636/) for more examples.
 
 ### 10.3. Generators: `yield` and `next`
 
