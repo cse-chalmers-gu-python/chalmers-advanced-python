@@ -6,6 +6,13 @@ Chalmers DAT690 / DIT516 / DAT516
 
 by Aarne Ranta & John J. Camilleri
 
+## NEWS
+
+2025-11-13: Added a better example and explanation to the time dictionary specification.
+The specification itself has not changed, but it is hopefully clearer now.
+If you already have your lab working well, you don't need to do anything.
+But as several students have asked about it, I thought it would be useful to improve the explanation.
+
 ## Purpose
 
 The purpose of Lab 1 is to read information from different formats and combine it to useful data structures.
@@ -130,14 +137,15 @@ Hence, we don't want to add transition times to the line dictionary, because thi
 Instead, from the file [`tramlines.txt`](./template/data/tramlines.txt), we also build a **time dictionary** which stores the times between adjacent stops, where
 
 - keys are stop names
-- values are dictionaries from stop names to numbers of minutes
+- values are dictionaries from stop names to numbers of minutes (there can be several neighbours in the value dictionary)
 
 Here is an example of a time dictionary entry:
 
 ```py
 {
-  "Tingvallsvägen": {
-    "Kaggeledstorget": 2
+  "Kaggeledstorget" : {
+    "Tingvallsvägen": 2,
+    "Ättehögsgatan": 0
   }
 }
 ```
@@ -148,7 +156,11 @@ In particular,
 - the location of each stop is given only once, in the stop dictionary,
 - the time between two adjacent stops is given only once, in the time dictionary.
 
-Moreover,
+**Hint** (not necessary to follow, but may be useful):
+A way to enforce the latter condition is to use alphabetical order: the time dictionary of Kaggeledstorget includes Tingvallsvägen, but not the other way round.
+When you then need to look up the time from Tingvallsvägen to Kaggeledstorget, you can find it by first looking up Kaggeledstorget.
+
+Moreover, you should aim at the following:
 
 - the text file that gives lines and their stops and times is read only once.
 
