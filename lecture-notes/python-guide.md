@@ -3535,7 +3535,7 @@ from django.db import models
 
 class Band(models.Model):
     name = models.CharField(max_length=200)
-    founded = models.DateField()
+    year = models.IntegerField()
 ```
 
 The view handles requests, using input from the query to find the matching bands and combining this data with a template:
@@ -3548,7 +3548,7 @@ from django.shortcuts import render
 def band_search(request):
     query = request.GET.get('q')
     matching_bands = Band.objects.filter(name__contains=query)
-    return render(request, 'bands.html', {bands: matching_bands})
+    return render(request, 'bands.html', {'bands': matching_bands})
 ```
 
 The view is connected to a URL path using a URL pattern:
@@ -3570,7 +3570,7 @@ And our HTML template looks like this:
 <h2>Search results:</h2>
 <ol>
     {% for band in bands %}
-    <li>{{ band.name }} (started in {{ band.founded }})</li>
+    <li>{{ band.name }} (started in {{ band.year }})</li>
     {% endfor %}
 <ol>
 ```
@@ -3588,9 +3588,102 @@ All these parts work togther, so that when we send a `GET` request `/bands/searc
 
 ##### Form handling
 
-TODO
+In our previous example we assumed that someone typed in the URL `/bands/search/?q=Black` directly, but usually such URLs are pieced together by the browser when a user submits a **form**.
+A simple HTML form for this use case can look like this:
+
+```html
+<form action="/bands/search/" method="GET">
+    <label for="my_input">Query:</label>
+    <input type="text" id="my_input" placeholder="Band name" />
+    <input type="submit" value="Search" />
+</form>
+```
+
+And is rendered visually like so:
+
+![A simple web form](./form.png)
+
+Notice that many parts of this form need to match.
+We could just put this HTML directly into our template file,
+but Django offers functionality to automate this.
+
+We define the form in Django, making sure to inherit from the corresponding base class:
+
+```python
+# app/forms.py
+from django import forms
+
+class BandSearchForm(forms.Form):
+    query = forms.CharField(max_length=100)
+```
+
+This newly-defined form has a single field `query` with a specific type.
+In order to render this form, we need to pass it to the template in our view. We're going to update the behaviour of our view to work as follows:
+
+* Show the form if there no search query, otherwise don't show it
+* Use the form's inbuilt validation before accessing submitted data
+
+```python
+# app/views.py
+from .forms import BandSearchForm
+from .models import Band
+from django.shortcuts import render
+
+def band_search(request):
+    form = BandSearchForm(request.GET)
+    if form.is_valid():
+        query = form.data['q']
+        matching_bands = Band.objects.filter(name__contains=query)
+        return render(request, 'bands.html', {'bands': matching_bands})
+    else:
+        form = BandSearchForm()
+        return render(request, 'bands.html', {'form': form})
+```
+
+Finally we just need to specify where in our template the form should go (note we still need to specify the enclosing `<form>` element ourselves):
+
+```html
+<!-- app/templates/bands.html -->
+{% if bands %}
+<h2>Search results:</h2>
+<ol>
+    {% for band in bands %}
+    <li>{{ band.name }} (started in {{ band.year }})</li>
+    {% endfor %}
+<ol>
+{% else %}
+<form action="/bands/search/" method="GET">
+    {{ form }}
+    <input type="submit" value="Search" />
+</form>
+{% endif %}
+```
 
 ##### Models and ORM
+
+We've specified the _structure_ of our data in `app/models.py`, but where does the data itself come from?
+The answer is a **database**, which is not part of Django itself, but which Django interfaces with on our behalf.
+Many database engines exist (e.g. MySQL, PostgreSQL, etc.) which usually run as standalone applications. In production environments they often run on different servers to the web server itself.
+However the simplest database backend we can use with Django is SQLite, which is not a separate application. Rather all the database contents are stored inside a single local file.
+
+One of the main features of Django is its **object-relational mapper (ORM)** which provides an interface between models as they are defined in Django, and the underlying database engine.
+Django's `Model` class (which our model inherits) allows us add/update/find instances of our model direclty through the class' methods:
+
+```plain
+>>> from .models import Band
+>>> Band.objects.create(name="Dire Straits", year=1977)
+<Band: Band object (1)>
+>>> Band.objects.create(name="Pink Floyd", year=1965)
+<Band: Band object (2)>
+
+>>> Band.objects.all()
+<QuerySet [<Band: Band object (1)>, <Band: Band object (2)>]>
+>>> [band.name for band in Band.objects.all()]
+["Dire Straits", "Pink Floyd"]
+
+>>> Band.objects.filter(year__lt=1970)
+<QuerySet [<Band: Band object (2)>]>
+```
 
 TODO
 
