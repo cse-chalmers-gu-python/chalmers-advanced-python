@@ -2841,7 +2841,7 @@ def graph_convert(graph):
     '''
 
     if isinstance(graph, dict):
-        # if input graph is dict:    
+        # if input graph is dict:
         adj_mat = [
             [
                 1 if j in graph.get(i, []) else 0
@@ -2852,7 +2852,7 @@ def graph_convert(graph):
         return adj_mat
     
     elif isinstance(graph, list):
-        # if input graph is matrix:  
+        # if input graph is matrix:
         adj_dict = {
             row_no: [ j for j in range(len(graph))
                      if graph[row_no][j] ]
@@ -2899,7 +2899,7 @@ class TestGraphConvert(unittest.TestCase):
 
 The `test_graph.py` imports `unittest` and the `graph_converter` which it needs to test. We then write a simple test method `test_dict2mat`. This test method calls our target function `graph_convert` and passes an adjacency dictionary `self.adj_dict`. We also create `self.expected` to store what we expect as the result of our function call. Once `graph_convert` returns a value, we _assert_ two tests. First, we check if the returned value has `<list>` as type. Second, we assert that the returned value should match what we expect. The message in assert statements is displayed if an assertion fails.
 
-The `unittest` has its own pool of **assertion** methods which you shall read about in the official documentation. A typical asser method call is of the form
+The `unittest` has its own pool of **assertion** methods which you shall read about in the official documentation. A typical assert method call is of the form
 
 ```plain
 <assert_method>(<recieved data to test>, <expected data to match>, <message (optional) to display if the test fails>)
@@ -2998,13 +2998,13 @@ Ran 3 tests in 0.001s
 FAILED (failures=1)
 ```
 
-Note that the failure occurs in `test_mat2dict` method, where the returned dictionary does not match with our expected dictionary. If you look closely, the problem arises in the following part of returned dictionary
+Note that the failure occurs in `test_mat2dict` method, where the returned dictionary does not match with our expected dictionary. If you look closely, the problem arises in the following part of returned dictionary:
 
 ```plain
 … 2: [0, 1, 3] …
 ```
 
-while expected dictionary is as below
+while expected dictionary is as below:
 
 ```plain
 … 2: [1, 0, 3] …
@@ -3030,11 +3030,11 @@ class TestDiff(unittest.TestCase):
     def setUp(self):
         self.testObj = Calc(55, 25)
 
-    def test_sum(self):        
+    def test_sum(self):
         self.assertEqual(self.testObj.get_sum(), 80, "incorrect addition result")
     
     def test_dif(self):
-        self.assertEqual(self.testObj.get_difference(), 30, "incorrect subtraction result")    
+        self.assertEqual(self.testObj.get_difference(), 30, "incorrect subtraction result")
 ```
 
 Each approach has its own merits. For example, when test methods work with their own objects, they work independently of each other. One test methods does not affect another test method’s execution. On the other hand, one shared object made in `setUp` saves memory, and may be useful in situations where multiple behaviors successively depend upon each other. The `setUp` and `tearDown` methods in a test case are used to setup the testing environment, and clean it up after the test, respectively.
@@ -3060,11 +3060,7 @@ AssertionError
 
 The `assert` keyword is quite helpful for testing and debugging. However, testing frameworks have implemented their own versions of _assertions_, typically in form of asseertion methods. The `unittest` assertion methods are one such example, two of which you have seen in previous examples, namely `self.assertEqual` and `self.assertIsNone`. For a more detailed range of `unittest` assert methods, refer to [unittest library official documentation](https://docs.python.org/3/library/unittest.html)
 
-### 7.4. The pytest library
-
-TODO
-
-### 7.5. Property-based testing
+### 7.4. Property-based testing
 
 In the previous example, where we tested the behavior of `graph_convert` on invalid input, you might have identified that the test case coverage was minimal. It only checked one type of invalid input, for example a `<str>`. However, there is a wide range of other invalid inputs which we have not yet tested, for example integers, lists, or malformed dictionaries.
 
@@ -3072,7 +3068,7 @@ Similarly, we have checked valid inputs via `test_mat2dict` and `test_dict2mat`.
 
 Writing test cases for an all-encompassing test input range, or for a wider coverage of scenarios, is tiresome; or not possible at all. In such situations, property-based testing proves to be useful. Property-based testing is based on _Fuzzing_ idea, which means randomly generating large amounts of test data with the help of software. These test data often include boundary cases, invalid inputs, as well as valid inputs.
 
-#### 7.5.1. The hypothesis library
+#### 7.4.1. The hypothesis library
 
 We have just discovered that it is significantly difficult for programmers/testers:
 
@@ -3085,7 +3081,7 @@ The hypothesis library solves this problem with two simple mechanisms, namely `g
 1. `strategies`: generates a range of random data based on some predefined strategy. A few noteable strategies include generating integers, floats, text, lists, matrices, and dictionaries.
 2. `given`: in simple terms, it passes (_gives_) randomly generated data (_by strategies_) to the function we need to test and calls it repetedly until all random data instances are passed. Pythonically, this mechanism is implemented with `<decorators>`. The `<decorators>` transform (_enhance_) the behavior of a function. In this case `given` decorator enhances the behavior of target function in a way that it is called over and over again with the strategy-generated random input. (more on `<decorators>` soon)
 
-#### 7.5.2. Property-based testing: first example
+#### 7.4.2. Property-based testing: first example
 
 Graph algorithms are very subtle, and it is easy to forget testing them with all relevant kinds of cases.Thus, it is important to test them using **property-based testing**, which is made available by the `hypothesis` library:
 
@@ -3122,7 +3118,7 @@ Trying out the same with `+` instead of `-`, no counterexamples are found.
 Now, we are interested in more subtle properties, having to do with our own functions rather than `+` or `-` of integers.
 But first we must look a bit closer to the simple example code, since it uses a Python construct that we have not seen before: a **decorator**
 
-#### 7.5.3. Decorators
+#### 7.4.3. Decorators
 
 A decorator in Python is a "function returning another function", as explained in:
 <https://docs.python.org/3/glossary.html#term-decorator>
@@ -3171,7 +3167,7 @@ You can run test functions by looping over such lists.
 However, you will then miss some important functionalities that the `given()` function provides, so this is not the recommended way of using Hypothesis.
 But trying it out in this way can help remove the magic.
 
-#### 7.5.4. Strategies for graphs
+#### 7.4.4. Strategies for graphs
 
 Random values are generated by `strategies`, which have methods for many datatypes of Python, as explained in: <https://hypothesis.readthedocs.io/en/latest/data.html>
 
@@ -3226,10 +3222,6 @@ assert set(breadth_first(G, root)) == set(depth_first(G, root))
 ```
 
 The `hypothesis` library provides many more ways to define, combine, and restrict strategies, but you can get started with these simple ones to generate random graphs.
-
-#### 7.5.5. Testing further graphs
-
-TODO Example: Edge symmetry
 
 ## 8. Visualization
 
