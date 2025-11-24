@@ -47,7 +47,7 @@ dijkstra(graph, source, cost=lambda u,v: 1)
 visualize(graph, view='view', name='mygraph', nodecolors={})
 
 # in trams.py
-readTramNetwork(file=TRAM_FILE)
+readTramNetwork(tramfile=TRAM_FILE)
 ```
 
 The functionalities of these classes and functions will be specified in detail below.

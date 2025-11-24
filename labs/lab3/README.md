@@ -476,7 +476,7 @@ return HttpResponseBadRequest(f"Unknown stop name: {stop}")
 ## Task 3: Add links to live traffic information
 
 The main home page image `gbg_tramnet.svg` is not just a static image, but an SVG file which contains hyperlinks.
-Currently, clicking on a stop name will search the Västtafik website for that stop name.
+Currently, clicking on a stop name will search the Västtrafik website for that stop name.
 
 Instead, we want clicking on a stop name to take you to Västtrafik's live traffic information page for that stop, for example the [page for Nordstan](https://avgangstavla.vasttrafik.se/?stopAreaGid=9021014004945000) which has URL:
 
