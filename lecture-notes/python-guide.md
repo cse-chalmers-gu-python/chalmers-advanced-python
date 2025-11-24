@@ -1741,9 +1741,66 @@ $ pip3 install graphviz
 
 for the library we will use for the visualization of graphs.
 
-### 3.11. Tutorial 12: Virtual Environments
+### 3.11. Tutorial 12: Packages and virtual environments
 
-TODO
+#### Package management
+
+When programming, we often want to install external packages which are not part of the standard library.
+The [Python Package Index (pypi)](https://pypi.org/) is a repository of publicly-published packages by the Python community.
+Python comes with a package manager called `pip`, and in the simplest case you can install a new package named `foo` with a command like:
+
+```plain
+$ pip3 install foo
+```
+
+What this command does search for a package with the name `foo`, and if found installs the **latest version of it**.
+That's all well and good, but what if another Python project you are working on requires a different version of the `foo` package?
+Packages are being updated all the time, and so are the dependencies between them.
+Often you can't just always install the latest version of everything, but instead rely on fixed versions which you know work.
+Some recent versions of Python will even warn you about trying to install packages globally, and refuse to do so unless you explicitly override it.
+
+#### Virtual environments
+
+To avoid the packages from one project interfering with one another, it is recommended to create a **virtual environment** for each Python project that you work on.
+Packages are then installed into this virtual environment, rather than globally, to minimise the chance of different versions conflicting with eachother.
+
+The module used to create and manage virtual environments is called `venv`.
+To create a virtual environment, decide upon a directory where you want to place it.
+A common name for this directory is `.venv`, but it could be anything you want.
+Then run the `venv` module as a script with the directory path as argument:
+
+```sh
+$ python3 -m venv .venv
+```
+
+You will now see a new folder called `.venv` which contains the files for your virtual environment.
+To make sure that you are operating inside this virtual environment in your shell, you need to **activate** it:
+
+* On macOS or Linux:
+
+    ```sh
+    $ source venv/bin/activate
+    ```
+
+* Windows Command Shell (`cmd`):
+
+    ```sh
+    $ venv/Scripts/activate.bat
+    ```
+
+* Windows PowerShell:
+
+    ```sh
+    $ venv/Scripts/activate.ps1
+    ```
+
+You should now see that your shell prompt is prefixed by the name of the virtual environment:
+
+```sh
+(.venv) $
+```
+
+**VS Code** will usually detect that a virtual environment has been created and asks if you want to use it, choose yes!
 
 ### 3.12. Tutorial 13: What Now?
 
