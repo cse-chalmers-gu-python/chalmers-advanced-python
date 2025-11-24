@@ -1,5 +1,5 @@
 import sys
-sys.path.append("../../examples")
+sys.path.append("../../old/examples")
 from trees import Graph
 from hypothesis.strategies import lists, integers, tuples
 from hypothesis import given

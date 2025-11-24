@@ -43,7 +43,7 @@ def transfer(account1,account2,amount):
 
 ## Question 2 and 3: trees
 import sys
-sys.path.append("../../examples")
+sys.path.append("../../old/examples")
 from trees import *
 
 class RecTree:
