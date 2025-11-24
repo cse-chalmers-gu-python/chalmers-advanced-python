@@ -4061,14 +4061,14 @@ The "Walrus" operator `x := e` assigns the value of `e` to `x` **and returns it*
 
 ```python
 value = function()
-if value > 0:
+if value:
     print(f"Value is: {value}")
 ```
 
 into this:
 
 ```python
-if value := function() > 0:
+if value := function():
     print(f"Value is: {value}")
 ```
 
