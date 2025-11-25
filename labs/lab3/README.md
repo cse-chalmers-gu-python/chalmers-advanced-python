@@ -455,7 +455,7 @@ One way to do this with the existing algorithms is simply to build a new graph f
 - every edge `(a, b)` of the original graph is multiplied to edges `((a, line), (b, line))` for every `line` that serves both `a` and `b`
 - edges are added between all vertices that have the same `stop`
 - distances and transfer time between different stops are the same as in the original graph
-- a special change distance and change time is added between vertices that have the same stop but different times, e.g. 20 metres and 10 minutes respectively
+- a special change distance and change time is added between vertices that have the same stop but different lines, e.g. 20 metres and 10 minutes respectively
 
 ## Task 2: Data validation
 
