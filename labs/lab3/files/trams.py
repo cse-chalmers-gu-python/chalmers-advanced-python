@@ -18,7 +18,7 @@ TRAM_FILE = os.path.join(settings.BASE_DIR, 'static/tramnetwork.json')
         # stops = self._stopdict.values()
         # minlat = min([s._position[0] for s in stops])
         # etc
-        # return minlon, minlat, maxlon, maxlat
+        # return minlat, minlon, maxlat, maxlon
 
 
 def readTramNetwork():
