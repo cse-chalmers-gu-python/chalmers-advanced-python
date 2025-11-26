@@ -1,0 +1,10 @@
+<stops>
+    <stop name="Olskrokstorget">
+        <lat>57.7146209</lat>
+        <lon>11.9987871</lon>
+    </stop>
+    <stop name="Svingeln">
+        <lat>57.713358</lat>
+        <lon>11.9917409</lon>
+    </stop>
+</stops>
