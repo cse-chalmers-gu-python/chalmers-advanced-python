@@ -1,7 +1,7 @@
 ## Question 1
 from _trams import readTramNetwork
 import sys
-sys.path.append("../../examples")
+sys.path.append("../../old/examples")
 from htmlgen import table
 
 def tramtable(tram_network):

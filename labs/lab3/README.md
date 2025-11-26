@@ -455,7 +455,7 @@ One way to do this with the existing algorithms is simply to build a new graph f
 - every edge `(a, b)` of the original graph is multiplied to edges `((a, line), (b, line))` for every `line` that serves both `a` and `b`
 - edges are added between all vertices that have the same `stop`
 - distances and transfer time between different stops are the same as in the original graph
-- a special change distance and change time is added between vertices that have the same stop but different times, e.g. 20 metres and 10 minutes respectively
+- a special change distance and change time is added between vertices that have the same stop but different lines, e.g. 20 metres and 10 minutes respectively
 
 ## Task 2: Data validation
 
@@ -476,7 +476,7 @@ return HttpResponseBadRequest(f"Unknown stop name: {stop}")
 ## Task 3: Add links to live traffic information
 
 The main home page image `gbg_tramnet.svg` is not just a static image, but an SVG file which contains hyperlinks.
-Currently, clicking on a stop name will search the Västtafik website for that stop name.
+Currently, clicking on a stop name will search the Västtrafik website for that stop name.
 
 Instead, we want clicking on a stop name to take you to Västtrafik's live traffic information page for that stop, for example the [page for Nordstan](https://avgangstavla.vasttrafik.se/?stopAreaGid=9021014004945000) which has URL:
 

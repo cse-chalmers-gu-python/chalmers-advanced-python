@@ -38,6 +38,7 @@ Submssion instructions can be found further down in this document.
 3. Is it possible to query shortest path between any two points? (yes/no)
 4. Does the application deal with changes correctly? (yes/no)
 5. Does the application show current traffic information? (yes/no)
+6. Does the application correctly handle invalid input? (yes/no)
 
 ### Section 2: Code quality
 

@@ -47,7 +47,7 @@ dijkstra(graph, source, cost=lambda u,v: 1)
 visualize(graph, view='view', name='mygraph', nodecolors={})
 
 # in trams.py
-readTramNetwork(file=TRAM_FILE)
+readTramNetwork(tramfile=TRAM_FILE)
 ```
 
 The functionalities of these classes and functions will be specified in detail below.
@@ -296,8 +296,7 @@ If you use the names suggested in the UML diagram, some things in Lab 3 will be 
 Notice that you need not store geographical distances between stops, because they can be computed from the positions of stops.
 For this, you can use the geographical distance function from Lab 1.
 
-Finally, the class should have a `extreme_position()` method should return the minimum and maximum latitude and longitude found among all stop positions.
-This will be needed for correctly visualizing the tram network in Lab 3.
+Finally, the class should have a `extreme_positions()` method which should return the minimum and maximum latitude and longitude found among all stop positions.
 
 ### Reading a `TramNetwork`
 
