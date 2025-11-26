@@ -37,25 +37,25 @@ class Graph:
         return {(a, b) for a, bs in self._adjdict.items()
                        for b in bs if a <= b}
 
+    def __len__(self):
+        return len(self.vertices())
+
     def __str__(self):
         return str(self._adjdict)
 
-    # def __len__(self):
-    #     return len(self.vertices())
-    
-    # def __eq__(self, other):
-    #     return self._adjdict == other._adjdict
+    def __eq__(self, other):
+        return self._adjdict == other._adjdict
 
-    # def __getitem__(self, a):
-    #     "return the set of neighbours of a vertex"
-    #     return self._adjdict[a]
+    def __getitem__(self, a):
+        "return the set of neighbours of a vertex"
+        return self._adjdict[a]
     
-    # def __setitem__(self, a, bs):
-    #     "change the set of neighbours of a vertex"
-    #     ## self._adjdict[a] = bs  # not safe!
-    #     self.remove_vertex(a)
-    #     for b in bs:
-    #         self.add_edge(a, b)
+    def __setitem__(self, a, bs):
+        "change the set of neighbours of a vertex"
+        ## self._adjdict[a] = bs  # not safe!
+        self.remove_vertex(a)
+        for b in bs:
+            self.add_edge(a, b)
 
 
 
