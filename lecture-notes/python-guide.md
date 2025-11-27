@@ -3140,28 +3140,28 @@ Even if such inputs have been generated, it is difficult to automate the functio
 The hypothesis library solves this problem with two simple mechanisms, namely `given` and `strategies`.
 
 1. **`strategies`**: generates a range of random data based on some predefined strategy. A few noteable strategies include generating integers, floats, text, lists, matrices, and dictionaries.
-2. **`@given`**: in simple terms, it passes (_gives_) randomly generated data (_by strategies_) to the function we need to test and calls it repetedly until all random data instances are passed. Pythonically, this mechanism is implemented with `<decorators>`. The `<decorators>` transform (_enhance_) the behavior of a function. In this case `given` decorator enhances the behavior of target function in a way that it is called over and over again with the strategy-generated random input. 
+2. **`@given`**: in simple terms, it passes (_gives_) randomly generated data (_by strategies_) to the function we need to test and calls it repetedly until all random data instances are passed. Pythonically, this mechanism is implemented with `<decorators>`. The `<decorators>` transform (_enhance_) the behavior of a function. In this case `given` decorator enhances the behavior of target function in a way that it is called over and over again with the strategy-generated random input.
 
 #### 7.4.2. Decorators
+
 A decorator in Python is a "function returning another function", as explained in:
 <https://docs.python.org/3/glossary.html#term-decorator>
 
-
-A **decorator** wraps another function (_target/decorated_ function) inside it. It is prefixed with the `@` symbol, and is written on the line before the definition of the decorated function.When the target function is called, the decorator enhances the target function's execution by some pre-defined procedure. For an example, we define a simple `print_random_no` function which takes one positional argument and prints it on screen. 
+A **decorator** wraps another function (_target/decorated_ function) inside it. It is prefixed with the `@` symbol, and is written on the line before the definition of the decorated function. When the target function is called, the decorator enhances the target function's execution by some pre-defined procedure. For an example, we define a simple `print_random_no` function which takes one positional argument and prints it on screen.
 
  ```python
 from hypothesis import given, strategies 
 
-@given(strategies.integers())       # the given decorator, with random integers as strategies  
-def print_random_no(x):             # print_random_no() defined as taking one positional argument 
+@given(strategies.integers())       # the given decorator, with random integers as strategies
+def print_random_no(x):             # print_random_no() defined as taking one positional argument
     print(x)
 
-print_random_no()                   # print_random_no() called without an argument 
- ```
+print_random_no()                   # print_random_no() called without an argument
+```
 
-You shall note that this function has no looping behvior of any sort, and also that calling this type of function **_typically_** requires passing it one positional argument. However, the output in the following shows that the function call with an argument fails with an error. 
+Note that this function has no looping behvior of any sort, and also that calling this type of function **_typically_** requires passing it one positional argument. However, the output in the following shows that the function call with an argument fails with an error.
 
-```sh
+```plain
 >>> print_random_no(15)
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
@@ -3169,12 +3169,12 @@ Traceback (most recent call last):
 TypeError: accept.<locals>.print_random_no() takes 0 positional arguments but 1 was given
  ```
 
-The reason behind this error is the `@given` **_decorator_**, which sits above the **_decorated_** `print_random_no` function and **_wraps_** this function. Any function call to `print_random_no` shall now pass through `@given` first, which refuses to take any argument. Hence, Python refuses to take an argument in this function call. 
+The reason behind this error is the `@given` **_decorator_**, which sits above the **_decorated_** `print_random_no` function and **_wraps_** this function. Any function call to `print_random_no` shall now pass through `@given` first, which refuses to take any argument. Hence, Python refuses to take an argument in this function call.
 
-Unintuitively, calling `print_random_no` without an argument results in the function being called and printing random integers over and over again. 
+Unintuitively, calling `print_random_no` without an argument results in the function being called and printing random integers over and over again.
 
-```python
->>> print_random_no()  
+```plain
+>>> print_random_no()
 0
 36
 -3816
@@ -3189,12 +3189,13 @@ Unintuitively, calling `print_random_no` without an argument results in the func
 >>>
 ```
 
-Summarizing the above example, when `print_random_no` is called,  `@given` takes over and uses `strategies of integers` to generate a large number of random integers. Each of the randomly generated integer is then used as an argument to call the decorated (_wraped_) `print_random_no` function. Since there are many randomly generated integers, hence the target function is successively called multiple times (evident from the output above)
+Summarizing the above example, when `print_random_no` is called, `@given` takes over and uses `strategies of integers` to generate a large number of random integers. Each of the randomly generated integer is then used as an argument to call the decorated (_wrapped_) `print_random_no` function. Since there are many randomly generated integers, hence the target function is successively called multiple times (evident from the output above)
 
-#### _Some good things to know_
+##### _Some good things to know_
 
-The decorators have a broad use in Python beyond hypothesis testing. some popular built-in examples include `@staticmethod`, `@classmethod` and `@property`, commonly used to decorate classes into a better objected-oriented way. For example, `@property`  decorator is the pythonic way of implementing access control to data. For an example, consider adding graph type property in our Graph class, as following: 
-```python 
+The decorators have a broad use in Python beyond hypothesis testing. some popular built-in examples include `@staticmethod`, `@classmethod` and `@property`, commonly used to decorate classes into a better objected-oriented way. For example, `@property`  decorator is the pythonic way of implementing access control to data. For an example, consider adding graph type property in our Graph class, as following:
+
+```python
 class Graph:
     def __init__(self, edges=None):
         # ... other code lines to define graph  
@@ -3205,16 +3206,17 @@ class Graph:
         return self._type
 
 G = Graph()
-print('Graph is: ', G.type)         # though Graph object has no attribute named 'type'
+print('Graph is:', G.type)         # though Graph object has no attribute named 'type'
 ```
-Though the graph class does not define any attribute named `type` (the attribute name is `_type`), still the code runs successfully. 
+
+Though the graph class does not define any attribute named `type` (the attribute name is `_type`), still the code runs successfully.
 
 ```plain
-$ python3 .\graph.py
-Graph is:  undirected
+$ python3 graph.py
+Graph is: undirected
 ```
 
-The property decorator creates a (_decorated_) getter function which allows the property to be used as an attribute. Please note that the private data member `_type` can still be accessed directly. Python does not have an **access modifier** mechanism. However, it is the pythonic way of indicating other programmers that these underscore data members are private and must be accessed (read/write) through property functions.    
+The property decorator creates a (_decorated_) getter function which allows the property to be used as an attribute. Note that the private data member `_type` can still be accessed directly. Python does not have an **access modifier** mechanism. However, it is the pythonic way of indicating other programmers that these underscore data members are private and must be accessed (read/write) through property functions.
 
 ```python
 ALLOWED_TYPES = ['undirected', 'directed', 'undirected weighted', 'directed weighted']
@@ -3235,25 +3237,26 @@ class Graph:
             raise TypeError
 
 G = Graph()
-print('Graph is: ', G.type)         # The default type is undirected 
+print('Graph is:', G.type)          # The default type is undirected 
 G.type = 'directed weighted'        # change graph type with setter  
-print('Graph is: ', G.type)         
+print('Graph is:', G.type)
 ```
 
-The `@<property_name>.setter` decorator _decorates_ the setter method. Please note that the name of this decorator should start with property name. The benefits of using this mechanism is, amongst others, to validate the input which is being set as the new value. The output is as following: 
+The `@<property_name>.setter` decorator _decorates_ the setter method. Please note that the name of this decorator should start with property name. The benefits of using this mechanism is, amongst others, to validate the input which is being set as the new value. The output is as following:
 
 ```plain
-$ python3 .\graph.py
-Graph is:  undirected
-Graph is:  directed weighted
+$ python3 graph.py
+Graph is: undirected
+Graph is: directed weighted
 ```
 
 Similarly, the hypothesis library also has several other useful decorators. A few notable examples include:
-1. `@settings`: one common use of this decorator is to modify default settings to allow more running time to time-intensive test suites.   
-2. `@composite`: generate composite type of random data, for example lists of pairs 
-3. `@example`: allows programmers to supplement randomly generated data with their own examples 
 
-#### _Decorators are syntactic sugar_
+1. `@settings`: one common use of this decorator is to modify default settings to allow more running time to time-intensive test suites.
+2. `@composite`: generate composite type of random data, for example lists of pairs.
+3. `@example`: allows programmers to supplement randomly generated data with their own examples.
+
+##### _Decorators are syntactic sugar_
 
 Decorators are **syntactic sugar**, which means that they can always be converted to "normal" syntax and thereby avoided:
 
@@ -3273,20 +3276,17 @@ function = decorator(function)
 
 The decorator syntax is used when it is considered more readable, which is often the case in libraries.
 Hypothesis is the first example we see at this course.
-In our firt decorator example above, converting the decorator to normal syntax would give us
+In our firt decorator example above, converting the decorator to normal syntax would give us:
 
 ```python
 from hypothesis import given, strategies 
 
 # @given(strategies.integers())         # The decorator is now commented out 
-
 def print_random_no(x):
     print(x)
 
 print_random_no = given(strategies.integers()) (print_random_no)    # manual decoration 
-
 print_random_no()                       # function call, still results in multiple successive calls 
-
 ```
 
 Please note the braces carefully, and also note that now `given` does not have `@` prefix now. If you are used to the decorator syntax, it will certainly look more readable! However, if you have not seen it before, it may look like magic.
@@ -3306,7 +3306,7 @@ But trying it out in this way can help remove the magic.
 
 #### 7.4.3. Property-based testing: first example
 
-Graph algorithms are very subtle, and it is easy to forget testing them with all relevant kinds of cases.Thus, it is important to test them using **property-based testing**. The Hypothesis documentation starts with a quick start example, which we have modified just a bit:
+Graph algorithms are very subtle, and it is easy to forget testing them with all relevant kinds of cases. Thus, it is important to test them using **property-based testing**. The Hypothesis documentation starts with a quick start example, which we have modified just a bit:
 
 ```python
 from hypothesis import given, strategies as st
@@ -3320,14 +3320,13 @@ test_ints_are_commutative()
 
 The function we want to test here is `test_ints_are_commutative(x, y)`. It takes two integers as parameters. The statement `@given(st.integers(), st.integers())` transformers the behvior of `<test_ints_are_commutative>`. The first strategy `<st.integers()>` generates random integers for `<parameter x>` and the second strategy `<st.integers()>` generates random integers for `<parameter y>`. The `<@given>` decorators makes it possible to call `test_ints_are_commutative(x, y)` over and over again with randomly generated input. Hence, the test case is run a large number of times with varying inputs.
 
-When we run this (written in the file `htest.py`), we get
+When we run this (written in the file `htest.py`), we get:
 
 ```plain
 $ python3 htest.py 
     .
     .
     .
-
     assert x - y == y - x
            ^^^^^^^^^^^^^^
 AssertionError
@@ -3337,23 +3336,23 @@ Falsifying example: test_ints_are_commutative(
 )
 ```
 
-The function name indicates that we wanted to test commutativity of integers (which in itself is incorrect, because commutivity is a property of operations, not of operands). However, contrary to the function name, the code indicates that we are testing commutivity of integers under subtraction operation (which obviously should fail because subtaraction operation on integers is not commutative). 
+The function name indicates that we wanted to test commutativity of integers (which in itself is incorrect, because commutivity is a property of operations, not of operands). However, contrary to the function name, the code indicates that we are testing commutivity of integers under subtraction operation (which obviously should fail because subtaraction operation on integers is not commutative).
 
 Hypothesis has found the simplest possible counterexample that `0-1` is not equal to `1-0`. Nonetheless, trying out the same with `+` instead of `-` has found no counterexamples because _integers under addition_ are commutative.
 
 Now, we are interested in more subtle properties, having to do with our own functions rather than `+` or `-` of integers.
 
-#### 7.4.4. Testing graphs' properties 
+#### 7.4.4. Testing graph properties
 
-A graph has several properties which needs testing. A couple of noteable examples include consistency and symmetry. Further graph properties may arise from one's own context of graphs. For example, a typical setting may require that the graph is fully connectecd (i.e. no node has 0 degree), or self-loops are not allowed which may often be the case in a tram transport network. 
+A graph has several properties which needs testing. A couple of noteable examples include consistency and symmetry. Further graph properties may arise from one's own context of graphs. For example, a typical setting may require that the graph is fully connectecd (i.e. no node has 0 degree), or self-loops are not allowed which may often be the case in a tram transport network.
 
-#### _Testing graph initialization and symmetry_
+##### _Testing graph initialization and symmetry_
 
-Recall the first version of Graph class which we have created in our lecture. 
+Recall the first version of Graph class which we have created in our lecture.
 
-```python 
+```python
 class Graph:
-    """ This class implements an undirected graph represented by an adjacency dict."""
+    "This class implements an undirected graph represented by an adjacency dict."
 
     def __init__(self, edges=None):
         self._adjdict = {}
@@ -3362,8 +3361,8 @@ class Graph:
                 self.add_edge(a, b)
 
     # setter methods
-    "add a to the neighbours of b and vice-versa"
     def add_edge(self, a, b):
+        "add a to the neighbours of b and vice-versa"
         self._adjdict.setdefault(a, set()).add(b)
         self._adjdict.setdefault(b, set()).add(a)
 
@@ -3388,15 +3387,16 @@ class Graph:
     def __str__(self):
         return str(self._adjdict)
 ```
+
 First, we want to test if our graph initializes correctly with randomly generated edge data. To test this property, we generate tuples of randomly generated integers with values between 1 and 8. Please note that this choice of range is arbitrary, and respresnts that the graph will have vertices (_nodes_) named between 1 to 8. These randomly generated edge tuples are collected in the edge list which will be passed as an argument to our `Graph` class `__init__` method. 
 
-Next, we define our first test method, namely `test_graph_init_behavior`. The `@given` decorator (_imported as gv here_) sits rights on top of our test method. Our test method recieves one instance of random data and creates a Graph object with it. The same random data is used to create expected set of edges (_expect_edges_) and expected set of vertices (_expect_vertices_). After that, we assert that this newly initialized graph shall return a set of edges and a set of vertices that match our expected sets. 
+Next, we define our first test method, namely `test_graph_init_behavior`. The `@given` decorator (_imported as gv here_) sits rights on top of our test method. Our test method recieves one instance of random data and creates a Graph object with it. The same random data is used to create expected set of edges (_expect_edges_) and expected set of vertices (_expect_vertices_). After that, we assert that this newly initialized graph shall return a set of edges and a set of vertices that match our expected sets.
 
 Our second test method, namely `test_graph_symmetry` tests if the initialized graph is symmetric. This method asserts that if a graph has an edge `<(a, b)>`, then `<a>` must appear in the neighbours of `<b>` in graph's adjacency dictionary, and  `<b>` must appear in the neighbours of `<a>` in graph's adjacency dictionary. 
 
-**_note 1: we define our strategy again for the second test method. If we have to write more test methods, this way of defining strategy is laborious._**
+**Note 1**: we define our strategy again for the second test method. If we have to write more test methods, this way of defining strategy is laborious.
 
-**_note 2: one may be tempted to create one test method by putting assertions for initialization and symmetry in the same method. However, it is not recommended. We want to test different properties seprately. This shall help us in finding causes of failures easily when our test suites become large._**
+**Note 2**: one may be tempted to create one test method by putting assertions for initialization and symmetry in the same method. However, it is not recommended. We want to test different properties seprately. This shall help us in finding causes of failures easily when our test suites become large.
 
 ```python
 import unittest
@@ -3404,7 +3404,7 @@ from hypothesis import given as gv, strategies as st
 from graphclasses import Graph
 
 class TestGraphClassProperties(unittest.TestCase):
-    '''This class tests our graph class properties with hypothesis testing framework.'''
+    "This class tests our graph class properties with hypothesis testing framework."
 
     @gv(st.lists(
             st.tuples(st.integers(min_value=1, max_value=8), 
@@ -3425,13 +3425,12 @@ class TestGraphClassProperties(unittest.TestCase):
         for a, b in edges:
             self.assertIn(a, self.G._adjdict.get(b, set()), 'a is not found in neighbours of b')
             self.assertIn(b, self.G._adjdict.get(a, set()), 'b is not found in neighbours of a')
-
 ```
 
-Running our test case in verbose mode (_with `-v` switch_) produces the following output. 
+Running our test case in verbose mode (_with `-v` switch_) produces the following output:
 
 ```plain
-$ python3 .\test_graphclasses.py -v
+$ python3 test_graphclasses.py -v
 test_graph_init_behavior (__main__.TestGraphClassProperties.test_graph_init_behavior) ... FAIL
 test_graph_symmetry (__main__.TestGraphClassProperties.test_graph_symmetry) ... ok
 
@@ -3463,60 +3462,63 @@ Ran 2 tests in 0.367s
 FAILED (failures=1)
 ```
 
-The first line of the output informs the names of test methods which were run along with their status. It is evidant that symmetry property test is passed, but the initialization behavior test is failed. The clear separation of test properties in two separate methods helps us identify the region of failure. 
-Further analysis of `<AssertionError>` reveals that the assertion `self.assertSetEqual` has failed because the first argument `<self.G.vertices()>` is of type `<dict_keys>`, which obviously does not support set operations, particularly  set equality (_tested via det difference operation here_). 
+The first line of the output informs the names of test methods which were run along with their status. It is evidant that symmetry property test is passed, but the initialization behavior test is failed. The clear separation of test properties in two separate methods helps us identify the region of failure.
 
-**_note: This failure was not caught if we had used `<assertEqual>` instead of `<assertSetEqual>`. This emphasizes the importance of using appropriate assertions when testing._**
+Further analysis of `<AssertionError>` reveals that the assertion `self.assertSetEqual` has failed because the first argument `<self.G.vertices()>` is of type `<dict_keys>`, which obviously does not support set operations, particularly  set equality (_tested via det difference operation here_).
 
-Now we can refer back to our original `<Graph>` class and try to find the error. The first place to look is the vertices getter. Here we can see that it is returning `<dict_keys>`. Contrarily, we have treated our graph as a set always. Hence, we expect it to return set of vertices instead or `<dict_keys>`. A quick fix is to convert `<dict_keys>` to set before returning. 
+**Note**: This failure was not caught if we had used `<assertEqual>` instead of `<assertSetEqual>`. This emphasizes the importance of using appropriate assertions when testing.
 
-```python 
+Now we can refer back to our original `<Graph>` class and try to find the error. The first place to look is the vertices getter. Here we can see that it is returning `<dict_keys>`. Contrarily, we have treated our graph as a set always. Hence, we expect it to return set of vertices instead or `<dict_keys>`. A quick fix is to convert `<dict_keys>` to set before returning.
+
+```python
     def vertices(self):
         return set(self._adjdict.keys())
 ```
 
-#### _Test consistency after edge removal_ 
-In the context of Graph class from the previous section [_Testing graph initialization and symmetry_], we now want to test our graph for consistency after a node removal. In our previous test case class, we add another method `<test_graph_consistency_after_node_removal>`. 
+##### _Test consistency after edge removal_
+
+In the context of Graph class from the previous section [_Testing graph initialization and symmetry_], we now want to test our graph for consistency after a node removal. In our previous test case class, we add another method `<test_graph_consistency_after_node_removal>`.
+
 To save ourselves from writing graph initialization edge list strategy over and over again, we define it outside our test method. It can now be used for all other test methods which we write. Please note that we can also define this strategy outside of class as a function and call it in our decorator. The `hypothesis` library provides many more ways to define, combine, and restrict strategies, but you can get started with these simple ones to generate random graphs.
 
-This strategy creates edge lists with minimum 5 tuples `<min_size=5>`, where tuples do not have self loops like (1, 1) or (2, 2) `<unique_by=(lambda x: x[0], lambda x: x[1])>`. We have opted this strategy because we have already tested initialization and consistency of our graph. Now we only want to test a normal sized to graph for node removal. 
+This strategy creates edge lists with minimum 5 tuples `<min_size=5>`, where tuples do not have self loops like (1, 1) or (2, 2) `<unique_by=(lambda x: x[0], lambda x: x[1])>`. We have opted this strategy because we have already tested initialization and consistency of our graph. Now we only want to test a normal sized to graph for node removal.
 
 ```python
-    # example of defining strategies outside @gv decorator 
-    nodes = st.integers(min_value=1, max_value=9)
-    node_tuples = st.tuples(nodes, nodes)
-    edge_lists = st.lists(node_tuples, min_size=5, unique_by=(lambda x: x[0], lambda x: x[1]))
-            
+# example of defining strategies outside @gv decorator 
+nodes = st.integers(min_value=1, max_value=9)
+node_tuples = st.tuples(nodes, nodes)
+edge_lists = st.lists(node_tuples, min_size=5, unique_by=(lambda x: x[0], lambda x: x[1]))
 
-    @settings(deadline=None)        # settings decorator to remove time limit on test run 
-    @gv(edge_lists, nodes)
-    def test_graph_consistency_after_node_removal(self, edges_for_init, node_to_remove):
-        self.G = Graph(edges_for_init)
-        vertices_set = { node for (a,b) in edges_for_init for node in (a, b)}
-        expect_vertices = vertices_set - {node_to_remove} # set difference 
-        
-        # check if node is in graph G, otherwise removing it makes no sense 
-        if node_to_remove in self.G.vertices():
-            self.G.remove_vertex(node_to_remove)
-            self.assertSetEqual(self.G.vertices(), expect_vertices, 'the expected set of vertices after removal does not match the returned set of vertices')
+@settings(deadline=None)        # settings decorator to remove time limit on test run 
+@gv(edge_lists, nodes)
+def test_graph_consistency_after_node_removal(self, edges_for_init, node_to_remove):
+    self.G = Graph(edges_for_init)
+    vertices_set = { node for (a,b) in edges_for_init for node in (a, b)}
+    expect_vertices = vertices_set - {node_to_remove} # set difference 
+    
+    # check if node is in graph G, otherwise removing it makes no sense 
+    if node_to_remove in self.G.vertices():
+        self.G.remove_vertex(node_to_remove)
+        self.assertSetEqual(self.G.vertices(), expect_vertices, 'the expected set of vertices after removal does not match the returned set of vertices')
 
-        # if node is not in graph G, then test if Graph returns the appropriate error 
-        # we assume that remove_vortex will raise 'NodeNotFoundError'. Since this error
-        # is not defined in our current graph definition, hence we have commented it
-        # else:
-        #     with self.assertRaises(NodeNotFoundError):
-        #         self.G.remove_vertex(node_to_remove)
+    # if node is not in graph G, then test if Graph returns the appropriate error 
+    # we assume that remove_vortex will raise 'NodeNotFoundError'. Since this error
+    # is not defined in our current graph definition, hence we have commented it
+    # else:
+    #     with self.assertRaises(NodeNotFoundError):
+    #         self.G.remove_vertex(node_to_remove)
 ```
 
 The expected set of vertices is the set difference between the original set of vertices and the singelton set containing the vertex to be removed. After calling `<remove_vertex>`, we assert that the set of vertices and set of expected vertices shall be equal. 
 
-Moreover, if `<remove.vertex>` is called with a vertex which is not present in graph, the graph shall return an appropriate error object or message, and we shall test this behavior. Depending on how we have implemented our graph class, we can assert for a message or we can assert for an exception object. In this example, we have assumed that our graph module has also defined `<NodeNotFoundError>` exception and will return it in case vertex to be removed is not in the graph. 
-Raising a custom exception is not always necessary. Other methods of implementing this behavior are returning `None`, a status integer, or with a custom error message. However, it is the most elegant way and is recommended. 
+Moreover, if `<remove.vertex>` is called with a vertex which is not present in graph, the graph shall return an appropriate error object or message, and we shall test this behavior. Depending on how we have implemented our graph class, we can assert for a message or we can assert for an exception object. In this example, we have assumed that our graph module has also defined `<NodeNotFoundError>` exception and will return it in case vertex to be removed is not in the graph.
+
+Raising a custom exception is not always necessary. Other methods of implementing this behavior are returning `None`, a status integer, or with a custom error message. However, it is the most elegant way and is recommended.
 
 Running this test method results in the following output:
 
 ```plain
-$ python3 .\test_graphclasses.py   
+$ python3 test_graphclasses.py
 F
 ======================================================================
 FAIL: test_graph_consistency_after_node_removal (__main__.TestGraphClassProperties.test_graph_consistency_after_node_removal)
@@ -3546,24 +3548,21 @@ Ran 1 test in 0.009s
 FAILED (failures=1)
 ```
 
-The test case shows a failure explaining that the expected set of vertices and returned set of vertices are not equal in some cases. It also provides examples where our test has failed. 
+The test case shows a failure explaining that the expected set of vertices and returned set of vertices are not equal in some cases. It also provides examples where our test has failed.
 
-**_note: This test is not comprehensive, you shall also test the set of edges to see if there are any reference still present to the removed node_** 
+**Note**: This test is not comprehensive, you shall also test the set of edges to see if there are any reference still present to the removed node.
 
-
-#### _Further graph properties needing testing_ 
+##### _Further graph properties needing testing_
 
 Yet, there are several other properties which one shall test before declaring an algorithm acceptable, for example:
-1. test no duplicate nodes or edge 
-2. edges have positive weights 
-3. weights are in expected range 
-4. path algorithms work as expected 
+
+1. test no duplicate nodes or edge
+2. edges have positive weights
+3. weights are in expected range
+4. path algorithms work as expected
 5. set operations such as union, intersection, etc.
-6. adding vorticea and edges 
-7. and many more properties 
-
-
-
+6. adding vorticea and edges
+7. and many more properties
 
 ## 8. Visualization
 
