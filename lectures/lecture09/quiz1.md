@@ -1,4 +1,4 @@
-# Quiz
+# Quiz 1: requests
 
 ## Q1: Simple GET
 

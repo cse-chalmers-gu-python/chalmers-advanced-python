@@ -1,7 +1,5 @@
 from django.shortcuts import render
 
-# Create your views here.
-
 def index(request):
-    who = request.GET.get('name', 'random person')
-    return render(request, 'hello.html', {'who': who})
+    name = request.GET.get('name', 'person')
+    return render(request, 'say_hello.html', {'who': name})
