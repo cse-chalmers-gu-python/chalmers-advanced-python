@@ -10,7 +10,6 @@ all_bands = [
 
 def home(request):
     form = BandSearchForm(request.GET)
-    q = request.GET.get('query')
     if form.is_valid() and (q := form.data.get('query')):
         # filter based on search query
         results = [ b for b in all_bands if q in b["name"] ]
