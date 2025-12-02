@@ -4169,7 +4169,7 @@ And our HTML template looks like this:
     {% for band in bands %}
     <li>{{ band.name }} (started in {{ band.year }})</li>
     {% endfor %}
-<ol>
+</ol>
 ```
 
 All these parts work togther, so that when we send a `GET` request `/bands/search/?query=Black` we get something like the following rendered HTML as a response (assuming this data already exists in our data store):
@@ -4248,7 +4248,7 @@ Finally we just need to specify where in our template the form should go (note w
     {% for band in bands %}
     <li>{{ band.name }} (started in {{ band.year }})</li>
     {% endfor %}
-<ol>
+</ol>
 {% else %}
 <form action="/bands/search/" method="GET">
     {{ form }}
