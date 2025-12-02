@@ -9,9 +9,9 @@ all_bands = [
 ]
 
 def home(request):
+    form = BandSearchForm(request.GET)
     q = request.GET.get('query')
-
-    if q:
+    if form.is_valid() and (q := form.data.get('query')):
         # filter based on search query
         results = [ b for b in all_bands if q in b["name"] ]
     else:
@@ -20,5 +20,5 @@ def home(request):
     return render(
         request, # client request
         'bands_home.html', # template to render
-        { "bands": results } # data passed to template
+        { "bands": results, "form": form } # data passed to template
     )
