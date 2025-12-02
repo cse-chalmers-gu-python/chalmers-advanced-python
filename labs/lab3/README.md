@@ -144,14 +144,14 @@ Now we will prepare our environment, install the Django library, and initialize 
 
     - on Windows:
 
-      ```sh
-      $ venv/Scripts/activate.bat
+      ```plain
+      $ venv\Scripts\activate.bat
       ```
 
       or
 
-      ```sh
-      $ venv/Scripts/activate.ps1
+      ```plain
+      $ venv\Scripts\activate.ps1
       ```
 
       Which of these two commands will work depends on what shell you are using. If unsure, try both.
