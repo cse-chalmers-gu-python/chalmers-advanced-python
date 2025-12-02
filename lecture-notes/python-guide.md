@@ -4282,15 +4282,15 @@ $ ./manage.py shell
 Although we have "only" created a few Python objects, in the background Django has taken care of persisting these objects into the database, by creating and running SQL queries like these:
 
 ```sql
-INSERT INTO app_band ('name', 'year') VALUES ("Dire Straits", 1977);
-INSERT INTO app_band ('name', 'year') VALUES ("Pink Floyd", 1965);
+INSERT INTO "app_band" ("name", "year") VALUES ('Dire Straits', 1977);
+INSERT INTO "app_band" ("name", "year") VALUES ('Pink Floyd', 1965);
 ```
 
 In fact we can peek inside our database using a separate SQL client to see that the data really is there:
 
 ```plain
 $ sqlite3 db.sqlite3 
-sqlite> SELECT * FROM 'app_band';
+sqlite> SELECT * FROM "app_band";
 1|Dire Straits|1977
 2|Pink Floyd|1965
 ```
@@ -4305,7 +4305,7 @@ Similarly, we can use Django's ORM to filter entries in our database, in this ca
 To return this data, Django internally runs this SQL query on our database for us:
 
 ```sql
-SELECT * FROM 'app_band' WHERE 'year' < 1970;
+SELECT * FROM "app_band" WHERE "year" < 1970;
 ```
 
 These are just a few simple examples of what Django's ORM can do.
