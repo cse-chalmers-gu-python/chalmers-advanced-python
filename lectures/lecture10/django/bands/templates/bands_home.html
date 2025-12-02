@@ -1,0 +1,24 @@
+<html>
+<head>
+    <style>
+        body {
+            font-family: system-ui;
+            margin: 1em 2em;
+        }
+    </style>
+</head>
+<body>
+
+<h1>My Bands App 🤘</h1>
+
+{% if bands %}
+<h2>Bands:</h2>
+<ol>
+    {% for band in bands %}
+    <li>{{ band.name }} (started in {{ band.year }})</li>
+    {% endfor %}
+</ol>
+{% endif %}
+
+</body>
+</html>
