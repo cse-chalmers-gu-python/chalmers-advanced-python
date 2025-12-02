@@ -9,8 +9,16 @@ all_bands = [
 ]
 
 def home(request):
+    q = request.GET.get('query')
+
+    if q:
+        # filter based on search query
+        results = [ b for b in all_bands if q in b["name"] ]
+    else:
+        results = all_bands
+
     return render(
         request, # client request
         'bands_home.html', # template to render
-        { "bands": all_bands } # data passed to template
+        { "bands": results } # data passed to template
     )

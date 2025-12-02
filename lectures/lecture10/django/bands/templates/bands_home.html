@@ -11,6 +11,12 @@
 
 <h1>My Bands App 🤘</h1>
 
+<form action="/bands/" method="GET">
+    <label for="query_input">Query:</label>
+    <input type="text" name="query" id="query_input" />
+    <input type="submit" value="Search" />
+</form>
+
 {% if bands %}
 <h2>Bands:</h2>
 <ol>
