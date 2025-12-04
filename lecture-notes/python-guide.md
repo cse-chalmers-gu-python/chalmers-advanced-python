@@ -4379,7 +4379,37 @@ These are boring details which would be nice to not have to think about.
 But the authors of Django have decided that it would be too unsafe to modify the database's structure automatically as soon as you change the model.
 Therefore we have this migrations system, which adds a level of safety but also traceability when it comes to modifying the database's structure, which is important for large applications in production.
 
-#### 9.8.6. A final word on frameworks
+#### 9.8.6. Debugging a Django application
+
+To debug a Django application in VS Code, follow these steps:
+
+1. Create a launch configuration:
+    1. Either via the menu: _Run → Add Configuration... → Python Debugger → Django_, then specify the path to your `manage.py` file.
+    2. Or by adding a file `.vscode/launch.json` in the root of your project with the following content,
+    making sure to update the path to your `manage.py` file as necessary:
+
+        ```json
+        {
+            "version": "0.2.0",
+            "configurations": [
+                {
+                    "name": "Debug Django",
+                    "type": "debugpy",
+                    "request": "launch",
+                    "args": ["runserver"],
+                    "django": true,
+                    "autoStartBrowser": false,
+                    "program": "${workspaceFolder}/manage.py"
+                }
+            ]
+        }
+        ```
+
+2. Once the launch configuration is created, you can start the debugger by going to _Run → Start Debugging_ (keyboard shortcut <kbd>F5</kbd>).
+3. Once the server is running in debug mode, add a breakpoint inside your view and then make a request to the server (e.g. by reloading a page in the browser).
+4. The debugger will remain running until you exit it with the red stop button in the debug bar, or by killing the process with the trashcan button in the terminal.
+
+#### 9.8.7. A final word on frameworks
 
 There are many things in Django which we haven't seen, such as user authentication, caching, admin, internationalisation etc. which are outside the scope of this course.
 But we conclude with a quote on the potential downsides of choosing to use a big framwork such as Django:
