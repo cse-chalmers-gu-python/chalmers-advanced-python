@@ -449,13 +449,16 @@ In Lab 2 shortest path, we ignored the effect of changing from one line to the o
 This effect is a major factor that can make the "shortest time" and "shortest distance" differ significantly.
 Its implementation requires that we recognize when a change must be made and add a suitable number of minutes or meters to the cost.
 
-One way to do this with the existing algorithms is simply to build a new graph for the network, where:
+One way to do this with the existing algorithms is to build a new graph for the network, where:
 
 - vertices are pairs `(stop, line)` for each `stop` in the original graph and each `line` than passes through it
 - every edge `(a, b)` of the original graph is multiplied to edges `((a, line), (b, line))` for every `line` that serves both `a` and `b`
 - edges are added between all vertices that have the same `stop`
 - distances and transfer time between different stops are the same as in the original graph
 - a special change distance and change time is added between vertices that have the same stop but different lines, e.g. 20 metres and 10 minutes respectively
+
+Implement the `specialize_stops_to_lines()` function which builds such a graph. You can then run the Dijkstra algorithm with cost functions `specialized_transition_time()` and `specialized_geo_distance()` for finding the quickest and shortest paths respectively.
+You will need to figure out how to use stop names as individual strings with this new graph containing vertices as tuples.
 
 ## Task 2: Data validation
 
