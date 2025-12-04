@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Django (lecture 10)",
+      "type": "debugpy",
+      "request": "launch",
+      "args": [
+        "runserver"
+      ],
+      "django": true,
+      "autoStartBrowser": false,
+      "program": "${workspaceFolder}/lectures/lecture10/django/manage.py"
+    }
+  ]
+}
