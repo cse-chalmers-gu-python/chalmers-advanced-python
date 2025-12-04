@@ -4394,24 +4394,51 @@ _Robert C. Martin (Uncle Bob), <https://blog.cleancoder.com/uncle-bob/2014/05/11
 
 ## 10. The rest of Python
 
-Constructs that we have not yet seen but that will be needed to understand arbitrary Python code.
+This chapter gives an overview of Python constructs that we have not yet seen but that will be needed to understand arbitrary Python code. The corresponding lecture will probably focus on just a few of them, whereas this chapter gives a more superficial overview of them all.
+
+The following additional grammar rules complete the listing in Section 2.3:
+```ebnf
+<stm>  ::= ...
+         | <decorator>* async? def <name> (<arg>,*) <rtyp>?: <block>
+         | <exp> <typh> = <exp>
+         | match <exp>: <case>+
+         | await <exp>
+<arg>  ::= ...
+         | <name> <typh>
+<case> ::= case <exp>: <stm>+
+<typh> ::= : <exp>    # type hint
+<rtyp> ::= -> <exp>   # return type
+<exp>  ::= ...
+         | <name> := <exp>
+<op>   ::= ...
+         | & | | | ^ | ~ | >> | <<
+```
+
+
 
 ### 10.1. Assignment expression `:=`
 
 The "Walrus" operator `x := e` assigns the value of `e` to `x` **and returns it**, which gives us a convenient way of rewriting this common pattern:
 
 ```python
-value = function()
+value = exp
 if value:
-    print(f"Value is: {value}")
+    print(f"Value is: {exp}")
 ```
 
 into this:
 
 ```python
-if value := function():
+if value := exp:
     print(f"Value is: {value}")
 ```
+
+The rationale of this is not only to save writing effort, but also to save computation, in case one is tempted to write
+```python
+if exp:
+    print(f"Value is: {exp}")
+```
+In this case, `exp` is evaluated twice, which can be an expensive operation. If `exp` has side effects (such as printing something or changing the value of an object), these are performed twice. This can sometimes be the desired outcome, but it can also result in a bug.
 
 ### 10.2. The `match` statement
 
