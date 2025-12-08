@@ -4430,6 +4430,7 @@ The following additional grammar rules complete the listing in Section 2.3:
 ```ebnf
 <stm>  ::= ...
          | <decorator>* async? def <name> (<arg>,*) <rtyp>?: <block>
+         | type <name> = <exp>
          | <exp> <typh> = <exp>
          | match <exp>: <case>+
          | await <exp>
@@ -4443,32 +4444,43 @@ The following additional grammar rules complete the listing in Section 2.3:
 <op>   ::= ...
          | & | | | ^ | ~ | >> | <<
 ```
+In addition to these new syntactic constructs, we will introduce **regular expressions**. From the point of view of Python grammar, they are just strings. But these strings are treated in a special way, so that they are actually a complex sublanguage of its own. 
 
 
+### 10.1 Type hints
 
-### 10.1. Assignment expression `:=`
+Python is a **dynamically typed language**, which means that type checking is performed dynamically, **at runtime**. This is in contrast with **static typing**, which means that types are checked **at compile time**, *before* the program is executed. Dynamic typing has two main advantages:
 
-The "Walrus" operator `x := e` assigns the value of `e` to `x` **and returns it**, which gives us a convenient way of rewriting this common pattern:
+- programs can be run and tested early
+- functions and data structures can easily cover objects of different types 
 
-```python
-value = exp
-if value:
-    print(f"Value is: {exp}")
+But is also has disadvantages:
+
+- type errors in programs can remain undetected for a long time
+- the argument and return types of functions are hard to specify precisely
+
+The following comic captures an essential difference between the two kinds of typing:
+
+https://imgur.com/dynamic-types-1-static-types-0-BWcZYOF
+
+Most main-stream programming languages have static typing, which is considered necessary when programs are large and complex, and/or developed by different people at different times. Static type checking then gives a guarantee that different parts of the code match each other. Since the types are made explicit in the code by **type signatures**, programmers can communicate their intents to each other.
+
+In order to get some of the advantages of static typing, Python has introduced **type hints** into the syntax of the language. These hints are, first of all, a good way to document the code. For example,
 ```
-
-into this:
-
-```python
-if value := exp:
-    print(f"Value is: {value}")
+  def take(n: int, s: str) -> str:
 ```
-
-The rationale of this is not only to save writing effort, but also to save computation, in case one is tempted to write
-```python
-if exp:
-    print(f"Value is: {exp}")
+tells us that the `take` function takes an integer and a string as arguments and returns a string. It does not yet tell us what the function exactly does (it could, for instance, return the first *n* characters of the *s*), but it says much more than just
 ```
-In this case, `exp` is evaluated twice, which can be an expensive operation. If `exp` has side effects (such as printing something or changing the value of an object), these are performed twice. This can sometimes be the desired outcome, but it can also result in a bug.
+  def take(n, s):
+```
+For this reason, type hints are getting more common in API documentation, where they are a both more compact and more precise way to document functions. 
+
+In addition to the documentation purpose, there are external tools that perform static type checking of Python code. A widely used such tool is mypy,
+
+https://mypy.readthedocs.io/en/stable/
+
+This program can be run on the code file in the command line terminal. But also Visual Studio code has type checker plug-ins, which can be enabled as a part of the code development.
+
 
 ### 10.2. The `match` statement
 
@@ -4504,25 +4516,38 @@ match status:
 The improvement here may not be that great, it is mainly that we have avoided rewriting `status ==` in each case.
 But there are many more advanced things which you can do with pattern matching, see [PEP 636](https://peps.python.org/pep-0636/) for more examples.
 
-### 10.3. Generators: `yield` and `next`
+### 10.3. Assignment expression `:=`
 
-TODO
+The "Walrus" operator `x := e` assigns the value of `e` to `x` **and returns it**, which gives us a convenient way of rewriting this common pattern:
+
+```python
+value = exp
+if value:
+    print(f"Value is: {exp}")
+```
+
+into this:
+
+```python
+if value := exp:
+    print(f"Value is: {value}")
+```
+
+The rationale of this is not only to save writing effort, but also to save computation, in case one is tempted to write
+```python
+if exp:
+    print(f"Value is: {exp}")
+```
+In this case, `exp` is evaluated twice, which can be an expensive operation. If `exp` has side effects (such as printing something or changing the value of an object), these are performed twice. This can sometimes be the desired outcome, but it can also result in a bug.
+
 
 ### 10.4. Binary numbers and bitwise operators: `&  |  ^  ~  >>  <<`
 
-TODO
-
-### 10.5. Type annotations
+### 10.8. Asynchronous I/O
 
 TODO
 
-```python
-x: int
-```
-
-### 10.6. Exceptions
-
-TODO
+The `asyncio` module: <https://docs.python.org/3/library/asyncio.html>
 
 ### 10.7. Regular expressions
 
@@ -4530,11 +4555,7 @@ TODO
 
 The `re` module: <https://docs.python.org/3/library/re.html>
 
-### 10.8. Asynchronous I/O
 
-TODO
-
-The `asyncio` module: <https://docs.python.org/3/library/asyncio.html>
 
 ## A. Appendix: Git version control system
 
