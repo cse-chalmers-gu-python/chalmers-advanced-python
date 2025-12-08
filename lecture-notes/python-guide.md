@@ -4479,7 +4479,7 @@ In addition to the documentation purpose, there are external tools that perform 
 
 https://mypy.readthedocs.io/en/stable/
 
-This program can be run on the code file in the command line terminal. But also Visual Studio code has type checker plug-ins, which can be enabled as a part of the code development.
+This program can be run on the code file in the command line terminal. But also Visual Studio code has a type checker plug-in, called Pylance, which can be enabled as a part of the code development workflow.
 
 
 ### 10.2. The `match` statement
@@ -4514,6 +4514,28 @@ match status:
 ```
 
 The improvement here may not be that great, it is mainly that we have avoided rewriting `status ==` in each case.
+
+More value is added when matching complex objects, such as lists. Here is a simple interpreter for string operators:
+```python
+while True:
+    command = input('> ')
+
+    match command.split():
+        case ['reverse', s]:
+            print(s[-1::-1])
+        case ['reverse', *s]:
+            print('cannot reverse multiple words')
+        case ['echo', *s]:
+            print(*s)
+        case ['square', s] if s.isdigit():
+            print(int(s)**2)
+        case ['quit'|'bye']:
+            print('bye')
+            break
+        case _:
+            print('try again')
+```
+
 But there are many more advanced things which you can do with pattern matching, see [PEP 636](https://peps.python.org/pep-0636/) for more examples.
 
 ### 10.3. Assignment expression `:=`
@@ -4543,17 +4565,96 @@ In this case, `exp` is evaluated twice, which can be an expensive operation. If 
 
 ### 10.4. Binary numbers and bitwise operators: `&  |  ^  ~  >>  <<`
 
+Binary numbers can be given as literals prefixed with `0b` and also converted from integers with the `bin()` function: 
+```
+x = 0b101010
+
+int(x)      # == 42
+bin(42)     # == '0b101010' 
+```
+Binary numbers can be combined with logical operations corresponding to and, or, xor (exclusive or), and not:
+```
+20 & 10     # == 0b10100 & 0b1010 == 0b0
+20 | 10     # == 0b11110 == 30
+20 ^ 10     # == 0b11110 == 30
+~ 20        # == -21
+```
+Notice that the not-operation corresponds to the two's complement encoding of negative numbers.
+
+Another interesting pair of binary operations is **shifts**, which "move" the binary number left (adding zeros to the end, `x << n` = `(x * (2**n)`) or right (ignoring the last bits, `x >> n`= `(x // (2**n))`):
+```
+10 << 2    # 40
+10 << 3    # 80
+
+100 >> 2   # 25
+101 >> 2   # 25
+```
+Shifts provide an efficient way to multiply an divide by powers of 2, which is exploited in optimizing compilers.
+
+
 ### 10.8. Asynchronous I/O
 
-TODO
+**Asynchronous programs** are programs running at the same time without blocking each other. Python provides the keyword `async` for the definition of asynchronous functions, and `await` for pausing the execution of a program. The standard library `asyncio` adds several functionalities to work with such programs. 
 
-The `asyncio` module: <https://docs.python.org/3/library/asyncio.html>
+This course does not cover asynchronous programs, but we just show here a minimal example that you can try:
+```python
+import asyncio
+
+async def hello(i, n):
+    print(f"hello {i} started, going to sleep for {n} seconds")
+    await asyncio.sleep(n)
+    print(f"hello {i} done")
+
+async def main():
+    task1 = asyncio.create_task(hello(1, 4))  
+    task2 = asyncio.create_task(hello(2, 6))
+    await task1
+    await task2
+
+asyncio.run(main())
+```
+For more details, see the `asyncio` module: <https://docs.python.org/3/library/asyncio.html>
 
 ### 10.7. Regular expressions
 
-TODO
+Regular expressions are patterns that are used for matching strings. They are actually a special case of grammar rules, corresponding to so-called **regular languages**, whereas the grammar rules used in this document cover a wider set of **context-free languages**.
 
-The `re` module: <https://docs.python.org/3/library/re.html>
+Standard regular expressions are formed by the following operators, where we use the variables A and B to denote the regular expressions that are combined:
+
+| expression | name | matches |
+| -----------|------|---------|
+| a          | symbol | character a
+| A B        | sequence | A followed by B
+| A &#124; B | union  | A or B
+| A?         | optional | zero or one A
+| A*         | Kleene star | zero or more A
+| A+         | Kleene plus.| one or more A
+| .          | any | any character (except newline)
+
+For example, the regular expression `(P|p).*` matches any string that starts with P or p. 
+
+Python has a wide range of regular expression syntax extensions, documented in <https://docs.python.org/3/library/re.html>.
+Here is an example for matching sequences of digits:
+```
+dig = re.compile(r"\d+")
+```
+The expression `\d` matches single digits. The regular expression itself is given in a **raw string**, prefixed with `r`, preventing the interpretation of backslashes as excapes. This raw string is given as an argument to `re.compile()`, which converts the expression into a data structure called **finite automaton**. It is this automaton that is used for the actual matching with regular expressions. Thus the following piece of code reads a file and prints all numbers (sequences of digits) that occur in it:
+```python
+with open(filename) as file:
+    for line in file:
+        peint(dig.findall(line))
+```
+The following expression can be used for matching URLs: 
+```
+r"http[s]?://[\S]+"
+```
+This is a simplification: it matches all strings starting with http or https followed by :// followed by one or more non-space characters. A more accurate expression takes care checking that it follows the ruls for a valid URL:
+```
+(?i)\b((?:[a-z][\w-]+:(?:/{1,3}|[a-z0-9%])|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:'".,<>?«»“”‘’]))
+```
+This expression is from https://gist.github.com/gruber/249502
+
+Learning the full syntax of Python's regular expressions and their productive use would probably need almost a full course of its own.
 
 
 
