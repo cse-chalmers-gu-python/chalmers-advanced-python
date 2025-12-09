@@ -7,7 +7,7 @@ async def hello(i, n):
 
 async def main():
     task1 = asyncio.create_task(hello(1, 4))  
-    task2 = asyncio.create_task(hello(2, 6))
+    task2 = asyncio.create_task(hello(2, 3))
     await task1
     await task2
 

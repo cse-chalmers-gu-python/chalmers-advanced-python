@@ -10,9 +10,12 @@ while True:
             print(*s)
         case ['square', s] if s.isdigit():
             print(int(s)**2)
+        case ['repeat', n, s] if n.isdigit():
+            print(int(n)*s)
         case ['quit'|'bye']:
             print('bye')
             break
         case _:
             print('try again')
+
 
