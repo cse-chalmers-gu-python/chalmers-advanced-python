@@ -53,7 +53,21 @@ exec(my_code)
 Python resolves methods at runtime.
 
 ```python
-cats = [ Kitten(), Tiger(), Lion() ]
-for cat in cats:
-  cat.purr()
+class Cat():
+  def sound(self):
+    print('meow')
+
+class Kitten(Cat):
+  pass
+
+class Lion(Cat):
+  def sound(self):
+    print('roar')
+
+>>> cats = [ Cat(), Kitten(), Lion() ]
+>>> for cat in cats:
+>>>     cat.sound()
+meow
+meow
+roar
 ```
