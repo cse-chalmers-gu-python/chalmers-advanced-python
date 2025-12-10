@@ -16,14 +16,17 @@ Python determines types at runtime.
 <class 'str'>
 ```
 
-## Q2: dynamic binding
+## Q2: dynamic attribute assignment
 
-Python resolves methods at runtime.
+In Python you can assign attributes to objects at runtime.
 
 ```python
-cats = [ Kitten(), Tiger(), Lion() ]
-for cat in cats:
-  cat.purr()
+class Foo(): pass
+
+>>> f = Foo()
+>>> f.bar = 123
+>>> f.bar
+123
 ```
 
 ## Q3: dynamic loading
@@ -43,4 +46,14 @@ In Python you can execute arbitrary code at runtime.
 ```python
 my_code = "for c in 'hello': print(c.upper())"
 exec(my_code)
+```
+
+## Q5: dynamic binding
+
+Python resolves methods at runtime.
+
+```python
+cats = [ Kitten(), Tiger(), Lion() ]
+for cat in cats:
+  cat.purr()
 ```
