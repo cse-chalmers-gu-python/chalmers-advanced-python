@@ -1,8 +1,9 @@
 # Lecture Notes for the Continuation Course in Python
 {:.no_toc}
 
-Aarne Ranta  
-John J. Camilleri
+Aarne Ranta, 
+John J. Camilleri,
+Muhammad Mustafa Hassan
 
 ![Graph of tram network as produced by lab](app-shortest.png)
 
@@ -4459,11 +4460,9 @@ But is also has disadvantages:
 - type errors in programs can remain undetected for a long time
 - the argument and return types of functions are hard to specify precisely
 
-The following comic captures an essential difference between the two kinds of typing:
+[This comic](https://imgur.com/dynamic-types-1-static-types-0-BWcZYOF) captures an essential difference between the two kinds of typing.
 
-https://imgur.com/dynamic-types-1-static-types-0-BWcZYOF
-
-Most main-stream programming languages have static typing, which is considered necessary when programs are large and complex, and/or developed by different people at different times. Static type checking then gives a guarantee that different parts of the code match each other. Since the types are made explicit in the code by **type signatures**, programmers can communicate their intents to each other.
+Most main-stream programming languages have static typing, which is considered necessary when programs are large and complex, and/or developed by different people at different times. Static type checking then gives a guarantee that different parts of the code match each other. Since the types are made explicit in the code by **type signatures**, programmers can communicate their intents to each other. Static typing also helps the compiler to generate more efficient machine code, because many machine instructions are specialized to types.
 
 In order to get some of the advantages of static typing, Python has introduced **type hints** into the syntax of the language. These hints are, first of all, a good way to document the code. For example,
 ```
@@ -4475,9 +4474,7 @@ tells us that the `take` function takes an integer and a string as arguments and
 ```
 For this reason, type hints are getting more common in API documentation, where they are a both more compact and more precise way to document functions. 
 
-In addition to the documentation purpose, there are external tools that perform static type checking of Python code. A widely used such tool is mypy,
-
-https://mypy.readthedocs.io/en/stable/
+In addition to the documentation purpose, there are external tools that perform static type checking of Python code. A widely used such tool is [mypy](https://mypy.readthedocs.io/en/stable/)
 
 This program can be run on the code file in the command line terminal. But also Visual Studio code has a type checker plug-in, called Pylance, which can be enabled as a part of the code development workflow.
 
@@ -4613,7 +4610,7 @@ async def main():
 
 asyncio.run(main())
 ```
-For more details, see the `asyncio` module: <https://docs.python.org/3/library/asyncio.html>
+For more details, see the [asyncio module](https://docs.python.org/3/library/asyncio.html).
 
 ### 10.7. Regular expressions
 
@@ -4633,7 +4630,7 @@ Standard regular expressions are formed by the following operators, where we use
 
 For example, the regular expression `(P|p).*` matches any string that starts with P or p. 
 
-Python has a wide range of regular expression syntax extensions, documented in <https://docs.python.org/3/library/re.html>.
+Python has a wide range of regular expression syntax extensions, documented [here](https://docs.python.org/3/library/re.html).
 Here is an example for matching sequences of digits:
 ```
 dig = re.compile(r"\d+")
@@ -4652,7 +4649,7 @@ This is a simplification: it matches all strings starting with http or https fol
 ```
 (?i)\b((?:[a-z][\w-]+:(?:/{1,3}|[a-z0-9%])|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:'".,<>?«»“”‘’]))
 ```
-This expression is from https://gist.github.com/gruber/249502
+This expression is from [here](https://gist.github.com/gruber/249502).
 
 Learning the full syntax of Python's regular expressions and their productive use would probably need almost a full course of its own.
 
