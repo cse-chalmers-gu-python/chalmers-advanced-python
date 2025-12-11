@@ -26,7 +26,7 @@ def merge_sort(seq):
     "Recursive merge sort, returns a new sorted list"
     n = len(seq)
     if n <= 1:
-        return seq[:]
+        return seq[:] # make a copy of the list
 
     mid = n // 2
     left_sorted = merge_sort(seq[:mid])
