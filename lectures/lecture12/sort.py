@@ -30,7 +30,7 @@ def merge_sort(seq):
 
     mid = n // 2
     left_sorted = merge_sort(seq[:mid])
-    right_sorted = merge_sort(seq[-mid:])
+    right_sorted = merge_sort(seq[mid:])
     return merge(left_sorted, right_sorted)
 
 
@@ -41,5 +41,5 @@ if __name__ == "__main__":
     assert merge_sort([10, 5, 20, 15]) == [5, 10, 15, 20]
     assert merge_sort([38, 27, 43, 9, 82, 10, 2, 13]) == [2, 9, 10, 13, 27, 38, 43, 82]
     assert merge_sort(["apple", "pear", "banana", "pear"]) == ["apple", "banana", "pear", "pear"]
-    # assert merge_sort([4, 6, 5, 2, 1, 3]) == [1, 2, 3, 4, 5, 6]
+    assert merge_sort([4, 6, 5, 2, 1, 3]) == [1, 2, 3, 4, 5, 6]
 
