@@ -68,6 +68,7 @@ These screenshots should be taken by the submitting group and sent to the review
 ### Code
 
 The deadline for the submission of your code is the end of study week 6, but you can submit beforehand.
+Submit your code in the usual way: commit your code, push to GitLab, then create a submission tag (e.g. `submission1`).
 
 ### Demonstration and report
 
@@ -78,8 +79,8 @@ You can also agree to do your peer review remotely.
 After the reviews, the reports are to be submitted in GitLab, using the same repository as the Lab 3 solution itself:
 
 - **You must submit both reports: the one you wrote about the other group, and the one they wrote about you**.
-- Create a folder in the root of your repository called `reviews`, with a subfolder `groupX` where `X` is the group number of the reviewing group.
-- Write your report using Markdown syntax, in a file called `reviewY.md` where `Y` is the group number of the submitting group.
+- Create a folder in the root of your repository called `reviews`, with a subfolder `groupX` where `X` is the group number of the reviewing group (the other group).
+- Write your report using Markdown syntax, in a file called `reviewY.md` where `Y` is the group number of the submitting group (your group).
 - Put your screenshots in the same subfolder.
 - Do the same with the review you receive from the other group, so that finally your file structure should look like this:
 
@@ -96,6 +97,8 @@ After the reviews, the reports are to be submitted in GitLab, using the same rep
           ├── screenshot-1.png
           └── screenshot-2.png
   ```
+
+- Commit and push your reviews to GitLab, then create a new submission tag (e.g. `submission2`).
 
 The deadline for the submission of the reviews is the end of study week 7.
 
