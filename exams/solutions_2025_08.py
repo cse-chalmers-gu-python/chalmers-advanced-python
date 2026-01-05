@@ -66,6 +66,7 @@ class Graph:
         "add edge only once, smaller vertex first"
         a, b = sorted((a, b))
         self.edges.add((a, b))
+        # solution to the bug: add these two lines
         self.vertices.add(a)
         self.vertices.add(b)
 
@@ -82,13 +83,13 @@ G.add_edge(2, 1)
 G.add_edge(1, 2)
 G.add_vertex(3)
 
-print(G.adjacency())
-# {3: set()}, should be {1: {2}, 2: set(), 3: set()}
+print("3 adjecency", G.adjacency())
+# with original code: {3: set()}, after correction: {1: {2}, 2: set(), 3: set()}
 
 G.add_graph(G)
 print(G.adjacency())
 
-3 notice: adjacency() as above stores neighbours only in one direction
+# 3 notice: adjacency() as above stores neighbours only in one direction
 # solutions that change it so that both directions are included were also accepted
 
 -- 4
