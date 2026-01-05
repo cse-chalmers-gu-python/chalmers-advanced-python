@@ -68,10 +68,17 @@ class Graph:
         if a <= b:
             self.adjdict[a] = self.adjdict.get(a, set())
             self.adjdict[a].add(b)
+            # not required in the exam
+            # added 2026-01-05, to satisfy that every vertex is in adjdict:
+            self.adjdict[b] = self.adjdict.get(b, set())
+
         else:
             self.adjdict[b] = self.adjdict.get(b, set())
             self.adjdict[b].add(a)
-            
+            # not required in the exam
+            # added 2026-01-05, to satisfy that every vertex is in adjdict():
+            self.adjdict[a] = self.adjdict.get(a, set())
+
     def edges(self):
         "all edges but only in one direction"
         return {(a, b) for a, bs in self.adjdict.items() for b in bs}
@@ -80,9 +87,14 @@ class Graph:
         "remove vertex and all the edges that contain it"
         if a in self.adjdict:
             self.adjdict.pop(a)
-# correction added in 3c:
-#        for b in self.adjdict:
-#            self.adjdict[b].remove(a)
+
+    def remove_vertex_corrected(self, a):
+        "remove vertex and all the edges that contain it"
+        if a in self.adjdict:
+            self.adjdict.pop(a)
+        for b in self.adjdict:
+            if a in self.adjdict[b]:
+                self.adjdict[b].remove(a)
 
 
 G = Graph()
@@ -95,10 +107,24 @@ G.add_edge(5, 3)
 print("3a:", G.edges())
 # {(1, 2), (3, 4), (2, 3), (1, 3), (3, 5)}
 
+print("adjdict in 3a:", G.adjdict)
+
+
 G.remove_vertex(3)
 
 print("3b:", G.edges())
 # {(2, 3), (1, 2), (1, 3)}
+
+G = Graph()
+G.add_edge(1, 2)
+G.add_edge(3, 2)
+G.add_edge(3, 4)
+G.add_edge(1, 3)
+G.add_edge(5, 3)
+G.remove_vertex_corrected(3)
+
+print("edges in corrected 3c:", G.edges())
+print("adjdict in corrected 3c:", G.adjdict)
 
 
 # 4
