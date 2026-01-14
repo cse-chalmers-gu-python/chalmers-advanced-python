@@ -275,9 +275,12 @@ req = make_request('http://www.example.com/tasks', 'POST', body=json.dumps(obj))
 
 """
 Grading guide (4p)
-- Response body must be parsed (either using `.json()` or `json.loads()`)
+- Hardcoding the body is ok
+- If parsing JSON:
+  - Must use either using `.json()` or `json.loads()`
+  - using `str()` does not produce JSON (single quotes); must use `json.dumps()`
+- `body` must be a string
 - `body` argument must be named if `headers` is omitted
-- `body` must be a string: using `str()` does not produce JSON; must use `json.dumps()`
 - Must call `make_request`
 """
 
@@ -297,7 +300,7 @@ Grading guide (4p)
 # 4.4
 
 def bulk_get(url: str, n: int) -> list[Response]:
-  return [ send_request(url, 'GET', {'RequestNum': str(i)}) for i in range(n) ]
+  return [ send_request(url, 'GET', {'RequestNum': str(i+1)}) for i in range(n) ]
 
 """
 Grading guide (4p)
