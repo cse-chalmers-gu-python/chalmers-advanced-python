@@ -315,6 +315,6 @@ def bulk_get(url: str, n: int) -> list[Response]:
 """
 Grading guide (4p)
 - Value in header must be a string
-- Must return a list of `Response` objects
+- Must return a list of `Response` objects, or yield them
 - Ok if numbering is 0..n-1 instead of 1..n
 """
