@@ -1,33 +1,41 @@
 # 1
 
+# 1.1
 [4,5,6].append(7)
 # type: `NoneType`
 # value: `None`
 
+# 1.2
 { m: max(2, m) for m in range(1,4) }
 # type: `dict`
 # value: `{1: 2, 2: 2, 3: 3}`
 
+# 1.3
 set("hello")
 # type: `set`
 # value: `{'e', 'h', 'l', 'o'}` (order not important)
 
+# 1.4
 (lambda x: x.x())(True)
 # AttributeError
 # 'bool' object has no attribute 'x'
 
+# 1.5
 set() == []
 # type: `bool`
 # value: `False`
 
+# 1.6
 {1,2} is {2,1}
 # type: `bool`
 # value: `False`
 
+# 1.7
 len({'cat','dog'}.add('fish'))
 # TypeError
 # object of type 'NoneType' has no len()
 
+# 1.8
 [c for c in "hello" if c != 'l'][3]
 # IndexError
 # list index out of range
@@ -295,6 +303,7 @@ if v := get_header(resp, 'CacheStatus'):
 Grading guide (4p)
 - `add_header` updates in place, without return
 - Value in header must be a string
+- Not important what exactly is printed (can be header value, header, or entire response)
 """
 
 # 4.4
@@ -305,5 +314,6 @@ def bulk_get(url: str, n: int) -> list[Response]:
 """
 Grading guide (4p)
 - Value in header must be a string
-- Must return a list of `Respnose` objects
+- Must return a list of `Response` objects
+- Ok if numbering is 0..n-1 instead of 1..n
 """
