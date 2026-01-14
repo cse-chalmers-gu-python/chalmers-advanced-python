@@ -148,7 +148,8 @@ def append(self):
 
 """
 Grading guide (3p)
-...
+- Must indicate that it will give an error
+- Not necessary to explain error correctly
 """
 
 # 3.3
