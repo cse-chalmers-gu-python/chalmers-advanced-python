@@ -79,7 +79,7 @@ Grading guide (6p)
 
 terminals = {
   stop for stops in tramnetwork["lines"].values()
-        for stop in [stops[0], stops[1]]
+        for stop in [stops[0], stops[-1]]
 }
 
 """
