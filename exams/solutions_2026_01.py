@@ -67,7 +67,11 @@ tramnetwork = {
 
 # 2.1
 
-longest_line = max([ line for line in tramnetwork["lines"] ], key=lambda l: len(tramnetwork["lines"][l]))
+longest_line_1 =  max(tramnetwork["lines"], key=lambda l: len(tramnetwork["lines"][l]))
+# iterating over a dict gives its keys
+
+longest_line_2 = max([ line for line in tramnetwork["lines"] ], key=lambda l: len(tramnetwork["lines"][l]))
+
 
 """
 Grading guide (6p)
