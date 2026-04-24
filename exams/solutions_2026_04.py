@@ -257,7 +257,7 @@ Grading guide (4p)
 - Attributes included 1
 - Tags & content included 1
 
-Ok to assume file and use parse_file(), if stated and used correctly.
+OK to assume file and use parse_file(), if stated and used correctly.
 """
 
 # 4.2
@@ -271,7 +271,7 @@ print(count_paras(doc))
 Grading guide (4p)
 
 - Function (not method) 1
-- Uses iter_tag 1
+- Uses iter_tag() 1
 - Loops or converts to list (iterator has no len()) 1
 - Returns correct value 1
 """
@@ -299,9 +299,8 @@ Assuming iter_text() gives rendered HTML is OK, if used correctly.
 
 # 4.4
 
-# dummy re-implementation, not required
-def parse_string(raw: str) -> Elem:
-    return doc.root
+# dummy re-implementation, not part of solution
+def parse_string(raw: str) -> Elem: return doc.root
 
 def test(elem: Elem) -> None:
     s = str(doc.root)
@@ -317,5 +316,5 @@ Grading guide (2p)
 - Assertion 1
 
 Ok to start from string and check opposite direction.
-Any attempt at an assertion is ok, no particular syntax or library expected.
+Any attempt at an assertion is OK, no particular syntax or library expected.
 """
