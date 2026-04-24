@@ -245,9 +245,20 @@ doc.root = Elem(
 )
 
 print(doc)
-print("---")
 
-# doc = parse_file("tmp.html")
+# Alterntatively, assuming `doc.html` contains the HTML above:
+# doc = parse_file("doc.html")
+
+"""
+Grading guide (4p)
+
+- Correct type/use of class 1
+- Prolog included 1
+- Attributes included 1
+- Tags & content included 1
+
+Ok to assume file and use parse_file(), if stated and used correctly.
+"""
 
 # 4.2
 
@@ -256,10 +267,35 @@ def count_paras(doc):
 
 print(count_paras(doc))
 
+"""
+Grading guide (4p)
+
+- Function (not method) 1
+- Uses iter_tag 1
+- Loops or converts to list (iterator has no len()) 1
+- Returns correct value 1
+"""
+
 # 4.3
 
 # (implementation above)
+
 print(doc)
+
+"""
+Grading guide (6p)
+
+- Implement one method per class 1
+- Document.__str__ 2
+    - calls str() on root elem 1
+    - handles prolog 1
+- Elem.__str__ 3
+    - handles attributes 1
+    - handles tag (including closing) 1
+    - calls str() on subelements 1
+
+Assuming iter_text() gives rendered HTML is OK, if used correctly.
+"""
 
 # 4.4
 
@@ -273,3 +309,13 @@ def test(elem: Elem) -> None:
     assert elem2 == elem
 
 test(doc.root)
+
+"""
+Grading guide (2p)
+
+- Calls str() and parse_string() 1
+- Assertion 1
+
+Ok to start from string and check opposite direction.
+Any attempt at an assertion is ok, no particular syntax or library expected.
+"""
