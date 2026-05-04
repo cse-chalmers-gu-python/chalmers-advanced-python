@@ -4,37 +4,34 @@
 # None
 # NoneType
 
-# {m: m%3 in range(1,4)}
-# NameError
-# m is not defined
-"tricky"
+{n%3 for n in range(1, 10, 3)}
+# {1}
+# set
 
 # set([[1, 2, 2, 1]])
 # TypeError
-# unhashable type list
-"quite tricky"
+# unhashable type list (mutable also accepted, and "set cannot contain a list")
 
 (lambda x, y: y(x, x+1))(2, max)
 # 3
 # int
 
 set([1, 2, 2, 1])
-# {1, 2}
+# {1, 2} (duplications in set also accepted, because they are valid set expressions)
 # set
 
 'a cat' is 'a cat'
 # True
 # bool
 
-{n%3 for n in range(1, 10, 3)}
-# {1}
-# set
+# {m: m%3 in range(1,4)}
+# NameError  (syntax error with missing for also accepted)
+# m is not defined
 
 len({print(n) for n in range(1, 100) if 10 < n < 20})
 # 1
 # int
 
-# ---
 
 # Q2
 
@@ -48,29 +45,37 @@ sweng = {
 }
 
 # 2.1
-engsw = { en: [sv for sv, ens2 in sweng.items() if en in ens2] for ens in sweng.values() for en in ens }
+engsw = {
+  en: [sv for sv, ens2 in sweng.items() if en in ens2]
+      for ens in sweng.values() for en in ens
+      }
+
+# 3p if ens is used as the key and last 'for' is omitted: this is the main point of the question
+
+engswe_alternative = {
+  eng: [swe for swe in sweng if eng in sweng[swe]]
+       for englist in sweng.values() for eng in englist
+      }
 
 print(engsw)
 
 # 2.2
-
-# the number of distinct Swedish words
-swe_words: int = len(sweng.keys())
-print(swe_words)
 
 # the number of distinct English words
 eng_words: int = len({ en for ens in sweng.values() for en in ens })
 print(eng_words)
 
 # the average length of Swedish words
-swe_length: float = sum([len(sv) for sv in sweng.keys()]) / swe_words
+swe_length: float = sum([len(sv) for sv in sweng.keys()]) / len(sweng)
 print(swe_length)
 
 # the number of Swedish words that have the same word as one of its translations
 same_words: int = len([sv for sv, ens in sweng.items() if sv in ens])
 print(same_words)
 
-# ---
+same_words_alternative: int = len({sv for sv, ens in sweng.items() for en in ens if sv==en})
+print(same_words_alternative)
+
 
 # Q3
 
