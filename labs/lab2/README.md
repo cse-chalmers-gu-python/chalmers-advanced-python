@@ -259,17 +259,8 @@ To prevent this from happening, we recommend that you take your own testing seri
 
 This file needs to import two of your own modules:
 
-- `graphs.py` from Lab 2
-- `tramdata.py` from Lab 1
-
-The standard `sys` library is needed if you have your Lab 1 solution in a different directory (which we recommend).
-If so you need to tell Python where to find the file `tramdata.py` as follows:
-
-```python
-import sys
-sys.path.append('../lab1/')
-import tramdata as td
-```
+- `graphs.py` from this lab
+- `tramdata.py` from Lab 1, which you should copy into this repository
 
 ### The `TramNetwork` class
 
