@@ -2,7 +2,7 @@
 
 Advanced Python Course  
 Chalmers DAT690 / DIT516 / DAT516  
-2025
+2026
 
 by Aarne Ranta & John J. Camilleri
 
