@@ -5,7 +5,7 @@ Aarne Ranta,
 John J. Camilleri,
 Muhammad Mustafa Hassan
 
-![Graph of tram network as produced by lab](app-shortest.png)
+![Course artwork](course-artwork.jpg)
 
 ## Preface
 {:.no_toc}
