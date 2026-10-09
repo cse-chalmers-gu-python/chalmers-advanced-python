@@ -64,8 +64,8 @@ Whether to use AI or not is up to you, and whatever you choose to do, you should
 
 1. The source code for your entire application should be **submitted by pushing it to GitLab**, being careful to avoid committing unnecessary files (see more details at the end of this document).
 2. In addition, every group must participate in an **obligatory peer review session**, where you will:
-    - demonstate that your application works
-    - show what additional features were implemented, and decribe how they were implemented
+    - demonstrate your application in use
+    - show what additional features were implemented, and describe how they were implemented
     - describe and reflect on your development process, in particular AI usage
     - answer questions about your application/process from peers and TAs
     - ask questions about other groups' projects
