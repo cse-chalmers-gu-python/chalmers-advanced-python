@@ -1,5 +1,4 @@
 # GitHub Pages config
 exclude:
   - old
-  - old-exams
 title: Chalmers Advanced Python

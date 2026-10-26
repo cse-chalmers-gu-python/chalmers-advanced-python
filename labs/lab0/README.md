@@ -31,7 +31,7 @@ In this course we are going to be installing and using external Python libraries
 In order to be able to do this, you need to be familiar with how to set up virtual environments.
 
 The general idea is that each project has its own virtual environment into which packages are installed.
-See the instructions in the lecture notes here: [Packages and virtual environments](https://cse-chalmers-gu-python.github.io/chalmers-advanced-python/lecture-notes/python-guide#311-tutorial-12-packages-and-virtual-environments)
+See the instructions in the lecture notes here: [Packages and virtual environments](https://cse-chalmers-gu-python.github.io/chalmers-advanced-python/lecture-notes/#311-tutorial-12-packages-and-virtual-environments)
 
 Before progressing to the next step, ensure that you can:
 
@@ -54,7 +54,7 @@ The Git version control tool will be used throughout this course for:
 It is therefore important to get the hang of Git early on.
 To complete this step, do the following:
 
-1. Familiarise yourself with Git by reading the walkthrough in the lecture notes: [Introduction to Git](https://cse-chalmers-gu-python.github.io/chalmers-advanced-python/lecture-notes/python-guide#a-appendix-git-version-control-system)
+1. Familiarise yourself with Git by reading the walkthrough in the lecture notes: [Introduction to Git](https://cse-chalmers-gu-python.github.io/chalmers-advanced-python/lecture-notes/#a-appendix-git-version-control-system)
 2. Set up an SSH key and ensure you have Git installed: [Setting up SSH and Git](../setup-ssh-and-git.md)
 3. Access Chalmers GitLab as described here: [Working with Chalmers GitLab](../chalmers-gitlab.md)
 4. Try out creating a repository and using it:

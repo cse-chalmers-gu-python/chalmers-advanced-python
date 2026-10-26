@@ -12,13 +12,15 @@ In 2026 this includes the following course codes:
 
 ## Quick links
 
-- [AI Policy](./ai-policy)
-- [Lecture notes](./lecture-notes/python-guide)
+_These links work when viewing repository web page: <https://cse-chalmers-gu-python.github.io/chalmers-advanced-python/>_
+
+- [Lecture notes](./lecture-notes/)
 - [Working with Chalmers GitLab](./labs/chalmers-gitlab)
 - [Setting up SSH and Git](./labs/setup-ssh-and-git)
+- [Lab 0](./labs/lab0/)
 - [Lab 1](./labs/lab1/)
 - [Lab 2](./labs/lab2/)
 - [Lab 3](./labs/lab3/)
-- Code from lectures:
+- Code from lectures
   - [DAT690/DIT516](./lectures/dat690-dit516/)
   - [DAT516](./lectures/dat516/)
