@@ -1,12 +1,10 @@
-import sys
-sys.path.append('../lab1/')
 import tramdata as td
 from graphs import WeightedGraph, view_shortest
 
 class TramNetwork(WeightedGraph):
     ...
 
-TRAM_FILE = '../lab1/tramnetwork.json'
+TRAM_FILE = '.tramnetwork.json'
 
 def readTramNetwork(tramfile=TRAM_FILE):
     ...

@@ -261,6 +261,7 @@ This file needs to import two of your own modules:
 
 - `graphs.py` from this lab
 - `tramdata.py` from Lab 1, which you should copy into this repository
+- You should also copy `tramnwetwork.json` from your lab 1 into this folder.
 
 ### The `TramNetwork` class
 
