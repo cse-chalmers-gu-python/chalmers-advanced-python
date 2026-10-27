@@ -4,7 +4,7 @@ from graphs import WeightedGraph, view_shortest
 class TramNetwork(WeightedGraph):
     ...
 
-TRAM_FILE = '.tramnetwork.json'
+TRAM_FILE = './tramnetwork.json'
 
 def readTramNetwork(tramfile=TRAM_FILE):
     ...
