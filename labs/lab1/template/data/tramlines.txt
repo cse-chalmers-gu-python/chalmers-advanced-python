@@ -2,101 +2,98 @@
 Östra Sjukhuset           10:00
 Tingvallsvägen            10:01
 Kaggeledstorget           10:03
-Ättehögsgatan             10:03
 Munkebäckstorget          10:04
-Härlanda                  10:06
-Stockholmsgatan           10:07
-Redbergsplatsen           10:09
-Olskrokstorget            10:10
-Svingeln                  10:12
-Ullevi Norra              10:14
-Centralstationen          10:15
-Brunnsparken              10:16
-Stenpiren                 10:17
-Järntorget                10:19
-Prinsgatan                10:20
-Olivedalsgatan            10:22
-Linnéplatsen              10:23
-Botaniska Trädgården      10:25
-Marklandsgatan            10:28
-Axel Dahlströms Torg      10:29
-Lantmilsgatan             10:30
-Nymilsgatan               10:31
-Musikvägen                10:32
-Positivgatan              10:34
-Frölunda Torg Spårvagn    10:35
-Briljantgatan             10:37
-Smaragdgatan              10:38
-Opaltorget                10:38
+Härlanda                  10:05
+Stockholmsgatan           10:06
+Redbergsplatsen           10:08
+Olskrokstorget            10:09
+Svingeln                  10:11
+Ullevi Norra              10:13
+Drottningtorget           10:17
+Brunnsparken              10:19
+Stenpiren                 10:22
+Järntorget                10:24
+Prinsgatan                10:25
+Olivedalsgatan            10:27
+Linnéplatsen              10:28
+Botaniska Trädgården      10:30
+Marklandsgatan            10:33
+Axel Dahlströms Torg      10:35
+Lantmilsgatan             10:36
+Nymilsgatan               10:37
+Musikvägen                10:38
+Positivgatan              10:40
+Frölunda Torg             10:41
+Briljantgatan             10:43
+Smaragdgatan              10:45
+Opaltorget                10:46
 
 2:
-Mölndals Innerstad        10:00
-Mölndals sjukhus          10:01
-Lackarebäck               10:03
-Krokslätts Fabriker       10:04
-Krokslätts torg           10:05
-Lana                      10:06
-Varbergsgatan             10:07
-Elisedal                  10:08
-Almedal                   10:09
-Liseberg Södra            10:11
-Korsvägen                 10:13
-Scandinavium              10:14
-Ullevi Södra              10:16
-Centralstationen          10:19
+Väderilsgatan             10:00
+Friskväderstorget         10:01
+Önskevädersgatan          10:02
+Mildvädersgatan           10:03
+Vårväderstorget           10:04
+Sälöfjordsgatan           10:06
+Eketrägatan               10:07
+Gropegårdsgatan           10:08
+Rambergsvallen            10:09
+Wieselgrensplatsen        10:10
+Vågmästareplatsen         10:12
+Hjalmar Brantingsplatsen  10:13
+Frihamnen                 10:14
+Nils Ericsonsplatsen      10:18
 Brunnsparken              10:20
-Domkyrkan                 10:21
-Grönsakstorget            10:22
-Vasaplatsen               10:24
-Vasa Viktoriagatan        10:25
-Handelshögskolan          10:26
-Brunnsgatan               10:28
-Seminariegatan            10:29
-Olivedalsgatan            10:30
-Linnéplatsen              10:31
-Botaniska Trädgården      10:33
-Marklandsgatan            10:36
-Axel Dahlströms Torg      10:37
+Domkyrkan                 10:23
+Grönsakstorget            10:24
+Vasaplatsen               10:25
+Vasa Viktoriagatan        10:26
+Handelshögskolan          10:28
+Brunnsgatan               10:29
+Seminariegatan            10:30
+Olivedalsgatan            10:32
+Linnéplatsen              10:33
+Botaniska Trädgården      10:35
+Marklandsgatan            10:38
+Axel Dahlströms Torg      10:40
 
 3:
 Marklandsgatan            10:00
 Bokekullsgatan            10:01
 Högsbogatan               10:02
-Klintens Väg              10:04
-Godhemsgatan              10:05
-Mariaplan                 10:07
-Ostindiegatan             10:08
-Vagnhallen Majorna        10:10
-Jaegerdorffsplatsen       10:11
-Chapmans Torg             10:12
-Kaptensgatan              10:14
-Stigbergstorget           10:16
-Masthuggstorget           10:18
-Järntorget                10:20
-Hagakyrkan                10:23
-Vasa Viktoriagatan        10:24
-Vasaplatsen               10:25
-Valand                    10:26
-Kungsportsplatsen         10:28
-Brunnsparken              10:29
-Centralstationen          10:30
-Ullevi Norra              10:31
-Svingeln                  10:33
-Olskrokstorget            10:35
-Redbergsplatsen           10:36
+Klintens Väg              10:02
+Godhemsgatan              10:03
+Mariaplan                 10:05
+Ostindiegatan             10:06
+Vagnhallen Majorna        10:07
+Jaegerdorffsplatsen       10:08
+Chapmans Torg             10:09
+Kaptensgatan              10:10
+Stigbergstorget           10:12
+Masthuggstorget           10:14
+Järntorget                10:16
+Hagakyrkan                10:19
+Vasa Viktoriagatan        10:21
+Vasaplatsen               10:22
+Valand                    10:23
+Kungsportsplatsen         10:25
+Brunnsparken              10:27
+Drottningtorget           10:29
+Ullevi Norra              10:32
+Svingeln                  10:34
+Olskrokstorget            10:36
+Redbergsplatsen           10:37
 Stockholmsgatan           10:38
 Härlanda                  10:39
 Solrosgatan               10:41
-Sanatoriegatan            10:42
-Virginsgatan              10:42
+Virginsgatan              10:44
 
 4:
 Mölndals Innerstad        10:00
-Mölndals sjukhus          10:01
+Mölndals sjukhus          10:02
 Lackarebäck               10:03
 Krokslätts Fabriker       10:04
 Krokslätts torg           10:05
-Lana                      10:06
 Varbergsgatan             10:07
 Elisedal                  10:08
 Almedal                   10:09
@@ -105,61 +102,58 @@ Korsvägen                 10:13
 Berzeliigatan             10:14
 Valand                    10:16
 Kungsportsplatsen         10:18
-Brunnsparken              10:19
-Centralstationen          10:20
-Gamlestads Torg           10:26
-Hjällbo                   10:27
-Hammarkullen              10:30
-Storås                    10:31
-Angered Centrum           10:34
+Brunnsparken              10:20
+Drottningtorget           10:22
+Gamlestads Torg           10:28
+Hjällbo                   10:34
+Hammarkullen              10:37
+Storås                    10:39
+Angered Centrum           10:42
 
 5:
 Östra Sjukhuset           10:00
 Tingvallsvägen            10:01
 Kaggeledstorget           10:03
-Ättehögsgatan             10:03
 Munkebäckstorget          10:04
 Solrosgatan               10:05
-Sanatoriegatan            10:06
-Virginsgatan              10:06
-Welandergatan             10:08
-Töpelsgatan               10:09
-Bögatan                   10:10
-Ekmanska                  10:11
-Bäckeliden                10:12
-Sankt Sigfrids Plan       10:13
-Liseberg Station          10:14
-Korsvägen                 10:16
-Berzeliigatan             10:17
-Valand                    10:19
-Kungsportsplatsen         10:21
-Brunnsparken              10:22
-Lilla Bommen              10:22
-Frihamnen                 10:26
-Hjalmar Brantingsplatsen  10:27
-Vågmästareplatsen         10:28
-Wieselgrensplatsen        10:29
-Rambergsvallen            10:30
-Gropegårdsgatan           10:32
-Eketrägatan               10:33
-Sälöfjordsgatan           10:35
-Vårväderstorget           10:36
-Mildvädersgatan           10:37
-Önskevädersgatan          10:38
-Friskväderstorget         10:39
-Väderilsgatan             10:40
-Temperaturgatan           10:42
-Varmfrontsgatan           10:42
+Virginsgatan              10:07
+Welandergatan             10:09
+Töpelsgatan               10:10
+Bögatan                   10:11
+Ekmanska                  10:12
+Sankt Sigfrids Plan       10:14
+Liseberg Station          10:15
+Korsvägen                 10:17
+Berzeliigatan             10:18
+Valand                    10:20
+Kungsportsplatsen         10:22
+Brunnsparken              10:24
+Lilla Bommen              10:25
+Frihamnen                 10:29
+Hjalmar Brantingsplatsen  10:30
+Vågmästareplatsen         10:31
+Wieselgrensplatsen        10:32
+Rambergsvallen            10:34
+Gropegårdsgatan           10:35
+Eketrägatan               10:37
+Sälöfjordsgatan           10:39
+Vårväderstorget           10:40
+Mildvädersgatan           10:41
+Önskevädersgatan          10:42
+Friskväderstorget         10:43
+Väderilsgatan             10:44
+Temperaturgatan           10:46
+Varmfrontsgatan           10:48
 
 6:
 Aprilgatan                10:00
 Allhelgonakyrkan          10:01
 Kortedala Torg            10:02
-Runstavsgatan             10:04
-Nymånegatan               10:05
-Beväringsgatan            10:06
-Kviberg                   10:07
-Bellevue                  10:08
+Runstavsgatan             10:03
+Nymånegatan               10:04
+Beväringsgatan            10:05
+Kviberg                   10:06
+Bellevue                  10:07
 SKF                       10:10
 Gamlestads Torg           10:11
 Ejdergatan                10:13
@@ -171,148 +165,138 @@ Ullevi Södra              10:22
 Scandinavium              10:24
 Korsvägen                 10:25
 Chalmers                  10:28
-Wavrinskys Plats          10:29
-Medicinaregatan           10:31
+Wavrinskys Plats          10:30
+Medicinaregatan           10:32
 Sahlgrenska Huvudentré    10:33
-Linnéplatsen              10:34
-Olivedalsgatan            10:35
-Prinsgatan                10:37
-Järntorget                10:38
-Hagakyrkan                10:41
-Grönsakstorget            10:43
-Domkyrkan                 10:44
-Brunnsparken              10:45
-Nordstan                  10:46
-Frihamnen                 10:47
-Hjalmar Brantingsplatsen  10:48
-Vågmästareplatsen         10:49
-Wieselgrensplatsen        10:50
-Rambergsvallen            10:51
-Gropegårdsgatan           10:53
-Eketrägatan               10:54
-Sälöfjordsgatan           10:56
-Vårväderstorget           10:57
-Mildvädersgatan           10:58
-Önskevädersgatan          10:59
-Friskväderstorget         10:60
-Väderilsgatan             10:61
-Temperaturgatan           10:63
-Varmfrontsgatan           10:63
+Linnéplatsen              10:36
+Olivedalsgatan            10:37
+Prinsgatan                10:39
+Järntorget                10:41
+Hagakyrkan                10:43
+Grönsakstorget            10:45
+Domkyrkan                 10:46
+Brunnsparken              10:49
+Nils Ericsonsplatsen      10:51
+Frihamnen                 10:54
+Hjalmar Brantingsplatsen  10:55
+Vågmästareplatsen         10:56
+Wieselgrensplatsen        10:57
+Rambergsvallen            10:59
+Gropegårdsgatan           11:00
+Eketrägatan               11:02
+Sälöfjordsgatan           11:04
+Vårväderstorget           11:05
+Mildvädersgatan           11:06
+Önskevädersgatan          11:07
+Friskväderstorget         11:08
+Väderilsgatan             11:09
+Temperaturgatan           11:11
+Varmfrontsgatan           11:13
 
 7:
 Komettorget               10:00
 Rymdtorget Spårvagn       10:02
 Teleskopgatan             10:03
 Galileis Gata             10:04
-Januarigatan              10:05
+Januarigatan              10:06
 Allhelgonakyrkan          10:06
-Kortedala Torg            10:07
+Kortedala Torg            10:08
 Runstavsgatan             10:09
 Nymånegatan               10:10
 Beväringsgatan            10:11
 Kviberg                   10:12
 Bellevue                  10:13
-SKF                       10:15
-Gamlestads Torg           10:16
-Centralstationen          10:22
-Brunnsparken              10:23
-Kungsportsplatsen         10:24
-Valand                    10:26
-Vasaplatsen               10:27
-Kapellplatsen             10:29
-Chalmers                  10:30
-Wavrinskys Plats          10:31
-Medicinaregatan           10:33
-Sahlgrenska Huvudentré    10:35
-Botaniska Trädgården      10:38
-Marklandsgatan            10:41
-Axel Dahlströms Torg      10:42
-Lantmilsgatan             10:43
-Nymilsgatan               10:44
-Musikvägen                10:45
-Positivgatan              10:47
-Frölunda Torg Spårvagn    10:48
-Briljantgatan             10:50
-Smaragdgatan              10:51
-Opaltorget                10:51
+SKF                       10:16
+Gamlestads Torg           10:17
+Drottningtorget           10:23
+Brunnsparken              10:25
+Kungsportsplatsen         10:27
+Valand                    10:29
+Vasaplatsen               10:30
+Kapellplatsen             10:32
+Chalmers                  10:33
+Wavrinskys Plats          10:35
+Medicinaregatan           10:37
+Sahlgrenska Huvudentré    10:38
+Botaniska Trädgården      10:41
+Marklandsgatan            10:44
+Axel Dahlströms Torg      10:46
+Lantmilsgatan             10:47
+Nymilsgatan               10:48
+Musikvägen                10:49
+Positivgatan              10:51
+Frölunda Torg             10:52
+Briljantgatan             10:54
+Smaragdgatan              10:56
+Opaltorget                10:57
 
 8:
 Angered Centrum           10:00
-Storås                    10:03
-Hammarkullen              10:04
-Hjällbo                   10:07
-Gamlestads Torg           10:08
-Ejdergatan                10:10
-Redbergsplatsen           10:12
-Olskrokstorget            10:13
-Svingeln                  10:15
-Ullevi Norra              10:17
-Ullevi Södra              10:19
-Scandinavium              10:21
-Korsvägen                 10:22
-Chalmers                  10:25
-Wavrinskys Plats          10:26
-Medicinaregatan           10:28
-Sahlgrenska Huvudentré    10:30
-Botaniska Trädgården      10:33
-Marklandsgatan            10:36
-Axel Dahlströms Torg      10:37
-Lantmilsgatan             10:38
-Nymilsgatan               10:39
-Musikvägen                10:40
-Positivgatan              10:42
-Frölunda Torg Spårvagn    10:43
+Storås                    10:02
+Hammarkullen              10:03
+Hjällbo                   10:05
+Gamlestads Torg           10:11
+Ejdergatan                10:13
+Redbergsplatsen           10:15
+Olskrokstorget            10:16
+Svingeln                  10:18
+Ullevi Norra              10:20
+Ullevi Södra              10:22
+Scandinavium              10:24
+Korsvägen                 10:25
+Chalmers                  10:28
+Wavrinskys Plats          10:30
+Medicinaregatan           10:32
+Sahlgrenska Huvudentré    10:33
+Botaniska Trädgården      10:36
+Marklandsgatan            10:39
+Axel Dahlströms Torg      10:41
+Lantmilsgatan             10:42
+Nymilsgatan               10:43
+Musikvägen                10:44
+Positivgatan              10:46
+Frölunda Torg             10:47
 
 9:
 Angered Centrum           10:00
-Storås                    10:03
-Hammarkullen              10:04
-Hjällbo                   10:07
-Gamlestads Torg           10:08
-Centralstationen          10:14
-Brunnsparken              10:15
-Stenpiren                 10:16
-Järntorget                10:18
-Masthuggstorget           10:20
-Stigbergstorget           10:22
-Kaptensgatan              10:24
-Chapmans Torg             10:26
-Jaegerdorffsplatsen       10:27
-Vagnhallen Majorna        10:28
-Ostindiegatan             10:30
-Sannaplan                 10:31
-Sandarna                  10:32
-Kungssten                 10:34
+Storås                    10:02
+Hammarkullen              10:03
+Hjällbo                   10:05
+Gamlestads Torg           10:11
+Drottningtorget           10:17
+Brunnsparken              10:19
+Domkyrkan                 10:22
+Grönsakstorget            10:23
+Hagakyrkan                10:25
+Järntorget                10:27
+Masthuggstorget           10:29
+Stigbergstorget           10:31
+Kaptensgatan              10:32
+Chapmans Torg             10:34
+Jaegerdorffsplatsen       10:36
+Vagnhallen Majorna        10:37
+Ostindiegatan             10:38
+Sannaplan                 10:40
+Sandarna                  10:41
+Kungssten                 10:43
 
 10:
 Doktor Sydows Gata        10:00
 Doktor Fries Torg         10:01
-Wavrinskys Plats          10:03
-Chalmers                  10:04
-Kapellplatsen             10:05
+Wavrinskys Plats          10:02
+Chalmers                  10:03
+Kapellplatsen             10:04
 Vasaplatsen               10:07
 Valand                    10:08
 Kungsportsplatsen         10:10
-Brunnsparken              10:11
-Centralstationen          10:12
+Brunnsparken              10:12
 Lilla Bommen              10:13
-Frihamnen                 10:17
-Hjalmar Brantingsplatsen  10:18
-Vågmästareplatsen         10:19
-Wieselgrensplatsen        10:20
-Rambergsvallen            10:21
-Gropegårdsgatan           10:23
-Eketrägatan               10:24
-Sälöfjordsgatan           10:26
-Vårväderstorget           10:27
-Mildvädersgatan           10:28
-Önskevädersgatan          10:29
-Friskväderstorget         10:30
-Väderilsgatan             10:31
+Jubileumsparken           10:16
+Pumpgatan                 10:20
+Lindholmen                10:22
 
 11:
 Saltholmen                10:00
-Roddföreningen            10:01
 Långedrag                 10:02
 Hinsholmen                10:03
 Käringberget              10:05
@@ -323,36 +307,51 @@ Kungssten                 10:10
 Sandarna                  10:12
 Sannaplan                 10:13
 Mariaplan                 10:14
-Godhemsgatan              10:16
-Ekedal                    10:17
+Godhemsgatan              10:15
 Majvallen                 10:18
 Fjällgatan                10:19
 Stigbergstorget           10:21
 Masthuggstorget           10:23
 Järntorget                10:25
-Hagakyrkan                10:28
-Grönsakstorget            10:30
-Domkyrkan                 10:31
-Brunnsparken              10:32
-Centralstationen          10:33
-Gamlestads Torg           10:39
-SKF                       10:40
-Bellevue                  10:42
+Stenpiren                 10:27
+Brunnsparken              10:30
+Drottningtorget           10:32
+Gamlestads Torg           10:38
+SKF                       10:39
+Bellevue                  10:41
 Kviberg                   10:43
 Beväringsgatan            10:44
 Nymånegatan               10:45
 Runstavsgatan             10:46
 Kortedala Torg            10:48
-Allhelgonakyrkan          10:49
-Januarigatan              10:50
-Galileis Gata             10:51
-Teleskopgatan             10:52
-Rymdtorget Spårvagn       10:53
-Komettorget               10:55
+Allhelgonakyrkan          10:50
+Januarigatan              10:51
+Galileis Gata             10:53
+Teleskopgatan             10:54
+Rymdtorget Spårvagn       10:55
+Komettorget               10:57
+
+12:
+Mölndals Innerstad        10:00
+Mölndals sjukhus          10:02
+Lackarebäck               10:03
+Krokslätts Fabriker       10:04
+Krokslätts torg           10:05
+Varbergsgatan             10:07
+Elisedal                  10:08
+Almedal                   10:09
+Liseberg Södra            10:11
+Korsvägen                 10:13
+Scandinavium              10:14
+Ullevi Södra              10:16
+Drottningtorget           10:20
+Nils Ericsonsplatsen      10:22
+Jubileumsparken           10:25
+Pumpgatan                 10:29
+Lindholmen                10:31
 
 13:
 Saltholmen                10:00
-Roddföreningen            10:01
 Långedrag                 10:02
 Hinsholmen                10:03
 Käringberget              10:05
@@ -363,14 +362,14 @@ Kungssten                 10:10
 Sandarna                  10:12
 Sannaplan                 10:13
 Mariaplan                 10:14
-Marklandsgatan            10:18
+Marklandsgatan            10:19
 Botaniska Trädgården      10:21
 Sahlgrenska Huvudentré    10:24
-Medicinaregatan           10:26
-Wavrinskys Plats          10:28
-Chalmers                  10:29
-Korsvägen                 10:32
-Scandinavium              10:33
-Ullevi Södra              10:35
-Centralstationen          10:38
+Medicinaregatan           10:25
+Wavrinskys Plats          10:26
+Chalmers                  10:27
+Korsvägen                 10:33
+Scandinavium              10:34
+Ullevi Södra              10:36
+Drottningtorget           10:40
 
