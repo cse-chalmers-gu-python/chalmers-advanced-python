@@ -2068,6 +2068,55 @@ from the Operating System library `os` (<https://docs.python.org/3/library/os.ht
 
 Trees are also a special case of **graphs**, which will have a central role in Labs 2 and 3.
 
+### 4.4. Regular expressions
+
+Regular expressions are patterns that are used for matching strings. They are actually a special case of grammar rules, corresponding to so-called **regular languages**, whereas the grammar rules used in this document cover a wider set of **context-free languages**.
+
+Standard regular expressions are formed by the following operators, where we use the variables A and B to denote the regular expressions that are combined:
+
+| expression | name | matches |
+| -----------|------|---------|
+| a          | symbol | character a
+| A B        | sequence | A followed by B
+| A &#124; B | union  | A or B
+| A?         | optional | zero or one A
+| A*         | Kleene star | zero or more A
+| A+         | Kleene plus.| one or more A
+| .          | any | any character (except newline)
+
+For example, the regular expression `(P|p).*` matches any string that starts with P or p. 
+
+Python has a wide range of regular expression syntax extensions, documented [here](https://docs.python.org/3/library/re.html).
+Here is an example for matching sequences of digits:
+
+```py
+dig = re.compile(r"\d+")
+```
+
+The expression `\d` matches single digits. The regular expression itself is given in a **raw string**, prefixed with `r`, preventing the interpretation of backslashes as excapes. This raw string is given as an argument to `re.compile()`, which converts the expression into a data structure called **finite automaton**. It is this automaton that is used for the actual matching with regular expressions. Thus the following piece of code reads a file and prints all numbers (sequences of digits) that occur in it:
+
+```python
+with open(filename) as file:
+    for line in file:
+        peint(dig.findall(line))
+```
+
+The following expression can be used for matching URLs: 
+
+```py
+r"http[s]?://[\S]+"
+```
+
+This is a simplification: it matches all strings starting with http or https followed by :// followed by one or more non-space characters. A more accurate expression takes care checking that it follows the ruls for a valid URL:
+
+```py
+(?i)\b((?:[a-z][\w-]+:(?:/{1,3}|[a-z0-9%])|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:'".,<>?«»“”‘’]))
+```
+
+This expression is from [here](https://gist.github.com/gruber/249502).
+
+Learning the full syntax of Python's regular expressions and their productive use would probably need almost a full course of its own.
+
 ## 5. Graphs and graph algorithms
 
 We will cover most of the material that will be needed for the first part of Lab 2.
@@ -4611,48 +4660,6 @@ async def main():
 asyncio.run(main())
 ```
 For more details, see the [asyncio module](https://docs.python.org/3/library/asyncio.html).
-
-### 10.7. Regular expressions
-
-Regular expressions are patterns that are used for matching strings. They are actually a special case of grammar rules, corresponding to so-called **regular languages**, whereas the grammar rules used in this document cover a wider set of **context-free languages**.
-
-Standard regular expressions are formed by the following operators, where we use the variables A and B to denote the regular expressions that are combined:
-
-| expression | name | matches |
-| -----------|------|---------|
-| a          | symbol | character a
-| A B        | sequence | A followed by B
-| A &#124; B | union  | A or B
-| A?         | optional | zero or one A
-| A*         | Kleene star | zero or more A
-| A+         | Kleene plus.| one or more A
-| .          | any | any character (except newline)
-
-For example, the regular expression `(P|p).*` matches any string that starts with P or p. 
-
-Python has a wide range of regular expression syntax extensions, documented [here](https://docs.python.org/3/library/re.html).
-Here is an example for matching sequences of digits:
-```
-dig = re.compile(r"\d+")
-```
-The expression `\d` matches single digits. The regular expression itself is given in a **raw string**, prefixed with `r`, preventing the interpretation of backslashes as excapes. This raw string is given as an argument to `re.compile()`, which converts the expression into a data structure called **finite automaton**. It is this automaton that is used for the actual matching with regular expressions. Thus the following piece of code reads a file and prints all numbers (sequences of digits) that occur in it:
-```python
-with open(filename) as file:
-    for line in file:
-        peint(dig.findall(line))
-```
-The following expression can be used for matching URLs: 
-```
-r"http[s]?://[\S]+"
-```
-This is a simplification: it matches all strings starting with http or https followed by :// followed by one or more non-space characters. A more accurate expression takes care checking that it follows the ruls for a valid URL:
-```
-(?i)\b((?:[a-z][\w-]+:(?:/{1,3}|[a-z0-9%])|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:'".,<>?«»“”‘’]))
-```
-This expression is from [here](https://gist.github.com/gruber/249502).
-
-Learning the full syntax of Python's regular expressions and their productive use would probably need almost a full course of its own.
-
 
 
 ## A. Appendix: Git version control system
