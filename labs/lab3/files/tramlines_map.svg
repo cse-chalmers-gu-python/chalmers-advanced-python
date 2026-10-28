@@ -1,0 +1,1021 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="35 128 771 963" width="1542" height="1926">
+<title>Spårvagnslinjer Göteborg</title>
+<rect x="35" y="128" width="771" height="963" fill="#ffffff"/>
+<g id="tramlines">
+<path d="M225.47 670.77L185.62 710.62C183.5 712.74 182.3 715.62 182.3 718.63L182.26 776.45C182.25 779.58 179.72 782.11 176.59 782.11L150.77 782.11C147.63 782.11 145.1 784.65 145.1 787.78L145.1 937.42" fill="none" stroke="#231f20" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M727.83 195.52L727.83 174.82C727.83 168.72 722.88 163.78 716.78 163.78L651.86 163.78C645.43 163.78 640.21 168.99 640.21 175.43L640.21 258.68C640.21 262.13 638.84 265.43 636.4 267.87L567.58 336.7" fill="none" stroke="#231f20" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M561.01 343.26L382.25 522.01" fill="none" stroke="#231f20" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M365.63 530.08L297.95 530.08C293.81 530.08 289.84 531.72 286.92 534.65L232.91 588.73C229.99 591.65 228.35 595.61 228.35 599.74L228.35 653.33" fill="none" stroke="#231f20" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M378.63 531.75L416.6 569.72C422.14 575.25 422.14 584.23 416.6 589.76L371 635.36C369.41 636.96 368.51 639.12 368.51 641.38L368.6 781.79" fill="none" stroke="#c8df8e" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M361.61 522.43L341.72 502.53C339.06 499.87 335.45 498.38 331.69 498.38L209.94 498.38" fill="none" stroke="#c8df8e" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M568.78 163.66L568.78 333.61" fill="none" stroke="#b9e3f9" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M557.66 338.58L378.24 518" fill="none" stroke="#b9e3f9" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M217.45 662.75L143.58 736.63C140.92 739.28 139.43 742.89 139.43 746.65L139.43 819.33" fill="none" stroke="#b9e3f9" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M377.07 519.17L345.09 551.15L332.03 564.21L235.99 660.25" fill="none" stroke="#b9e3f9" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M563.11 163.66L563.11 446.33" fill="none" stroke="#a54399" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M562.54 459.46L515.94 459.46C511.85 459.46 507.94 461.09 505.05 463.97L491.35 477.67C488.47 480.56 486.84 484.47 486.84 488.56L486.84 604.37" fill="none" stroke="#a54399" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M467.72 622.3L414.95 675.07C412.49 677.53 409.15 678.91 405.68 678.91L362.98 678.91C359.85 678.91 357.31 681.45 357.31 684.58L357.31 734.2C357.31 739.67 352.89 744.1 347.42 744.12L239.52 744.4C236.4 744.41 233.87 746.94 233.87 750.07L233.87 820.56L239.58 831.38L239.58 969.44" fill="none" stroke="#a54399" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M233.87 1043.57L234.02 836.89L245.21 816.91L245.21 759.86C245.21 754.38 249.66 749.94 255.14 749.94L348.68 749.94C356.5 749.94 362.85 743.59 362.85 735.77L362.89 641.6C362.89 637.85 364.37 634.27 367 631.61L411.56 586.75C415.42 582.87 415.41 576.6 411.55 572.74L374.6 535.79" fill="none" stroke="#9c5707" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M722.16 195.52L722.17 177.04C722.17 172.89 718.81 169.53 714.66 169.53L653.23 169.53C649.18 169.53 645.9 172.82 645.9 176.87L645.9 192.19L645.9 259.31C645.9 263.91 644.07 268.32 640.81 271.58L580.18 332.21" fill="none" stroke="#9c5707" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M563.31 348.98L386.26 526.02" fill="none" stroke="#9c5707" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M384.04 520.21L351.25 553.01L336.21 568.04L243.18 661.08" fill="none" stroke="#f89728" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M465.71 616.29L435.2 646.79L411.82 670.18C409.86 672.14 407.2 673.24 404.43 673.24L361.57 673.24C356.09 673.24 351.65 677.69 351.65 683.17L351.69 733.08C351.7 736.21 349.16 738.75 346.03 738.75L239.71 738.75C236.58 738.75 234.04 736.22 234.04 733.1L233.98 705.98L233.87 673.48" fill="none" stroke="#f89728" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M562.54 453.79L513.58 453.79C509.49 453.79 505.58 455.42 502.69 458.3L485.64 475.35C482.75 478.24 481.13 482.16 481.13 486.25L481.15 610.65" fill="none" stroke="#f89728" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M568.78 333.61L568.78 446.33" fill="none" stroke="#f89728" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M627.87 186.12L631.63 189.87C633.49 191.74 634.54 194.27 634.54 196.91L634.54 257.1C634.54 260.06 633.37 262.89 631.28 264.98L563.57 332.69" fill="none" stroke="#f89728" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M622.46 180.7L631.63 189.87C633.49 191.74 634.54 194.27 634.54 196.91L634.54 257.1C634.54 260.06 633.37 262.89 631.28 264.98L563.57 332.69" fill="none" stroke="#f89728" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M113.89 163.66L113.89 371.32C113.89 375.29 115.46 379.1 118.25 381.91L191.16 455.27C193.82 457.96 197.45 459.46 201.23 459.46L376.15 459.46C383.19 459.46 388.9 465.17 388.9 472.22L388.9 531.27" fill="none" stroke="#f89728" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M557.44 163.66L557.44 346.1" fill="none" stroke="#00a261" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M553.66 334.58L374.24 514" fill="none" stroke="#00a261" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M471.31 608.39L386.65 523.73" fill="none" stroke="#00a261" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M481.15 615.07L481.17 918.42" fill="none" stroke="#00a261" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M566.5 448.15L657.26 448.15C661.63 448.15 665.16 451.69 665.16 456.05L665.16 496.17" fill="none" stroke="#0079c1" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M562.54 448.13L457.9 448.13" fill="none" stroke="#0079c1" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M224.42 663.8L148 740.22C146.14 742.08 145.1 744.6 145.1 747.24L145.1 770.82C145.1 773.95 147.63 776.49 150.77 776.49L175.61 776.48C177.03 776.49 178.38 777.05 179.38 778.05L222.66 821.34" fill="none" stroke="#0079c1" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M370.58 539.81L406.42 575.66C408.62 577.86 408.64 581.43 406.45 583.65L362.15 628.53C360.01 630.69 357.1 631.91 354.07 631.9L283.85 631.88C281.59 631.88 279.43 632.78 277.83 634.37L243.18 669.09" fill="none" stroke="#0079c1" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M472.21 456.11L394.28 534.04" fill="none" stroke="#0079c1" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M367.69 544.6L337.25 575.04C333.59 578.7 333.59 584.63 337.25 588.28L361.11 612.15C363.58 614.62 363.58 618.62 361.11 621.09L358.37 623.83C356.83 625.36 354.76 626.22 352.59 626.22L325.72 626.23C323.46 626.24 321.31 627.13 319.71 628.72L242.08 706.17C240.48 707.76 239.58 709.93 239.58 712.19L239.58 724.98L239.58 819.62L245.18 831.38L245.29 859.18" fill="none" stroke="#ffdd00" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M383.24 531.27L383.24 472.22C383.24 468.31 380.06 465.13 376.15 465.13L198.71 465.13C194.92 465.13 191.29 463.62 188.62 460.92L112.56 384.06C109.78 381.24 108.22 377.45 108.22 373.49L108.22 228.8" fill="none" stroke="#ffdd00" stroke-width="2.5"/>
+<path d="M469.32 614.42L382.64 527.74" fill="none" stroke="#ef3d42" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M671.34 325.48L671.34 544.6L671.34 603.15C671.34 608.72 666.82 613.24 661.25 613.24L476.11 613.24" fill="none" stroke="#ef3d42" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M119.44 163.57L119.47 369.18C119.47 373.16 121.05 376.98 123.87 379.79L193.71 449.64C196.37 452.3 199.98 453.79 203.75 453.79L334.57 453.79C338.49 453.79 341.66 456.97 341.66 460.88L341.66 471.08L341.66 474.18C341.66 477.1 342.82 479.9 344.88 481.97L367.05 504.13" fill="none" stroke="#ef3d42" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M434.57 453.59L377.66 453.59C375.4 453.59 373.24 454.49 371.64 456.09L339.29 488.47C336.63 491.13 333.02 492.63 329.26 492.63L209.5 492.63" fill="none" stroke="#56c2b6" stroke-width="2.5"/>
+<path d="M475.6 462.12L475.6 917.49" fill="none" stroke="#56c2b6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M562.54 442.46L457.9 442.46" fill="none" stroke="#231f20" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M468.2 452.1L390.27 530.03" fill="none" stroke="#231f20" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M228.32 673.48L228.33 724.98L228.34 776.21L228.34 781.16L228.37 1043.09" fill="none" stroke="#231f20" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M228.32 673.48L228.33 724.98L228.34 776.21L228.34 781.16L228.37 1043.09" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M367.05 535.6L298.83 535.61C295.83 535.61 292.95 536.8 290.83 538.92L237.26 592.33C235.12 594.46 233.92 597.35 233.92 600.36L233.92 654.44" fill="none" stroke="#231f20" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M363.5 535.6L298.83 535.61C295.83 535.61 292.95 536.8 290.83 538.92L237.26 592.33C235.12 594.46 233.92 597.35 233.92 600.36L233.92 654.44" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M468.2 452.1L390.27 530.03" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M665.16 325.15L665.16 431.59C665.16 437.6 660.29 442.48 654.27 442.48L566.5 442.48" fill="none" stroke="#231f20" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M665.16 325.15L665.16 431.59C665.16 437.6 660.29 442.48 654.27 442.48L566.5 442.48" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M562.54 442.46L457.91 442.46" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="badges">
+<path d="M660.37 317.38C660.37 318.39 659.54 319.21 658.53 319.21L648.45 319.21C647.44 319.21 646.61 318.39 646.61 317.38L646.61 307.29C646.61 306.28 647.44 305.46 648.45 305.46L658.53 305.46C659.54 305.46 660.37 306.28 660.37 307.29L660.37 317.38" fill="#ffffff" stroke="#231f20" stroke-width="0.5"/>
+<path d="M678.13 317.53C678.13 318.57 677.28 319.42 676.24 319.42L665.85 319.42C664.81 319.42 663.96 318.57 663.96 317.53L663.96 307.14C663.96 306.1 664.81 305.25 665.85 305.25L676.24 305.25C677.28 305.25 678.13 306.1 678.13 307.14L678.13 317.53" fill="#ef3d42"/>
+<path d="M140.49 947.06C140.49 948.1 139.64 948.95 138.6 948.95L128.21 948.95C127.17 948.95 126.32 948.1 126.32 947.06L126.32 936.67C126.32 935.63 127.17 934.78 128.21 934.78L138.6 934.78C139.64 934.78 140.49 935.63 140.49 936.67L140.49 947.06" fill="#231f20"/>
+<path d="M714.64 215.24C714.64 216.28 713.79 217.13 712.75 217.13L702.35 217.13C701.31 217.13 700.46 216.28 700.46 215.24L700.46 204.85C700.46 203.81 701.31 202.96 702.35 202.96L712.75 202.96C713.79 202.96 714.64 203.81 714.64 204.85L714.64 215.24" fill="#9c5707"/>
+<path d="M732.12 215.24C732.12 216.28 731.27 217.13 730.23 217.13L719.84 217.13C718.8 217.13 717.95 216.28 717.95 215.24L717.95 204.85C717.95 203.81 718.8 202.96 719.84 202.96L730.23 202.96C731.27 202.96 732.12 203.81 732.12 204.85L732.12 215.24" fill="#231f20"/>
+<path d="M229.09 1061.23C229.09 1062.23 228.26 1063.06 227.25 1063.06L217.16 1063.06C216.16 1063.06 215.33 1062.23 215.33 1061.23L215.33 1051.14C215.33 1050.13 216.16 1049.3 217.16 1049.3L227.25 1049.3C228.26 1049.3 229.09 1050.13 229.09 1051.14L229.09 1061.23" fill="#ffffff" stroke="#231f20" stroke-width="0.5"/>
+<path d="M258.4 876.28C258.4 877.32 257.55 878.17 256.51 878.17L246.12 878.17C245.08 878.17 244.23 877.32 244.23 876.28L244.23 865.89C244.23 864.85 245.08 864 246.12 864L256.51 864C257.55 864 258.4 864.85 258.4 865.89L258.4 876.28" fill="#ffdd00"/>
+<path d="M270.51 829.24C270.51 830.28 269.66 831.13 268.62 831.13L258.23 831.13C257.19 831.13 256.34 830.28 256.34 829.24L256.34 818.85C256.34 817.81 257.19 816.96 258.23 816.96L268.62 816.96C269.66 816.96 270.51 817.81 270.51 818.85L270.51 829.24" fill="#0079c1"/>
+<path d="M659.83 501.27C659.83 502.31 658.98 503.16 657.94 503.16L647.54 503.16C646.5 503.16 645.65 502.31 645.65 501.27L645.65 490.88C645.65 489.84 646.5 488.99 647.54 488.99L657.94 488.99C658.98 488.99 659.83 489.84 659.83 490.88L659.83 501.27" fill="#0079c1"/>
+<path d="M552.53 156.25C552.53 157.29 551.68 158.14 550.64 158.14L540.24 158.14C539.2 158.14 538.35 157.29 538.35 156.25L538.35 145.86C538.35 144.82 539.2 143.97 540.24 143.97L550.64 143.97C551.68 143.97 552.53 144.82 552.53 145.86L552.53 156.25" fill="#00a261"/>
+<path d="M246.63 1061.38C246.63 1062.42 245.78 1063.27 244.74 1063.27L234.34 1063.27C233.3 1063.27 232.45 1062.42 232.45 1061.38L232.45 1050.98C232.45 1049.94 233.3 1049.09 234.34 1049.09L244.74 1049.09C245.78 1049.09 246.63 1049.94 246.63 1050.98L246.63 1061.38" fill="#9c5707"/>
+<path d="M570.2 156.25C570.2 157.29 569.35 158.14 568.31 158.14L557.91 158.14C556.87 158.14 556.02 157.29 556.02 156.25L556.02 145.86C556.02 144.82 556.87 143.97 557.91 143.97L568.31 143.97C569.35 143.97 570.2 144.82 570.2 145.86L570.2 156.25" fill="#a54399"/>
+<path d="M587.66 156.25C587.66 157.29 586.81 158.14 585.77 158.14L575.38 158.14C574.34 158.14 573.49 157.29 573.49 156.25L573.49 145.86C573.49 144.82 574.34 143.97 575.38 143.97L585.77 143.97C586.81 143.97 587.66 144.82 587.66 145.86L587.66 156.25" fill="#b9e3f9"/>
+<path d="M163.51 821.36C163.51 822.4 162.66 823.25 161.62 823.25L151.23 823.25C150.19 823.25 149.34 822.4 149.34 821.36L149.34 810.96C149.34 809.92 150.19 809.07 151.23 809.07L161.62 809.07C162.66 809.07 163.51 809.92 163.51 810.96L163.51 821.36" fill="#b9e3f9"/>
+<path d="M375.66 800.48C375.66 801.52 374.81 802.37 373.77 802.37L363.38 802.37C362.34 802.37 361.49 801.52 361.49 800.48L361.49 790.08C361.49 789.05 362.34 788.2 363.38 788.2L373.77 788.2C374.81 788.2 375.66 789.05 375.66 790.08L375.66 800.48" fill="#c8df8e"/>
+<path d="M115.31 156.25C115.31 157.29 114.46 158.14 113.42 158.14L103.02 158.14C101.98 158.14 101.13 157.29 101.13 156.25L101.13 145.86C101.13 144.82 101.98 143.97 103.02 143.97L113.42 143.97C114.46 143.97 115.31 144.82 115.31 145.86L115.31 156.25" fill="#f89728"/>
+<path d="M132.71 156.25C132.71 157.29 131.86 158.14 130.82 158.14L120.43 158.14C119.39 158.14 118.54 157.29 118.54 156.25L118.54 145.86C118.54 144.82 119.39 143.97 120.43 143.97L130.82 143.97C131.86 143.97 132.71 144.82 132.71 145.86L132.71 156.25" fill="#ef3d42"/>
+<path d="M506.21 936.33C506.21 937.37 505.36 938.22 504.32 938.22L493.93 938.22C492.89 938.22 492.04 937.37 492.04 936.33L492.04 925.94C492.04 924.9 492.89 924.05 493.93 924.05L504.32 924.05C505.36 924.05 506.21 924.9 506.21 925.94L506.21 936.33" fill="#00a261"/>
+<path d="M488.63 936.33C488.63 937.37 487.78 938.22 486.74 938.22L476.35 938.22C475.31 938.22 474.46 937.37 474.46 936.33L474.46 925.94C474.46 924.9 475.31 924.05 476.35 924.05L486.74 924.05C487.78 924.05 488.63 924.9 488.63 925.94L488.63 936.33" fill="#56c2b6"/>
+<path d="M208.03 520.83C208.03 521.87 207.18 522.72 206.14 522.72L195.74 522.72C194.7 522.72 193.85 521.87 193.85 520.83L193.85 510.43C193.85 509.39 194.7 508.54 195.74 508.54L206.14 508.54C207.18 508.54 208.03 509.39 208.03 510.43L208.03 520.83" fill="#c8df8e"/>
+<path d="M102.22 232.99C102.22 234.03 101.37 234.88 100.33 234.88L89.94 234.88C88.9 234.88 88.05 234.03 88.05 232.99L88.05 222.6C88.05 221.56 88.9 220.71 89.94 220.71L100.33 220.71C101.37 220.71 102.22 221.56 102.22 222.6L102.22 232.99" fill="#ffdd00"/>
+<path d="M225.14 520.83C225.14 521.87 224.29 522.72 223.25 522.72L212.86 522.72C211.82 522.72 210.97 521.87 210.97 520.83L210.97 510.43C210.97 509.39 211.82 508.54 212.86 508.54L223.25 508.54C224.29 508.54 225.14 509.39 225.14 510.43L225.14 520.83" fill="#56c2b6"/>
+<path d="M629.02 172.87C629.02 173.91 628.17 174.76 627.13 174.76L616.74 174.76C615.7 174.76 614.85 173.91 614.85 172.87L614.85 162.48C614.85 161.44 615.7 160.59 616.74 160.59L627.13 160.59C628.17 160.59 629.02 161.44 629.02 162.48L629.02 172.87" fill="#f89728"/>
+<path d="M252.4 988.38C252.4 989.42 251.55 990.27 250.51 990.27L240.12 990.27C239.08 990.27 238.23 989.42 238.23 988.38L238.23 977.99C238.23 976.95 239.08 976.1 240.12 976.1L250.51 976.1C251.55 976.1 252.4 976.95 252.4 977.99L252.4 988.38" fill="#a54399"/>
+</g>
+<g id="legend">
+<path d="M690.82 673.97L691.46 670.33L691.97 670.33C692.11 670.33 692.22 670.45 692.22 670.59L692.22 673.71C692.22 673.85 692.11 673.97 691.97 673.97L690.82 673.97M687.92 673.97L687.28 670.33L690.94 670.33L690.29 673.97L687.92 673.97M689.11 676.04C688.82 676.04 688.59 675.81 688.59 675.52C688.59 675.24 688.82 675 689.11 675C689.39 675 689.63 675.24 689.63 675.52C689.63 675.81 689.39 676.04 689.11 676.04M686.25 673.97C686.11 673.97 685.99 673.85 685.99 673.71L685.99 670.59C685.99 670.45 686.11 670.33 686.25 670.33L686.75 670.33L687.39 673.97L686.25 673.97M687.55 669.29H690.66V669.81H687.55ZM689.11 667.77L689.91 668.26L689.11 668.74L688.31 668.26L689.11 667.77M692.74 674.48L692.74 669.81C692.74 669.24 692.28 668.77 691.71 668.77L690.06 668.77L690.54 668.48C690.71 668.38 690.71 668.14 690.54 668.04L689.24 667.25C689.2 667.22 689.15 667.21 689.11 667.21C689.06 667.21 689.01 667.22 688.97 667.25L687.67 668.04C687.51 668.14 687.51 668.38 687.67 668.48L688.15 668.77L686.51 668.77C685.93 668.77 685.47 669.24 685.47 669.81L685.47 674.48C685.47 675.52 686.08 676.4 686.95 676.82L685.65 678.12L687.11 678.12L688.15 677.08L690.06 677.08L691.1 678.12L692.57 678.12L691.27 676.82C692.14 676.4 692.74 675.52 692.74 674.48" fill="#231f20"/>
+<path d="M694.94 850.32C694.94 851.17 694.24 851.87 693.38 851.87L684.83 851.87C683.98 851.87 683.28 851.17 683.28 850.32L683.28 841.76C683.28 840.91 683.98 840.21 684.83 840.21L693.38 840.21C694.24 840.21 694.94 840.91 694.94 841.76L694.94 850.32" fill="#56c2b6"/>
+<path d="M694.94 836.32C694.94 837.18 694.24 837.88 693.38 837.88L684.83 837.88C683.98 837.88 683.28 837.18 683.28 836.32L683.28 827.77C683.28 826.91 683.98 826.21 684.83 826.21L693.38 826.21C694.24 826.21 694.94 826.91 694.94 827.77L694.94 836.32" fill="#231f20"/>
+<path d="M694.94 723.77C694.94 724.62 694.24 725.32 693.38 725.32L684.83 725.32C683.98 725.32 683.28 724.62 683.28 723.77L683.28 715.21C683.28 714.36 683.98 713.66 684.83 713.66L693.38 713.66C694.24 713.66 694.94 714.36 694.94 715.21L694.94 723.77" fill="#0079c1"/>
+<path d="M694.77 695.61C694.77 696.44 694.09 697.12 693.26 697.12L684.95 697.12C684.12 697.12 683.44 696.44 683.44 695.61L683.44 687.3C683.44 686.47 684.12 685.79 684.95 685.79L693.26 685.79C694.09 685.79 694.77 686.47 694.77 687.3L694.77 695.61" fill="#ffffff" stroke="#231f20" stroke-width="0.5"/>
+<path d="M694.94 709.77C694.94 710.62 694.24 711.32 693.38 711.32L684.83 711.32C683.98 711.32 683.28 710.62 683.28 709.77L683.28 701.22C683.28 700.36 683.98 699.66 684.83 699.66L693.38 699.66C694.24 699.66 694.94 700.36 694.94 701.22L694.94 709.77" fill="#ffdd00"/>
+<path d="M694.94 765.98C694.94 766.84 694.24 767.54 693.38 767.54L684.83 767.54C683.98 767.54 683.28 766.84 683.28 765.98L683.28 757.43C683.28 756.57 683.98 755.87 684.83 755.87L693.38 755.87C694.24 755.87 694.94 756.57 694.94 757.43L694.94 765.98" fill="#f89728"/>
+<path d="M694.94 737.84C694.94 738.69 694.24 739.39 693.38 739.39L684.83 739.39C683.98 739.39 683.28 738.69 683.28 737.84L683.28 729.28C683.28 728.43 683.98 727.73 684.83 727.73L693.38 727.73C694.24 727.73 694.94 728.43 694.94 729.28L694.94 737.84" fill="#00a261"/>
+<path d="M694.94 808.05C694.94 808.9 694.24 809.6 693.38 809.6L684.83 809.6C683.98 809.6 683.28 808.9 683.28 808.05L683.28 799.49C683.28 798.64 683.98 797.94 684.83 797.94L693.38 797.94C694.24 797.94 694.94 798.64 694.94 799.49L694.94 808.05" fill="#b9e3f9"/>
+<path d="M694.94 779.98C694.94 780.83 694.24 781.53 693.38 781.53L684.83 781.53C683.98 781.53 683.28 780.83 683.28 779.98L683.28 771.43C683.28 770.57 683.98 769.87 684.83 769.87L693.38 769.87C694.24 769.87 694.94 770.57 694.94 771.43L694.94 779.98" fill="#9c5707"/>
+<path d="M694.94 793.98C694.94 794.83 694.24 795.53 693.38 795.53L684.83 795.53C683.98 795.53 683.28 794.83 683.28 793.98L683.28 785.42C683.28 784.57 683.98 783.87 684.83 783.87L693.38 783.87C694.24 783.87 694.94 784.57 694.94 785.42L694.94 793.98" fill="#a54399"/>
+<path d="M694.94 822.2C694.94 823.05 694.24 823.75 693.38 823.75L684.83 823.75C683.98 823.75 683.28 823.05 683.28 822.2L683.28 813.64C683.28 812.79 683.98 812.09 684.83 812.09L693.38 812.09C694.24 812.09 694.94 812.79 694.94 813.64L694.94 822.2" fill="#c8df8e"/>
+<path d="M694.94 751.99C694.94 752.84 694.24 753.54 693.38 753.54L684.83 753.54C683.98 753.54 683.28 752.84 683.28 751.99L683.28 743.43C683.28 742.58 683.98 741.88 684.83 741.88L693.38 741.88C694.24 741.88 694.94 742.58 694.94 743.43L694.94 751.99" fill="#ef3d42"/>
+<path d="M683.23 681.61L785.14 681.61" fill="none" stroke="#939598" stroke-width="0.75" stroke-dasharray=".8,.8"/>
+</g>
+<g id="stops">
+<g class="stop" data-stop="Sälöfjordsgatan">
+<path d="M122.14 394.08L130.13 386.08" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M122.14 394.08L130.13 386.08" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Sälöfjordsgatan" cx="122.14" cy="394.08" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Sälöfjordsgatan" cx="126.13" cy="390.09" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Sälöfjordsgatan" cx="130.13" cy="386.08" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Friskväderstorget">
+<path d="M108.24 261.44L119.54 261.44" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M108.24 261.44L119.54 261.44" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Friskväderstorget" cx="108.24" cy="261.44" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Friskväderstorget" cx="113.89" cy="261.44" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Friskväderstorget" cx="119.54" cy="261.44" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Önskevädersgatan">
+<path d="M108.24 293.94L119.54 293.94" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M108.24 293.94L119.54 293.94" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Önskevädersgatan" cx="108.24" cy="293.94" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Önskevädersgatan" cx="113.89" cy="293.94" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Önskevädersgatan" cx="119.54" cy="293.94" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Mildvädersgatan">
+<path d="M108.24 326.51L119.54 326.51" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M108.24 326.51L119.54 326.51" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Mildvädersgatan" cx="108.24" cy="326.51" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Mildvädersgatan" cx="113.89" cy="326.51" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Mildvädersgatan" cx="119.54" cy="326.51" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Vårväderstorget">
+<path d="M108.24 359.08L119.54 359.08" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M108.24 359.08L119.54 359.08" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Vårväderstorget" cx="108.24" cy="359.08" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Vårväderstorget" cx="113.89" cy="359.08" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Vårväderstorget" cx="119.54" cy="359.08" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Väderilsgatan">
+<path d="M108.24 228.8L119.54 228.8" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M108.24 228.8L119.54 228.8" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Väderilsgatan" cx="108.24" cy="228.8" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Väderilsgatan" cx="113.89" cy="228.8" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Väderilsgatan" cx="119.54" cy="228.8" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Mölndals Innerstad">
+<path d="M475.71 918.53L481.36 918.52" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M475.71 918.53L481.36 918.52" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Mölndals Innerstad" cx="475.71" cy="918.53" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Mölndals Innerstad" cx="481.36" cy="918.52" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Krokslätts torg">
+<path d="M475.71 803.76L481.36 803.75" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M475.71 803.76L481.36 803.75" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Krokslätts torg" cx="475.71" cy="803.76" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Krokslätts torg" cx="481.36" cy="803.75" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Krokslätts Fabriker">
+<path d="M475.71 832.31L481.36 832.31" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M475.71 832.31L481.36 832.31" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Krokslätts Fabriker" cx="475.71" cy="832.31" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Krokslätts Fabriker" cx="481.36" cy="832.31" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Lackarebäck">
+<path d="M475.71 861.12L481.36 861.12" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M475.71 861.12L481.36 861.12" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Lackarebäck" cx="475.71" cy="861.12" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Lackarebäck" cx="481.36" cy="861.12" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Mölndals sjukhus">
+<path d="M475.71 889.71L481.36 889.71" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M475.71 889.71L481.36 889.71" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Mölndals sjukhus" cx="475.71" cy="889.71" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Mölndals sjukhus" cx="481.36" cy="889.71" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Östra Sjukhuset">
+<path d="M665.5 325.48L671.16 325.48" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M665.5 325.48L671.16 325.48" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Östra Sjukhuset" cx="665.5" cy="325.48" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Östra Sjukhuset" cx="671.16" cy="325.48" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Munkebäckstorget">
+<path d="M665.69 426.48L671.34 426.48" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M665.69 426.48L671.34 426.48" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Munkebäckstorget" cx="665.69" cy="426.48" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Munkebäckstorget" cx="671.34" cy="426.48" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Härlanda">
+<path d="M635.42 442.46L635.42 448.11" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M635.42 442.46L635.42 448.11" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Härlanda" cx="635.42" cy="442.46" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Härlanda" cx="635.42" cy="448.11" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Svingeln">
+<path d="M528.35 448.26L528.36 459.57" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M528.35 448.26L528.36 459.57" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Svingeln" cx="528.35" cy="448.26" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Svingeln" cx="528.35" cy="453.92" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Svingeln" cx="528.35" cy="442.56" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Svingeln" cx="528.36" cy="459.57" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Olskrokstorget">
+<path d="M541.36 448.3L541.37 459.6" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M541.36 448.3L541.37 459.6" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Olskrokstorget" cx="541.36" cy="448.3" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Olskrokstorget" cx="541.36" cy="442.64" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Olskrokstorget" cx="541.36" cy="453.95" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Olskrokstorget" cx="541.37" cy="459.6" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Linnéplatsen">
+<path d="M228.39 725.42L239.68 725.42" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M228.39 725.42L239.68 725.42" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Linnéplatsen" cx="228.39" cy="725.42" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Linnéplatsen" cx="234.03" cy="725.42" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Linnéplatsen" cx="239.68" cy="725.42" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Bellevue">
+<path d="M601.82 294.71L609.8 302.7" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M601.82 294.71L609.8 302.7" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Bellevue" cx="601.82" cy="294.71" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Bellevue" cx="605.8" cy="298.7" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Bellevue" cx="609.8" cy="302.7" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="SKF">
+<path d="M588.4 308.14L596.38 316.12" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M588.4 308.14L596.38 316.12" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="SKF" cx="588.4" cy="308.14" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="SKF" cx="592.38" cy="312.12" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="SKF" cx="596.38" cy="316.12" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Eketrägatan">
+<path d="M139.93 411.86L147.93 403.86" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M139.93 411.86L147.93 403.86" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Eketrägatan" cx="139.93" cy="411.86" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Eketrägatan" cx="143.93" cy="407.86" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Eketrägatan" cx="147.93" cy="403.86" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Valand">
+<path d="M407.09 576.37L423.07 560.39" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M407.09 576.37L423.07 560.39" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Valand" cx="407.09" cy="576.37" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Valand" cx="411.09" cy="572.37" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Valand" cx="415.08" cy="568.37" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Valand" cx="419.08" cy="564.38" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Valand" cx="423.07" cy="560.39" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Nymånegatan">
+<path d="M634.56 249.52L645.85 249.52" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M634.56 249.52L645.85 249.52" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Nymånegatan" cx="634.56" cy="249.52" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Nymånegatan" cx="640.2" cy="249.52" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Nymånegatan" cx="645.85" cy="249.52" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Lilla Bommen">
+<path d="M343.29 504.37L355.27 492.39" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M343.29 504.37L355.27 492.39" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Lilla Bommen" cx="343.29" cy="504.37" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Lilla Bommen" cx="355.27" cy="492.39" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Vågmästareplatsen">
+<path d="M272.19 453.61L272.19 464.92" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M272.19 453.61L272.19 464.92" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Vågmästareplatsen" cx="272.19" cy="453.61" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Vågmästareplatsen" cx="272.19" cy="459.26" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Vågmästareplatsen" cx="272.19" cy="464.92" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Stenpiren">
+<path d="M258.99 562.83L262.99 566.82" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M258.99 562.83L262.99 566.82" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Stenpiren" cx="258.99" cy="562.83" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Stenpiren" cx="262.99" cy="566.82" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Nils Ericsonsplatsen">
+<path d="M377.54 453.78L377.54 465.09" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M377.54 453.78L377.54 465.09" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Nils Ericsonsplatsen" cx="377.54" cy="453.78" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Nils Ericsonsplatsen" cx="377.54" cy="459.44" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Nils Ericsonsplatsen" cx="377.54" cy="465.09" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Jubileumsparken">
+<path d="M261.34 492.62L261.34 498.27" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M261.34 492.62L261.34 498.27" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Jubileumsparken" cx="261.34" cy="492.62" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Jubileumsparken" cx="261.34" cy="498.27" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Tingvallsvägen">
+<path d="M665.43 356.77L671.08 356.77" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M665.43 356.77L671.08 356.77" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Tingvallsvägen" cx="665.43" cy="356.77" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Tingvallsvägen" cx="671.08" cy="356.77" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Kaggeledstorget">
+<path d="M665.43 391.61L671.08 391.61" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M665.43 391.61L671.08 391.61" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Kaggeledstorget" cx="665.43" cy="391.61" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Kaggeledstorget" cx="671.08" cy="391.61" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Stockholmsgatan">
+<path d="M604.64 442.59L604.64 448.24" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M604.64 442.59L604.64 448.24" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Stockholmsgatan" cx="604.64" cy="442.59" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Stockholmsgatan" cx="604.64" cy="448.24" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Botaniska Trädgården">
+<path d="M228.39 776.7L245.33 776.7" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M228.39 776.7L245.33 776.7" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Botaniska Trädgården" cx="228.39" cy="776.7" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Botaniska Trädgården" cx="234.03" cy="776.7" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Botaniska Trädgården" cx="239.68" cy="776.7" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Botaniska Trädgården" cx="245.33" cy="776.7" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Olivedalsgatan">
+<path d="M228.39 712.39L239.7 712.39" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M228.39 712.39L239.7 712.39" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Olivedalsgatan" cx="228.39" cy="712.39" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Olivedalsgatan" cx="234.05" cy="712.39" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Olivedalsgatan" cx="239.7" cy="712.39" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Prinsgatan">
+<path d="M228.39 699.44L234.05 699.44" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M228.39 699.44L234.05 699.44" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Prinsgatan" cx="228.39" cy="699.44" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Prinsgatan" cx="234.05" cy="699.44" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Opaltorget">
+<path d="M228.15 1043.57L233.81 1043.57" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M228.15 1043.57L233.81 1043.57" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Opaltorget" cx="228.15" cy="1043.57" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Opaltorget" cx="233.81" cy="1043.57" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Smaragdgatan">
+<path d="M228.39 1019.58L234.05 1019.58" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M228.39 1019.58L234.05 1019.58" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Smaragdgatan" cx="228.39" cy="1019.58" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Smaragdgatan" cx="234.05" cy="1019.58" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Briljantgatan">
+<path d="M228.39 995.5L234.05 995.5" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M228.39 995.5L234.05 995.5" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Briljantgatan" cx="228.39" cy="995.5" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Briljantgatan" cx="234.05" cy="995.5" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Positivgatan">
+<path d="M228.22 950.47L239.52 950.46" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M228.22 950.47L239.52 950.46" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Positivgatan" cx="228.22" cy="950.47" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Positivgatan" cx="233.87" cy="950.47" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Positivgatan" cx="239.52" cy="950.46" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Frölunda Torg">
+<path d="M228.22 972.45L239.52 972.44" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M228.22 972.45L239.52 972.44" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Frölunda Torg" cx="228.22" cy="972.45" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Frölunda Torg" cx="233.87" cy="972.45" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Frölunda Torg" cx="239.52" cy="972.44" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Musikvägen">
+<path d="M228.22 928.44L239.52 928.44" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M228.22 928.44L239.52 928.44" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Musikvägen" cx="228.22" cy="928.44" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Musikvägen" cx="233.87" cy="928.44" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Musikvägen" cx="239.52" cy="928.44" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Nymilsgatan">
+<path d="M228.22 906.41L239.52 906.41" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M228.22 906.41L239.52 906.41" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Nymilsgatan" cx="228.22" cy="906.41" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Nymilsgatan" cx="233.87" cy="906.42" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Nymilsgatan" cx="239.52" cy="906.41" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Lantmilsgatan">
+<path d="M228.22 883.39L239.52 883.39" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M228.22 883.39L239.52 883.39" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Lantmilsgatan" cx="228.22" cy="883.39" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Lantmilsgatan" cx="233.87" cy="883.39" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Lantmilsgatan" cx="239.52" cy="883.39" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Axel Dahlströms Torg">
+<path d="M228.39 859.36L245.33 859.36" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M228.39 859.36L245.33 859.36" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Axel Dahlströms Torg" cx="228.39" cy="859.36" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Axel Dahlströms Torg" cx="234.03" cy="859.36" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Axel Dahlströms Torg" cx="239.68" cy="859.36" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Axel Dahlströms Torg" cx="245.33" cy="859.36" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Vasa Viktoriagatan">
+<path d="M331.4 626.25L331.41 631.91" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M331.4 626.25L331.41 631.91" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Vasa Viktoriagatan" cx="331.4" cy="626.25" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Vasa Viktoriagatan" cx="331.41" cy="631.91" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Kapellplatsen">
+<path d="M362.81 658.46L368.46 658.46" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M362.81 658.46L368.46 658.46" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Kapellplatsen" cx="362.81" cy="658.46" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Kapellplatsen" cx="368.46" cy="658.46" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Lana">
+<path d="M475.71 775.2L481.36 775.2" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M475.71 775.2L481.36 775.2" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Lana" cx="475.71" cy="775.2" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Lana" cx="481.36" cy="775.2" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Varbergsgatan">
+<path d="M475.71 746.64L481.36 746.64" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M475.71 746.64L481.36 746.64" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Varbergsgatan" cx="475.71" cy="746.64" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Varbergsgatan" cx="481.36" cy="746.64" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Elisedal">
+<path d="M475.67 718.08L481.32 718.07" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M475.67 718.08L481.32 718.07" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Elisedal" cx="475.67" cy="718.08" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Elisedal" cx="481.32" cy="718.07" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Virginsgatan">
+<path d="M665.43 496.17L671.08 496.17" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M665.43 496.17L671.08 496.17" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Virginsgatan" cx="665.43" cy="496.17" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Virginsgatan" cx="671.08" cy="496.17" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Solrosgatan">
+<path d="M665.43 461.45L671.08 461.45" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M665.43 461.45L671.08 461.45" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Solrosgatan" cx="665.43" cy="461.45" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Solrosgatan" cx="671.08" cy="461.45" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Hagakyrkan">
+<path d="M266.83 629.57L274.83 637.57" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M266.83 629.57L274.83 637.57" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Hagakyrkan" cx="266.83" cy="629.57" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Hagakyrkan" cx="270.83" cy="633.57" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Hagakyrkan" cx="274.83" cy="637.57" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Masthuggstorget">
+<path d="M203.82 676.41L211.82 684.41" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M203.82 676.41L211.82 684.41" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Masthuggstorget" cx="203.82" cy="676.41" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Masthuggstorget" cx="207.82" cy="680.41" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Masthuggstorget" cx="211.82" cy="684.41" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Stigbergstorget">
+<path d="M192.1 688.14L200.1 696.13" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M192.1 688.14L200.1 696.13" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Stigbergstorget" cx="192.1" cy="688.14" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Stigbergstorget" cx="196.1" cy="692.13" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Stigbergstorget" cx="200.1" cy="696.13" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Kaptensgatan">
+<path d="M180.25 699.98L184.25 703.98" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M180.25 699.98L184.25 703.98" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Kaptensgatan" cx="180.25" cy="699.98" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Kaptensgatan" cx="184.25" cy="703.98" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Chapmans Torg">
+<path d="M168.62 711.61L172.63 715.61" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M168.62 711.61L172.63 715.61" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Chapmans Torg" cx="168.62" cy="711.61" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Chapmans Torg" cx="172.63" cy="715.61" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Jaegerdorffsplatsen">
+<path d="M156.69 723.54L160.69 727.54" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M156.69 723.54L160.69 727.54" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Jaegerdorffsplatsen" cx="156.69" cy="723.54" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Jaegerdorffsplatsen" cx="160.69" cy="727.54" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Vagnhallen Majorna">
+<path d="M139.31 747.3L144.96 747.3" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M139.31 747.3L144.96 747.3" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Vagnhallen Majorna" cx="139.31" cy="747.3" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Vagnhallen Majorna" cx="144.96" cy="747.3" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Ostindiegatan">
+<path d="M139.31 761.21L144.96 761.21" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M139.31 761.21L144.96 761.21" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Ostindiegatan" cx="139.31" cy="761.21" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Ostindiegatan" cx="144.96" cy="761.21" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Mariaplan">
+<path d="M157.28 776.51L157.28 782.17" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M157.28 776.51L157.28 782.17" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Mariaplan" cx="157.28" cy="776.51" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Mariaplan" cx="157.28" cy="782.17" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Godhemsgatan">
+<path d="M170.29 776.51L170.29 782.17" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M170.29 776.51L170.29 782.17" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Godhemsgatan" cx="170.29" cy="776.51" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Godhemsgatan" cx="170.29" cy="782.17" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Hjällbo">
+<path d="M557.52 281.08L568.83 281.08" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M557.52 281.08L568.83 281.08" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Hjällbo" cx="557.52" cy="281.08" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Hjällbo" cx="563.17" cy="281.08" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Hjällbo" cx="568.83" cy="281.08" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Hammarkullen">
+<path d="M557.46 241.94L568.76 241.94" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M557.46 241.94L568.76 241.94" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Hammarkullen" cx="557.46" cy="241.94" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Hammarkullen" cx="563.11" cy="241.94" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Hammarkullen" cx="568.76" cy="241.94" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Storås">
+<path d="M557.52 202.8L568.83 202.8" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M557.52 202.8L568.83 202.8" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Storås" cx="557.52" cy="202.8" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Storås" cx="563.17" cy="202.8" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Storås" cx="568.83" cy="202.8" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Angered Centrum">
+<path d="M557.46 163.66L568.76 163.66" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M557.46 163.66L568.76 163.66" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Angered Centrum" cx="557.46" cy="163.66" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Angered Centrum" cx="563.11" cy="163.66" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Angered Centrum" cx="568.76" cy="163.66" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Wieselgrensplatsen">
+<path d="M226.52 459.46L226.52 465.12" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M226.52 459.46L226.52 465.12" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Wieselgrensplatsen" cx="226.52" cy="459.46" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Wieselgrensplatsen" cx="226.52" cy="453.81" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Wieselgrensplatsen" cx="226.52" cy="465.12" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Gropegårdsgatan">
+<path d="M157.68 429.62L165.67 421.63" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M157.68 429.62L165.67 421.63" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Gropegårdsgatan" cx="157.68" cy="429.62" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Gropegårdsgatan" cx="161.68" cy="425.63" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Gropegårdsgatan" cx="165.67" cy="421.63" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Rambergsvallen">
+<path d="M175.47 447.41L183.46 439.42" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M175.47 447.41L183.46 439.42" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Rambergsvallen" cx="175.47" cy="447.41" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Rambergsvallen" cx="179.47" cy="443.42" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Rambergsvallen" cx="183.46" cy="439.42" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Wavrinskys Plats">
+<path d="M351.43 726.42L368.37 726.42" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M351.43 726.42L368.37 726.42" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Wavrinskys Plats" cx="351.43" cy="726.42" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Wavrinskys Plats" cx="357.08" cy="726.42" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Wavrinskys Plats" cx="362.74" cy="726.42" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Wavrinskys Plats" cx="368.37" cy="726.42" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Chalmers">
+<path d="M351.43 698.37L368.37 698.37" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M351.43 698.37L368.37 698.37" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Chalmers" cx="351.43" cy="698.37" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Chalmers" cx="357.08" cy="698.36" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Chalmers" cx="362.74" cy="698.36" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Chalmers" cx="368.37" cy="698.37" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Sahlgrenska Huvudentré">
+<path d="M282.5 738.62L282.5 749.93" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M282.5 738.62L282.5 749.93" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Sahlgrenska Huvudentré" cx="282.5" cy="738.62" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Sahlgrenska Huvudentré" cx="282.5" cy="744.28" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Sahlgrenska Huvudentré" cx="282.5" cy="749.93" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Ejdergatan">
+<path d="M563.13 398.25L568.79 398.25" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M563.13 398.25L568.79 398.25" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Ejdergatan" cx="563.13" cy="398.25" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Ejdergatan" cx="568.79" cy="398.25" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Kviberg">
+<path d="M615.19 281.08L623.18 289.08" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M615.19 281.08L623.18 289.08" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Kviberg" cx="615.19" cy="281.08" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Kviberg" cx="619.18" cy="285.08" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Kviberg" cx="623.18" cy="289.08" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Komettorget">
+<path d="M722.21 197.47L727.86 197.47" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M722.21 197.47L727.86 197.47" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Komettorget" cx="722.21" cy="197.47" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Komettorget" cx="727.86" cy="197.47" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Rymdtorget Spårvagn">
+<path d="M722.21 180.18L727.86 180.18" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M722.21 180.18L727.86 180.18" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Rymdtorget Spårvagn" cx="722.21" cy="180.18" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Rymdtorget Spårvagn" cx="727.86" cy="180.18" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Januarigatan">
+<path d="M640.29 180.18L645.95 180.18" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M640.29 180.18L645.95 180.18" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Januarigatan" cx="640.29" cy="180.18" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Januarigatan" cx="645.95" cy="180.18" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Teleskopgatan">
+<path d="M698.44 163.53L698.45 169.19" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M698.44 163.53L698.45 169.19" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Teleskopgatan" cx="698.44" cy="163.53" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Teleskopgatan" cx="698.45" cy="169.19" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Galileis Gata">
+<path d="M671.73 163.53L671.73 169.19" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M671.73 163.53L671.73 169.19" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Galileis Gata" cx="671.73" cy="163.53" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Galileis Gata" cx="671.73" cy="169.19" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Sannaplan">
+<path d="M139.31 793.15L144.96 793.15" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M139.31 793.15L144.96 793.15" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Sannaplan" cx="139.31" cy="793.15" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Sannaplan" cx="144.96" cy="793.15" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Sandarna">
+<path d="M139.31 806.18L144.96 806.18" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M139.31 806.18L144.96 806.18" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Sandarna" cx="139.31" cy="806.18" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Sandarna" cx="144.96" cy="806.18" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Kungssten">
+<path d="M139.31 819.24L144.96 819.24" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M139.31 819.24L144.96 819.24" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Kungssten" cx="139.31" cy="819.24" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Kungssten" cx="144.96" cy="819.24" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Ullevi Norra">
+<path d="M515.35 453.82L515.35 459.47" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M515.35 453.82L515.35 459.47" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Ullevi Norra" cx="515.35" cy="453.82" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Ullevi Norra" cx="515.35" cy="448.16" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Ullevi Norra" cx="515.35" cy="442.53" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Ullevi Norra" cx="515.35" cy="459.47" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Frihamnen">
+<path d="M329.74 459.46L329.74 465.12" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M329.74 459.46L329.74 465.12" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Frihamnen" cx="329.74" cy="459.46" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Frihamnen" cx="329.74" cy="453.81" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Frihamnen" cx="329.74" cy="465.12" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Ullevi Södra">
+<path d="M475.63 515.92L486.94 515.92" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M475.63 515.92L486.94 515.92" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Ullevi Södra" cx="475.63" cy="515.92" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Ullevi Södra" cx="481.29" cy="515.92" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Ullevi Södra" cx="486.94" cy="515.92" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Scandinavium">
+<path d="M475.63 562.28L486.94 562.27" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M475.63 562.28L486.94 562.27" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Scandinavium" cx="475.63" cy="562.28" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Scandinavium" cx="481.29" cy="562.28" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Scandinavium" cx="486.94" cy="562.27" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Runstavsgatan">
+<path d="M634.56 232.21L645.87 232.21" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M634.56 232.21L645.87 232.21" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Runstavsgatan" cx="634.56" cy="232.21" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Runstavsgatan" cx="640.22" cy="232.21" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Runstavsgatan" cx="645.87" cy="232.21" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Kortedala Torg">
+<path d="M634.56 214.83L645.87 214.83" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M634.56 214.83L645.87 214.83" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Kortedala Torg" cx="634.56" cy="214.83" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Kortedala Torg" cx="640.22" cy="214.83" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Kortedala Torg" cx="645.87" cy="214.83" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Allhelgonakyrkan">
+<path d="M634.56 197.47L645.87 197.47" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M634.56 197.47L645.87 197.47" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Allhelgonakyrkan" cx="634.56" cy="197.47" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Allhelgonakyrkan" cx="640.22" cy="197.47" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Allhelgonakyrkan" cx="645.87" cy="197.47" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Saltholmen">
+<circle class="stop" data-stop="Saltholmen" cx="145.18" cy="936.45" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Vasaplatsen">
+<path d="M360.38 622.03L372.36 634.01" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M360.38 622.03L372.36 634.01" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Vasaplatsen" cx="360.38" cy="622.03" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Vasaplatsen" cx="364.38" cy="626.03" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Vasaplatsen" cx="368.38" cy="630.03" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Vasaplatsen" cx="372.36" cy="634.01" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Grönsakstorget">
+<path d="M330.45 565.97L338.44 573.97" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M330.45 565.97L338.44 573.97" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Grönsakstorget" cx="330.45" cy="565.97" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Grönsakstorget" cx="334.45" cy="569.97" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Grönsakstorget" cx="338.44" cy="573.97" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Domkyrkan">
+<path d="M344.97 551.45L352.97 559.44" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M344.97 551.45L352.97 559.44" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Domkyrkan" cx="344.97" cy="551.45" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Domkyrkan" cx="348.97" cy="555.44" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Domkyrkan" cx="352.97" cy="559.44" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Pumpgatan">
+<path d="M235.42 492.62L235.42 498.27" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M235.42 492.62L235.42 498.27" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Pumpgatan" cx="235.42" cy="492.62" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Pumpgatan" cx="235.42" cy="498.27" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Lindholmen">
+<path d="M209.5 492.62L209.5 498.27" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M209.5 492.62L209.5 498.27" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Lindholmen" cx="209.5" cy="492.62" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Lindholmen" cx="209.5" cy="498.27" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Liseberg Station">
+<circle class="stop" data-stop="Liseberg Station" cx="516.7" cy="613.31" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Berzeliigatan">
+<path d="M444.4 589.61L448.39 585.61" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M444.4 589.61L448.39 585.61" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Berzeliigatan" cx="444.4" cy="589.61" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Berzeliigatan" cx="448.39" cy="585.61" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Kungsportsplatsen">
+<path d="M398.29 567.57L414.31 551.55" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M398.29 567.57L414.31 551.55" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Kungsportsplatsen" cx="398.29" cy="567.57" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Kungsportsplatsen" cx="402.27" cy="563.58" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Kungsportsplatsen" cx="406.28" cy="559.58" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Kungsportsplatsen" cx="410.31" cy="555.55" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Kungsportsplatsen" cx="414.31" cy="551.55" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Temperaturgatan">
+<path d="M113.89 196.23L119.54 196.23" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M113.89 196.23L119.54 196.23" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Temperaturgatan" cx="113.89" cy="196.23" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Temperaturgatan" cx="119.54" cy="196.23" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Varmfrontsgatan">
+<path d="M113.96 163.66L119.62 163.66" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M113.96 163.66L119.62 163.66" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Varmfrontsgatan" cx="113.96" cy="163.66" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Varmfrontsgatan" cx="119.62" cy="163.66" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Almedal">
+<path d="M475.71 689.51L481.36 689.51" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M475.71 689.51L481.36 689.51" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Almedal" cx="475.71" cy="689.51" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Almedal" cx="481.36" cy="689.51" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Liseberg Södra">
+<path d="M475.67 660.95L481.32 660.95" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M475.67 660.95L481.32 660.95" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Liseberg Södra" cx="475.67" cy="660.95" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Liseberg Södra" cx="481.32" cy="660.95" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Beväringsgatan">
+<path d="M628.77 267.5L636.77 275.49" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M628.77 267.5L636.77 275.49" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Beväringsgatan" cx="628.77" cy="267.5" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Beväringsgatan" cx="632.77" cy="271.5" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Beväringsgatan" cx="636.77" cy="275.49" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g class="stop" data-stop="Medicinaregatan">
+<path d="M325 744.33L325 749.98" stroke="#231f20" stroke-width="2.8" fill="none"/>
+<path d="M325 744.33L325 749.98" stroke="#ffffff" stroke-width="0.8" fill="none"/>
+<circle class="stop" data-stop="Medicinaregatan" cx="325" cy="744.33" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Medicinaregatan" cx="325" cy="738.68" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Medicinaregatan" cx="325" cy="749.98" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<circle class="stop" data-stop="Welandergatan" cx="671.34" cy="530.95" r="2.13" fill="#ffffff" stroke="#ef3d42" stroke-width="1"/>
+<circle class="stop" data-stop="Bögatan" cx="671.34" cy="601.38" r="2.13" fill="#ffffff" stroke="#ef3d42" stroke-width="1"/>
+<circle class="stop" data-stop="Töpelsgatan" cx="671.34" cy="566.4" r="2.13" fill="#ffffff" stroke="#ef3d42" stroke-width="1"/>
+<circle class="stop" data-stop="Ekmanska" cx="637.77" cy="613.24" r="2.13" fill="#ffffff" stroke="#ef3d42" stroke-width="1"/>
+<circle class="stop" data-stop="Sankt Sigfrids Plan" cx="577.24" cy="613.24" r="2.13" fill="#ffffff" stroke="#ef3d42" stroke-width="1"/>
+<circle class="stop" data-stop="Doktor Fries Torg" cx="368.58" cy="754.4" r="2.13" fill="#ffffff" stroke="#c8df8e" stroke-width="1"/>
+<circle class="stop" data-stop="Fjällgatan" cx="182.29" cy="737.43" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Ekedal" cx="182.26" cy="765.21" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Majvallen" cx="182.28" cy="751.28" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Hagen" cx="145.1" cy="856.26" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Hinsholmen" cx="145.1" cy="904.34" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Långedrag" cx="145.1" cy="920.36" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Käringberget" cx="145.1" cy="888.31" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Tranered" cx="145.1" cy="872.28" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Nya Varvsallén" cx="145.1" cy="840.23" r="2.13" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<circle class="stop" data-stop="Aprilgatan" cx="622.46" cy="180.7" r="2.13" fill="#ffffff" stroke="#f89728" stroke-width="1"/>
+<circle class="stop" data-stop="Doktor Sydows Gata" cx="368.6" cy="781.79" r="2.13" fill="#ffffff" stroke="#c8df8e" stroke-width="1"/>
+<circle class="stop" data-stop="Klintens Väg" cx="190.2" cy="788.87" r="2.13" fill="#ffffff" stroke="#0079c1" stroke-width="1"/>
+<circle class="stop" data-stop="Högsbogatan" cx="201.24" cy="799.91" r="2.13" fill="#ffffff" stroke="#0079c1" stroke-width="1"/>
+<circle class="stop" data-stop="Bokekullsgatan" cx="212.37" cy="811.04" r="2.13" fill="#ffffff" stroke="#0079c1" stroke-width="1"/>
+<circle class="stop" data-stop="Handelshögskolan" cx="299.01" cy="649.37" r="2.13" fill="#ffffff" stroke="#ffdd00" stroke-width="1"/>
+<circle class="stop" data-stop="Seminariegatan" cx="257.53" cy="690.75" r="2.13" fill="#ffffff" stroke="#ffdd00" stroke-width="1"/>
+<circle class="stop" data-stop="Brunnsgatan" cx="278.42" cy="669.91" r="2.13" fill="#ffffff" stroke="#ffdd00" stroke-width="1"/>
+<path class="stop" data-stop="Hjalmar Brantingsplatsen" d="M320.25 451.5C320.25 441.33 312 433.08 301.82 433.08C291.65 433.08 283.4 441.33 283.4 451.5C283.4 461.68 291.65 469.93 301.82 469.93C312 469.93 320.25 461.68 320.25 451.5" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<path class="stop" data-stop="Redbergsplatsen" d="M584.38 448.3C584.38 438.13 576.13 429.88 565.96 429.88C555.78 429.88 547.53 438.13 547.53 448.3C547.53 458.48 555.78 466.73 565.96 466.73C576.13 466.73 584.38 458.48 584.38 448.3" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<path class="stop" data-stop="Drottningtorget" d="M489.85 450.3C489.85 433.87 476.52 420.54 460.09 420.54C443.65 420.54 430.32 433.87 430.32 450.3C430.32 466.74 443.65 480.07 460.09 480.07C476.52 480.07 489.85 466.74 489.85 450.3" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<path class="stop" data-stop="Gamlestads Torg" d="M583.22 336.45C583.22 326.27 574.97 318.03 564.79 318.03C554.62 318.03 546.37 326.27 546.37 336.45C546.37 346.63 554.62 354.88 564.79 354.88C574.97 354.88 583.22 346.63 583.22 336.45" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<path class="stop" data-stop="Brunnsparken" d="M414.3 525.08C414.3 508.64 400.98 495.32 384.54 495.32C368.1 495.32 354.77 508.64 354.77 525.08C354.77 541.52 368.1 554.84 384.54 554.84C400.98 554.84 414.3 541.52 414.3 525.08" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<path class="stop" data-stop="Korsvägen" d="M496.9 613.42C496.9 603.24 488.65 594.99 478.47 594.99C468.3 594.99 460.05 603.24 460.05 613.42C460.05 623.6 468.3 631.85 478.47 631.85C488.65 631.85 496.9 623.6 496.9 613.42" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<path class="stop" data-stop="Järntorget" d="M252.56 656.3C252.56 646.12 244.31 637.87 234.13 637.87C223.96 637.87 215.71 646.12 215.71 656.3C215.71 666.48 223.96 674.73 234.13 674.73C244.31 674.73 252.56 666.48 252.56 656.3" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+<path class="stop" data-stop="Marklandsgatan" d="M252.56 832.56C252.56 822.38 244.31 814.13 234.13 814.13C223.96 814.13 215.71 822.38 215.71 832.56C215.71 842.73 223.96 850.98 234.13 850.98C244.31 850.98 252.56 842.73 252.56 832.56" fill="#ffffff" stroke="#231f20" stroke-width="1"/>
+</g>
+<g id="labels" font-family="'Univers LT Std', 'Univers Condensed', 'Roboto Condensed', 'Arial Narrow', sans-serif" font-stretch="condensed">
+<text x="76.22" y="141.57" font-size="6" font-weight="bold" fill="#231f20" textLength="48.77" lengthAdjust="spacingAndGlyphs">Länsmansgården</text>
+<text x="550.98" y="141.57" font-size="6" font-weight="bold" fill="#231f20" textLength="24.04" lengthAdjust="spacingAndGlyphs">Angered</text>
+<text x="106.08" y="154.15" font-size="9.5" font-weight="bold" fill="#00394e" textLength="4.45" lengthAdjust="spacingAndGlyphs">6</text>
+<text x="543.3" y="154.15" font-size="9.5" font-weight="bold" fill="#ffffff" textLength="4.45" lengthAdjust="spacingAndGlyphs">4</text>
+<text x="560.97" y="154.15" font-size="9.5" font-weight="bold" fill="#ffffff" textLength="4.45" lengthAdjust="spacingAndGlyphs">8</text>
+<text x="578.43" y="154.15" font-size="9.5" font-weight="bold" fill="#00394e" textLength="4.45" lengthAdjust="spacingAndGlyphs">9</text>
+<text x="123.48" y="154.15" font-size="9.5" font-weight="bold" fill="#ffffff" textLength="4.45" lengthAdjust="spacingAndGlyphs">5</text>
+<text x="663.57" y="152.66" font-size="6" font-weight="300" fill="#231f20" textLength="16.33" lengthAdjust="spacingAndGlyphs">Galileis</text>
+<text x="666.56" y="158.66" font-size="6" font-weight="300" fill="#231f20" textLength="10.33" lengthAdjust="spacingAndGlyphs">Gata</text>
+<text x="687.95" y="152.66" font-size="6" font-weight="300" fill="#231f20" textLength="20.99" lengthAdjust="spacingAndGlyphs">Teleskop-</text>
+<text x="692.28" y="158.66" font-size="6" font-weight="300" fill="#231f20" textLength="12.32" lengthAdjust="spacingAndGlyphs">gatan</text>
+<text x="608.27" y="158.18" font-size="6" font-weight="bold" fill="#231f20" textLength="27.35" lengthAdjust="spacingAndGlyphs">Kortedala</text>
+<text x="123.74" y="165.75" font-size="6" font-weight="300" fill="#231f20" textLength="36.32" lengthAdjust="spacingAndGlyphs">Varmfrontsgatan</text>
+<text x="514.48" y="165.77" font-size="6" font-weight="300" fill="#231f20" textLength="37.99" lengthAdjust="spacingAndGlyphs">Angered Centrum</text>
+<text x="619.79" y="170.76" font-size="9.5" font-weight="bold" fill="#00394e" textLength="4.45" lengthAdjust="spacingAndGlyphs">6</text>
+<text x="650.15" y="182.3" font-size="6" font-weight="300" fill="#231f20" textLength="28.64" lengthAdjust="spacingAndGlyphs">Januarigatan</text>
+<text x="595.03" y="182.31" font-size="6" font-weight="300" fill="#231f20" textLength="22.66" lengthAdjust="spacingAndGlyphs">Aprilgatan</text>
+<text x="692.91" y="182.31" font-size="6" font-weight="300" fill="#231f20" textLength="25" lengthAdjust="spacingAndGlyphs">Rymdtorget</text>
+<text x="697.59" y="188.31" font-size="6" font-weight="300" fill="#231f20" textLength="20.32" lengthAdjust="spacingAndGlyphs">Spårvagn</text>
+<text x="72.31" y="198.36" font-size="6" font-weight="300" fill="#231f20" textLength="37.31" lengthAdjust="spacingAndGlyphs">Temperaturgatan</text>
+<text x="592.04" y="199.64" font-size="6" font-weight="300" fill="#231f20" textLength="37.31" lengthAdjust="spacingAndGlyphs">Allhelgonakyrkan</text>
+<text x="690.92" y="199.64" font-size="6" font-weight="300" fill="#231f20" textLength="26.99" lengthAdjust="spacingAndGlyphs">Komettorget</text>
+<text x="538.53" y="204.92" font-size="6" font-weight="300" fill="#231f20" textLength="14" lengthAdjust="spacingAndGlyphs">Storås</text>
+<text x="705.41" y="213.13" font-size="9.5" font-weight="bold" fill="#ffffff" textLength="4.45" lengthAdjust="spacingAndGlyphs">7</text>
+<text x="720.58" y="213.13" font-size="9.5" font-weight="bold" fill="#ffffff" textLength="8.91" lengthAdjust="spacingAndGlyphs">11</text>
+<text x="597.37" y="216.97" font-size="6" font-weight="300" fill="#231f20" textLength="31.98" lengthAdjust="spacingAndGlyphs">Kortedala Torg</text>
+<text x="703.74" y="224.5" font-size="6" font-weight="bold" fill="#231f20" textLength="25.19" lengthAdjust="spacingAndGlyphs">Bergsjön</text>
+<text x="92.99" y="230.89" font-size="9.5" font-weight="bold" fill="#00394e" textLength="4.45" lengthAdjust="spacingAndGlyphs">2</text>
+<text x="123.68" y="230.93" font-size="6" font-weight="300" fill="#231f20" textLength="29.98" lengthAdjust="spacingAndGlyphs">Väderilsgatan</text>
+<text x="43.74" y="230.89" font-size="6" font-weight="bold" fill="#231f20" textLength="41.89" lengthAdjust="spacingAndGlyphs">Biskopsgården</text>
+<text x="597.36" y="234.31" font-size="6" font-weight="300" fill="#231f20" textLength="31.99" lengthAdjust="spacingAndGlyphs">Runstavsgatan</text>
+<text x="521.14" y="243.99" font-size="6" font-weight="300" fill="#231f20" textLength="31.33" lengthAdjust="spacingAndGlyphs">Hammarkullen</text>
+<text x="598.84" y="251.64" font-size="6" font-weight="300" fill="#231f20" textLength="30.32" lengthAdjust="spacingAndGlyphs">Nymånegatan</text>
+<text x="123.68" y="263.49" font-size="6" font-weight="300" fill="#231f20" textLength="37.33" lengthAdjust="spacingAndGlyphs">Friskväderstorget</text>
+<text x="592" y="265.29" font-size="6" font-weight="300" fill="#231f20" textLength="33.65" lengthAdjust="spacingAndGlyphs">Beväringsgatan</text>
+<text x="595.74" y="278.87" font-size="6" font-weight="300" fill="#231f20" textLength="16.33" lengthAdjust="spacingAndGlyphs">Kviberg</text>
+<text x="537.2" y="283.2" font-size="6" font-weight="300" fill="#231f20" textLength="15.32" lengthAdjust="spacingAndGlyphs">Hjällbo</text>
+<text x="581.02" y="292.48" font-size="6" font-weight="300" fill="#231f20" textLength="18.65" lengthAdjust="spacingAndGlyphs">Bellevue</text>
+<text x="123.68" y="296.07" font-size="6" font-weight="300" fill="#231f20" textLength="39.98" lengthAdjust="spacingAndGlyphs">Önskevädersgatan</text>
+<text x="577.8" y="306.02" font-size="6" font-weight="300" fill="#231f20" textLength="8.33" lengthAdjust="spacingAndGlyphs">SKF</text>
+<text x="651.41" y="315.33" font-size="9.5" font-weight="bold" fill="#231f20" textLength="4.45" lengthAdjust="spacingAndGlyphs">1</text>
+<text x="668.9" y="315.43" font-size="9.5" font-weight="bold" fill="#ffffff" textLength="4.45" lengthAdjust="spacingAndGlyphs">5</text>
+<text x="614.9" y="327.61" font-size="6" font-weight="bold" fill="#231f20" textLength="46.01" lengthAdjust="spacingAndGlyphs">Östra Sjukhuset</text>
+<text x="123.68" y="328.64" font-size="6" font-weight="300" fill="#231f20" textLength="36.65" lengthAdjust="spacingAndGlyphs">Mildvädersgatan</text>
+<text x="548.31" y="335.47" font-size="6" font-weight="bold" fill="#231f20" textLength="32.93" lengthAdjust="spacingAndGlyphs">Gamlestads</text>
+<text x="558.81" y="342.48" font-size="6" font-weight="bold" fill="#231f20" textLength="11.92" lengthAdjust="spacingAndGlyphs">Torg</text>
+<text x="628.6" y="358.89" font-size="6" font-weight="300" fill="#231f20" textLength="32.31" lengthAdjust="spacingAndGlyphs">Tingvallsvägen</text>
+<text x="123.68" y="361.2" font-size="6" font-weight="300" fill="#231f20" textLength="34.66" lengthAdjust="spacingAndGlyphs">Vårväderstorget</text>
+<text x="133.36" y="384.09" font-size="6" font-weight="300" fill="#231f20" textLength="34.31" lengthAdjust="spacingAndGlyphs">Sälöfjordsgatan</text>
+<text x="625.27" y="393.73" font-size="6" font-weight="300" fill="#231f20" textLength="35.65" lengthAdjust="spacingAndGlyphs">Kaggeledstorget</text>
+<text x="573.03" y="400.38" font-size="6" font-weight="300" fill="#231f20" textLength="23.32" lengthAdjust="spacingAndGlyphs">Ejdergatan</text>
+<text x="150.84" y="401.64" font-size="6" font-weight="bold" fill="#231f20" textLength="34.23" lengthAdjust="spacingAndGlyphs">Eketrägatan</text>
+<text x="168.66" y="413.5" font-size="6" font-weight="300" fill="#231f20" textLength="26.66" lengthAdjust="spacingAndGlyphs">Gropegårds-</text>
+<text x="168.66" y="419.5" font-size="6" font-weight="300" fill="#231f20" textLength="12.32" lengthAdjust="spacingAndGlyphs">gatan</text>
+<text x="519.03" y="437.42" font-size="6" font-weight="300" fill="#231f20" textLength="18.65" lengthAdjust="spacingAndGlyphs">Svingeln</text>
+<text x="620.23" y="428.6" font-size="6" font-weight="300" fill="#231f20" textLength="40.32" lengthAdjust="spacingAndGlyphs">Munkebäckstorget</text>
+<text x="258.36" y="432.45" font-size="6" font-weight="300" fill="#231f20" textLength="27.66" lengthAdjust="spacingAndGlyphs">Vågmästare-</text>
+<text x="264.2" y="438.45" font-size="6" font-weight="300" fill="#231f20" textLength="15.99" lengthAdjust="spacingAndGlyphs">platsen</text>
+<text x="212.03" y="443.82" font-size="6" font-weight="300" fill="#231f20" textLength="28.99" lengthAdjust="spacingAndGlyphs">Wieselgrens-</text>
+<text x="218.52" y="449.82" font-size="6" font-weight="300" fill="#231f20" textLength="15.99" lengthAdjust="spacingAndGlyphs">platsen</text>
+<text x="355.55" y="449.94" font-size="6" font-weight="300" fill="#231f20" textLength="43.98" lengthAdjust="spacingAndGlyphs">Nils Ericsonsplatsen</text>
+<text x="438.06" y="445.03" font-size="9" font-weight="bold" fill="#231f20" textLength="44.05" lengthAdjust="spacingAndGlyphs">Drottning-</text>
+<text x="447.13" y="456.03" font-size="9" font-weight="bold" fill="#231f20" textLength="25.92" lengthAdjust="spacingAndGlyphs">torget</text>
+<text x="291.01" y="446.53" font-size="6" font-weight="bold" fill="#231f20" textLength="21.62" lengthAdjust="spacingAndGlyphs">Hjalmar</text>
+<text x="287.59" y="453.53" font-size="6" font-weight="bold" fill="#231f20" textLength="28.47" lengthAdjust="spacingAndGlyphs">Brantings-</text>
+<text x="291.68" y="460.54" font-size="6" font-weight="bold" fill="#231f20" textLength="20.29" lengthAdjust="spacingAndGlyphs">platsen</text>
+<text x="552" y="447.11" font-size="6" font-weight="bold" fill="#231f20" textLength="27.89" lengthAdjust="spacingAndGlyphs">Redbergs-</text>
+<text x="555.81" y="454.12" font-size="6" font-weight="bold" fill="#231f20" textLength="20.29" lengthAdjust="spacingAndGlyphs">platsen</text>
+<text x="325.2" y="449.91" font-size="6" font-weight="300" fill="#231f20" textLength="21.7" lengthAdjust="spacingAndGlyphs">Frihamnen</text>
+<text x="138.73" y="453.62" font-size="6" font-weight="300" fill="#231f20" textLength="34.65" lengthAdjust="spacingAndGlyphs">Rambergsvallen</text>
+<text x="591.31" y="457.21" font-size="6" font-weight="300" fill="#231f20" textLength="26.66" lengthAdjust="spacingAndGlyphs">Stockholms-</text>
+<text x="598.48" y="463.21" font-size="6" font-weight="300" fill="#231f20" textLength="12.32" lengthAdjust="spacingAndGlyphs">gatan</text>
+<text x="625.59" y="457.21" font-size="6" font-weight="300" fill="#231f20" textLength="19.66" lengthAdjust="spacingAndGlyphs">Härlanda</text>
+<text x="675.6" y="463.57" font-size="6" font-weight="300" fill="#231f20" textLength="25.99" lengthAdjust="spacingAndGlyphs">Solrosgatan</text>
+<text x="443.43" y="467.03" font-size="6" font-weight="300" fill="#231f20" textLength="33.32" lengthAdjust="spacingAndGlyphs">(Centralstation)</text>
+<text x="509.49" y="468.65" font-size="6" font-weight="300" fill="#231f20" textLength="11.73" lengthAdjust="spacingAndGlyphs">Ullevi</text>
+<text x="509.19" y="474.65" font-size="6" font-weight="300" fill="#231f20" textLength="12.33" lengthAdjust="spacingAndGlyphs">Norra</text>
+<text x="531.36" y="468.65" font-size="6" font-weight="300" fill="#231f20" textLength="20" lengthAdjust="spacingAndGlyphs">Olskroks-</text>
+<text x="534.87" y="474.65" font-size="6" font-weight="300" fill="#231f20" textLength="13" lengthAdjust="spacingAndGlyphs">torget</text>
+<text x="223.25" y="487.66" font-size="6" font-weight="300" fill="#231f20" textLength="24.32" lengthAdjust="spacingAndGlyphs">Pumpgatan</text>
+<text x="620.92" y="499.16" font-size="6" font-weight="bold" fill="#231f20" textLength="22.31" lengthAdjust="spacingAndGlyphs">Kålltorp</text>
+<text x="650.6" y="499.16" font-size="9.5" font-weight="bold" fill="#ffffff" textLength="4.45" lengthAdjust="spacingAndGlyphs">3</text>
+<text x="675.6" y="498.19" font-size="6" font-weight="300" fill="#231f20" textLength="27.32" lengthAdjust="spacingAndGlyphs">Virginsgatan</text>
+<text x="249.34" y="506.53" font-size="6" font-weight="300" fill="#231f20" textLength="23.99" lengthAdjust="spacingAndGlyphs">Jubileums-</text>
+<text x="254" y="512.53" font-size="6" font-weight="300" fill="#231f20" textLength="14.66" lengthAdjust="spacingAndGlyphs">parken</text>
+<text x="192.49" y="506.53" font-size="6" font-weight="bold" fill="#231f20" textLength="34" lengthAdjust="spacingAndGlyphs">Lindholmen</text>
+<text x="329.46" y="506.65" font-size="6" font-weight="300" fill="#231f20" textLength="8.99" lengthAdjust="spacingAndGlyphs">Lilla</text>
+<text x="324.46" y="512.65" font-size="6" font-weight="300" fill="#231f20" textLength="19" lengthAdjust="spacingAndGlyphs">Bommen</text>
+<text x="196.49" y="518.72" font-size="9.5" font-weight="bold" fill="#00394e" textLength="8.91" lengthAdjust="spacingAndGlyphs">10</text>
+<text x="213.43" y="518.72" font-size="9.5" font-weight="bold" fill="#00394e" textLength="8.91" lengthAdjust="spacingAndGlyphs">12</text>
+<text x="491.1" y="518.04" font-size="6" font-weight="300" fill="#231f20" textLength="26.32" lengthAdjust="spacingAndGlyphs">Ullevi Södra</text>
+<text x="367.53" y="522.72" font-size="9" font-weight="bold" fill="#231f20" textLength="33.14" lengthAdjust="spacingAndGlyphs">Brunns-</text>
+<text x="369.68" y="533.72" font-size="9" font-weight="bold" fill="#231f20" textLength="28.84" lengthAdjust="spacingAndGlyphs">parken</text>
+<text x="677.59" y="533.07" font-size="6" font-weight="300" fill="#231f20" textLength="33.64" lengthAdjust="spacingAndGlyphs">Welandergatan</text>
+<text x="416.66" y="542.38" font-size="6" font-weight="300" fill="#231f20" textLength="25.99" lengthAdjust="spacingAndGlyphs">Kungsports-</text>
+<text x="416.66" y="548.18" font-size="6" font-weight="300" fill="#231f20" textLength="15.99" lengthAdjust="spacingAndGlyphs">platsen</text>
+<text x="317.9" y="549.3" font-size="6" font-weight="300" fill="#231f20" textLength="24" lengthAdjust="spacingAndGlyphs">Domkyrkan</text>
+<text x="294.62" y="563.58" font-size="6" font-weight="300" fill="#231f20" textLength="32.99" lengthAdjust="spacingAndGlyphs">Grönsakstorget</text>
+<text x="491.16" y="564.4" font-size="6" font-weight="300" fill="#231f20" textLength="30.32" lengthAdjust="spacingAndGlyphs">Scandinavium</text>
+<text x="677.59" y="568.52" font-size="6" font-weight="300" fill="#231f20" textLength="26.65" lengthAdjust="spacingAndGlyphs">Töpelsgatan</text>
+<text x="262.31" y="576.21" font-size="6" font-weight="bold" fill="#231f20" textLength="28.01" lengthAdjust="spacingAndGlyphs">Stenpiren</text>
+<text x="388.49" y="581.12" font-size="6" font-weight="300" fill="#231f20" textLength="14.99" lengthAdjust="spacingAndGlyphs">Valand</text>
+<text x="422.62" y="591.72" font-size="6" font-weight="300" fill="#231f20" textLength="17.66" lengthAdjust="spacingAndGlyphs">Berzelii-</text>
+<text x="427.95" y="597.72" font-size="6" font-weight="300" fill="#231f20" textLength="12.32" lengthAdjust="spacingAndGlyphs">gatan</text>
+<text x="562.07" y="601.67" font-size="6" font-weight="300" fill="#231f20" textLength="30.32" lengthAdjust="spacingAndGlyphs">Sankt Sigfrids</text>
+<text x="572.57" y="607.67" font-size="6" font-weight="300" fill="#231f20" textLength="9.32" lengthAdjust="spacingAndGlyphs">Plan</text>
+<text x="677.59" y="603.5" font-size="6" font-weight="300" fill="#231f20" textLength="17.99" lengthAdjust="spacingAndGlyphs">Bögatan</text>
+<text x="626.94" y="607.67" font-size="6" font-weight="300" fill="#231f20" textLength="21.66" lengthAdjust="spacingAndGlyphs">Ekmanska</text>
+<text x="499.04" y="608.24" font-size="6" font-weight="300" fill="#231f20" textLength="35.32" lengthAdjust="spacingAndGlyphs">Liseberg Station</text>
+<text x="463.65" y="615" font-size="6" font-weight="bold" fill="#231f20" textLength="28.93" lengthAdjust="spacingAndGlyphs">Korsvägen</text>
+<text x="326" y="616.18" font-size="6" font-weight="300" fill="#231f20" textLength="10.66" lengthAdjust="spacingAndGlyphs">Vasa</text>
+<text x="316.84" y="622.18" font-size="6" font-weight="300" fill="#231f20" textLength="28.99" lengthAdjust="spacingAndGlyphs">Viktoriagatan</text>
+<text x="252.34" y="620.51" font-size="6" font-weight="300" fill="#231f20" textLength="13" lengthAdjust="spacingAndGlyphs">Haga-</text>
+<text x="251.84" y="626.51" font-size="6" font-weight="300" fill="#231f20" textLength="14" lengthAdjust="spacingAndGlyphs">kyrkan</text>
+<text x="376.13" y="640.14" font-size="6" font-weight="300" fill="#231f20" textLength="26.65" lengthAdjust="spacingAndGlyphs">Vasaplatsen</text>
+<text x="683.32" y="650.66" font-size="9" font-weight="normal" fill="#231f20" textLength="63.02" lengthAdjust="spacingAndGlyphs">Linjeförteckning</text>
+<text x="303.38" y="655.73" font-size="6" font-weight="300" fill="#231f20" textLength="39.64" lengthAdjust="spacingAndGlyphs">Handelshögskolan</text>
+<text x="219.19" y="658.05" font-size="6" font-weight="bold" fill="#231f20" textLength="28.51" lengthAdjust="spacingAndGlyphs">Järntorget</text>
+<text x="683.32" y="659.4" font-size="6.58" font-weight="normal" fill="#231f20" textLength="30.35" lengthAdjust="spacingAndGlyphs">Key to lines</text>
+<text x="372.81" y="660.59" font-size="6" font-weight="300" fill="#231f20" textLength="29.65" lengthAdjust="spacingAndGlyphs">Kapellplatsen</text>
+<text x="485.52" y="663.07" font-size="6" font-weight="300" fill="#231f20" textLength="32.32" lengthAdjust="spacingAndGlyphs">Liseberg Södra</text>
+<text x="165.46" y="674.25" font-size="6" font-weight="300" fill="#231f20" textLength="35.64" lengthAdjust="spacingAndGlyphs">Masthuggstorget</text>
+<text x="700.35" y="675.32" font-size="6.58" font-weight="normal" fill="#231f20" textLength="49" lengthAdjust="spacingAndGlyphs">Spårvagnar/Trams</text>
+<text x="282.58" y="676.53" font-size="6" font-weight="300" fill="#231f20" textLength="27.32" lengthAdjust="spacingAndGlyphs">Brunnsgatan</text>
+<text x="155.73" y="686.17" font-size="6" font-weight="300" fill="#231f20" textLength="33.65" lengthAdjust="spacingAndGlyphs">Stigbergstorget</text>
+<text x="485.56" y="691.64" font-size="6" font-weight="300" fill="#231f20" textLength="17.99" lengthAdjust="spacingAndGlyphs">Almedal</text>
+<text x="687.39" y="693.92" font-size="7.82" font-weight="bold" fill="#231f20" textLength="3.66" lengthAdjust="spacingAndGlyphs">1</text>
+<text x="700.77" y="693.92" font-size="6.58" font-weight="300" fill="#231f20" textLength="65.81" lengthAdjust="spacingAndGlyphs">Tynnered – Östra Sjukhuset</text>
+<text x="261.79" y="697.1" font-size="6" font-weight="300" fill="#231f20" textLength="34.31" lengthAdjust="spacingAndGlyphs">Seminariegatan</text>
+<text x="147.67" y="697.87" font-size="6" font-weight="300" fill="#231f20" textLength="29.98" lengthAdjust="spacingAndGlyphs">Kaptensgatan</text>
+<text x="211.74" y="699.04" font-size="6" font-weight="300" fill="#231f20" textLength="12.33" lengthAdjust="spacingAndGlyphs">Prins-</text>
+<text x="211.75" y="705.04" font-size="6" font-weight="300" fill="#231f20" textLength="12.32" lengthAdjust="spacingAndGlyphs">gatan</text>
+<text x="372.83" y="700.49" font-size="6" font-weight="300" fill="#231f20" textLength="20.33" lengthAdjust="spacingAndGlyphs">Chalmers</text>
+<text x="687.34" y="708.04" font-size="7.82" font-weight="bold" fill="#00394e" textLength="3.66" lengthAdjust="spacingAndGlyphs">2</text>
+<text x="700.77" y="708.04" font-size="6.58" font-weight="300" fill="#231f20" textLength="68.37" lengthAdjust="spacingAndGlyphs">Högsbotorp – Biskopsgården</text>
+<text x="132.13" y="709.49" font-size="6" font-weight="300" fill="#231f20" textLength="33.65" lengthAdjust="spacingAndGlyphs">Chapmans Torg</text>
+<text x="191.79" y="714.51" font-size="6" font-weight="300" fill="#231f20" textLength="32.32" lengthAdjust="spacingAndGlyphs">Olivedalsgatan</text>
+<text x="485.52" y="720.19" font-size="6" font-weight="300" fill="#231f20" textLength="16.99" lengthAdjust="spacingAndGlyphs">Elisedal</text>
+<text x="687.34" y="722.03" font-size="7.82" font-weight="bold" fill="#ffffff" textLength="3.66" lengthAdjust="spacingAndGlyphs">3</text>
+<text x="125.38" y="721.29" font-size="6" font-weight="300" fill="#231f20" textLength="29.32" lengthAdjust="spacingAndGlyphs">Jaegerdorffs-</text>
+<text x="132.05" y="727.29" font-size="6" font-weight="300" fill="#231f20" textLength="15.99" lengthAdjust="spacingAndGlyphs">platsen</text>
+<text x="700.77" y="722.1" font-size="6.58" font-weight="300" fill="#231f20" textLength="63.61" lengthAdjust="spacingAndGlyphs">Marklandsgatan – Kålltorp</text>
+<text x="196.45" y="727.5" font-size="6" font-weight="300" fill="#231f20" textLength="27.65" lengthAdjust="spacingAndGlyphs">Linnéplatsen</text>
+<text x="372.83" y="728.54" font-size="6" font-weight="300" fill="#231f20" textLength="36.99" lengthAdjust="spacingAndGlyphs">Wavrinskys Plats</text>
+<text x="687.34" y="736.1" font-size="7.82" font-weight="bold" fill="#ffffff" textLength="3.66" lengthAdjust="spacingAndGlyphs">4</text>
+<text x="700.77" y="736.1" font-size="6.58" font-weight="300" fill="#231f20" textLength="46.06" lengthAdjust="spacingAndGlyphs">Mölndal – Angered</text>
+<text x="188.27" y="739.55" font-size="6" font-weight="300" fill="#231f20" textLength="21.32" lengthAdjust="spacingAndGlyphs">Fjällgatan</text>
+<text x="110.86" y="746.21" font-size="6" font-weight="300" fill="#231f20" textLength="24.31" lengthAdjust="spacingAndGlyphs">Vagnhallen</text>
+<text x="116.85" y="752.21" font-size="6" font-weight="300" fill="#231f20" textLength="18.32" lengthAdjust="spacingAndGlyphs">Majorna</text>
+<text x="485.56" y="748.76" font-size="6" font-weight="300" fill="#231f20" textLength="31.65" lengthAdjust="spacingAndGlyphs">Varbergsgatan</text>
+<text x="687.34" y="750.25" font-size="7.82" font-weight="bold" fill="#ffffff" textLength="3.66" lengthAdjust="spacingAndGlyphs">5</text>
+<text x="700.77" y="750.25" font-size="6.58" font-weight="300" fill="#231f20" textLength="84.09" lengthAdjust="spacingAndGlyphs">Länsmansgården – Östra Sjukhuset</text>
+<text x="188.27" y="753.4" font-size="6" font-weight="300" fill="#231f20" textLength="21.65" lengthAdjust="spacingAndGlyphs">Majvallen</text>
+<text x="374.82" y="756.52" font-size="6" font-weight="300" fill="#231f20" textLength="28.99" lengthAdjust="spacingAndGlyphs">Dr. Fries Torg</text>
+<text x="269.17" y="757.85" font-size="6" font-weight="300" fill="#231f20" textLength="26.65" lengthAdjust="spacingAndGlyphs">Sahlgrenska</text>
+<text x="270.01" y="763.85" font-size="6" font-weight="300" fill="#231f20" textLength="24.99" lengthAdjust="spacingAndGlyphs">Huvudentré</text>
+<text x="312.44" y="757.85" font-size="6" font-weight="300" fill="#231f20" textLength="25.12" lengthAdjust="spacingAndGlyphs">Medicinare-</text>
+<text x="319.07" y="763.85" font-size="6" font-weight="300" fill="#231f20" textLength="11.84" lengthAdjust="spacingAndGlyphs">gatan</text>
+<text x="687.34" y="764.25" font-size="7.82" font-weight="bold" fill="#00394e" textLength="3.66" lengthAdjust="spacingAndGlyphs">6</text>
+<text x="104.86" y="763.33" font-size="6" font-weight="300" fill="#231f20" textLength="30.32" lengthAdjust="spacingAndGlyphs">Ostindiegatan</text>
+<text x="700.77" y="764.31" font-size="6.58" font-weight="300" fill="#231f20" textLength="69.46" lengthAdjust="spacingAndGlyphs">Länsmansgården – Kortedala</text>
+<text x="149.95" y="766.7" font-size="6" font-weight="300" fill="#231f20" textLength="14.66" lengthAdjust="spacingAndGlyphs">Maria-</text>
+<text x="152.62" y="772.7" font-size="6" font-weight="300" fill="#231f20" textLength="9.32" lengthAdjust="spacingAndGlyphs">plan</text>
+<text x="188.27" y="767.25" font-size="6" font-weight="300" fill="#231f20" textLength="14.32" lengthAdjust="spacingAndGlyphs">Ekedal</text>
+<text x="248.85" y="775.85" font-size="6" font-weight="300" fill="#231f20" textLength="21.32" lengthAdjust="spacingAndGlyphs">Botaniska</text>
+<text x="248.85" y="781.85" font-size="6" font-weight="300" fill="#231f20" textLength="24.65" lengthAdjust="spacingAndGlyphs">Trädgården</text>
+<text x="687.34" y="778.24" font-size="7.82" font-weight="bold" fill="#ffffff" textLength="3.66" lengthAdjust="spacingAndGlyphs">7</text>
+<text x="485.56" y="777.32" font-size="6" font-weight="300" fill="#231f20" textLength="10.33" lengthAdjust="spacingAndGlyphs">Lana</text>
+<text x="700.77" y="778.24" font-size="6.58" font-weight="300" fill="#231f20" textLength="48.98" lengthAdjust="spacingAndGlyphs">Tynnered – Bergsjön</text>
+<text x="374.78" y="784.58" font-size="6" font-weight="300" fill="#231f20" textLength="36.33" lengthAdjust="spacingAndGlyphs">Dr. Sydows Gata</text>
+<text x="194.79" y="787.34" font-size="6" font-weight="300" fill="#231f20" textLength="27.32" lengthAdjust="spacingAndGlyphs">Klintens Väg</text>
+<text x="159.71" y="789.74" font-size="6" font-weight="300" fill="#231f20" textLength="21.16" lengthAdjust="spacingAndGlyphs">Godhems-</text>
+<text x="164.37" y="795.74" font-size="6" font-weight="300" fill="#231f20" textLength="11.84" lengthAdjust="spacingAndGlyphs">gatan</text>
+<text x="687.34" y="792.24" font-size="7.82" font-weight="bold" fill="#ffffff" textLength="3.66" lengthAdjust="spacingAndGlyphs">8</text>
+<text x="700.77" y="792.24" font-size="6.58" font-weight="300" fill="#231f20" textLength="46.79" lengthAdjust="spacingAndGlyphs">Frölunda – Angered</text>
+<text x="364.12" y="798.37" font-size="9.5" font-weight="bold" fill="#00394e" textLength="8.91" lengthAdjust="spacingAndGlyphs">10</text>
+<text x="112.19" y="795.43" font-size="6" font-weight="300" fill="#231f20" textLength="22.98" lengthAdjust="spacingAndGlyphs">Sannaplan</text>
+<text x="687.34" y="806.31" font-size="7.82" font-weight="bold" fill="#00394e" textLength="3.66" lengthAdjust="spacingAndGlyphs">9</text>
+<text x="168.36" y="805.03" font-size="6" font-weight="300" fill="#231f20" textLength="28.65" lengthAdjust="spacingAndGlyphs">Högsbogatan</text>
+<text x="700.77" y="806.31" font-size="6.58" font-weight="300" fill="#231f20" textLength="51.18" lengthAdjust="spacingAndGlyphs">Kungssten – Angered</text>
+<text x="485.56" y="805.87" font-size="6" font-weight="300" fill="#231f20" textLength="31.66" lengthAdjust="spacingAndGlyphs">Krokslätts torg</text>
+<text x="114.51" y="808.38" font-size="6" font-weight="300" fill="#231f20" textLength="20.65" lengthAdjust="spacingAndGlyphs">Sandarna</text>
+<text x="353.25" y="809.67" font-size="6" font-weight="bold" fill="#231f20" textLength="30.38" lengthAdjust="spacingAndGlyphs">Guldheden</text>
+<text x="175.21" y="816.24" font-size="6" font-weight="300" fill="#231f20" textLength="32.98" lengthAdjust="spacingAndGlyphs">Bokekullsgatan</text>
+<text x="154.28" y="819.25" font-size="9.5" font-weight="bold" fill="#00394e" textLength="4.45" lengthAdjust="spacingAndGlyphs">9</text>
+<text x="685.44" y="820.46" font-size="7.82" font-weight="bold" fill="#00394e" textLength="7.33" lengthAdjust="spacingAndGlyphs">10</text>
+<text x="700.77" y="820.46" font-size="6.58" font-weight="300" fill="#231f20" textLength="59.21" lengthAdjust="spacingAndGlyphs">Guldheden – Lindholmen</text>
+<text x="105.28" y="821.26" font-size="6" font-weight="bold" fill="#231f20" textLength="30.13" lengthAdjust="spacingAndGlyphs">Kungssten</text>
+<text x="261.28" y="827.13" font-size="9.5" font-weight="bold" fill="#ffffff" textLength="4.45" lengthAdjust="spacingAndGlyphs">3</text>
+<text x="218.87" y="831.8" font-size="6" font-weight="bold" fill="#231f20" textLength="30.68" lengthAdjust="spacingAndGlyphs">Marklands-</text>
+<text x="226.35" y="838.81" font-size="6" font-weight="bold" fill="#231f20" textLength="15.74" lengthAdjust="spacingAndGlyphs">gatan</text>
+<text x="685.44" y="834.59" font-size="7.82" font-weight="bold" fill="#ffffff" textLength="7.33" lengthAdjust="spacingAndGlyphs">11</text>
+<text x="700.77" y="834.59" font-size="6.58" font-weight="300" fill="#231f20" textLength="54.1" lengthAdjust="spacingAndGlyphs">Saltholmen – Bergsjön</text>
+<text x="485.56" y="834.56" font-size="6" font-weight="300" fill="#231f20" textLength="40.33" lengthAdjust="spacingAndGlyphs">Krokslätts Fabriker</text>
+<text x="107.18" y="842.35" font-size="6" font-weight="300" fill="#231f20" textLength="32.65" lengthAdjust="spacingAndGlyphs">Nya Varvsallén</text>
+<text x="685.44" y="848.58" font-size="7.82" font-weight="bold" fill="#00394e" textLength="7.33" lengthAdjust="spacingAndGlyphs">12</text>
+<text x="700.77" y="848.58" font-size="6.58" font-weight="300" fill="#231f20" textLength="53.37" lengthAdjust="spacingAndGlyphs">Mölndal – Lindholmen</text>
+<text x="125.84" y="858.38" font-size="6" font-weight="300" fill="#231f20" textLength="13.99" lengthAdjust="spacingAndGlyphs">Hagen</text>
+<text x="249.43" y="861.48" font-size="6" font-weight="300" fill="#231f20" textLength="44.38" lengthAdjust="spacingAndGlyphs">Axel Dahlströms Torg</text>
+<text x="485.56" y="863.24" font-size="6" font-weight="300" fill="#231f20" textLength="26.66" lengthAdjust="spacingAndGlyphs">Lackarebäck</text>
+<text x="249.17" y="874.18" font-size="9.5" font-weight="bold" fill="#00394e" textLength="4.45" lengthAdjust="spacingAndGlyphs">2</text>
+<text x="260.51" y="874.18" font-size="6" font-weight="bold" fill="#231f20" textLength="33.64" lengthAdjust="spacingAndGlyphs">Högsbotorp</text>
+<text x="120.51" y="874.4" font-size="6" font-weight="300" fill="#231f20" textLength="19.32" lengthAdjust="spacingAndGlyphs">Tranered</text>
+<text x="243.83" y="885.51" font-size="6" font-weight="300" fill="#231f20" textLength="30.65" lengthAdjust="spacingAndGlyphs">Lantmilsgatan</text>
+<text x="111.84" y="890.43" font-size="6" font-weight="300" fill="#231f20" textLength="27.98" lengthAdjust="spacingAndGlyphs">Käringberget</text>
+<text x="485.56" y="891.83" font-size="6" font-weight="300" fill="#231f20" textLength="37.98" lengthAdjust="spacingAndGlyphs">Mölndals sjukhus</text>
+<text x="114.17" y="906.46" font-size="6" font-weight="300" fill="#231f20" textLength="25.66" lengthAdjust="spacingAndGlyphs">Hinsholmen</text>
+<text x="243.83" y="908.66" font-size="6" font-weight="300" fill="#231f20" textLength="27.32" lengthAdjust="spacingAndGlyphs">Nymilsgatan</text>
+<text x="485.56" y="920.64" font-size="6" font-weight="300" fill="#231f20" textLength="41.98" lengthAdjust="spacingAndGlyphs">Mölndals Innerstad</text>
+<text x="117.18" y="922.48" font-size="6" font-weight="300" fill="#231f20" textLength="22.65" lengthAdjust="spacingAndGlyphs">Långedrag</text>
+<text x="243.83" y="930.56" font-size="6" font-weight="300" fill="#231f20" textLength="26.32" lengthAdjust="spacingAndGlyphs">Musikvägen</text>
+<text x="476.92" y="934.23" font-size="9.5" font-weight="bold" fill="#00394e" textLength="8.91" lengthAdjust="spacingAndGlyphs">12</text>
+<text x="496.98" y="934.23" font-size="9.5" font-weight="bold" fill="#ffffff" textLength="4.45" lengthAdjust="spacingAndGlyphs">4</text>
+<text x="508.37" y="934.57" font-size="6" font-weight="bold" fill="#231f20" textLength="23.33" lengthAdjust="spacingAndGlyphs">Mölndal</text>
+<text x="149" y="940.96" font-size="6" font-weight="bold" fill="#231f20" textLength="33.01" lengthAdjust="spacingAndGlyphs">Saltholmen</text>
+<text x="128.95" y="944.96" font-size="9.5" font-weight="bold" fill="#ffffff" textLength="8.91" lengthAdjust="spacingAndGlyphs">11</text>
+<text x="243.83" y="952.59" font-size="6" font-weight="300" fill="#231f20" textLength="26.65" lengthAdjust="spacingAndGlyphs">Positivgatan</text>
+<text x="243.83" y="974.61" font-size="6" font-weight="300" fill="#231f20" textLength="29.65" lengthAdjust="spacingAndGlyphs">Frölunda Torg</text>
+<text x="243.17" y="986.28" font-size="9.5" font-weight="bold" fill="#ffffff" textLength="4.45" lengthAdjust="spacingAndGlyphs">8</text>
+<text x="254.51" y="986.28" font-size="6" font-weight="bold" fill="#231f20" textLength="25.07" lengthAdjust="spacingAndGlyphs">Frölunda</text>
+<text x="238.23" y="997.62" font-size="6" font-weight="300" fill="#231f20" textLength="27.98" lengthAdjust="spacingAndGlyphs">Briljantgatan</text>
+<text x="238.1" y="1021.67" font-size="6" font-weight="300" fill="#231f20" textLength="31.65" lengthAdjust="spacingAndGlyphs">Smaragdgatan</text>
+<text x="238.1" y="1045.69" font-size="6" font-weight="300" fill="#231f20" textLength="22.99" lengthAdjust="spacingAndGlyphs">Opaltorget</text>
+<text x="220.13" y="1059.18" font-size="9.5" font-weight="bold" fill="#231f20" textLength="4.45" lengthAdjust="spacingAndGlyphs">1</text>
+<text x="237.4" y="1059.27" font-size="9.5" font-weight="bold" fill="#ffffff" textLength="4.45" lengthAdjust="spacingAndGlyphs">7</text>
+<text x="218.02" y="1070.57" font-size="6" font-weight="bold" fill="#231f20" textLength="25.93" lengthAdjust="spacingAndGlyphs">Tynnered</text>
+</g>
+</svg>

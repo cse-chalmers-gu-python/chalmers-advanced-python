@@ -2,7 +2,7 @@
 
 from .trams import readTramNetwork
 from .graphs import dijkstra
-from .color_tram_svg import color_svg_network
+from .color_tramlines_svg import color_stops
 import os
 from django.conf import settings
 from django.core.files.storage import default_storage
@@ -22,11 +22,7 @@ def show_shortest(dep, dest):
     timepath = 'Quickest: ' + ', '.join(quickest) + ', 5 minutes'
     geopath = 'Shortest: ' + ', '.join(shortest) + ', 100 km'
 
-    def colors(v):
-        if v in shortest:
-            return 'cyan'
-        else:
-            return 'white'
+    colors = { v: "cyan" for v in shortest }
 
     # build dynamic file name from arguments, safely
     dep_safe = default_storage.get_valid_name(dep)
@@ -35,9 +31,9 @@ def show_shortest(dep, dest):
 
     # this part should be left as it is:
     # change the SVG image with your shortest path colors
-    infile = os.path.join(settings.BASE_DIR, 'tram/templates/tram/images/gbg_tramnet.svg')
+    infile = os.path.join(settings.BASE_DIR, 'tram/templates/tram/images/tramlines_map.svg')
     outfile = os.path.join(settings.BASE_DIR, f'tram/templates/tram/images/generated/{outfile_unique_name}')
-    color_svg_network(infile, outfile, colormap=colors)
+    color_stops(infile, outfile, colormap=colors)
     # return the path texts to be shown in the web page
     return timepath, geopath, outfile
 

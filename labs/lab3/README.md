@@ -6,6 +6,8 @@ Chalmers DAT690 / DIT516 / DAT516
 
 by Aarne Ranta & John J. Camilleri
 
+_The Gothenburg tram network image is based on [Västtrafik's map of trams, trunk buses and boats](https://www.vasttrafik.se/globalassets/media/kartor/linjenatskartor/sparvagn/sparvagn_stombuss_bat_juni_2026.pdf)._
+
 ## Purpose
 
 The purpose of this lab is to build a web application replicating some functionalities of apps such as [Västtrafik's Travel Planner](https://www.vasttrafik.se/reseplanering/reseplaneraren/).
@@ -13,7 +15,7 @@ Your application will display a map of tram lines and highlight the shortest pat
 
 Here is an example screenshot showing the tram map with the quickest and shortest routes highlighted from stops Chalmers to Komettorget:
 
-![shortest-path](./app-shortest.png)
+![Gothenburg tram map showing shortest paths between Chalmers and Komettorget](./app-shortest.png)
 
 Unlike the official app, ours will not have access to the actual timetables, but just to the distances and times as defined in Labs 1 and 2.
 This is of course a severe simplification, but on the other hand, our app will be usable for any transport system that can be represented by the class `TramNetwork`.
@@ -122,7 +124,7 @@ lab3
     │      ├── find_route.html 🔵
     │      ├── home.html 🔵
     │      ├── images
-    │      │   ├── gbg_tramnet.svg 🔵
+    │      │   ├── tramlines_map.svg 🔵
     │      │   └── generated
     │      │       └── ... ⚪️
     │      └── show_route.html 🔵
@@ -130,7 +132,7 @@ lab3
     ├── urls.py 🟠
     ├── utils
     │   ├── __init__.py 🔴
-    │   ├── color_tram_svg.py 🔵
+    │   ├── color_tramlines_svg.py 🔵
     │   ├── graphs.py 🔴
     │   ├── trams.py 🔴
     │   └── tramviz.py 🔴
@@ -382,9 +384,9 @@ Also create the `images` subdirectory:
 $ mkdir tram/templates/tram/images
 ```
 
-and copy the tram network image [`gbg_tramnet.svg`](./files/gbg_tramnet.svg) into it.
+and copy the tram network image [`tramlines_map.svg`](./files/tramlines_map.svg) into it.
 
-Note that images in this folder can be used in templates (e.g. `home.html`) but are _not_ served publicly by the web server; i.e. you _cannot_ access it via a web browser using something like `http://127.0.0.1:8000/images/gbg_tramnet.svg`.
+Note that images in this folder can be used in templates (e.g. `home.html`) but are _not_ served publicly by the web server; i.e. you _cannot_ access it via a web browser using something like `http://127.0.0.1:8000/images/tramlines_map.svg`.
 
 Now [run the web server](#run-web-server) again. You will see a home screen with the gorgeous SVG image of Gothenburg tram network.
 
@@ -429,7 +431,7 @@ Copy the following Python files from [`files`](./files/) into `tram/utils`:
 - `graphs.py`, a mock-up, for the most part to be replaced by your Lab 2 version
 - `trams.py`, a mock-up, for the most part to be replaced by your Lab 2 version
 - `tramviz.py`, finding the shortest paths and marking them in SVG; for you TODO
-- `color_tram_svg.py`, actually making the colouring in SVG, no need for you to touch
+- `color_tramlines_svg.py`, actually making the colouring in SVG, no need for you to touch
 
 #### Update views
 
