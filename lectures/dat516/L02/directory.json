@@ -1,0 +1,15 @@
+{
+  "lecture01": {
+    "quizzes": {
+      "01_strings.py": null,
+      "02_numbers.py": null
+    },
+    "nobel.csv": null,
+    "nobel.html": null
+  },
+  "lecture02": {
+    "comprehensions.py": null,
+    "directory.json": null,
+    "json_numbers.py": null
+  }
+}
