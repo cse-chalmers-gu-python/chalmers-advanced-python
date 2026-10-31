@@ -3,5 +3,5 @@ for i in range(2):
         print(i, j)
 
 """
-How many lines will this code print?
+How many lines of output will this code print?
 """
