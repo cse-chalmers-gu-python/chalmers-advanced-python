@@ -347,7 +347,7 @@ Instead,
 As a general rule,
 
 * a line ending with a colon (`:`) marks the beginning of a new block, expecting added indentation on the next line,
-* these lines start with a keyword such as `class`, `def`,  `while`,
+* these lines start with a keyword such as `class`, `def`, `while`,
 * a block ends when indentation comes back to some of the earlier levels.
 
 A slight modification in these rules is that it is possible to divide a statement, or a line expecting a new block to start, into several lines.
@@ -2089,7 +2089,7 @@ For example, the regular expression `(P|p).*` matches any string that starts wit
 Python has a wide range of regular expression syntax extensions, documented [here](https://docs.python.org/3/library/re.html).
 Here is an example for matching sequences of digits:
 
-```py
+```python
 dig = re.compile(r"\d+")
 ```
 
@@ -2103,13 +2103,13 @@ with open(filename) as file:
 
 The following expression can be used for matching URLs: 
 
-```py
+```python
 r"http[s]?://[\S]+"
 ```
 
 This is a simplification: it matches all strings starting with http or https followed by :// followed by one or more non-space characters. A more accurate expression takes care checking that it follows the ruls for a valid URL:
 
-```py
+```python
 (?i)\b((?:[a-z][\w-]+:(?:/{1,3}|[a-z0-9%])|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:'".,<>?«»“”‘’]))
 ```
 
@@ -4472,11 +4472,48 @@ But we conclude with a quote on the potential downsides of choosing to use a big
 
 _Robert C. Martin (Uncle Bob), <https://blog.cleancoder.com/uncle-bob/2014/05/11/FrameworkBound.html>_
 
-## 10. The rest of Python
+## 10. Typing
+
+Python is a **dynamically typed language**, which means that type checking is performed dynamically, **at runtime**. This is in contrast with **static typing**, which means that types are checked **at compile time**, _before_ the program is executed. Dynamic typing has two main advantages:
+
+* programs can be run and tested early
+* functions and data structures can easily cover objects of different types
+
+But is also has disadvantages:
+
+* type errors in programs can remain undetected for a long time
+* the argument and return types of functions are hard to specify precisely
+
+![Comic about static and dynamic typing](https://i.programmerhumor.io/2023/10/programmerhumor-io-programming-memes-a6f722f0844f590.png)
+
+Comic capturing an essential difference between the two kinds of typing. Credit: Kolja Wilcke
+
+Most main-stream programming languages have static typing, which is considered necessary when programs are large and complex, and/or developed by different people at different times. Static type checking then gives a guarantee that different parts of the code match each other. Since the types are made explicit in the code by **type signatures**, programmers can communicate their intents to each other. Static typing also helps the compiler to generate more efficient machine code, because many machine instructions are specialized to types.
+
+In order to get some of the advantages of static typing, Python has introduced **type hints** into the syntax of the language. These hints are, first of all, a good way to document the code. For example,
+
+```python
+def take(n: int, s: str) -> str:
+```
+
+tells us that the `take` function takes an integer and a string as arguments and returns a string. It does not yet tell us what the function exactly does (it could, for instance, return the first *n* characters of the *s*), but it says much more than just
+
+```python
+def take(n, s):
+```
+
+For this reason, type hints are getting more common in API documentation, where they are a both more compact and more precise way to document functions.
+
+In addition to the documentation purpose, there are external tools that perform static type checking of Python code. A widely used such tool is [mypy](https://mypy.readthedocs.io/en/stable/)
+
+This program can be run on the code file in the command line terminal. But also Visual Studio code has a type checker plug-in, called Pylance, which can be enabled as a part of the code development workflow.
+
+## 11. The rest of Python
 
 This chapter gives an overview of Python constructs that we have not yet seen but that will be needed to understand arbitrary Python code. The corresponding lecture will probably focus on just a few of them, whereas this chapter gives a more superficial overview of them all.
 
 The following additional grammar rules complete the listing in Section 2.3:
+
 ```ebnf
 <stm>  ::= ...
          | <decorator>* async? def <name> (<arg>,*) <rtyp>?: <block>
@@ -4494,41 +4531,8 @@ The following additional grammar rules complete the listing in Section 2.3:
 <op>   ::= ...
          | & | | | ^ | ~ | >> | <<
 ```
-In addition to these new syntactic constructs, we will introduce **regular expressions**. From the point of view of Python grammar, they are just strings. But these strings are treated in a special way, so that they are actually a complex sublanguage of its own. 
 
-
-### 10.1 Type hints
-
-Python is a **dynamically typed language**, which means that type checking is performed dynamically, **at runtime**. This is in contrast with **static typing**, which means that types are checked **at compile time**, *before* the program is executed. Dynamic typing has two main advantages:
-
-- programs can be run and tested early
-- functions and data structures can easily cover objects of different types 
-
-But is also has disadvantages:
-
-- type errors in programs can remain undetected for a long time
-- the argument and return types of functions are hard to specify precisely
-
-[This comic](https://imgur.com/dynamic-types-1-static-types-0-BWcZYOF) captures an essential difference between the two kinds of typing.
-
-Most main-stream programming languages have static typing, which is considered necessary when programs are large and complex, and/or developed by different people at different times. Static type checking then gives a guarantee that different parts of the code match each other. Since the types are made explicit in the code by **type signatures**, programmers can communicate their intents to each other. Static typing also helps the compiler to generate more efficient machine code, because many machine instructions are specialized to types.
-
-In order to get some of the advantages of static typing, Python has introduced **type hints** into the syntax of the language. These hints are, first of all, a good way to document the code. For example,
-```
-  def take(n: int, s: str) -> str:
-```
-tells us that the `take` function takes an integer and a string as arguments and returns a string. It does not yet tell us what the function exactly does (it could, for instance, return the first *n* characters of the *s*), but it says much more than just
-```
-  def take(n, s):
-```
-For this reason, type hints are getting more common in API documentation, where they are a both more compact and more precise way to document functions. 
-
-In addition to the documentation purpose, there are external tools that perform static type checking of Python code. A widely used such tool is [mypy](https://mypy.readthedocs.io/en/stable/)
-
-This program can be run on the code file in the command line terminal. But also Visual Studio code has a type checker plug-in, called Pylance, which can be enabled as a part of the code development workflow.
-
-
-### 10.2. The `match` statement
+### 11.1. The `match` statement
 
 Commonly known also as "switch" in other languages, the `match` statement is used for **pattern matching** and allows us to rewrite chains of if/elif statements with a lot of useful features.
 
@@ -4562,6 +4566,7 @@ match status:
 The improvement here may not be that great, it is mainly that we have avoided rewriting `status ==` in each case.
 
 More value is added when matching complex objects, such as lists. Here is a simple interpreter for string operators:
+
 ```python
 while True:
     command = input('> ')
@@ -4584,7 +4589,7 @@ while True:
 
 But there are many more advanced things which you can do with pattern matching, see [PEP 636](https://peps.python.org/pep-0636/) for more examples.
 
-### 10.3. Assignment expression `:=`
+### 11.2. Assignment expression `:=`
 
 The "Walrus" operator `x := e` assigns the value of `e` to `x` **and returns it**, which gives us a convenient way of rewriting this common pattern:
 
@@ -4602,47 +4607,54 @@ if value := exp:
 ```
 
 The rationale of this is not only to save writing effort, but also to save computation, in case one is tempted to write
+
 ```python
 if exp:
     print(f"Value is: {exp}")
 ```
+
 In this case, `exp` is evaluated twice, which can be an expensive operation. If `exp` has side effects (such as printing something or changing the value of an object), these are performed twice. This can sometimes be the desired outcome, but it can also result in a bug.
 
+### 11.3. Binary numbers and bitwise operators: `&  |  ^  ~  >>  <<`
 
-### 10.4. Binary numbers and bitwise operators: `&  |  ^  ~  >>  <<`
+Binary numbers can be given as literals prefixed with `0b` and also converted from integers with the `bin()` function:
 
-Binary numbers can be given as literals prefixed with `0b` and also converted from integers with the `bin()` function: 
-```
+```python
 x = 0b101010
 
 int(x)      # == 42
 bin(42)     # == '0b101010' 
 ```
+
 Binary numbers can be combined with logical operations corresponding to and, or, xor (exclusive or), and not:
-```
+
+```python
 20 & 10     # == 0b10100 & 0b1010 == 0b0
 20 | 10     # == 0b11110 == 30
 20 ^ 10     # == 0b11110 == 30
 ~ 20        # == -21
 ```
+
 Notice that the not-operation corresponds to the two's complement encoding of negative numbers.
 
 Another interesting pair of binary operations is **shifts**, which "move" the binary number left (adding zeros to the end, `x << n` = `(x * (2**n)`) or right (ignoring the last bits, `x >> n`= `(x // (2**n))`):
-```
+
+```python
 10 << 2    # 40
 10 << 3    # 80
 
 100 >> 2   # 25
 101 >> 2   # 25
 ```
+
 Shifts provide an efficient way to multiply an divide by powers of 2, which is exploited in optimizing compilers.
 
-
-### 10.8. Asynchronous I/O
+### 11.4. Asynchronous I/O
 
 **Asynchronous programs** are programs running at the same time without blocking each other. Python provides the keyword `async` for the definition of asynchronous functions, and `await` for pausing the execution of a program. The standard library `asyncio` adds several functionalities to work with such programs. 
 
 This course does not cover asynchronous programs, but we just show here a minimal example that you can try:
+
 ```python
 import asyncio
 
@@ -4659,8 +4671,8 @@ async def main():
 
 asyncio.run(main())
 ```
-For more details, see the [asyncio module](https://docs.python.org/3/library/asyncio.html).
 
+For more details, see the [asyncio module](https://docs.python.org/3/library/asyncio.html).
 
 ## A. Appendix: Git version control system
 
@@ -4699,14 +4711,14 @@ This copies the repository (with all its history) into a local folder, by defaul
 Now the files in the repository are on our machine, we can view and edit them as usual using for example VS Code.
 Let's say our repository contains a single file `hello.py` with the following contents:
 
-```py
+```python
 def hello(name):
     ... # TODO
 ```
 
 We then open the file, add a reasonable implementation for our function, and save it, so that now our updated file looks like this:
 
-```py
+```python
 def hello(name):
     print(f"Hello {name}!")
 
