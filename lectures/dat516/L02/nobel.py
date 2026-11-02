@@ -16,13 +16,9 @@ Working with Nobel data as a list of lists
 #     data.append(line.strip().split(','))
 
 import csv
-data = []
 with open('nobel.csv', newline='') as csvfile:
-    csvreader = csv.reader(csvfile, delimiter=',', quotechar='"')
-    for row in csvreader:
-        data.append(row)
-
-lol = data
+    csvreader = csv.reader(csvfile, delimiter=',', quotechar='"')  # an iterator
+    data = list(csvreader)  # convert to list
 
 # women
 count = 0
@@ -63,8 +59,22 @@ with open('nobel.tsv') as f:
   rows = csv.DictReader(f, delimiter='\t')
   data = list(rows)
 
-lod = data
+# women
+count = 0
+for row in data:
+  if row["sexLabel"] == 'female':
+    count += 1
+print(f'Women: {count}')
 
+# women born after 1970
+year = 1970
+count = 0
+for row in data:
+  if row["sexLabel"] == 'female' and int(row["birthDate"][:4]) > year:
+    count += 1
+print(f'Women born after {year}: {count}')
+
+# Swedish winners per year
 yd = {}
 for row in data:
   country = row["countryLabel"]
@@ -76,13 +86,18 @@ print(yd)
 
 # compare sizes
 import pysize
-print("list of lists:", pysize.get_size(lol), "bytes")
-print("list of dicts:", pysize.get_size(lod), "bytes")
+with open('nobel.csv') as csvfile:
+    list_of_lists = list(csv.reader(csvfile))
+with open('nobel.csv') as csvfile:
+    list_of_dicts = list(csv.DictReader(csvfile))
+print("list of lists:", pysize.get_size(list_of_lists), "bytes")
+print("list of dicts:", pysize.get_size(list_of_dicts), "bytes")
 
 """
 Using comprehensions
 """
 
+# Create new dict with changed key names and processed values
 data = [
   {
     'name': row["personLabel"],
@@ -96,59 +111,38 @@ data = [
   for row in data
 ]
 
-# women born after 1970
-year = 1970
-count = 0
-for row in data:
-  if row["gender"] == 'female' and row["birth"] > year:
-    count += 1
-print(f'Women born after {year}: {count}')
-
-# using list comprehensions
 women = [ row for row in data if row["gender"] == "female" ]
-women_born_after = [ row for row in women if row["birth"] > year ]
+
+year = 1970
+# women_born_after = [ row for row in women if row["birth"] > year ]
+women_born_after = [
+    row
+    for row in data
+    if row["gender"] == "female" and row["birth"] > year
+]
 print(f'Women born after {year}: {len(women_born_after)}')
 
-
-def age(winner):
-    return winner['year'] - winner['birth']
-
-query0 = [
-  (row['name'], age(row)) for row in data
-  if row['prize'] == 'Nobel Prize in Physics'
-]
-query1 = set([row['country'] for row in data])
-countries = {row['country'] for row in data}
-
-query = {country: len([row for row
-                       in data if row['country'] == country])
-         for country in countries}
-
-count = len(query)
+swedes = [row for row in data if row['country'] == 'Sweden']
+swede_years = {row['year'] for row in swedes}
+swede_year_stats = {
+  year: len([sw for sw in swedes if sw['year'] == year])
+  for year in swede_years
+}
+print(swede_year_stats)
 
 """
-Loading from JSON
+Using JSON
 """
 
 import json
 
 # Save previous data as JSON
-# with open('nobel.json', 'w') as file:
-#     json.dump(data, file, indent=4, ensure_ascii=False)
+with open('nobel.json', 'w') as file:
+    json.dump(data, file, indent=4, ensure_ascii=False)
 
+# Load data from JSON into new dict
 with open('nobel.json') as file:
-    data = json.load(file)
+    data_2 = json.load(file)
 
-swedes = [row for row in data if row['country'] == 'Sweden']
-swedeyears = {row['year'] for row in swedes}
-swedegenders = set([row['gender'] for row in swedes])  # not so good as {...}
-
-swedeyearstats = {year: len([sw for sw in swedes if sw['year'] == year])
-                  for year in swedeyears}
-
-maxyear = max({year for year in swedeyearstats},
-              key=lambda y: swedeyearstats[y])
-
-query = maxyear
-
-print(query)
+assert data == data_2 # succeeds, because the dicts have exactly same structure
+assert data is data_2 # fails, because the dicts are not the same object in memory
