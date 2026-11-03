@@ -1767,14 +1767,14 @@ Packages are then installed into this virtual environment, rather than globally,
 
 The module used to create and manage virtual environments is called `venv`.
 To create a virtual environment, decide upon a directory where you want to place it.
-A common name for this directory is `.venv`, but it could be anything you want.
+A common name for this directory is `venv`, but it could be anything you want.
 Then run the `venv` module as a script with the directory path as argument:
 
 ```sh
-$ python3 -m venv .venv
+$ python3 -m venv venv
 ```
 
-You will now see a new folder called `.venv` which contains the files for your virtual environment.
+You will now see a new folder called `venv` which contains the files for your virtual environment.
 To make sure that you are operating inside this virtual environment in your shell, you need to **activate** it:
 
 * On macOS or Linux:
