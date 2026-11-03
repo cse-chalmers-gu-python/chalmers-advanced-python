@@ -1,9 +1,11 @@
-result = [[i for i in range(j)] for j in range(3)]
-print(result)
+"""
+Which comprehension below produces:
+'the factorials of 1 to 10'
+"""
+import math
 
-"""
-A. [[0], [0, 1], [0, 1, 2]]
-B. [[], [0], [0, 1]]
-C. [[], [], []]
-D. [[0, 1, 2], [0, 1], [0]]
-"""
+a = [ math.factorial(1) for _ in range(1,10) ]
+b = [ x for x in math.factorial(range(1,10)) ]
+c = [ math.factorial(x) for x in range(1,10) ]
+d = [ f for x in range(1,10) if f == math.factorial(x) ]
+
