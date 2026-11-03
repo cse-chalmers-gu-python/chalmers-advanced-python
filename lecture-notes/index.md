@@ -1771,7 +1771,7 @@ A common name for this directory is `venv`, but it could be anything you want.
 Then run the `venv` module as a script with the directory path as argument:
 
 ```sh
-$ python3 -m venv venv
+$ python3 -mvenv venv
 ```
 
 You will now see a new folder called `venv` which contains the files for your virtual environment.
@@ -1795,13 +1795,20 @@ To make sure that you are operating inside this virtual environment in your shel
     $ venv/Scripts/activate.ps1
     ```
 
+    On Windows you might get an error about execution policies, the solution is to get around it with something like this:
+
+    ```sh
+    (Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned) ; (& venv\Scripts\Activate.ps1)
+    ```
+
 You should now see that your shell prompt is prefixed by the name of the virtual environment:
 
 ```sh
-(.venv) $
+(venv) $
 ```
 
 **VS Code** will usually detect that a virtual environment has been created and asks if you want to use it, choose yes!
+In practice, VS Code will usually detect a virtual environment and activate it automatically for you whenever you open a terminal or run a Python script from VS Code.
 
 ### 3.12. Tutorial 13: What Now?
 
