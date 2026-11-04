@@ -2051,41 +2051,54 @@ with open('full-countries.json', 'r') as file:
 
 Hierarchic data, such as **trees**, can be naturally represented in JSON.
 An example of trees is the **directory structure** of **file systems**.
-Here is the structure of an earlier phase of the course repository, which you should have cloned on your computer from <https://github.com/cse-chalmers-gu-python/chalmers-advanced-python>:
+Here is an example of the structure of this course repository:
 
-![directory structure](github-tree.png)
+![directory structure](directory-structure.png)
 
-Our simple JSON encoding represents
+Assuming a simple JSON encoding where:
 
-* each directory name as a key with a subtree as value,
-* each file name as a key with null as value.
+* each directory name as a key with a subtree as value
+* each file name as a key with null as value
 
-Then the `exercises` subdirectory is represented as
+then the structure would be represented as:
 
 ```json
 {
     "chalmers-advanced-python": {
-        "exercises": {
-            "ex01": {
-                "ex01-dat515.pdf": null,
-                "solutions.py": null
+        "exams": {},
+        "exercises": {},
+        "labs": {
+            "img": {},
+            "lab1": {
+                "template": {},
+                "README.md": null,
             },
-            "README.md": null
-        }
+            "lab2": {},
+            "lab3": {},
+            "chalmers-gitlab.md": null,
+            "setup-ssh-and-git.md": null,
+        },
+        "lecture-notes": {},
+        "lectures": {},
+        "old": {},
+        "venv": {},
+        "_config.yml": null,
+        "ai-policy.md": null,
+        "README.md": null
     }
 }
 ```
 
-Constructing the tree for the whole directory in the picture is left as an exercise.
-The best way to do this is to automate it by writing a function which, for any directory, constructs a dictionary from which the JSON object can be dumped, by using
+Constructing the full tree for the whole directory structure for this repository is left as an exercise.
+The best way to do this is to automate it by writing a function which, for any directory, constructs a dictionary from which the JSON object can be dumped, by using:
 
 * `os.listdir(dir)` to list the contents of a directory,
 * `os.path.isdir(file)` to test if a file is a directory,
 * `os.path.join(path, file)` to add a path to a file name.
 
-from the Operating System library `os` (<https://docs.python.org/3/library/os.html>).
+from the `os` library (<https://docs.python.org/3/library/os.html>).
 
-Trees are also a special case of **graphs**, which will have a central role in Labs 2 and 3.
+Trees are also a special case of **graphs**, which we will see in more detail in [Chapter 5](#5-graphs-and-graph-algorithms).
 
 ### 4.4. Regular expressions
 
