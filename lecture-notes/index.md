@@ -2014,7 +2014,7 @@ The following table defines a mapping between JSON and Python objects:
 Note however that there are some gotchas to be aware of:
 
 * JSON always uses double quotes for strings (unlike Python, where single quotes are also allowed).
-* JSON cannot encode arbitrary Python types, such as tuples or sets.
+* JSON cannot encode Python types which are not listed above, such as tuples or sets.
 * Numbers in JSON are just character sequences, so there is no distinction beween integers and floats in JSON (and thus no precision-loss issues, unlike in Python).
 * Standard JSON doesn't support comments (although there are variants of JSON which do).
 
