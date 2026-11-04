@@ -31,7 +31,7 @@ $ python3 tramdata.py
 > time with 6 from Chalmers to Järntorget
 10
 > distance from Chalmers to Järntorget
-1.628
+1.679
 ```
 
 These structures and queries are preparation for the later labs, where
@@ -256,9 +256,9 @@ Here are some more examples to get you started:
 > between Medicinaregatan and Saltholmen
 ['13']
 > time with 5 from Munkebäckstorget to Sankt Sigfrids Plan
-9
+10
 > distance from Temperaturgatan to Lackarebäck
-10.092
+10.142
 ```
 
 Remember to also test negative examples, to ensure that your error handling works correctly, e.g.:
