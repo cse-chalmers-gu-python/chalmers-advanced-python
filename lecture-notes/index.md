@@ -2089,50 +2089,194 @@ Trees are also a special case of **graphs**, which will have a central role in L
 
 ### 4.4. Regular expressions
 
-Regular expressions are patterns that are used for matching strings. They are actually a special case of grammar rules, corresponding to so-called **regular languages**, whereas the grammar rules used in this document cover a wider set of **context-free languages**.
+#### 4.4.1. Validating dates with regular expressions
 
-Standard regular expressions are formed by the following operators, where we use the variables A and B to denote the regular expressions that are combined:
-
-| expression | name | matches |
-| -----------|------|---------|
-| a          | symbol | character a
-| A B        | sequence | A followed by B
-| A &#124; B | union  | A or B
-| A?         | optional | zero or one A
-| A*         | Kleene star | zero or more A
-| A+         | Kleene plus.| one or more A
-| .          | any | any character (except newline)
-
-For example, the regular expression `(P|p).*` matches any string that starts with P or p. 
-
-Python has a wide range of regular expression syntax extensions, documented [here](https://docs.python.org/3/library/re.html).
-Here is an example for matching sequences of digits:
+Sometimes we want to validate strings according to some pattern, for example checking that a date is in the format `YYYY-MM-DD` and rejecting it if not.
+This is possible using typical string processing techniques, e.g.:
 
 ```python
-dig = re.compile(r"\d+")
+def is_date_valid(date):
+    return (
+        len(date) == 10 and
+        date[0:4].isdigit() and
+        date[5:7].isdigit() and
+        date[8:10].isdigit()
+    )
 ```
 
-The expression `\d` matches single digits. The regular expression itself is given in a **raw string**, prefixed with `r`, preventing the interpretation of backslashes as excapes. This raw string is given as an argument to `re.compile()`, which converts the expression into a data structure called **finite automaton**. It is this automaton that is used for the actual matching with regular expressions. Thus the following piece of code reads a file and prints all numbers (sequences of digits) that occur in it:
+This can however become quite cumbersome, depending on how specific your format is.
+For these kinds of tasks it is often easier to use **regular expressions**: patterns used for matching strings.
+We can think of the format `YYYY-MM-DD` as this sequence:
 
-```python
-with open(filename) as file:
-    for line in file:
-        peint(dig.findall(line))
+1. exactly four digits `0-9`
+1. a dash `-`
+1. exactly two digits `0-9`
+1. a dash `-`
+1. exactly two digits `0-9`
+
+This pattern can be expressed as a regular expression as follows:
+
+```regexp
+\d\d\d\d-\d\d-\d\d
 ```
 
-The following expression can be used for matching URLs: 
+Given this pattern, and Python's inbuilt library for regular expressions `re` <https://docs.python.org/3/library/re.html>, we can rewrite our validation function as:
 
 ```python
-r"http[s]?://[\S]+"
+import re
+def is_date_valid(date):
+    return re.fullmatch(r"\d\d\d\d-\d\d-\d\d", date)
 ```
 
-This is a simplification: it matches all strings starting with http or https followed by :// followed by one or more non-space characters. A more accurate expression takes care checking that it follows the ruls for a valid URL:
+Where the expression `\d` matches a single digit.
+Note that the regular expression itself is given in a **raw string** in Python, prefixed with `r`, preventing the interpretation of backslashes as escapes.
 
-```python
+##### A more restrictive regular expression for dates
+
+Note that the regular expression above is rather permissive, for example it would accept the date `0000-67-42` as valid. To restrict it somewhat, we could use a more complex alternative:
+
+```regexp
+(1|2)[0-9]{3}-(0[1-9]|1[0-2])-(0[1-9]|(1|2)[0-9]|30|31)
+```
+
+1. the digit `1` or `2`
+1. exactly three digits `0-9`
+1. a dash `-`
+1. either
+    1. the digit `0` followed by any digit `1-9`, or
+    1. the digit `1` followed by any digit `0-2`
+1. a dash `-`
+1. either
+    1. the digit `0` followed by any digit `1-9`, or
+    1. the digits `1` or `2` followed by any digit `0-9`, or
+    1. the digits `30`, or
+    1. the digits `31`
+
+##### Regular expressions for URLs
+
+As another example, consider the following expression for matching URLs:
+
+```regexp
+http[s]?://[\S]+
+```
+
+This expression works by matching all strings starting with `http` or `https` followed by `://` followed by one or more non-space characters.
+But that is rather simplistic.
+A more accurate expression takes care checking that it follows the rules for a valid URL (taken from <https://gist.github.com/gruber/249502>):
+
+```regexp
 (?i)\b((?:[a-z][\w-]+:(?:/{1,3}|[a-z0-9%])|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:'".,<>?«»“”‘’]))
 ```
 
-This expression is from [here](https://gist.github.com/gruber/249502).
+#### 4.4.2. Regular expression syntax summary
+
+As you can see, it gets pretty complex fast!
+Regular expressions are essentially a language of their own, which exists beyond just Python.
+There are various different "flavours" of regular expressions out there, but here is a summary of the essentials for Python's regular expressions.
+
+As usual, for the full story you will need to consult the official documentation: <https://docs.python.org/3/library/re.html>
+
+| Expression | Name                   | Description of what it matches           |
+| -----------|------------------------|------------------------------------------|
+| a          | symbol                 | character `a`                            |
+| .          | any                    | any character (except newline)           |
+| ^          | caret                  | beginning of string                      |
+| $          | dollar                 | end of string                            |
+| \d         | character class d      | any digit character                      |
+| \w         | character class d      | any word character                       |
+| \s         | character class s      | any whitespace character                 |
+| [ab]       | character set          | character `a` or `b`                     |
+| [a-z]      | character range        | any character from `a` to `z`            |
+| AB         | sequence               | expression A followed by expression B    |
+| A&#124;B   | union                  | expression A or expression B             |
+| A?         | optional               | expression A zero or one times           |
+| A*         | Kleene star            | expression A zero or more times          |
+| A+         | Kleene plus            | expression A one or more times           |
+| A{n}       | exact repetition       | expression A exactly n times             |
+| A{n,m}     | min/max repetititon    | expression A between n and m times       |
+| (A)        | parentheses            | used for precedence and grouping         |
+
+##### Constructing and testing regular expressions
+
+Building regular expressions takes time and concentration, and complete regular expressions are often not easy to understand for a human.
+When building your own regular expressions, make sure to do so iteratively, testing your expression at each step of the way.
+This can be done interactively in a Python shell, for example:
+
+```python
+>>> re.fullmatch(r"\d\d\d\d-\d\d-\d\d", "2026-11-02")
+<re.Match object; span=(0, 10), match='2026-11-02'>
+>>> re.fullmatch(r"\d\d\d\d-\d\d-\d\d", "0000-11-02")
+<re.Match object; span=(0, 10), match='0000-11-02'>
+>>> re.fullmatch(r"[12][0-9]{3}-\d\d-\d\d", "0000-11-02")
+>>> 
+```
+
+There are also many web-based tools which make this task easier, for example:
+
+* [regex101](https://regex101.com/)
+* [SimpleRegex](https://www.simpleregex.org/)
+* [CodeShack Regex Tester](https://codeshack.io/regex-tester/)
+* [RegExr](https://regexr.com/)
+
+#### 4.4.3. Extracting data with regular expressions
+
+Regular expressions are good for validation, i.e. saying if a string matches a pattern or not.
+However they are also very useful for **extracting** data from a larger set.
+For example, given this paragraph of text:
+
+```python
+text = """
+The academic year 2026/2027
+Sign-up for re-sit examination days in August are from Monday 2026-07-06 to Sunday 2026-08-02. The re-sit examinations are from Monday 2025-08-17 to Saturday 2026-08-29.
+"""
+```
+
+We might want to extract all valid dates from the text, using the regular expression we constructed above.
+This can be done by finding all possible matches of an expression in a string, like so:
+
+```python
+matches = re.finditer(r"(1|2)[0-9]{3}-(0[1-9]|1[0-2])-(0[1-9]|(1|2)[0-9]|30|31)", text)
+for date in matches:
+    print(date[0])
+```
+
+which outputs just the dates:
+
+```plain
+2026-07-06
+2026-08-02
+2025-08-17
+2026-08-29
+```
+
+#### 4.4.4. Compiling regular expressions
+
+We usuaslly specify regular expressions in Python as raw strings, such as `r"\d+"` for matching a sequence of digits:
+
+```python
+>>> re.findall(r"\d+", "The product of 67 and 42 is 2,814.")
+['67', '42', '2', '814']
+```
+
+In order to do this macthing, Python must first compile this raw string into an internal data structure called a **finite automaton**. It is this automaton that is used for the actual matching with regular expressions.
+
+One can also perform the compilation in a separate step, which can give a significant performance improvement if the same regular expression needs to be used repeatedly (e.g. inside a loop).
+The following code is thus equivalent to that above, but compiling the expression in a separate step:
+
+```python
+>>> regexp = re.compile(r"\d+")
+>>> regexp.findall("The product of 67 and 42 is 2,814.")
+['67', '42', '2', '814']
+```
+
+#### 4.4.5. Expressivity
+
+Regular expressions are actually a special case of grammar rules, corresponding to the so-called **regular languages**, whereas the [grammar rules](#23-a-grammar-of-python) used in this document cover a wider set of **context-free languages**.
+These different kinds of languages have different levels of expressivity:
+
+* For example, _any number of a's_ (aⁿ) can be matched with the regular expression `a*`.
+* Simlarly, _any number of a's followed by any number of b's_ (aⁿbᵐ) can be expressed as `a*b*`.
+* Now try writing a regular expression for _any number of a's followed by the same number of b's_ (aⁿbⁿ). Having trouble doing it? That's because this is **impossible** to express using regular expressions alone.
 
 Learning the full syntax of Python's regular expressions and their productive use would probably need almost a full course of its own.
 
