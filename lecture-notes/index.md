@@ -1984,7 +1984,7 @@ Storing data in TSV or CSV files is not ideal, because
 
 A better solution is to use JSON (JavaScript Object Notation), which is a standard data interchange format on the web:
 
-```jsonc
+```json
 {
     "Afghanistan": {
         "capital": "Kabul",
@@ -1993,7 +1993,20 @@ A better solution is to use JSON (JavaScript Object Notation), which is a standa
         "continent": "Asia",
         "currency": "Afghan afghani"
     },
-    // etc
+    "Albania": {
+        "capital": "Tirana",
+        "area": 28748,
+        "population": 3020209,
+        "continent": "Europe",
+        "currency": "lek"
+    },
+    "Algeria": {
+        "capital": "Algiers",
+        "area": 2381741,
+        "population": 41318142,
+        "continent": "Africa",
+        "currency": "dinar"
+    }
 }
 ```
 
