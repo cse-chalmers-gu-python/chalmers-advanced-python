@@ -1975,26 +1975,14 @@ Here are more complex ones:
 They require what in the database world is called **grouping**: we group the data along a new key, which is 'continent' in this case.
 This can be done by building an auxiliary dictionary with just continents and their populations.
 
-#### 4.2.3. Saving data in JSON
+### 4.3. The JSON format
 
 Storing data in TSV or CSV files is not ideal, because
 
 * these formats are not specified precisely but have different "dialects",
 * reading the data in desired format (such as the country dictionary) is complicated.
 
-A better solution is to use JSON (JavaScript Object Notation), which is a standard data interchange format on the web.
-The Python standard library `json` provides functions for reading and writing it, in a way that is much simpler and less error-prone than `csv`:
-
-<https://docs.python.org/3/library/json.html>
-
-Provided that you have converted the original data into a dictionary as shown above, you can print it into a JSON file as follows:
-
-```python
-with open('full-countries.json', 'w') as jfile:
-    json.dump(cdict, jfile, indent=4, ensure_ascii=False)
-```
-
-The resulting file looks as follows:
+A better solution is to use JSON (JavaScript Object Notation), which is a standard data interchange format on the web:
 
 ```jsonc
 {
@@ -2009,18 +1997,9 @@ The resulting file looks as follows:
 }
 ```
 
-It can easily be read back into a Python dictionary:
-
-```python
-with open('full-countries.json', 'r') as file: 
-    jdict = json.load(file)
-```
-
-### 4.3. The JSON format
-
-JSON is more expressive than tabular data.
+JSON is more expressive than tabular data, as is supports arbitrarily deep structures.
 It was designed to store data structures of the JavaScript language, but it also has a close correspondence with Python structures.
-The following table defines a mapping between JSON and Python objects.
+The following table defines a mapping between JSON and Python objects:
 
 | JSON           | Python      |
 | -------------- | ----------- |
@@ -2033,7 +2012,23 @@ The following table defines a mapping between JSON and Python objects.
 | false          | False       |
 | null           | None        |
 
-This table is a part of the full documentation at: <https://docs.python.org/3/library/json.html>
+The Python standard library `json` provides functions for reading and writing it, in a way that is much simpler and less error-prone than `csv`:
+
+<https://docs.python.org/3/library/json.html>
+
+Provided that you have converted the original data into a dictionary as shown above, you can print it into a JSON file as follows:
+
+```python
+with open('full-countries.json', 'w') as jfile:
+    json.dump(cdict, jfile, indent=4, ensure_ascii=False)
+```
+
+It can easily be read back into a Python object like so:
+
+```python
+with open('full-countries.json', 'r') as file: 
+    jdict = json.load(file)
+```
 
 #### 4.3.1. Hierarchic data: trees
 
