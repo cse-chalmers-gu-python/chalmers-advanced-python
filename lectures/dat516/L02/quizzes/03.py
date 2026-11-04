@@ -1,4 +1,8 @@
-result = [char.upper() for char in "abcde" if char not in "bd"]
+result = [
+    char.upper()
+    for char in "abcde"
+    if char not in "bd"
+]
 print(result)
 
 """
