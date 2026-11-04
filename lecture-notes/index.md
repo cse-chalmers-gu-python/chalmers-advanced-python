@@ -2006,15 +2006,19 @@ The following table defines a mapping between JSON and Python objects:
 | object         | dict        |
 | array          | list        |
 | string         | str         |
-| number (int)   | int         |
-| number (real)  | float       |
+| number         | int / float |
 | true           | True        |
 | false          | False       |
 | null           | None        |
 
-The Python standard library `json` provides functions for reading and writing it, in a way that is much simpler and less error-prone than `csv`:
+Note however that there are some gotchas to be aware of:
 
-<https://docs.python.org/3/library/json.html>
+* JSON always uses double quotes for strings (unlike Python, where single quotes are also allowed).
+* JSON cannot encode arbitrary Python types, such as tuples or sets.
+* Numbers in JSON are just character sequences, so there is no distinction beween integers and floats in JSON (and thus no precision-loss issues, unlike in Python).
+* Standard JSON doesn't support comments (although there are variants of JSON which do).
+
+The Python standard library `json` provides functions for reading and writing it: <https://docs.python.org/3/library/json.html>
 
 Provided that you have converted the original data into a dictionary as shown above, you can print it into a JSON file as follows:
 
