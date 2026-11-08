@@ -2196,8 +2196,11 @@ As usual, for the full story you will need to consult the official documentation
 | ^          | caret                  | beginning of string                      |
 | $          | dollar                 | end of string                            |
 | \d         | character class d      | any digit character                      |
-| \w         | character class d      | any word character                       |
+| \D         | character class D      | any character other than digit characters|
+| \w         | character class w      | any word character                       |
+| \W         | character class W      | any character other than word characters |
 | \s         | character class s      | any whitespace character                 |
+| \S         | character class S      | any character other than whitespace characters|
 | [ab]       | character set          | character `a` or `b`                     |
 | [a-z]      | character range        | any character from `a` to `z`            |
 | AB         | sequence               | expression A followed by expression B    |
