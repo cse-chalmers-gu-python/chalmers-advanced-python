@@ -207,10 +207,10 @@ However, you can already train your hand at writing tests, because it is a great
 The file `templates/test_tramdata.py` already tests if all stops associated with lines in `linedict` also exist in `stopdict`.
 You could try and add at least the following tests:
 
-- that all tram lines listed in the original text file `tramlines.txt` are included in `linedict`,
-- that the list of stops for each tramline is the same in `tramlines.txt` and `linedict`,
-- that all distances are "feasible", meaning less than 20 km (test this test with a smaller number to see it fail!),
-- that the time from *a* to *b* is always the same as the time from *b* to *a* along the same line.
+- that all tram lines listed in the original text file `tramlines.txt` are included in `linedict`
+- that all distances are "feasible", e.g. between 0 and 20 km
+- that all times are "feasible", e.g. between 0 and 90 mins
+- that the time from *a* to *b* is always the same as the time from *b* to *a* along the same line
 
 ### The dialogue function
 
