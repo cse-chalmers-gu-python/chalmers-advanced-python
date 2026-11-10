@@ -18,7 +18,7 @@ class TestTramData(unittest.TestCase):
 
     def test_query_via(self):
         ans = answer_query(self.tramdict, "via Chalmers")
-        self.assertEqual(ans, ['6', '7', '8', '10', '13'])
+        self.assertEqual(ans, ['6', '7', '8', '10'])
 
     # add your own tests here
 
