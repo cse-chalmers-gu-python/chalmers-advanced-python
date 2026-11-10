@@ -25,11 +25,11 @@ If run with the command `python3 tramdata.py`, the program will enable the follo
 ```plain
 $ python3 tramdata.py
 > via Chalmers
-['6', '7', '8', '10', '13']
+['6', '7', '8', '10']
 > between Chalmers and Valand
 ['7', '10']
 > time with 6 from Chalmers to Järntorget
-10
+12
 > distance from Chalmers to Järntorget
 1.679
 ```
@@ -70,10 +70,10 @@ Here is a part of the stop dictionary, showing just one stop:
 
 ```py
 {
-  'Majvallen': {
-    'lat': 57.6909343,
-    'lon': 11.9354935
-  }
+  "Majvallen": {
+    "lat": 57.691035,
+    "lon": 11.93554
+  },
 }
 ```
 
@@ -110,7 +110,7 @@ follows:
 Östra Sjukhuset           10:00
 Tingvallsvägen            10:01
 Kaggeledstorget           10:03
-Ättehögsgatan             10:03
+Munkebäckstorget          10:04
 ```
 
 Thus, for each tram line, there is a section starting with the line number and a colon.
@@ -163,8 +163,8 @@ This JSON file represents a dictionary that contains the three dictionaries buil
 {
   "stops": {
     "Östra Sjukhuset": {
-      "lat": 57.7224618,
-      "lon": 12.0478166
+      "lat": 57.722267,
+      "lon": 12.048149
     },  // and so on, the entire stop dict
   },
   "lines": {
@@ -176,7 +176,7 @@ This JSON file represents a dictionary that contains the three dictionaries buil
   },
   "times": {
     "Tingvallsvägen": {
-      "Kaggeledstorget": 2
+      "Östra Sjukhuset": 1
     },  // and so on, the entire time dict
   }
 }
@@ -248,19 +248,6 @@ What you should test is that the answer printed for a query
 This then tests that queries are parsed and interpreted correctly.
 
 There is already one example of this in `test_tramdata.py`, which you should extend with your own test cases.
-Here are some more examples to get you started:
-
-```plain
-> via Botaniska Trädgården
-['1', '2', '7', '8', '13']
-> between Medicinaregatan and Saltholmen
-['13']
-> time with 5 from Munkebäckstorget to Sankt Sigfrids Plan
-10
-> distance from Temperaturgatan to Lackarebäck
-10.142
-```
-
 Remember to also test negative examples, to ensure that your error handling works correctly, e.g.:
 
 ```plain
