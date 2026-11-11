@@ -253,7 +253,7 @@ Remember to also test negative examples, to ensure that your error handling work
 ```plain
 > between Medicinareberget and Saltholmen
 unknown arguments
-> distance between Chalmers and Ramberget
+> distance between Chalmers and Rambergsvallen
 sorry, try again
 ```
 
