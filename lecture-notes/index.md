@@ -2558,7 +2558,7 @@ The basic algorithm in visualization is simply:
 1. loop over the edges of your graph applying `edge()` to them,
 1. `render()` the result
 
-We will come back to visualization in Chapter 7 and introduce more functionalities of `graphviz` but also take a look at other visualization libraries.
+We will come back to visualization in [Chapter 8](#8-visualization) and introduce more functionalities of `graphviz` but also take a look at other visualization libraries.
 
 ### 5.7. Other examples of graphs
 
