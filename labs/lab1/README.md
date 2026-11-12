@@ -193,7 +193,7 @@ The lines should be sorted in their numeric order, that is, '2' before '10'.
 The lines should be sorted in their numeric order, that is, '2' before '10'.
 Notice that all lines are assumed to run in both directions.
 
-`time_between_stops(linedict, timedict, line, stop1, stop2)` calculates the time from `stop1` to `stop2` along the given `line`. This is obtained as the sum of all times between adjacent stops. If the stops are not along the same line, an error message is printed.
+`time_between_stops(linedict, timedict, line, stop1, stop2)` calculates the time from `stop1` to `stop2` along the given `line`. This is obtained as the sum of all times between adjacent stops.
 
 `distance_between_stops(stopdict, stop1, stop2)` calculates the geographic distance between any two stops, based on their latitude and longitude.
 The distance is hence not dependent on the tram lines.
