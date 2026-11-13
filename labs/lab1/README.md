@@ -215,24 +215,21 @@ You could try and add at least the following tests:
 ### The dialogue function
 
 The `dialogue(tramfile)` function implements a dialogue about tram information.
-It starts by reading the data from the JSON file `tramnetwork.json`,
-which has been produced by your program.
-Then it takes user input and answers to any number of questions by using your query functions.
+It starts by reading the data from the JSON file `tramnetwork.json`, which has been produced by your program.
+Then it asks for user input with prompt `> `, answers the query using the corresponding function, and loops.
 Following kinds of input are interpreted:
 
 - `via <stop>`, answered by `lines_via_stop()`
 - `between <stop1> and <top2>`, answered by `lines_between_stops()`
 - `time with <line> from <stop1> to <stop2>`, answered by `time_between_stops()`
 - `distance from <stop1> to <top2>`, answered by `distance_between_stops()`
+- well-structured input with incorrect data (such as non-existant or incompatible line/stop names) results in the message "unknown arguments"
+- any other input results in the message "sorry, try again"
 - `quit` - terminating the program
-- input with non-existing line or stop names results in the message "unknown arguments" and a new prompt
-- any other input results in the message "sorry, try again" and a new prompt
-- the prompt is `> `.
 
 The main challenge is to deal correctly with stop names that consist of more than one word.
 A hint for this is to locate the positions of keywords such as "and", which can appear between stop names, and consider slices starting or ending at them.
-The simplest method is the standard `index()` method of strings.
-Also the regular expression library `re` could be used, but is probably more complicated to learn unless you already know it from before.
+The simplest method is the standard `index()` method of strings, but you could also use the regular expression library `re`.
 
 For the purpose of testing, and more generally to cleanly separate input and output from processing, the `dialogue()` function should be divided into two separate functions:
 
