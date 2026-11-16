@@ -40,6 +40,7 @@ class SavingsAccount(Account):
 # Test code
 c = CheckingAccount("1234-C")
 c.deposit(100)
+assert c.balance == 100
 c.withdraw(75)
 assert c.balance == 25
 
