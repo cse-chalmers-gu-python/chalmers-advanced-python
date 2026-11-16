@@ -8,8 +8,8 @@ class Vertex:
     """A vertex has a name and a set of neighbours."""
 
     def __init__(self, name):
-        self._name = name
-        self._neighbours = set()
+        self._name = name # "A"
+        self._neighbours = set()  # { <Vertex object at 0x10a234690>, <Vertex object at 0x10a183820> }
 
     def add_edge(self, other_vertex):
         """Add an edge between this vertex and another vertex."""
@@ -52,6 +52,8 @@ a.add_edges(b, d, e)
 b.add_edges(c, e)
 c.add_edges(d)
 d.add_edges(e)
+
+print(a._neighbours)
 
 all_edges = set()
 for v in [a,b,c,d,e]:

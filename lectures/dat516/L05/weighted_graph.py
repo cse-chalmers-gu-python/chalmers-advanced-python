@@ -2,7 +2,7 @@
 A demonstration of inheritance.
 """
 
-from dunder import Graph
+from graph import Graph
 
 class WeightedGraph(Graph):
     """a weighted undirected graph, inheriting from class Graph"""
