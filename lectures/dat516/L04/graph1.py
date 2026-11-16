@@ -49,7 +49,7 @@ class Graph:
             dot.node(str(a))
         for a, b in self.edges():
             dot.edge(str(a), str(b))
-        dot.render('_intrograph.gv', view=True)
+        dot.render(view=True)
 
 # Test code
 G = Graph()
@@ -65,7 +65,9 @@ G.add_edge("D", "E")
 
 print(G.vertices())
 print(G.edges())
-print(G.neighbours("B"))
+
+for v in ["A","B","C","D","E"]:
+    print(v, G.neighbours(v))
 
 G.visualise()
 

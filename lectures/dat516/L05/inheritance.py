@@ -1,3 +1,7 @@
+"""
+A demonstration of inheritance.
+"""
+
 from dunder import Graph
 
 class WeightedGraph(Graph):

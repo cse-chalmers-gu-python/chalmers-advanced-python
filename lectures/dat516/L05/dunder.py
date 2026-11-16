@@ -1,3 +1,7 @@
+"""
+A demonstration of the various dunder methods that can be implemented.
+"""
+
 class Graph:
     def __init__(self):
         self._adjdict = {} # {A: {B,C}}

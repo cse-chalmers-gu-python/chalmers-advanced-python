@@ -50,7 +50,7 @@ class Graph:
             dot.node(str(a))
         for a, b in self.edges():
             dot.edge(str(a), str(b))
-        dot.render('_intrograph.gv', view=True)
+        dot.render(view=True)
 
 # Test code
 G = Graph()
