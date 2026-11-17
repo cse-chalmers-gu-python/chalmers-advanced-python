@@ -4753,8 +4753,8 @@ error: method take in class Main cannot be applied to given types;
 
 #### 10.2.2. Type annotations in Python
 
-Historically, Python did not support type annotations like Java. However modern versions of Python do now have for support **type annotations**, which are optional but recommended.
-So we can actually rewrite our `take` function in Python like so:
+Historically, Python did not support **type annotations** like Java. However modern versions of Python do now have for support them, which are optional but recommended.
+So we can actually rewrite our `take()` function in Python like so:
 
 ```python
 def take(n: int, s: str) -> str:
@@ -4774,7 +4774,7 @@ However since type hints in Python are optional and relatively recent, type info
 
 It's also important to realise that while helpful, type hints in Python they are deemed to be incomplete, because Python is intended to support a high degree of **polymorphism**.
 This means that functions can be applied to many different types, and it is difficult to specify in advance which types these exactly are.
-For example, the `take` function above would also work perfectly well on a list:
+For example, the `take()` function above would also work perfectly well on a list:
 
 ```python
 >>> take(4, [2,3,5,7,11,13,17,19,23])
