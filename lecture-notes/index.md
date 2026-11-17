@@ -384,23 +384,7 @@ The lack of types in Python source code is sometimes taken to mean that "Python 
 But this is not true: Python does not have types of **expressions**, but it does have types of their **values**, i.e. objects that are created at **run time**, when the program is executed.
 Hence the correct term to use is **dynamic typing**.
 
-Dynamic typing implies that there is no **static type checking** of your source code.
-An expression - such as a variable or a function call - can have different types in different places in code, and even at different runs of the program.
-It can then happen that no possible type is found, which leads to a **run-time type error**.
-
-A **statically typed language** such as Java can find type errors at **compile time** and prevent the execution of the program.
-This is not provided by Python: it can in fact happen that a program is run 1000 times without failures, but after that a type error is encountered when the execution, for the first time, enters a rarely used branch of some conditional.
-Thus it is difficult ever to be sure that your Python program is failure-free.
-
-What is more, the lack of static checking does not only concern types, but also function and variable names.
-If a name in a rare branch has a typo, making it into a name that is not in scope, you will only notice this when some run of the program enters this branch.
-
-Some later extensions of Python have made it possible to equip functions **type annotations**, and there are programs that perform static type checking.
-This is not yet standard, but it is increasingly used, and we will introduce some of it during this course to tell the complete story of Python.
-Static type annotations are particularly useful in the **documentation** of code, especially function type signatures.
-But they are deemed to be incomplete, because Python is intended to support a high degree of **polymorphism**.
-This means that functions can be applied to many different types, and it is difficult to specify in advance which types these exactly are.
-Type information in library documentation is often - particularly in older libraries - given in natural language rather than as type annotations.
+For more about typing in Python, see [Chapter 10](#10-types-and-type-checking).
 
 ### 2.3. A grammar of Python
 
@@ -4651,9 +4635,43 @@ But we conclude with a quote on the potential downsides of choosing to use a big
 
 _Robert C. Martin (Uncle Bob), <https://blog.cleancoder.com/uncle-bob/2014/05/11/FrameworkBound.html>_
 
-## 10. Typing
+## 10. Types and type checking
 
-Python is a **dynamically typed language**, which means that type checking is performed dynamically, **at runtime**. This is in contrast with **static typing**, which means that types are checked **at compile time**, _before_ the program is executed. Dynamic typing has two main advantages:
+### 10.1. Dynamic and static typing
+
+We know that values in Python have types, for example the type of `5` is `int` and the type of `"foo"` is `str`. Sometimes we can combine values of different types together:
+
+```python
+>>> 5 * "foo"
+'foofoofoofoofoo'
+```
+
+and sometimes we can't:
+
+```python
+>>> 5 + "foo"
+Traceback (most recent call last):
+  File "<python-input-6>", line 1, in <module>
+    5 + "foo"
+    ~~^~~~~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+```
+
+This `TypeError` is the result of Python checking the types of our values, and deciding that they are incompatible for the given operator (in this case `+`).
+Python is a **dynamically typed language**, which means that type checking is performed dynamically, **at runtime**. This is in contrast with **static typing**, which means that types are checked **at compile time**, _before_ the program is executed.
+
+Dynamic typing implies that there is no **static type checking** of your source code.
+An expression - such as a variable or a function call - can have different types in different places in code, and even at different runs of the program.
+It can then happen that no possible type is found, which leads to a **run-time type error**, as above.
+
+A **statically typed language** such as Java can find type errors at **compile time** and prevent the execution of the program completely.
+This is not provided by Python: it can in fact happen that a program is run 1000 times without failures, but after that a type error is encountered when the execution, for the first time, enters a rarely used branch of some conditional.
+Thus it is difficult ever to be sure that your Python program is failure-free.
+
+What is more, the lack of static checking does not only concern types, but also function and variable names.
+If a name in your code has a typo, you will only get an error about this when that part of the code is run.
+
+Dynamic typing has two main advantages:
 
 * programs can be run and tested early
 * functions and data structures can easily cover objects of different types
@@ -4663,29 +4681,116 @@ But is also has disadvantages:
 * type errors in programs can remain undetected for a long time
 * the argument and return types of functions are hard to specify precisely
 
+Most main-stream programming languages have static typing, which is considered necessary when programs are large and complex, and/or developed by different people at different times.
+Static type checking then gives a guarantee that different parts of the code match each other.
+Static typing also helps the compiler to generate more efficient machine code, because many machine instructions are specialized to types (note that Python does not have a compiler; it is an _interpreted_ language).
+
 ![Comic about static and dynamic typing](https://i.programmerhumor.io/2023/10/programmerhumor-io-programming-memes-a6f722f0844f590.png)
 
 Comic capturing an essential difference between the two kinds of typing. Credit: Kolja Wilcke
 
-Most main-stream programming languages have static typing, which is considered necessary when programs are large and complex, and/or developed by different people at different times. Static type checking then gives a guarantee that different parts of the code match each other. Since the types are made explicit in the code by **type signatures**, programmers can communicate their intents to each other. Static typing also helps the compiler to generate more efficient machine code, because many machine instructions are specialized to types.
+### 10.2. Type annotations
 
-In order to get some of the advantages of static typing, Python has introduced **type hints** into the syntax of the language. These hints are, first of all, a good way to document the code. For example,
+#### Python vs Java
 
-```python
-def take(n: int, s: str) -> str:
-```
-
-tells us that the `take` function takes an integer and a string as arguments and returns a string. It does not yet tell us what the function exactly does (it could, for instance, return the first *n* characters of the *s*), but it says much more than just
+Consider a Python function which takes `n` characters from a string:
 
 ```python
 def take(n, s):
+    return s[:n]
+
+>>> take(3, "the world is a vampire")
+'the'
 ```
+
+The function definition does not tell us anything about what kinds of values this function works with.
+So if we try calling it with different types, we get an error:
+
+```python
+>>> take(3, 3.14159)
+Traceback (most recent call last):
+  File "<python-input-21>", line 1, in <module>
+    take(3, 3.14159)
+    ~~~~^^^^^^^^^^^^
+  File "<python-input-19>", line 2, in take
+    return s[:n]
+           ~^^^^
+TypeError: 'float' object is not subscriptable
+```
+
+Contrast this with the same function in Java, a statically typed language:
+
+```java
+static String take(int n, String s) {
+    return s.substring(0, n);
+}
+```
+
+Notice that the code explicitly says the types involved:
+
+* argument `n` must have type `int`
+* argument `s` must have type `String`
+* return value of function is `String`
+* (`static` means that the function uses only its own arguments, but we'll ignore this)
+
+Since the types in Java are made explicit in the code by the function's **type signature**, programmers can communicate their intents to each other and understand how this function should be used.
+Moreover, if we tried to call this function with the wrong types in Java like so:
+
+```java
+take(3, 3.14159)
+```
+
+then the code would refuse to compile, with an error such as:
+
+```plain
+error: method take in class Main cannot be applied to given types;
+    take(3, 3.14159);
+    ^
+  required: int,String
+  found:    int,double
+  reason: argument mismatch; double cannot be converted to String
+```
+
+#### Type annotations in Python
+
+Historically, Python did not support type annotations like Java. However modern versions of Python do now have for support **type annotations**, which are optional but recommended.
+So we can actually rewrite our `take` function in Python like so:
+
+```python
+def take(n: int, s: str) -> str:
+    return s[:n]
+```
+
+These static type annotations are particularly useful in the **documentation** of code, especially function type signatures.
+Even without understanding the body of the function above, from its signature we can tell that:
+
+* argument `n` must have type `int`
+* argument `s` must have type `str`
+* return value of function is `str`
 
 For this reason, type hints are getting more common in API documentation, where they are a both more compact and more precise way to document functions.
 
-In addition to the documentation purpose, there are external tools that perform static type checking of Python code. A widely used such tool is [mypy](https://mypy.readthedocs.io/en/stable/)
+However since type hints in Python are optional and relatively recent, type information in library documentation is often — particularly in older libraries — given in natural language rather than as type annotations.
 
-This program can be run on the code file in the command line terminal. But also Visual Studio code has a type checker plug-in, called Pylance, which can be enabled as a part of the code development workflow.
+It's also important to realise that while helpful, type hints in Python they are deemed to be incomplete, because Python is intended to support a high degree of **polymorphism**.
+This means that functions can be applied to many different types, and it is difficult to specify in advance which types these exactly are.
+For example, the `take` function above would also work perfectly well on a list:
+
+```python
+>>> take(4, [2,3,5,7,11,13,17,19,23])
+[2, 3, 5, 7]
+```
+
+However the type hints we give above are too specific, and say that it only works on strings.
+There are ways to make the type hints more flexible in this case, but in general these static type hints cannot perfectly capture Python's dynamic nature.
+
+### 10.3. Static type checking in Python
+
+Type hints are great for developers reading your code or documentation.
+But there are also separate tools available which attempt to automatically type-check your Python code statically, i.e. without actually running it.
+Currently the most popular tool for this is [Pyright](https://github.com/microsoft/pyright), which is what is used under the hood by the VS Code extension [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance).
+
+TODO
 
 ## 11. The rest of Python
 
