@@ -4658,13 +4658,13 @@ TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ```
 
 This `TypeError` is the result of Python checking the types of our values, and deciding that they are incompatible for the given operator (in this case `+`).
-Python is a **dynamically typed language**, which means that type checking is performed dynamically, **at runtime**. This is in contrast with **static typing**, which means that types are checked **at compile time**, _before_ the program is executed.
+Python is a **dynamically-typed language**, which means that type checking is performed dynamically, **at runtime**. This is in contrast with **static typing**, which means that types are checked **at compile time**, _before_ the program is executed.
 
 Dynamic typing implies that there is no **static type checking** of your source code.
 An expression - such as a variable or a function call - can have different types in different places in code, and even at different runs of the program.
 It can then happen that no possible type is found, which leads to a **run-time type error**, as above.
 
-A **statically typed language** such as Java can find type errors at **compile time** and prevent the execution of the program completely.
+A **statically-typed language** such as Java can find type errors at **compile time** and prevent the execution of the program completely.
 This is not provided by Python: it can in fact happen that a program is run 1000 times without failures, but after that a type error is encountered when the execution, for the first time, enters a rarely used branch of some conditional.
 Thus it is difficult ever to be sure that your Python program is failure-free.
 
@@ -4691,7 +4691,7 @@ Comic capturing an essential difference between the two kinds of typing. Credit:
 
 ### 10.2. Type annotations
 
-#### Python vs Java
+#### 10.2.1. Python vs Java
 
 Consider a Python function which takes `n` characters from a string:
 
@@ -4718,7 +4718,7 @@ Traceback (most recent call last):
 TypeError: 'float' object is not subscriptable
 ```
 
-Contrast this with the same function in Java, a statically typed language:
+Contrast this with the same function in Java, a statically-typed language:
 
 ```java
 static String take(int n, String s) {
@@ -4751,7 +4751,7 @@ error: method take in class Main cannot be applied to given types;
   reason: argument mismatch; double cannot be converted to String
 ```
 
-#### Type annotations in Python
+#### 10.2.2. Type annotations in Python
 
 Historically, Python did not support type annotations like Java. However modern versions of Python do now have for support **type annotations**, which are optional but recommended.
 So we can actually rewrite our `take` function in Python like so:
@@ -4784,13 +4784,129 @@ For example, the `take` function above would also work perfectly well on a list:
 However the type hints we give above are too specific, and say that it only works on strings.
 There are ways to make the type hints more flexible in this case, but in general these static type hints cannot perfectly capture Python's dynamic nature.
 
-### 10.3. Static type checking in Python
+#### 10.2.3. More examples of type annotations
+
+In addition to individual scalar types (such as integers and strings), we can also have type annotations for container types (such as lists and dictionaries):
+
+```python
+# a list of integers
+primes: list[int] = [2,3,5,7,11,13,17,19,23]
+
+# a dictionary from strings to integers
+populations: dict[str, int] = {"Sweden": 10_725_572, "Denmark": 6_037_357, "Norway": 5_687_818}
+
+# a tuple containing a float and a boolean
+fever: tuple[float, bool] = (38.1, True)
+```
+
+Unsurprisingly, we can also nest these annotations to represent the types of nested data structures.
+The pipe character `|` can be used to indicate that a value can have multiple possible types:
+
+```python
+# a list of dicts from str to string or int
+nobel_winners: list[dict[str, str | int | None]] = [
+    {
+        "name": "Marie Curie",
+        "gender": "female",
+        "prize": "Nobel Prize in Chemistry",
+        "year": 1911,
+        "birth": 1867,
+        "death": 1934,
+        "country": "Poland"
+    },
+    {
+        "name": "Kazuo Ishiguro",
+        "gender": "male",
+        "prize": "Nobel Prize in Literature",
+        "year": 2017,
+        "birth": 1954,
+        "death": None,
+        "country": "Japan"
+    },
+]
+```
+
+To help with readability, we can also give these types signatures custom names which can then be reused:
+
+```python
+Person = dict[str, str | int | None]
+
+nobel_winners: list[Person] = ...
+
+def find_winner(winners: list[Person], name: str) -> Person | None:
+    for w in winners:
+        if w["name"] == name:
+            return w
+```
+
+In summary, here are the most common forms of type hints in Python:
+
+| Expression         | Explanation                                                                    |
+| ------------------ | ------------------------------------------------------------------------------ |
+| `x: T`             | Variable `x` has type `T`                                                      |
+| `def f(x: T) -> U` | Function `f` takes a parameter `x` of type `T` and returns a value of type `U` |
+| `T ❘ U`            | Either type `T` or type `U`                                                    |
+| `list[T]`          | A list of items of type `T`                                                    |
+| `dict[T, U]`       | A dictionary with keys of type `T` and values of type `U`                      |
+| `tuple[T, U]`      | A tuple with first item of type `T` and second item of type `U`                |
+
+### 10.3. Static type checking for Python
 
 Type hints are great for developers reading your code or documentation.
 But there are also separate tools available which attempt to automatically type-check your Python code statically, i.e. without actually running it.
 Currently the most popular tool for this is [Pyright](https://github.com/microsoft/pyright), which is what is used under the hood by the VS Code extension [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance).
 
-TODO
+So if we have the following Python code in a VS Code editor:
+
+```python
+def take(n: int, s: str) -> str:
+    return s[:n]
+
+print(take(3, 2.71828))
+```
+
+and the static type checker Pylance is installed and enabled, we would get the error below:
+
+```plain
+Argument of type "float" cannot be assigned to parameter "s" of type "str" in function "take"
+  "float" is not assignable to "str" Pylance(reportArgumentType)
+```
+
+![Screenshot of VS Code showing a type-checking error from Pylance](type-error.png)
+
+Note that **this is not a Python `TypeError`** — our code has not actually been run by the Python interpreter!
+This is a different kind of error, from a tool which is completely separate from the Python interprereter, i.e. the static type-checking tool Pylance.
+
+Type-checking messages like this can be very helpful for you as a developer, to help you detect problems with your code before ever running it.
+In general, the more type hints you add to your code, the better help you can get from a static type-checking tool like this.
+
+However, it's also important to realise the limitations of type checking.
+Consider making this simple addition to our code:
+
+```python
+def take(n: int, s: str) -> str:
+    return s[:n]
+
+if True == False:
+    print(take(3, 2.71828))
+```
+
+Immediately we can see that the condition `True == False` will never be satisfied, and thus no matter how many times we run this code, the call to `take(3, 2.71828)` will never actually execute.
+But a static type checker cannot know this, and thus we still get the same error as before:
+
+![Screenshot of VS Code showing a type-checking error from Pylance in an unreachable branch of the code](type-error-2.png)
+
+Should this be an error or not?
+On the one hand, the code is attempting to call the `take()` function with unsupported arguments.
+On the other hand, this will never be a problem in practice since that part of the code will never run anyway.
+In a compiled language with strictly-enforced static type checking — like Java — you would not be able to compile this code (let alone run it).
+But in Python — an interpreted language where typing is dynamic and static type checking is optional — there is nothing preventing you from running this code anyway.
+
+To summarise this chapter:
+
+1. Python is a dynamically-typed language where the types of values are checked at runtime.
+2. Type hints are a good way to document the intended use of code, but they are optional and may be incomplete.
+3. Static type-checking tools for Python can highlight potential problems before ever running your code, but cannot know everything about how your code runs in practice.
 
 ## 11. The rest of Python
 
