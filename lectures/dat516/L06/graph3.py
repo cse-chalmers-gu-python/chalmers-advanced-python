@@ -18,6 +18,14 @@ class Graph:
             if (n,a) not in self._edges:
                 self._edges.add((a,n))
 
+    def vertices(self):
+        "Return all vertices"
+        return self._vertices
+
+    def edges(self):
+        "Return all edges"
+        return self._edges
+
     def neighbours(self, a):
         "Return neighbours of vertex a"
         ns = set()
@@ -34,6 +42,9 @@ G.set_neighbours("B", ["A","C","E"])
 G.set_neighbours("C", ["B","D"])
 G.set_neighbours("D", ["A","C","E"])
 G.set_neighbours("E", ["A","B","D"])
+
+print(G.vertices())
+print(G.edges())
 
 for v in ["A","B","C","D","E"]:
     print(v, G.neighbours(v))

@@ -4826,7 +4826,7 @@ nobel_winners: list[dict[str, str | int | None]] = [
 ]
 ```
 
-To help with readability, we can also give these types signatures custom names which can then be reused:
+To help with readability, we can also assign a custom name to a given type signature, known as a **type alias**, which can then be re-used:
 
 ```python
 Person = dict[str, str | int | None]
