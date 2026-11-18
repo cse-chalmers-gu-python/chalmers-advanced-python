@@ -37,15 +37,14 @@ class Graph:
 # Test code
 G = Graph()
 
-G.set_neighbours("A", ["B","D","E"])
-G.set_neighbours("B", ["A","C","E"])
-G.set_neighbours("C", ["B","D"])
-G.set_neighbours("D", ["A","C","E"])
-G.set_neighbours("E", ["A","B","D"])
+G.set_neighbours("A", ["B"])
+G.set_neighbours("B", ["A", "X", "C"])
+G.set_neighbours("C", ["B"])
+G.set_neighbours("X", ["B", "Y"])
+G.set_neighbours("Y", ["X"])
 
 print(G.vertices())
 print(G.edges())
 
-for v in ["A","B","C","D","E"]:
+for v in G.vertices():
     print(v, G.neighbours(v))
-

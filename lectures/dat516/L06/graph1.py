@@ -47,5 +47,5 @@ G.add_edge("X", "Y")
 print(G.vertices())
 print(G.edges())
 
-for v in ["A","B","C","X","Y"]:
+for v in G.vertices():
     print(v, G.neighbours(v))
