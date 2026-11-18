@@ -41,16 +41,13 @@ class Graph:
 G = Graph()
 
 G.add_edge("A", "B")
-G.add_edge("A", "D")
-G.add_edge("A", "E")
 G.add_edge("B", "C")
-G.add_edge("B", "E")
-G.add_edge("C", "D")
-G.add_edge("D", "E")
+G.add_edge("X", "B")
+G.add_edge("X", "Y")
 
 print(G.vertices())
 print(G.edges())
 
-for v in ["A","B","C","D","E"]:
+for v in ["A","B","C","X","Y"]:
     print(v, G.neighbours(v))
 
