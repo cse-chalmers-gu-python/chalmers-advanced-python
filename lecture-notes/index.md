@@ -3105,8 +3105,8 @@ The simplest form of testing involves repeatedly running the code with varying i
 def graph_convert(graph):
     '''
     This functions converts a graph to an alternative format. If the input is 
-    an adjencecy matrix (2-D list), it converts it to an adjencecy dictionary. 
-    If the input is an adjencecy dictionary, it is converted to an adjencecy 
+    an adjacency matrix (2-D list), it converts it to an adjacency dictionary. 
+    If the input is an adjacency dictionary, it is converted to an adjacency 
     matrix. The result is returned to the caller.
     '''
 
