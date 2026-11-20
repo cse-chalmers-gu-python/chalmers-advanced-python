@@ -69,17 +69,27 @@ class Graph:
             if is_island: islands.add(v)
         return islands
 
+    # def reachable0(self, a: Vertex, b: Vertex) -> list[Vertex] | None:
+    #     "Buggy version of reachable()"
+    #     visited = set()
+    #     def visit(v: Vertex) -> list[Vertex] | None:
+    #         if v == b: return [v]
+    #         for n in self.neighbours(v):
+    #             if n in visited: continue
+    #             # visited.add(n) 🐞
+    #             if r := visit(n):
+    #                 return [v, *r]
+    #     return visit(a)
+
     def reachable(self, a: Vertex, b: Vertex) -> list[Vertex] | None:
         "Return a path from vertex a to b, if one exists"
         visited = set()
         def visit(v: Vertex) -> list[Vertex] | None:
             if v == b: return [v]
             for n in self.neighbours(v):
-                # if n in visited: break 🐞
                 if n in visited: continue
                 visited.add(n)
                 if r := visit(n):
-                    # return [v, r] 🐞
                     return [v, *r]
         return visit(a)
 
@@ -102,9 +112,8 @@ class TestGraphMethods(unittest.TestCase):
         G.add_edge("A", "B")
         G.add_edge("B", "C")
         G.add_edge("X", "B")
-        G.add_edge("B", "X")
         G.add_edge("X", "Y")
-        G.add_edge("Y", "X")
+        G.add_edge("B", "X")
         self.example = G
 
     def test_empty(self):
@@ -135,7 +144,7 @@ class TestGraphMethods(unittest.TestCase):
         self.assertEqual(G.neighbours("B"), {"C", "X"})
         self.assertEqual(G.neighbours("C"), set())
         self.assertEqual(G.neighbours("X"), {"B", "Y"})
-        self.assertEqual(G.neighbours("Y"), {"X"})
+        self.assertEqual(G.neighbours("Y"), set())
 
     def test_is_connected_true(self):
         G = Graph()
@@ -165,9 +174,20 @@ class TestGraphMethods(unittest.TestCase):
         self.assertEqual(G.reachable("A", "X"), ["A","B","X"])
         self.assertEqual(G.reachable("A", "Y"), ["A","B","X","Y"])
         self.assertIsNone(G.reachable("Y", "A"))
-        self.assertEqual(G.reachable("Y", "B"), ["Y","X","B"])
-        self.assertEqual(G.reachable("Y", "C"), ["Y","X","B","C"])
+        self.assertIsNone(G.reachable("Y", "B"))
+        self.assertIsNone(G.reachable("Y", "C"))
         self.assertIsNone(G.reachable("C", "A"))
+
+    # def test_reachable0(self):
+    #     "Works with buggy implementation when graph is acyclic"
+    #     G = Graph()
+    #     G.add_edge("A", "B")
+    #     G.add_edge("B", "C")
+    #     G.add_edge("X", "B")
+    #     G.add_edge("X", "Y")
+    #     # G.add_edge("B", "X")  # triggers bug (sometimes, depending on neighbour order)
+    #     self.assertEqual(G.reachable0("A", "C"), ["A","B","C"])
+    #     self.assertIsNone(G.reachable0("Y", "A"))
 
 if __name__ == '__main__':
     # Run tests if running module as main (i.e. not importing it)

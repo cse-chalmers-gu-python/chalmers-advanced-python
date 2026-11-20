@@ -46,7 +46,6 @@ class Graph:
     #         if v == b: return [v]
     #         for n in self.neighbours(v):
     #             if n in visited: break
-    #             visited.add(n)
     #             if r := visit(n):
-    #                 return [v, r]
+    #                 return [v, *r]
     #     return visit(a)
