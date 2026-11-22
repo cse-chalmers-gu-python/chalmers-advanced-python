@@ -1,15 +1,16 @@
-def plus(a, b):
-    return a + b
+def first(names: list[str]) -> str | None:
+    """Return first name from list, sorted alphabetically"""
 
-import unittest
-class TestQuiz(unittest.TestCase):
-    def test_q1(self):
-        self.assertGreater(plus(3, 6), 9)
+    # Version 1: wrong index 1
+    # return sorted(names)[1] # 🐞 1
 
-    def test_q2(self):
-        self.assertFalse(plus(3, 6) > 9)
+    # Version 2: doesn't handle empty list
+    # return sorted(names)[0] # 🐞 2
 
-    def test_q3a(self):
-        self.assertEqual(plus(0.3, 0.6), 0.9)
+    # Version 3: doesn't sort å ä ö correctly
+    if names:
+        return sorted(names)[0]
 
-unittest.main()
+assert first(["fish","dog","cat"]) == "cat"
+assert first([]) == None
+assert first(["örn","älg","åsna"]) == "älg"
