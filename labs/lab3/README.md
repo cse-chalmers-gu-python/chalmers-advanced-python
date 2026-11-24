@@ -529,4 +529,4 @@ The `.gitignore` file itself _should_ be committed to the repository.
 
 ## Peer review
 
-Apart from submitting your code, the examination of this lab also includes participation a mandatory peer review session. [More details about peer reviewing](./peer-review.md)
+Apart from submitting your code, the examination of this lab also includes participation a **mandatory peer review session**. [More details about peer reviewing](./peer-review)
