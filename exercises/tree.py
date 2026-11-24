@@ -1,9 +1,7 @@
-import copy 
 import graphviz
-import os 
 from typing import Never
 
-type Vertex = str 
+type Vertex = str
 type Edge = tuple[Vertex, Vertex]
 type AdjDict = dict[Vertex, set[Vertex]]
 
@@ -47,10 +45,12 @@ class Tree(Graph):
         super().__init__()
         self._adjdict[root] = set()
 
-    def add_vertex(self, vertex: Vertex) -> Never:
+    def add_vertex(self, a: Vertex) -> Never:
         raise NotImplementedError("Standalone vertices can't be added to a Tree, use add_edge() instead")
 
-    def add_edge(self, parent: Vertex, child: Vertex) -> None:
+    def add_edge(self, a: Vertex, b: Vertex) -> None:
+        parent = a
+        child = b
         if parent not in self._adjdict:
             raise ValueError("Parent does not exist")
         elif child in self._adjdict:
@@ -76,14 +76,10 @@ class Tree(Graph):
     def dfs(self, start):
         if start not in self._adjdict:
             raise ValueError("Starting vertex does not exist")
-
         visited = []
-
         def visit(vertex):
             visited.append(vertex)
             for child in self._adjdict[vertex]:
                 visit(child)
-
         visit(start)
         return visited
-
