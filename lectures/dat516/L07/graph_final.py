@@ -5,8 +5,8 @@ If you are viewing this during a lecture, open graph.py instead ⚠️
 The ladybird 🐞 indicates lines which were buggy in the initial version.
 """
 
-Vertex = str
-Edge = tuple[Vertex, Vertex]
+type Vertex = str
+type Edge = tuple[Vertex, Vertex]
 
 class Graph:
     """

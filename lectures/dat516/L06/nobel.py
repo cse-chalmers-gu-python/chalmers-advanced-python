@@ -7,7 +7,7 @@ A `Person` is a dictionary with:
     - of type `int`
     - the value `None`
 """
-Person = dict[str, str | int | None]
+type Person = dict[str, str | int | None]
 
 """
 A list of `Person` values

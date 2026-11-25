@@ -4829,7 +4829,7 @@ nobel_winners: list[dict[str, str | int | None]] = [
 To help with readability, we can also assign a custom name to a given type signature, known as a **type alias**, which can then be re-used:
 
 ```python
-Person = dict[str, str | int | None]
+type Person = dict[str, str | int | None]
 
 nobel_winners: list[Person] = ...
 
@@ -4849,6 +4849,7 @@ In summary, here are the most common forms of type hints in Python:
 | `list[T]`          | A list of items of type `T`                                                    |
 | `dict[T, U]`       | A dictionary with keys of type `T` and values of type `U`                      |
 | `tuple[T, U]`      | A tuple with first item of type `T` and second item of type `U`                |
+| `type T = U`       | A type alias: type `T` is equal to type `U`                                    |
 
 ### 10.3. Static type checking for Python
 
