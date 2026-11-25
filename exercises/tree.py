@@ -1,4 +1,3 @@
-import graphviz
 from typing import Never
 
 type Vertex = str
@@ -31,14 +30,6 @@ class Graph:
             for a, bs in self._adjdict.items()
             for b in bs if a <= b
         }
-
-    def draw(self):
-        dot = graphviz.Graph()
-        for a in self.vertices():
-            dot.node(str(a))
-        for a,b in self.edges():
-            dot.edge(str(a), str(b))
-        dot.render(view=True)
 
 class Tree(Graph):
     def __init__(self, root: Vertex) -> None:
