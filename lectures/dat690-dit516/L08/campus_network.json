@@ -1,0 +1,24 @@
+{
+  "places": {
+    "Library": {"category": "study", "position": [0, 0]},
+    "Cafe": {"category": "food", "position": [2, 0]},
+    "Lab": {"category": "study", "position": [0, 2]},
+    "Garden": {"category": "outdoor", "position": [2, 2]},
+    "Gym": {"category": "sport", "position": [4, 2]},
+    "Studio": {"category": "study", "position": [6, 2]}
+  },
+  "segments": [
+    {"from": "Library", "to": "Cafe", "weight": 3},
+    {"from": "Cafe", "to": "Gym", "weight": 12},
+    {"from": "Gym", "to": "Studio", "weight": 3},
+    {"from": "Library", "to": "Lab", "weight": 2},
+    {"from": "Lab", "to": "Garden", "weight": 3},
+    {"from": "Garden", "to": "Gym", "weight": 4},
+    {"from": "Cafe", "to": "Lab", "weight": 2}
+  ],
+  "routes": {
+    "Blue": ["Library", "Cafe", "Gym", "Studio"],
+    "Green": ["Library", "Lab", "Garden", "Gym"],
+    "Red": ["Cafe", "Lab"]
+  }
+}
