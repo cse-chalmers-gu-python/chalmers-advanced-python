@@ -52,10 +52,11 @@ What this additional feature will be is completely up to you. See Task 3 below f
 
 For this lab only, there are **no restrictions on AI usage**. You are allowed to use any tools you wish, as long as:
 
-1. Your web application works correctly and implements all the core requirements above (R1). Note that your backend **must** be implemented in Python.
+1. Your application works correctly and implements all the core requirements above (R1).
 2. Your application contains at least one additional feature (R2).
-3. You can navigate your application's source code and explain how it works.
-4. You document your choices, including which tools/models were used, examples of prompts, integrations used, estimated costs, and can reflect on the process afterwards.
+3. Your backend is implemented in Python and you can host it locally on your computer.
+4. You can navigate your application's source code and explain how it works.
+5. You document your choices (including which tools/models/services were used, examples of prompts, and estimated usage in time/money/tokens), and can reflect on the process afterwards.
 
 **Using AI is not a requirement**, and it is entirely possible to complete this lab, together with additional features, without any AI at all.
 Whether to use AI or not is up to you, and whatever you choose to do, you should be ready to reflect on it during the peer review.
