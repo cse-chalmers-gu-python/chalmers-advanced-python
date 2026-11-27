@@ -360,6 +360,8 @@ c. an error
 
 </details>
 
+### 1.16
+
 For questions 16-20, we use a shortened example of the previous data `nobel_data`, called `mini_data`:
 
 ```python
@@ -370,8 +372,6 @@ mini_data = [
     {"name": "Dina", "sex": "female", "award": "Physics", "date": "2021-01-01", "country": "Sweden"},
 ]
 ```
-
-### 1.16
 
 What is the value of `awards`?
 
