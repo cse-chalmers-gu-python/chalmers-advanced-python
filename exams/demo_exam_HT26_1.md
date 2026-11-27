@@ -22,7 +22,7 @@ The exam grade will also be the final grade for the course.
 > Tests the ability to reason about complex expressions and their types, the use of comprehensions,
 > data structures for information storage, and regular expressions.
 >
-> Format: 20 one-point multiple-choice questions (no negative marking).
+> Format: 20 multiple-choice questions, 1 point each (no negative marking).
 
 Consider the `nobel_data` data structure below, where each dictionary in the list stores the record for one Nobel laureate.
 This data will be used for several questions in this section.
@@ -487,7 +487,7 @@ d. `[('Anna', 'Bertil'), ('Anna', 'Carl'), ('Dina', 'Bertil'), ('Dina', 'Carl')]
 > Tests the understanding of object-oriented design in the context of complex data structures such as graphs.
 > Also tests the ability to reason about buggy code and apply testing techniques.
 >
-> Format: 5 four-point questions.
+> Format: 5 code-based questions, 4 points each.
 
 Here is the implementation of a graph as Python class, using an adjacency dictionary as its internal datatype.
 Watch out! The code is incomplete and/or buggy.
@@ -643,7 +643,7 @@ class WeightedGraph(Graph):
 > Tests the ability to understand and use type annotations and library APIs.
 > A fake API for a real-world task is provided, which much be used in a type-correct way.
 >
-> Format: 5 four-point questions.
+> Format: 5 code-based questions, 4 points each.
 
 Below is the API for a (fictitious) Python library for making HTTP requests.
 All answers in this section should make use of this API, respecting the documented types.
@@ -765,7 +765,7 @@ Check if your response from 3.1 contains a header with key `SessionID`. If so, s
 
 ```python
 if h := get_header(resp, 'SessionID'):
-  sid = h[1]
+    sid = h[1]
 ```
 
 </details>
@@ -799,12 +799,12 @@ Make sure to handle the errors mentioned above (non-200 status codes and missing
 ```python
 user_id = 0
 while True:
-  user_id += 1
-  req = make_request(f'https://example.com?user={user_id}', 'GET')
-  resp = req.send()
-  if resp.status[0] != 200: continue
-  if sid := get_header(resp, 'SessionID'):
-    send_request('https://example.com/logout', 'POST', {'SessionID': sid[0]}, None)
+    user_id += 1
+    req = make_request(f'https://example.com?user={user_id}', 'GET')
+    resp = req.send()
+    if resp.status[0] != 200: continue
+    if sid := get_header(resp, 'SessionID'):
+        send_request('https://example.com/logout', 'POST', {'SessionID': sid[0]}, None)
 ```
 
 </details>
